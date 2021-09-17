@@ -1,0 +1,801 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: x9ci5qCMJ6GQwE1+LRllA0Ebmi8=
+SHA1-Digest-Manifest: QW0mQE7b519nHClPPNgHo7LbolQ=
+Created-By: 1.8.0_172 (Oracle Corporation)
+
+Name: plugin.xml
+SHA1-Digest: MBkilovJg3ix2dfteE9Y6aBm8m8=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RolePermissionTabl
+ e.class
+SHA1-Digest: IWcS1k+d4nqTs7p+Om5dYE5e2QY=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/PasswordPolicy
+ Form.class
+SHA1-Digest: NkyVRBf3JEPYUvN1u66zu14yqIQ=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleThirdPag
+ e$1.class
+SHA1-Digest: eEkRxAKmoIAJHbcsZ7MPV8JwR84=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/EditorInput.cl
+ ass
+SHA1-Digest: AXOwweeQEJPUj8Dk81SEcgAq4uU=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractOpenEd
+ itorAction.class
+SHA1-Digest: 5DBF5gOptPLNOVQO+RQ1hJg5MR8=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupPermissionTa
+ ble$1.class
+SHA1-Digest: 0DBECcDOtS9/MBCbWjwqta2gJWg=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractPolicy
+ Table$LoadPermissionTableThread$1.class
+SHA1-Digest: yQuQagwy8KyoR7Em61n42ZJrBC0=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupTable$1$2.cl
+ ass
+SHA1-Digest: 8d3++VUNtBdgaD7aG0C82tOwCO4=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UpdatePasswordDial
+ og$2.class
+SHA1-Digest: RYu2ufbHnQxOUWJGzMJKmFBxf5A=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleTable$1$1.clas
+ s
+SHA1-Digest: 71odq1N/yOHAQ8oNBMlGqbS4HKY=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.ident
+ itymanagement/pom.properties
+SHA1-Digest: utzYktopabffbZCo8LQF4b9olQA=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupEditor$Refre
+ shAction.class
+SHA1-Digest: jm5i0QNd22VqvxMBoLNG5Fz37/0=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/PasswordPolicy
+ Editor$RefreshAction.class
+SHA1-Digest: vN+HZgvEKiGs0EHAej6dEW9Dx3w=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleThirdPag
+ e.class
+SHA1-Digest: QjP7m4aOb+s4O50pxpfd0COVZLc=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractUserTa
+ ble$userTableLabelProvider.class
+SHA1-Digest: WQyub/C6NJTgU4pTKcHLOEBf/lU=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserSummary$2.clas
+ s
+SHA1-Digest: 9EuonxUBMnxngXZ4JY8f5mNAhU0=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserPermissionTabl
+ e$1.class
+SHA1-Digest: pwoCRgIjFtaJsNUF6JCubm0GOH4=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleSecondPa
+ ge$3.class
+SHA1-Digest: CKSIyG1+vjZlsbwvKUbJ7J+jCKU=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractUserTa
+ ble.class
+SHA1-Digest: 0GTQ1e2png8tWg+4FgB6NCjF2Ik=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserCredentialMana
+ gementDialog$AccessKeyTable$LoadAccessKeyTableThread$1.class
+SHA1-Digest: KIX37VrIREkrNcbTAJXda8tXQdQ=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupTable$1.clas
+ s
+SHA1-Digest: XTmT7JOA4xhl2CPHbcbrK2tf2Ys=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserTable.class
+SHA1-Digest: sMPUmRVqAlMQn4xOWnYwOVUfT78=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleTrustRelations
+ hips$1.class
+SHA1-Digest: vBbpQNyJlv3uCy8qgxgxkW8T4qM=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/PasswordPolicy
+ Form$LoadPasswordPolicyThread$1.class
+SHA1-Digest: Tb1ymI3ln+mq9z//yPUUbk5V2Ws=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserPermissionTabl
+ e$EditPolicyAction.class
+SHA1-Digest: VkAot1vMON5b45boXtVC2NzIgsQ=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserPermissionTabl
+ e.class
+SHA1-Digest: OU3cuom4kwCKIkGTiRoUXmDzfqA=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/IdentityManage
+ mentLabelProvider.class
+SHA1-Digest: U/xpFmrOow1yq7PNxCEXU5Y0CCs=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RolePermissionTabl
+ e$ShowPolicyAction.class
+SHA1-Digest: mF4uBhWs2Qaes9EQ6z6e7h0bgL4=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractGroupT
+ able$LoadGroupTableThread.class
+SHA1-Digest: 1kCgEsRlrCNAwsruVJt+QnZ7eTA=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupPermissionTa
+ ble$removePolicyAction.class
+SHA1-Digest: Mo+IDIFjD/Lw/5CccF9j5TNTrgs=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupSummary$Load
+ GroupSummaryThread.class
+SHA1-Digest: 8WKq5FJLtDaARoPQHA1afAWLPT8=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractUserTa
+ ble$LoadUserTableThread$1.class
+SHA1-Digest: d/IguxeIL9w7RT5/JxTP96URi2s=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserTable$3.class
+SHA1-Digest: G9fzt9Yq9MCvG1V4K6g/K0ha3Ss=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/IdentityManage
+ mentContentProvider$RoleNode.class
+SHA1-Digest: Q5LflBrtFhrBQmtofnhSVgZq4a4=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleTable$2.class
+SHA1-Digest: g5g3ugYUmSsyiY1fPcKJbSnUw3I=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/ShowUserPolicyDial
+ og.class
+SHA1-Digest: dl+VgC4JeIW0eqbmy5P3OaGHGXA=
+
+Name: icons/user.png
+SHA1-Digest: 9ZDLdMRfwU8TUa94WJdjSZC+F8Y=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/UsersInGroupTable
+ $1$1.class
+SHA1-Digest: j+vag5NlILXPWXVD9gZfJBEBexI=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserCredentialMana
+ gementDialog$AccessKeyTable$1$2.class
+SHA1-Digest: tzPi7VpfjjOGBbuiHqFYoNcgTuk=
+
+Name: policyTemplates/AWSOpsWorks-3123123-201303261253
+SHA1-Digest: 3JKykq6TsLK34UAPceXI23W4Abk=
+
+Name: icons/iam.png
+SHA1-Digest: H+YwcOTYA4sraGiis0WI2znmF8I=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupPermissions$
+ 1.class
+SHA1-Digest: OU8CfpOSXnsqsCKs2sOiKbTp7fo=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractPolicy
+ Table$LoadPermissionTableThread.class
+SHA1-Digest: RuKZH5ZFhEvZRdjR6IBe2b976e0=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupTable.class
+SHA1-Digest: WQml+bxgxGkU4zH+hE7+JNi4gSs=
+
+Name: policyTemplates/AmazonElasticTranscoder-3123123-201303261252
+SHA1-Digest: rjNcH2fxeADPFvAmlCt37nyOCTI=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/OpenUserEditor
+ Action.class
+SHA1-Digest: tSxHwqbk1cWuA4qLM4YWmKGCvfU=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleTable$1.class
+SHA1-Digest: Rsk8QvIKf6eTeya3QWAjxpRkUqA=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractPolicy
+ Table$TableLabelProvider.class
+SHA1-Digest: CCfKJg2IcUzb02UEjlbaTJsmcGk=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/AddUserToGroupsDia
+ log$1.class
+SHA1-Digest: SYTbIQJ3KkhXFUcTcBCxZJ2iHfs=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserSummary$1.clas
+ s
+SHA1-Digest: XzPpKU39oSf1xlzKCG4h6raISjE=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UpdatePasswordDial
+ og$1.class
+SHA1-Digest: QYczLL5YrkYJ3UGX8dsNLL9yA8E=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/OpenPasswordPo
+ licyEditorAction.class
+SHA1-Digest: LvUPfIe1LakiyLliex927OS/KMw=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserCredentialMana
+ gementDialog$AccessKeyTable$1$1.class
+SHA1-Digest: uMPd1/x50HORz9dq0ZCp+7iEhJA=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserPermissionTabl
+ e$ShowPolicyAction.class
+SHA1-Digest: g3WPPp9aTuQN3SRNe8i1xO+/1sM=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserSummary.class
+SHA1-Digest: 3xQgU6f6jHtE535HJWwGYLnVUpQ=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/GroupForUserTable.
+ class
+SHA1-Digest: ygTfPavrG3t6g3e2pK8udabCc6w=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleThirdPag
+ e$2.class
+SHA1-Digest: cfF+QUf3nREPR171+qAZkoR2FQI=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/OpenGroupEdito
+ rAction.class
+SHA1-Digest: Gbc3uTKhGkF4Kmidb4KCvxeGdpA=
+
+Name: icons/role.png
+SHA1-Digest: l9RX9jJbxVbQT85Dylvi0xKHaTs=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/ShowGroupPolicyDi
+ alog.class
+SHA1-Digest: 1SUy7R0ngxWFCW/TNjm14Hv2ScM=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RolePermissionTabl
+ e$EditPolicyAction.class
+SHA1-Digest: uJeHyKrZBq8tg/FwjpW71fdva0E=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/CreateGroupSecond
+ Page$2.class
+SHA1-Digest: FPaBTY1LsSG6Wrq8TuOjetOd8Ck=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupEditor.class
+SHA1-Digest: T0pVy9OQNWvh/Wng9mo3oyGlkWg=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/CreateGroupWizard
+ DataModel.class
+SHA1-Digest: Q0Ki7vPiTPv1hDkIzsHOchCReI4=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserSummary$3.clas
+ s
+SHA1-Digest: Vgeslm5q3axNssLArGiwCH04Vzc=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleTable$RoleTabl
+ eContentProvider.class
+SHA1-Digest: lsYeD67Y9ZltTsV/UXMx5qWxa5A=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleSecondPa
+ ge$4.class
+SHA1-Digest: TaIPfvKsSDSahLa9InjOOFWSllY=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleTable$3.class
+SHA1-Digest: Ddrwp+Mg+wOatein45+Pggn/j0I=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractUserTa
+ ble$LoadUserTableThread.class
+SHA1-Digest: pHNjcmw0krB6YIOrEzcQ+i6zdAc=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupTable$2.clas
+ s
+SHA1-Digest: Hf5aSbXcN83zQjww9p/dHwUn+fA=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleTable$LoadRole
+ TableThread$1.class
+SHA1-Digest: p6wowq95kS52lFb9P5BIGbUf8po=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/IdentityManage
+ mentContentProvider$GroupNode.class
+SHA1-Digest: hRXdZ2LmFeb+YFUKiB6XOGbwSFg=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UpdatePasswordDial
+ og.class
+SHA1-Digest: WQQ9H+68xJBSEv/mgWUDsYgRwII=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserTable$2.class
+SHA1-Digest: Mi/KMWDZ57SQZitu5TTZ9ujpw78=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleTable.class
+SHA1-Digest: iWjxxd2m7SO2onBz4lohtaBarLo=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/IdentityManage
+ mentExplorerActionProvider.class
+SHA1-Digest: v9fumoe6jznLqlldiyri0nU0CuE=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserCredentialMana
+ gementDialog.class
+SHA1-Digest: J4X57vBrWhikpE50LKNSoTOYMxs=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleTable$LoadRole
+ TableThread.class
+SHA1-Digest: 7QLCBzEDciNH/lxkvHc7QvQeVM4=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/PasswordPolicy
+ Form$DeletePasswordPolicySelectionLister$1.class
+SHA1-Digest: 3HqXfEXdG47slmFT8rFTFa38Gf0=
+
+Name: icons/key.png
+SHA1-Digest: W1DGDC/E9POJ+0a7KUJM725BXCU=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/CreateGroupWizard
+ .class
+SHA1-Digest: NuaIn+EjsXK0hLV4Q7zpOvrUsJg=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/UsersInGroupTable
+ $1.class
+SHA1-Digest: MBegYUozptt9U0ZEoUJuszhyKI0=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/TrustedEntityTable
+ $LoadRoleTableThread.class
+SHA1-Digest: DKCqM87dtkx7r6j+b0y+2HJ85k8=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractOpenEd
+ itorAction$1.class
+SHA1-Digest: NguIJrrjLbqK8yiP7D46dTSlCTo=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/CreateUserWizard$1
+ .class
+SHA1-Digest: fpsDPtk1Lx91ZgmvAJ3JdrZz14Q=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/TrustedEntityTable
+ $LoadRoleTableThread$1.class
+SHA1-Digest: x+3PF9tZGY08AkO2ADSpq175ils=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserCredentialMana
+ gementDialog$AccessKeyTable$LabelProvider.class
+SHA1-Digest: +lVnCFbCBy3hta5VP6jtiP0sunc=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupTable$4.clas
+ s
+SHA1-Digest: 3grT8hUo685Du7era+9hJbK0kYM=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserEditor.class
+SHA1-Digest: rjmWNxsLpjIhHDtW3xnEk6p8CuM=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/GroupsForUser$1.cl
+ ass
+SHA1-Digest: 1mhEEQNj+mms2RgcHXxE0sInU1w=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RolePermissions$1.
+ class
+SHA1-Digest: 3LFSJ+CR2P+CUzWEOXSJ+WBzyeM=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RolePermissions.cl
+ ass
+SHA1-Digest: TpUAvID2oYvpNNHoMHcXFqwkmx8=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupPermissions.
+ class
+SHA1-Digest: hWIIz7Y9E2eGgtcPgSrWNAre3PQ=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/AddUsersToGroupDi
+ alog$1.class
+SHA1-Digest: LNVt8dPY0e5BvuH6RgIvLkNAmB0=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserEditor$Refresh
+ Action.class
+SHA1-Digest: StfCJaOvZPJ14pMYqwCt7f4lbt0=
+
+Name: com/amazonaws/eclipse/identitymanagement/databinding/DataBinding
+ Utils.class
+SHA1-Digest: 6UVn00ewJG8go7k4oGU6yto2I6k=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleTable$RoleTabl
+ eLabelProvider.class
+SHA1-Digest: K8dZELkGoX8YMBTpyg8uL9SXkQo=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleSecondPa
+ ge$2.class
+SHA1-Digest: r5Cq5d8pJZv/CZZfDGqRlNkXmvc=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleFirstPag
+ e$1.class
+SHA1-Digest: p4gCJpFwyFypm/5XbZznye0lyHE=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/PasswordPolicy
+ Form$DeletePasswordPolicySelectionLister.class
+SHA1-Digest: wDd7e1fSOxQChsxIbUoyfbF/HU4=
+
+Name: AWSOpsWorks-3123123-201303261253
+SHA1-Digest: MNkN7f56JzIMdYxjHw8VjBiXpR0=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleSummary.class
+SHA1-Digest: fQ7gf6YpxOIAOyCq5ukweO2aGww=
+
+Name: com/amazonaws/eclipse/identitymanagement/IdentityManagementPlugi
+ n.class
+SHA1-Digest: H/rVbjdLatNSa5SdMsfLrIupLZw=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/NewAccessKeyDialog
+ .class
+SHA1-Digest: BE/EDnfn+eG2Kx6amES/VF3ttr0=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleSecondPa
+ ge$1.class
+SHA1-Digest: wBQvSGIYMjrtMbgXm0n6LJXLpDA=
+
+Name: policyTemplates/AWSDataPipeline-123456-201303261249
+SHA1-Digest: GvwsOvw5vTs9NXnNxtrUuspR9q4=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupPermissionTa
+ ble$ShowPolicyAction.class
+SHA1-Digest: 5s1/N6BjgV3AbzAbLBseX/jgxEM=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/IdentityManage
+ mentContentProvider$UserNode.class
+SHA1-Digest: fNEvacQeHH52YhrMCE06OKe6Ciw=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserPermission$1.c
+ lass
+SHA1-Digest: dDecmbx+J8JlpB9U0Xlr8pYkyHo=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupTable$3.clas
+ s
+SHA1-Digest: 52d0IgX6+ANGDfwmN5Gv/B5uw0o=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleSummary$LoadUs
+ erSummaryThread.class
+SHA1-Digest: q4/fTODYMG9MNdDFxVMZ7Fk6P9g=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/ExplorerSorter
+ .class
+SHA1-Digest: b5zNBXacMmJWrKzmF/ZxSkW50GU=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleWizardDa
+ taModel.class
+SHA1-Digest: CE6mhr1mnB2ulaXW0vPkQXewUwA=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/NewAccessKeyDialog
+ $1.class
+SHA1-Digest: MhLWDYxzLrSepN69UiFZVbhACXs=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/GroupForUserTable$
+ 1.class
+SHA1-Digest: 7Y/TP8xN4sJctrsIDqsAKO/H0ow=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserCredentialMana
+ gementDialog$AccessKeyTable$LoadAccessKeyTableThread.class
+SHA1-Digest: tyayAeIzCxvL85X6JtE294cx56o=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractGroupT
+ able.class
+SHA1-Digest: pvWdB9WsIEjlQ45gQ6NqJN3GMVQ=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/UsersInGroup.clas
+ s
+SHA1-Digest: eUlxeH9YXIAqGOpHoYh84TxSLFI=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserCredentialMana
+ gementDialog$AccessKeyTable.class
+SHA1-Digest: drN3Zug9jPER5UUw9VbR80D+D6o=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupSummary.clas
+ s
+SHA1-Digest: dhtkZzlGXnxXLpIEAL5w1gZAGJ8=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/EditTrustRelations
+ hipDialog.class
+SHA1-Digest: +QfZ8EkCmBgW+6287lI4FLp9MMI=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleWizard$1
+ .class
+SHA1-Digest: GV7l1RX5gXFH+vesmUsQ9R2foiA=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/EditGroupNameDial
+ og$1.class
+SHA1-Digest: Ou+SZ2aSHW+uJICnQwtcJuhPsmI=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractUserTa
+ ble$UserTableContentProvider.class
+SHA1-Digest: kXWc2vC3dmh6MMcpyG3g/SOqELc=
+
+Name: AmazonElasticTranscoder-3123123-201303261252
+SHA1-Digest: dQK+t9loFQUyfiqqkpZpMrHFJ8o=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractGroupT
+ able$GroupTableContentProvider.class
+SHA1-Digest: Wn/j5Y49GWgPOU3k/ATYmHJBBv0=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/OpenPasswordPo
+ licyEditorAction$1.class
+SHA1-Digest: VrvsoQNQ622m1fjhKyeefQ6l85A=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserTable$1.class
+SHA1-Digest: Btq0MFH+lKHF/Rpf6RAawabK+5U=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/IdentityManage
+ mentContentProvider$IdentityManagementRootElement.class
+SHA1-Digest: gm1mt72qGZViMm2oeq8Mq/k6ttc=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserPermission.cla
+ ss
+SHA1-Digest: fgOeZaZQNtmc9YG3LGLQQ2uCYbo=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleTrustRelations
+ hips.class
+SHA1-Digest: JY4VEDhiSka7SE5QmQVQ+MVEmTE=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/AddUserToGroupsDia
+ log.class
+SHA1-Digest: DO9yvUNaL1AfRcLnyaWpnCQ0/OU=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/OpenRolesEdito
+ rAction.class
+SHA1-Digest: rgUSzJF3hmWJcco6XfwYsblMQhI=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/CreateGroupWizard
+ $1.class
+SHA1-Digest: dON5KDj7Pz23022g5Daq8cBoN84=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleSecondPa
+ ge$6.class
+SHA1-Digest: XVu9rFjaVgoxlKMhR5ESZrSMvsY=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupPermissionTa
+ ble.class
+SHA1-Digest: 4khalO52A+4IWiN2taxhRCk9fr0=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/NewAccessKeyDialog
+ $CreateAccessKeyThread$1.class
+SHA1-Digest: UKR7NQ6/fCOoSZYnzE/45ViEIyI=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserCredentialMana
+ gementDialog$AccessKeyTable$2.class
+SHA1-Digest: +ZOhN3zQTB04KE/yvQTQpI9CiD0=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/PasswordPolicy
+ Editor.class
+SHA1-Digest: c9QY7066dXvH9HAWumOl9d6VJVo=
+
+Name: icons/group.png
+SHA1-Digest: j2FKI1u5oqDasGbMJYa5hQ4zlI0=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/CreateGroupSecond
+ Page$1.class
+SHA1-Digest: 3JJKJWcbhRmw5j14mw0aieM6gco=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupSummary$Load
+ GroupSummaryThread$1.class
+SHA1-Digest: DzwNg12gXSa3cHuSvmiTLDkZ9jc=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/IdentityManage
+ mentContentProvider.class
+SHA1-Digest: wGPquLQQNNmx/UUFKnuw2DVYmDs=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/GroupForUserTable$
+ 1$1.class
+SHA1-Digest: JtuQ4SRWOSCryV0ArjDvn5BMuRI=
+
+Name: AWSDataPipeline-123456-201303261249
+SHA1-Digest: fHvuiVw8OzAu5ZLUidtz8VOqo5Y=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleSummary$LoadUs
+ erSummaryThread$1.class
+SHA1-Digest: NKJu0xCLYv8iByhF4w6gTLgM6hg=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleSecondPa
+ ge$5.class
+SHA1-Digest: plxBLk/IIciwlLr+l0vZe579U2Y=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/CreateGroupSecond
+ Page.class
+SHA1-Digest: ceAK0xN2D99chvXdob/1zffkHP4=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/PasswordPolicy
+ Form$LoadPasswordPolicyThread.class
+SHA1-Digest: sLfUrEATOSBg6KHRLi1EKTLbhmU=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/PasswordPolicy
+ Form$AddPasswordPolicySelectionListener$1.class
+SHA1-Digest: CFDDnA9eGmaauINAcIPPAd0AHHA=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.ident
+ itymanagement/pom.xml
+SHA1-Digest: WAiXFd6I7eTth7GYYHHPAaZHZRA=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractGroupT
+ able$GroupTableLabelProvider.class
+SHA1-Digest: Mhwem6ZWqwwSTpSrtjXxD2WWDDg=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleEditor$Refresh
+ Action.class
+SHA1-Digest: jZI/Vay00xms3Om0pN+WtroOPA8=
+
+Name: policyTemplates/AmazonEC2RoleforDataPipeline-3123445-20
+SHA1-Digest: TZXXtTdIifNXGelqzmcndjq4534=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractPolicy
+ Table.class
+SHA1-Digest: nG3veBEdbG1g5PyYHMX66J95WiQ=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractPolicy
+ Table$TableContentProvider.class
+SHA1-Digest: mfM9k/Q7ivgjGFFK4Y1LNFcSooA=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserSummary$LoadUs
+ erSummaryThread$1.class
+SHA1-Digest: petpuho7ZrKIdoYaZWR3OdkaMeM=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserCredentialMana
+ gementDialog$AccessKeyTable$1.class
+SHA1-Digest: I2EUlrNl2MW2OhT2C8AXQYB0pjI=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/UsersInGroup$1.cl
+ ass
+SHA1-Digest: uhCEGiW9Y1KWHbNIw8OoEk+UwR8=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/EditGroupNameDial
+ og.class
+SHA1-Digest: USz9Zo/6I7/LOj2Fm9rR96g6XGM=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/CreateUserWizard.c
+ lass
+SHA1-Digest: EYILkn4VN5Q6sk6dW9kp2oJeR1Q=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/GroupsForUser.clas
+ s
+SHA1-Digest: /vwSlwEnRjf9+PZqcJx70/cKxL8=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleFirstPag
+ e.class
+SHA1-Digest: kmSwlgsVST6IhFsmTO6sHNnyAAM=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/NewAccessKeyDialog
+ $CreateAccessKeyThread.class
+SHA1-Digest: BFcOEKXp/a4IGf3lRjVXJQkAQw0=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/AddRolePolicyDialo
+ g.class
+SHA1-Digest: XuQVi4ctR4w5kP+BsSMpiNgZhR8=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserCredentialMana
+ gementDialog$AccessKeyTable$3.class
+SHA1-Digest: 7MXWGPp2CRRCN1JiKBTrjYs8YzA=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/TrustedEntityTable
+ $RoleTableLabelProvider.class
+SHA1-Digest: k/Rj3hC05uic3f1M4UiYiRboY8E=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractGroupT
+ able$LoadGroupTableThread$1.class
+SHA1-Digest: a56XqNRW0KAbg4q77DdIWLY6L3E=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/AddGroupPolicyDia
+ log.class
+SHA1-Digest: ZfpEqJ1SERrek0sImQPOnko4fAQ=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/IdentityManage
+ mentContentProvider$PasswordPolicyNode.class
+SHA1-Digest: iQQO4pplW8rgX6kvPabDP/6ATVc=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/AddUsersToGroupDi
+ alog.class
+SHA1-Digest: pLpIQGQkwrIku1MLbEbdSvOUbs8=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/CreateUserWizard$C
+ reateUserWizardFirstPage$1.class
+SHA1-Digest: 47zAdLRES6Yek7WIlYEXdJqdzrY=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/CreateRoleActi
+ on.class
+SHA1-Digest: 4zDFp6PZxv2sm90+7nSrsjBlMO4=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RoleEditor.class
+SHA1-Digest: 5S0DgCzYlui+N0IpO0xujZa+eYc=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserSummary$1$1.cl
+ ass
+SHA1-Digest: I6Ll6fsOGyp9QJ0uwJbnLvnEYVM=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/TrustedEntityTable
+ $RoleTableContentProvider.class
+SHA1-Digest: FkZg9LVAVanb2gQZ1+O6RYzIuYE=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/CreateGroupAct
+ ion.class
+SHA1-Digest: HTT/ZF86Cn0frssWgjF3UCE6Cw4=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserPermissionTabl
+ e$removePolicyAction.class
+SHA1-Digest: Bnycp+WFaveHU4x09pC77/ucTBk=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractAddPol
+ icyDialog.class
+SHA1-Digest: WxaoSMBDNrTtg8LV4otU88SZhJA=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/TrustedEntityTable
+ .class
+SHA1-Digest: uSJ5k16NAHIiU8dEbAKYWWI5wcg=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UpdatePasswordDial
+ og$3.class
+SHA1-Digest: ULiel1hZuVSWEgFrwBLKLX3Zqek=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractAddPol
+ icyDialog$3.class
+SHA1-Digest: ooEW2I9OIl62eYPVWv3YyjwHWz8=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RolePermissionTabl
+ e$1.class
+SHA1-Digest: 14E5Hpy2x4fz45bJVgy/X7d7iUY=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleWizard.c
+ lass
+SHA1-Digest: dv9ev8JXvbk+5mVGFsGXavyP7I8=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupPermissionTa
+ ble$EditPolicyAction.class
+SHA1-Digest: utqXRLNduVtvs85kPZJfvy/rn5w=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserSummary$LoadUs
+ erSummaryThread.class
+SHA1-Digest: xAyO3vQwtTHiLJ/JYrCbPAV6+C8=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/AddUserPolicyDialo
+ g.class
+SHA1-Digest: I5+rBRyojCVF3VTyBlcKJ33f4Uc=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractAddPol
+ icyDialog$2.class
+SHA1-Digest: +iirQBAhiXXOxuTaFKQva5XAQo4=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/CreateUserActi
+ on.class
+SHA1-Digest: 2eF1LR/ycDuMt0yVWFRy6i4AJdY=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/RolePermissionTabl
+ e$removePolicyAction.class
+SHA1-Digest: +ZW7u9isMUcg0sqR/ZkgnVC6HtE=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/CreateGroupFirstP
+ age$1.class
+SHA1-Digest: pRHxtS7PxU6aoi2DUN1Bfb9OnG8=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UpdatePasswordDial
+ og$4.class
+SHA1-Digest: NtI9F/pNeVtztbqGxSq8DwGFJDs=
+
+Name: AmazonEC2RoleforDataPipeline-3123445-20
+SHA1-Digest: OU7Oz3cuNZ9/Sg1XMT9IRPcdV/s=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/CreateUserWizard$C
+ reateUserWizardFirstPage.class
+SHA1-Digest: HvtqWEcimSMxNly0LVo75vn+Wb4=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/AbstractAddPol
+ icyDialog$1.class
+SHA1-Digest: 6pldrBJuEj9iyIQfflPSl7+kVaA=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/UsersInGroupTable
+ .class
+SHA1-Digest: nUwMMZssIwrxVqnFP/JZwUJtNmk=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserTable$1$1.clas
+ s
+SHA1-Digest: 0607w4es0MRFCQDPYJxk/JTIVm4=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/CreateGroupFirstP
+ age.class
+SHA1-Digest: aB63GCBSMyq9X30pv5COZ4rRt/I=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/CreateRoleSecondPa
+ ge.class
+SHA1-Digest: sJLfDPGtKBzJvArQ4PceUHn0lbI=
+
+Name: com/amazonaws/eclipse/identitymanagement/group/GroupTable$1$1.cl
+ ass
+SHA1-Digest: of6bjaZKDy5lmkE0vRLIFiVJlL8=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/EditTrustRelations
+ hipDialog$1.class
+SHA1-Digest: 4JxI85pw9gY+y48ocEL1nV1yp90=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserCredentialMana
+ gementDialog$1.class
+SHA1-Digest: CI4VhqYPzXP8z2RFHXYlXXsVGkI=
+
+Name: com/amazonaws/eclipse/identitymanagement/role/ShowRolePolicyDial
+ og.class
+SHA1-Digest: wDNrfn+aVwz2FT2bB6fAtNiHpII=
+
+Name: com/amazonaws/eclipse/explorer/identitymanagement/PasswordPolicy
+ Form$AddPasswordPolicySelectionListener.class
+SHA1-Digest: gYmNwIGRdFMQNxurdhHkycNt2BA=
+
+Name: com/amazonaws/eclipse/identitymanagement/user/UserCredentialMana
+ gementDialog$AccessKeyTable$ContentProvider.class
+SHA1-Digest: 1hL/Ey05hXQnJBfmdV9b3SvBFo4=
+

@@ -1,0 +1,536 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.amazonaws.eclipse.simpledb;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: root
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.2.0";visibi
+ lity:=reexport,org.eclipse.datatools.connectivity;visibility:=reexpor
+ t,org.eclipse.datatools.connectivity.ui,org.eclipse.datatools.connect
+ ivity.sqm.core;bundle-version="1.1.0",org.eclipse.datatools.connectiv
+ ity.sqm.core.ui,org.eclipse.datatools.connectivity.sqm.server.ui,org.
+ eclipse.datatools.sqltools.data.core,org.eclipse.datatools.sqltools.d
+ ata.ui;bundle-version="1.1.0",org.eclipse.datatools.sqltools.editor.c
+ ore,org.eclipse.datatools.sqltools.parsers.sql.query,org.eclipse.data
+ tools.sqltools.result.ui,org.eclipse.datatools.sqltools.sqlscrapbook;
+ bundle-version="1.0.0",org.eclipse.datatools.sqltools.sqlbuilder;bund
+ le-version="1.0.0",org.eclipse.datatools.sqltools.tabledataeditor,org
+ .eclipse.datatools.modelbase.sql;bundle-version="1.0.2",com.ibm.icu,c
+ om.amazonaws.eclipse.core,org.eclipse.core.net,org.eclipse.ui;bundle-
+ version="3.5.0",org.eclipse.ui.navigator;bundle-version="3.2.0",org.e
+ clipse.ui.forms;bundle-version="3.3.0",org.eclipse.ui.ide;bundle-vers
+ ion="3.4.0",org.eclipse.text;bundle-version="3.2.0",com.amazonaws.ecl
+ ipse.javasdk;bundle-version="1.11.130"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: Amazon Web Services
+Import-Package: org.eclipse.datatools.sqltools.db.generic,org.eclipse.
+ datatools.sqltools.db.generic.service
+Eclipse-LazyStart: true
+Export-Package: com.amazonaws.eclipse.datatools.enablement.simpledb.co
+ nnection,com.amazonaws.eclipse.datatools.enablement.simpledb.driver,c
+ om.amazonaws.eclipse.datatools.enablement.simpledb.internal.driver
+Bundle-Name:  AWS SimpleDB Plugin
+Bundle-Version: 1.0.0.v201807201743
+Bundle-Localization: plugin
+Bundle-ClassPath: .
+Bundle-Activator: com.amazonaws.eclipse.datatools.enablement.simpledb.
+ Activator
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_171
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ menu/OpenUrlHandler.class
+SHA1-Digest: RKK2fXfjZBNWToWJUR9vPT1Un+Q=
+
+Name: plugin.xml
+SHA1-Digest: iOQi3t0xpxE4BzOxhPxg5SUPyZM=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBNavigatorActionP
+ rovider$ShowDomainMetadataAction$DomainMetadataDialog.class
+SHA1-Digest: ToSL2zLqFg/2bnTwjuF6d8d53SM=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /messages.properties
+SHA1-Digest: ff+kQI5WXfCWZaVf0J25nhJu4lo=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/wizar
+ d/SDBTableDataWizardPage.class
+SHA1-Digest: Qeth14iA6AIOSiou5QsRX7eRLWI=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/con
+ nection/SimpleDBConnection.class
+SHA1-Digest: RXTmjqonn9+QtYmKVRPOr3p/dLQ=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/JdbcPreparedStatement.class
+SHA1-Digest: xxEWlEaS0A5jNN/BtFIh65G0gUQ=
+
+Name: icons/jdbc_16.gif
+SHA1-Digest: N16kaLk8rTSVM807t/TyQUGy/6M=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ SimpleDBOverviewSection.class
+SHA1-Digest: b82NKttPtz0DxlVcXT6x8m1hOww=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/driver/Simpl
+ eDBItemName.class
+SHA1-Digest: 4vJ9SWSdtD5TGXNSMZkSHpNn8aw=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ explorer/SimpleDBLabelProviderExtension.class
+SHA1-Digest: lQWs3RobWKARWLHJTxtoYYz9qAE=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBLabelProvider.cl
+ ass
+SHA1-Digest: 1xgmkc/0fIeADYiJFB4lsmiUkxg=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/DeleteDomainWizardAction.class
+SHA1-Digest: 8aPszb4/n/j0qu8tk7LT2i4LMj8=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/DeleteDomainWizardAction$1.class
+SHA1-Digest: 5a5qw3Pt4b3uBgnS8jcT/Wiuw04=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/NewAttributeWizardAction$1.class
+SHA1-Digest: aZ/K6ItNCXo6up3ssfgOug9EaKE=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBContentProvider$
+ 1.class
+SHA1-Digest: QEBA8lcrP8vdqVXvjRjZ8FJ8TIE=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/NewAttributeWizardAction.class
+SHA1-Digest: iJsB1XnihnQsJNZA2yB0vpKQnPQ=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/wizar
+ d/SDBTableDataWizardPage$1.class
+SHA1-Digest: 1LDMAkLF2Dpp5nZ7+KTwUkO0NPs=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor$TextCellEditorListener$3.class
+SHA1-Digest: bP2iXOuFqlMeYv1BWYJSflwjLkE=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/wizar
+ d/SDBTableDataWizardPage$4.class
+SHA1-Digest: Ng9Sm+tfYuvR+2zCRQ2YoDbQuAo=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor$1.class
+SHA1-Digest: FVPowAL4WIOyJ3VdiK7sDpLp9Fo=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/wizar
+ d/SDBTableDataWizard.class
+SHA1-Digest: DjAt2dru6JPrGXN8l9MS1AbOejQ=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor$3$1.class
+SHA1-Digest: +u0r5G2sbJk/fBg5hVTEDW0QS+s=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/wizar
+ d/SDBTableIdDataWizardPage.class
+SHA1-Digest: hmFkGyS3PnGpMd0eVg4H17xqRHk=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBNavigatorActionP
+ rovider$DeleteDomainAction.class
+SHA1-Digest: FEMz1QSGoa77zZHsRX7hqqgkA6Y=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/JdbcStatement$1.class
+SHA1-Digest: G6VIR3v0C/HZGS0APDv18umy8CQ=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/JdbcResultSet.class
+SHA1-Digest: t6PMZZuAOswedPSUzf/A5PDL988=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/db/simpledb/SimpleDBCon
+ figuration.class
+SHA1-Digest: jH1x/wLX67M1p+Cq6HyjU/PTkeA=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/LoadDataActionProvider.class
+SHA1-Digest: xMp1Eevfn7plbUYPSYhZani9ANo=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ connection/drivers/SimpleDBDriverUIContributor.class
+SHA1-Digest: a4aRU1J5E1AWMZYOWx+CNbbi35k=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ Messages.class
+SHA1-Digest: Up+co/o3PYfLrux11QRxUdvbjMc=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/connection/I
+ SimpleDBConnectionProfileConstants.class
+SHA1-Digest: pFrvs5iVdj/S2Tte5hxEJXWDmxM=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/NewAttributeActionProvider.class
+SHA1-Digest: eELIm6A+77NbtLFCueXgxAqNK/k=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/OpenDataTableEditorActio
+ n.class
+SHA1-Digest: 9u/P7tJ04G1F56vvqcXMZzoBvxk=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor.class
+SHA1-Digest: ts/qbze4iyS181x7P1hfGdB63xo=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor$2.class
+SHA1-Digest: KuFlPpJu7FAKi1jRZdXNhld2Ntk=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/driver/JdbcC
+ onnection.class
+SHA1-Digest: 3Q9UL0O8G5dFQnvPz9jnmDe44pM=
+
+Name: runtime/vendors/SimpleDB_1.0/SimpleDB_1.0.xmi
+SHA1-Digest: eQk5oqObecJ7b4bOoMOq8zwyL+k=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/con
+ nection/SimpleDBPropertiesPersistenceHook.class
+SHA1-Digest: Ac7KLy7jJux0q9XEh14DColh3kg=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBNavigatorActionP
+ rovider$CreateDomainAction$CreateDomainDialog$1.class
+SHA1-Digest: gSnfDrpLTnGVZhEXFSgIqPU0tZ0=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/JdbcStatement$ExecutionResult.class
+SHA1-Digest: QaeY7QkjqqJ2iSBtelKUDA4nrpw=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/wizar
+ d/SDBTableDataWizardPage$6.class
+SHA1-Digest: MTAz1LcutQjP75Fj3H55ASrNm7o=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/LoadDataAction.class
+SHA1-Digest: yruTWDURLscICgPiqwbU6argxz0=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/db/simpledb/Messages.cl
+ ass
+SHA1-Digest: w3W5HddVgDZUXvU4bb2x3UTkrec=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/ForwardEngineerAction.class
+SHA1-Digest: PqR/QUP0YXfkZsmP5d7tkUgALsI=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor$LabelProvider.class
+SHA1-Digest: KcU1iwibJ+ybk6DP/Gp+1SEwrvk=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Op
+ enQueryEditorAction.class
+SHA1-Digest: 3ygIG5iB5Wh5BjCc6YGBGZdbnnc=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBNavigatorActionP
+ rovider.class
+SHA1-Digest: uolJb/8ukoF8KCSftTDy4pLuwX4=
+
+Name: icons/new_db_element.gif
+SHA1-Digest: LEE9YAfo+Etg3mCwlVdzbXBBQPo=
+
+Name: icons/table.gif
+SHA1-Digest: isFD4fljeccPdl3UO8sVIOQLero=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/Activator.cl
+ ass
+SHA1-Digest: QiYsArwqIftf0z84aR2OKAbES9c=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ messages.properties
+SHA1-Digest: W9qWbSRmdt7yAeQE/Auq7hhHqVk=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/wizar
+ d/SDBTableIdDataWizardPage$1.class
+SHA1-Digest: V00wPkJh7RbfJMqWHgt8Me+N/hc=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Si
+ mpleDBItem.class
+SHA1-Digest: 0XcNea4qhwnPF8/hDwmTSUvkj90=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/Simpl
+ eDBIDDataAccessor.class
+SHA1-Digest: 9dWZquY7Pcz/59OHGkaXpdzEGu0=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/JdbcDatabaseMetaData$1.class
+SHA1-Digest: OzT0BfO1y71D5BdeshJUnPbdjYc=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/db/simpledb/SimpleDBSer
+ vice.class
+SHA1-Digest: 0HM8aZVKdx7rIraGAG1lfHdmnQQ=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor$TextCellEditorListener$1.class
+SHA1-Digest: tkp6AKXXBB7SW1HxyxRL2nkVUYc=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/wizar
+ d/SDBTableDataWizardPage$5.class
+SHA1-Digest: tOz35CbADpUIEJFWum5gyBwyfb8=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/driver/JdbcD
+ river.class
+SHA1-Digest: Lxbe0TkuMCdQM24+Pyc+sGSeYpY=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor$3.class
+SHA1-Digest: Z2ZVJxZ4gxvcIGkvWArkf9qImdo=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/NewDomainActionProvider.class
+SHA1-Digest: N3hLkTkgqK0D40ij4jTHd5hv05E=
+
+Name: org/eclipse/datatools/sqltools/data/internal/ui/editor/ITableDat
+ aEditor.class
+SHA1-Digest: kt5Jih+mAl2uFUYH7IRk36yhN6w=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBRootElement.clas
+ s
+SHA1-Digest: +00WVy2E0VLXDYNBn7Ze+E36ySw=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBContentProvider.
+ class
+SHA1-Digest: AQnHjORPyNbVLxorssi9NQ/oqHE=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/DeleteAttributeWizardAction$1.class
+SHA1-Digest: HwTKo/jps+el6g4qjU82/BfJGsk=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/db/simpledb/messages.pr
+ operties
+SHA1-Digest: MrpbxZIYUgsWKvD8DQ58t25nBzo=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/SimpleDBDriverValuesProvider.class
+SHA1-Digest: RSsSoevghjfLm8nD+bw4cSgmAco=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor$TextCellEditorListener$2.class
+SHA1-Digest: u+iwf+1BpW709p60/PiG7fcF0U4=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/JdbcStatement.class
+SHA1-Digest: SWQFnLSMEGT2ZXO4FVDhRuLDJyo=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ connection/NewSimpleDBConnectionProfileWizard.class
+SHA1-Digest: 2ZcPUz3YhCDA6gSSyxSF3TSAqqs=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/Messa
+ ges.class
+SHA1-Digest: FRMEqfx2gCIH7IJO3ssgNowsf2I=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBExplorerNodes$Do
+ mainNode.class
+SHA1-Digest: DRMK24YSflJlBYD2H1pD/ZPaLAw=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/OpenSQLScrapbookAction.c
+ lass
+SHA1-Digest: lpNvLdE6t4cpqOxTtU12UKHND5g=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/expressions/SQLNodePropertyTester.class
+SHA1-Digest: lotJxKOCCfsp95q8QPsNc5qePF8=
+
+Name: plugin.properties
+SHA1-Digest: aOfaq/jaroN4B1lExK2ou5WJKwQ=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/ListDomainsStatement.class
+SHA1-Digest: E+BlMxIANAr1M09K0LkpeqTgyos=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/wizar
+ d/SDBTableIdDataWizard.class
+SHA1-Digest: jkZulcTWRxc2fOi9syGUlHovM4A=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBNavigatorActionP
+ rovider$ShowDomainMetadataAction.class
+SHA1-Digest: z65awK6MnoRikmmsvE2G5+q4QDM=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ connection/SimpleDBProfilePropertyPage.class
+SHA1-Digest: swOMCgo8dap2qjj/OO2RTQr4Lwg=
+
+Name: properties/connection.properties
+SHA1-Digest: zJ1doypyy/W/iA7QQz8LlWwo9ZM=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/NewAttributeWizardAction$2.class
+SHA1-Digest: TRTNVdDWBtmLSJXuiSmNo3bAhKk=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor$EditedAttributeValue.class
+SHA1-Digest: v94wD7dWURGzbHj6BN3d7bzbYW0=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/JdbcDatabaseMetaData$2.class
+SHA1-Digest: 3Si2VIhDyepiqPP30MGbOnY4RXg=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/DeleteAttributeActionProvider.class
+SHA1-Digest: KZvdgzkHPO46aJ5u/gVsaYpwp6Q=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.simpl
+ edb/pom.properties
+SHA1-Digest: M9vCvBrWL41QtIDaED7hv0k8GLM=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /Messages.class
+SHA1-Digest: oEV4hqhgHe3+J7UhPLgkdLVHMXk=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/Simpl
+ eDBDataAccessor.class
+SHA1-Digest: dfF0s6noa7Aik88TUy8O/fTGs5o=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Mu
+ ltiValueAttributeEditorDialog.class
+SHA1-Digest: vlTaIrjNb1iKb9oh/LLxNrKgytM=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor$TextCellEditorListener.class
+SHA1-Digest: FtBFZspqM3abpsm1AJVhnAnDXuM=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor$OpenSelectSyntaxDocumentationAction.class
+SHA1-Digest: k7fIfWhZXqhGi1zfTD+yM+h9RNA=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ menu/OpenSyntaxHelpUrlHandler.class
+SHA1-Digest: GtvkY5yHJ0x1xUKvWufQdVx4ox8=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBNavigatorActionP
+ rovider$CreateDomainAction$CreateDomainDialog.class
+SHA1-Digest: SwwxRDVBcxdt/PNzqtsTKrCypi4=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBNavigatorActionP
+ rovider$CreateDomainAction.class
+SHA1-Digest: rClu856nlDh3Ax/1L8rDkSbqW2I=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/con
+ nection/SimpleDBDatabaseRecognizer.class
+SHA1-Digest: dP9Aqe2RIh44WuA5whE+GNhGkFk=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.simpl
+ edb/pom.xml
+SHA1-Digest: WOPU9TigmdGY5G1PGkAb+XBTYSs=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/DeleteDomainActionProvider.class
+SHA1-Digest: CSJ/8/55Fb/6aRKQf6g8RXdxJss=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/JdbcDatabaseMetaData.class
+SHA1-Digest: YPuvKnoeRJ/oy/sAXqkL+YurHEY=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/wizar
+ d/SDBTableDataWizardPage$3.class
+SHA1-Digest: /CqHFLsS+y85HZyyoa3vzMLs7hw=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ explorer/SimpleDBContentProviderExtension.class
+SHA1-Digest: HpEuVFEpM0rQ0/hN4SWLjrV8Rno=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/JdbcDatabaseMetaData$3.class
+SHA1-Digest: Bv5XhAcI7U5Qlg7ltBJj3Zslqss=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ SimpleDBOverviewSection$CreateNewSimpleDBConnectionAction.class
+SHA1-Digest: p4wnx9Y5IERPv1djXRS581Yg6ik=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBConnectionProfil
+ eManager.class
+SHA1-Digest: th+aOAZ7M7llQl9tzLobvmfD+0g=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/NewDomainWizardAction.class
+SHA1-Digest: xoQaNWmellJNOJhXODm20Xn9qOc=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/con
+ nection/SimpleDBConnectionFactory.class
+SHA1-Digest: N9AGX1Wa9LSaFQzxk7HVLlJaceQ=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/AbstractEditorClosingAction.class
+SHA1-Digest: z/Nvat7bO5JWyWufS8hqhujzjHY=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ connection/drivers/SimpleDBOtherDriverUIContributor.class
+SHA1-Digest: M8Ie+FZ472XjTo2KluUR/MB633I=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/JdbcStatement$RawData.class
+SHA1-Digest: b6wxhXn2l0IlErGoJzkztRAzNmU=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor$ContentProvider.class
+SHA1-Digest: SvA0Za09rYR+A3wsOLJ0VMCLwk8=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/ExportDBUDataSetAction.class
+SHA1-Digest: mFDycR4LpE0KuBP8B/AgJu2CzYY=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/DeleteAttributeWizardAction.class
+SHA1-Digest: pJddxZIb9y96e0xPpMu4qu/Q2pE=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/SDBTe
+ xtEditor.class
+SHA1-Digest: om4CpZ5IyfsavYuct0e2Q5cYB40=
+
+Name: com/amazonaws/eclipse/explorer/simpledb/SimpleDBExplorerNodes.cl
+ ass
+SHA1-Digest: NQdSChWiRlGA9l/PAsB0aRpLhuY=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/NewDomainWizardAction$1.class
+SHA1-Digest: tJqZPyxfpMIjBg9CHTU01QKZYfU=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/wizar
+ d/SDBTableDataWizardPage$2.class
+SHA1-Digest: 694+mLGr2rqS17TnmI2CTMuqV3Y=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/ForwardEngineerActionProvider.class
+SHA1-Digest: 22Y5hCVa8tb5t2nGuo5LFTz+9rg=
+
+Name: icons/sdb-wizard-75x66-shadow.png
+SHA1-Digest: IXQ9yHSkre/oayjKtuPD7qwRTjk=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Qu
+ eryEditor$ExportAsCSVAction.class
+SHA1-Digest: xi+7HP1vWaK59peWso1CELj4BTo=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ menu/NewSimpleDBConnectionHandler.class
+SHA1-Digest: ofRUuN1SAg04JOlSBarRWAEDYhY=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/editor/messa
+ ges.properties
+SHA1-Digest: /8jTfspxtbBlfBI8PkfW6/q3y30=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/ui/
+ connection/SimpleDBProfileDetailsWizardPage.class
+SHA1-Digest: H9IPibTQmvekg12Dld8qFVa8A6g=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/ListAttributesStatement.class
+SHA1-Digest: o2eb7R3hJXWngBQ3G2YkbIO3I20=
+
+Name: com/amazonaws/eclipse/datatools/sqltools/tablewizard/simpledb/ui
+ /popup/actions/NewDomainWizardAction$2.class
+SHA1-Digest: f5URGMNsFH0Bmdi19fLm/ONYWik=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/connection/S
+ impleDBConnectionUtils.class
+SHA1-Digest: ME9Y67AwRP47W2h3Q+Q5GNmDl3Y=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/ui/editor/Do
+ mainEditorInput.class
+SHA1-Digest: vfxxkwq68uPK7hbwyrhxYHJC4rw=
+
+Name: com/amazonaws/eclipse/datatools/enablement/simpledb/internal/dri
+ ver/JdbcDatabaseMetaData$4.class
+SHA1-Digest: hp725koJDrLFUEDPg5HbjGZJFd4=
+

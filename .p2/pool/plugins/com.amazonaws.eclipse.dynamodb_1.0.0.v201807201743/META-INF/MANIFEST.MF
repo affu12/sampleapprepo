@@ -1,0 +1,649 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.amazonaws.eclipse.dynamodb;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: root
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.jd
+ t.launching;bundle-version="2.0.0",com.amazonaws.eclipse.core;bundle-
+ version="2.0.2",org.eclipse.core.databinding;bundle-version="1.2.0",o
+ rg.eclipse.core.databinding.beans;bundle-version="1.2.0",org.eclipse.
+ core.databinding.observable;bundle-version="1.2.0",org.eclipse.jface.
+ databinding;bundle-version="1.3.0",org.eclipse.core.databinding.prope
+ rty;bundle-version="1.2.0",org.eclipse.ui.navigator;bundle-version="3
+ .2.0",org.eclipse.ui.console;bundle-version="2.0.0",com.amazonaws.ecl
+ ipse.javasdk;bundle-version="1.11.130"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Amazon Web Services
+Bundle-Name: Amazon DynamoDB Plugin
+Bundle-Version: 1.0.0.v201807201743
+Bundle-ClassPath: .
+Bundle-Activator: com.amazonaws.eclipse.dynamodb.DynamoDBPlugin
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_171
+
+Name: com/amazonaws/eclipse/dynamodb/editor/AttributeValueEditor.class
+SHA1-Digest: 3sHx0+J2mti9fkkqyHD0XfP8TqA=
+
+Name: plugin.xml
+SHA1-Digest: 0n0n8VVnBMXfEV2/NiDUYZqIkm0=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/StartTestToolConfigurati
+ onWizardPage.class
+SHA1-Digest: dElB5IdpWevO1jVa0fBPMXPP07s=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$TextCe
+ llEditorListener.class
+SHA1-Digest: OF25lZ5m53DaVWoNarrfIwx8/PI=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBExplorerActionPr
+ ovider$DeleteTableConfirmation.class
+SHA1-Digest: pNvLTehXjT83/xdYsB4j9J6z6WE=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTablePageUtil.clas
+ s
+SHA1-Digest: jmro9XRWjb3VvdttXNJT4wBEIpg=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/StartTestToolConfigurati
+ onWizardPage$PortValidator.class
+SHA1-Digest: kSsU16zwT3iZ/BC66uTzIkhUjY4=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$KeySch
+ emaWithAttributeType.class
+SHA1-Digest: R740uQ6mo08oDvtyRBE59vafr1c=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$8$1.cl
+ ass
+SHA1-Digest: Y7LCHXOO5KOS4i3PkF4Sk66BM6o=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBRootNode.class
+SHA1-Digest: bkWai27XxNcjYzaD283FX8idNJI=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/ScanConditionRow$7.class
+SHA1-Digest: igNbvFo+Qt/pNM8caMnn0na8Y1k=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$Create
+ NewItemDialog$1.class
+SHA1-Digest: miyBk3DNMXED1xp43xMej9/Tpd8=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable.cla
+ ss
+SHA1-Digest: lE/53YgCBO5DXAcsAdB5urK/ZDA=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/StartTestToolPickVersion
+ WizardPage.class
+SHA1-Digest: zGUmsvP8F0m880kU8yMIC1FwOmQ=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$5.c
+ lass
+SHA1-Digest: jtMBLA2gX6SFAmgwSjb7vgmoAjA=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$8.clas
+ s
+SHA1-Digest: OEmvx4J6OvUmN8o5OBWKsDI/7OQ=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$5.clas
+ s
+SHA1-Digest: 1sb2kTwt5nT7HE9KQwR3EMuoUJ8=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$2.c
+ lass
+SHA1-Digest: 5NOSmZep3vbhYKGdz5vKcTEh9IQ=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolProcess$ConsoleO
+ utputLogger.class
+SHA1-Digest: K7Tk3wZLLsQlvmwcVzmbl8a7E1o=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$Tes
+ tToolVersionProvider.class
+SHA1-Digest: U0p1xt1VIZ1/nLLUnqbVP+sxgWw=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableFirstPage$1.c
+ lass
+SHA1-Digest: SVQt5JxevF/fmMqF5aDvDL3YuUk=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddLSIDialog.class
+SHA1-Digest: xJIwIwXHC3h4HUgzEscwYkseKKs=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddGSIDialog$AttributeLi
+ stContentProvider.class
+SHA1-Digest: f0ksd/BU54UCLrlIosQPuSeKn+E=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$Cus
+ tomProgressMonitor$1.class
+SHA1-Digest: mSxHAk1b9W6oi1yG/T5d3WaBevo=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$2.clas
+ s
+SHA1-Digest: aoKTY1Y9MYZsmuhe1pHCrK77WXE=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddGSIDialog$6.class
+SHA1-Digest: f4/7C49Y+ysFFiaEHFQyZJ3VpOY=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$Ins
+ tallJob.class
+SHA1-Digest: Ki6vn5AMeFhLXcuFz3KaMDsnDF8=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddLSIDialog$AttributeLi
+ st$1.class
+SHA1-Digest: Skodn746PORLSNQbOx6Xv/lfuik=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBContentProvider$
+ 1$1.class
+SHA1-Digest: 6AHfFcDSkOEdnZkcpPE7NHbTMuY=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/ScanConditionRow$2.class
+SHA1-Digest: Ydy5WPALfnn1nlKRmCr72HkFMH0=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddGSIDialog$AddNewAttri
+ buteDialog.class
+SHA1-Digest: cbNB/xnycACLrnVUA8FvWVsCJuQ=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddLSIDialog$4.class
+SHA1-Digest: 6FdamqE7xwntKFRqPloKG4Z8joI=
+
+Name: icons/remove.gif
+SHA1-Digest: ijCqGpGenXj5rydbd01o4+cQa6g=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddGSIDialog.class
+SHA1-Digest: xwQwfOkLEUBzravY92ekAgHITI4=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddGSIDialog$3.class
+SHA1-Digest: R9KMhzsDjDFicYu78U7xHgbF6/4=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddLSIDialog$1.class
+SHA1-Digest: t5F7m5fVIBpONZ4EArX02EcMfF8=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBTableNode$2.clas
+ s
+SHA1-Digest: YENJMsUi3mOO4vCvxuNMxQEpi0A=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$TextCe
+ llEditorListener$5.class
+SHA1-Digest: Zqo4BGYuxmkJe9N3wKB6satLWo8=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/ScanConditionRow$5.class
+SHA1-Digest: 5EXrRqHuMjE8g5eiEYpGwGlf8mQ=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddGSIDialog$AttributeLi
+ st$1$1.class
+SHA1-Digest: +k1iytrJ2WVrxwWALzD094iJgxU=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolProcess$ConsoleO
+ utputLogger$1.class
+SHA1-Digest: 7r7vJAZ+WVs/RAqFNnWmSubyDi0=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddGSIDialog$5.class
+SHA1-Digest: 93q+g121unXrFcYMKTnVH3Rbukc=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$Cus
+ tomProgressMonitor.class
+SHA1-Digest: KMNgkP+hXoAqxoNARxSUKy0pacc=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$Create
+ NewItemDialog.class
+SHA1-Digest: ugXEaTkP/ZYAjCCQnaGzcnjqdy4=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$TextCe
+ llEditorListener$3$2.class
+SHA1-Digest: 8q6U3d2FrnYUO8hzC8+4ML+bRtE=
+
+Name: icons/a.png
+SHA1-Digest: LQosXXAHRryBqRAcw1Ysa9w0hrA=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$3.c
+ lass
+SHA1-Digest: wu1CsnzadnFGnW35CmzJ3+YfPkI=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/StartTestToolPickVersion
+ WizardPage$TestToolVersionValidator.class
+SHA1-Digest: tDwRTdHFXlPYA7nZQyUtBeUvaf4=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$LabelP
+ rovider.class
+SHA1-Digest: 1K78ariuyn2W436JxWnsz3ER55Y=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$TextCe
+ llEditorListener$2.class
+SHA1-Digest: hB5YnKcX+SIkNC7jduLdYJTpku4=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$6.clas
+ s
+SHA1-Digest: h/nC1+Qeq121mUXzjdo+kUHYL0U=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddLSIDialog$AttributeLi
+ st.class
+SHA1-Digest: ayrcqUjBLipwHC+B1Snic8U+AGo=
+
+Name: com/amazonaws/eclipse/dynamodb/preferences/TestToolPreferencePag
+ e$1.class
+SHA1-Digest: Cq1U/jwXoatrJ/BPccJ54yRnzW4=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddLSIDialog$3.class
+SHA1-Digest: 4p44PqApYF690fs8GOp5AZKlxPc=
+
+Name: com/amazonaws/eclipse/dynamodb/DynamoDBPlugin.class
+SHA1-Digest: Z7S2iqbrd1xIKRbGZEQBIu5NvH0=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/ScanConditionRow$1.class
+SHA1-Digest: 3+hitel1DBKcdBxvuPPjYTwt8BA=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolManager$1.class
+SHA1-Digest: I/XK+bMCSkH5wSLewmQAEcOVLs8=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/ScanConditionRow.class
+SHA1-Digest: aoJCrZ9g/vvkoarfQvbrFqWy4VY=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableWizard$1.clas
+ s
+SHA1-Digest: jzRgZcoE6/M0cbrmZHWQ4sBJi+Q=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableSecondPage$3.
+ class
+SHA1-Digest: 7Ptnv0LjIvf3TFgwFP9g7I0A3GM=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddLSIDialog$2.class
+SHA1-Digest: Ffi6oR6Fhyez56q+4tGJPyutgB8=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddGSIDialog$4.class
+SHA1-Digest: QR3+i130O2DP12LBcUSuYy4Gt9I=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$7.clas
+ s
+SHA1-Digest: wkrB2FBEhdmY/GllihCAYQBxohk=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$Cus
+ tomProgressMonitor$3.class
+SHA1-Digest: DlJ5neb57SlcUVVMdhOPSSzkhaw=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableSecondPage$2.
+ class
+SHA1-Digest: yXURMYUPZ9Xot94Dp1n8DNePeJs=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBTableNode$1.clas
+ s
+SHA1-Digest: dXOcKzyV7AHrFGaExEG0qrJrcYo=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBTableNode.class
+SHA1-Digest: zol50NCMpJNYTTh9h6xXw/H9OK0=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$4.c
+ lass
+SHA1-Digest: P9fIusN3iqu0NQ7pRm0vA6+pVlo=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersion$InstallS
+ tate.class
+SHA1-Digest: Vt/X2eiR+Z9isiEejD0/clYS+5g=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBContentProvider$
+ 2.class
+SHA1-Digest: EeVQuxncF3P0jyDrqFXgRFSo9ZY=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/AttributeValueEditor$2.cla
+ ss
+SHA1-Digest: Z1I12PQA9Q12w42Ig1SyOip0+D0=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$TextCe
+ llEditorListener$3.class
+SHA1-Digest: XKfNwHnvjaLJ4ee8QXRAVGoLYeg=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBExplorerActionPr
+ ovider$CreateTableAction.class
+SHA1-Digest: qWsWrh3Gxt40y/70n5VnglYsPDg=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddGSIDialog$AttributeLi
+ st.class
+SHA1-Digest: /k1ZQXakfFJ7w67DFsmiaLTaDgE=
+
+Name: com/amazonaws/eclipse/dynamodb/AbstractAddNewAttributeDialog.cla
+ ss
+SHA1-Digest: NhzGpQk3F3XBFgUpV368a6l7JHA=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$9$1.cl
+ ass
+SHA1-Digest: c4uVoipxM8dq5UrYvEzCNScwhOs=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddLSIDialog$AttributeLi
+ st$1$1.class
+SHA1-Digest: eJ3tmus8XAAKQh2Q/sMi36gWz24=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/ScanConditionRow$StringCon
+ tentProposalProvider.class
+SHA1-Digest: SO0HI7OELY9uw7OffzH5XiIOfEk=
+
+Name: com/amazonaws/eclipse/dynamodb/preferences/TestToolPreferencePag
+ e.class
+SHA1-Digest: 4+fxk/d80VkGnh6+QBskavvgdwI=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableSecondPage$1.
+ class
+SHA1-Digest: uyzpdtEmYCAhcEFHzOJHziI2jAI=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$Cus
+ tomProgressMonitor$2.class
+SHA1-Digest: ManbwMiBI/0SiOWvB/9KViPO71Q=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolProcess.class
+SHA1-Digest: y4q6eO3jRQORV37VtDLndRjX3/E=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/AttributeValueInputDialog$
+ 1.class
+SHA1-Digest: 0frh0950SoF6eeYqXNI1I29mdUA=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBContentProvider$
+ 1.class
+SHA1-Digest: 1Fdk25cYBDQs12D9+LQ6kGfZqJo=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableFirstPage$2.c
+ lass
+SHA1-Digest: 9xy3ZzFcjps6xayIG4ssj3IXhAI=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$1.clas
+ s
+SHA1-Digest: HqHOjIyG4+SoP/E1NqIPB0NMI4g=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$Cus
+ tomToolBarManager.class
+SHA1-Digest: smWdJedP9SkIIZ+VEMCTFcIrX94=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/ScanConditionRow$3.class
+SHA1-Digest: pjm9LZD2IvEIOZIPMTq+whLhryE=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor.class
+SHA1-Digest: Q8YKyX7Jgk+xkhHF3rG/r7P4Xvk=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBExplorerActionPr
+ ovider.class
+SHA1-Digest: iyUjkZ74oYd8o4vigjdQUdaU/Ac=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/ScanConditionRow$10.class
+SHA1-Digest: rFgJJ/Iu9T6u5CEmBdb5+ViZoKM=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/AttributeValueEditor$1.cla
+ ss
+SHA1-Digest: 8++erMjumVo2vFuxFiTecRz0UJw=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBExplorerActionPr
+ ovider$StopTestToolAction.class
+SHA1-Digest: Js4VTkB3/lLCg5LjZO7pzUsN74Q=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddGSIDialog$AttributeLi
+ st$1.class
+SHA1-Digest: Ed0+OTqCnHtZEc9fwrkoiYk45SA=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.dynam
+ odb/pom.properties
+SHA1-Digest: cvkH8asrAFjLUPxY1biNmPc8tF0=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/StartTestToolPickVersion
+ WizardPage$1.class
+SHA1-Digest: SZz26gjVGmsmAWhD6ragSGghQvM=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$10.cla
+ ss
+SHA1-Digest: CfEqRY+6Zaa9AJlSNIZN9yjBRT0=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolManager$Manifest
+ ContentHandler.class
+SHA1-Digest: ju827fqwslqyiyuPxRLd4zz4Tio=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$TextCe
+ llEditorListener$4.class
+SHA1-Digest: kjv2A6HQXoDWJUMpR3X7l+q/HRU=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/StartTestToolWizard.clas
+ s
+SHA1-Digest: PJ79EWpCu7T3rjWuRsLnGl+6yzk=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/TablePropertiesDialog$In
+ dexTable.class
+SHA1-Digest: od7WdYz2so0A3q+MnA5B+6OeG0M=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/AttributeValueUtil.class
+SHA1-Digest: IxXRnA79j1Fo6M47bt8PvHXhWb8=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/ScanConditionRow$6.class
+SHA1-Digest: SyhSet3N6JH4sFYGnTjds3xu6oE=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/TablePropertiesDialog$In
+ dexTable$IndexTableContentProvider.class
+SHA1-Digest: 5x/kzY35Aozn4fJnbLaiX4K5vkY=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBExplorerActionPr
+ ovider$DeleteTableAction.class
+SHA1-Digest: OqtJ5sOTIqf42uqmO/96+RL/Sgs=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/TablePropertiesDialog.cl
+ ass
+SHA1-Digest: +mo+Pw9gWF3vWZalS2dZXp2+pnY=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/TablePropertiesDialog$1.
+ class
+SHA1-Digest: DGeByVrI4yu1WWCC54YvvWNWcuU=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableSecondPage$In
+ dexTable$1.class
+SHA1-Digest: Jh2vVQD4t6+kiXt0yefwo2Li4Xs=
+
+Name: icons/dynamodb-service.png
+SHA1-Digest: PQJR///8Q5Msq/ts5j5InFy1vGk=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableDataModel.cla
+ ss
+SHA1-Digest: TysY92TPTetD+uq/RotlsA4FFCE=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$Create
+ NewItemDialog$2.class
+SHA1-Digest: sPgQwZuvLT9sCO+guTQQyb2/DRo=
+
+Name: icons/next_results.png
+SHA1-Digest: YBA2JN+ADnKhUgo4xRPZmHON9WQ=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$TextCe
+ llEditorListener$3$1.class
+SHA1-Digest: 9NUVTrhVgaXszzBBlDaa257mhus=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableWizard.class
+SHA1-Digest: cbRUiNxBVQmYJ57k1qbokXW4Hpw=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableFirstPage.cla
+ ss
+SHA1-Digest: G64OF8krOfwdfC7mKAjL9Vq/HoY=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddLSIDialog$AttributeLi
+ stContentProvider.class
+SHA1-Digest: GgW3/IUJ6EGF6L/L0i+3gC9GsYE=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableSecondPage$4.
+ class
+SHA1-Digest: f0+muvEQUYNk+ZML0wpoFyLiIts=
+
+Name: com/amazonaws/eclipse/dynamodb/DynamoDBPlugin$DefaultTestToolPor
+ tListener.class
+SHA1-Digest: hPzbrOB9pbXtOO2xFYAquK/K0ZU=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/ScanConditionRow$8.class
+SHA1-Digest: fJmg2kZQ62FR7+2v0IGtBVZ9SYw=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/EditedItem.class
+SHA1-Digest: 2oaNyxudlha0XC4ouCpMrSqDVXE=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/MultiValueAttributeEditorD
+ ialog.class
+SHA1-Digest: Dg2FmEHdDRctbhGZ4wW2yc9ZJZo=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableSecondPage$In
+ dexTable$IndexTableContentProvider.class
+SHA1-Digest: ewjt1jdqZ1wURNJ4v4O0T76Ks7Q=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$Ver
+ sionComparator.class
+SHA1-Digest: TIrXyzdVffCj/Eoz6ZrdyQVdZQ0=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$6.c
+ lass
+SHA1-Digest: D0xK3QQ5j3Pfdnur4ZNoD3MMLtI=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$9.clas
+ s
+SHA1-Digest: P24BjaCde4aVinxeG4RbJTU+JAE=
+
+Name: icons/1.png
+SHA1-Digest: s5QyFjw6fixgtlk0OPI4WnxtiKk=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBExplorerActionPr
+ ovider$DeleteTableAction$1.class
+SHA1-Digest: g2Ielp+vIcfNPapalL/3/CqBqCE=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableSecondPage.cl
+ ass
+SHA1-Digest: bfJu8/4xMgLM0OspB5RC48/r3aM=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBContentProvider.
+ class
+SHA1-Digest: E5XsOD1x+CLIqlL8rEkPFVfM9ls=
+
+Name: com/amazonaws/eclipse/dynamodb/AbstractAddNewAttributeDialog$1.c
+ lass
+SHA1-Digest: xo8LDmR79wy75jPJcrcy8Z172oc=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.dynam
+ odb/pom.xml
+SHA1-Digest: 9Z62KOAPJzwWxRodMPsmPUch5D4=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableSecondPage$6.
+ class
+SHA1-Digest: y+UtVCfqSVVNvZ8aiKtwKL+x85Q=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableSecondPage$In
+ dexTable$IndexTableLabelProvider.class
+SHA1-Digest: xmydb/FOa7AqDkHVz17H2N/qOZY=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolManager.class
+SHA1-Digest: rySdSnJT68ChmE1XsT5ewTInPTc=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/EditedItems.class
+SHA1-Digest: VkdQuMLeX+1mDLG9otZvorg1RMo=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersion.class
+SHA1-Digest: dy8mSCltbH/mRLGUtCC8kLpWv8E=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableSecondPage$In
+ dexTable$1$1.class
+SHA1-Digest: Ps/MfQoSPkSg9aKAS7aFuyTe5K0=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolProcess$2.class
+SHA1-Digest: LAgZxhZIF532Cj4L7sqHO5UBUmA=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/TableEditorInput.class
+SHA1-Digest: FKfCXo/AFbO81KaU56n5QCBkukI=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBTableNodeDecorat
+ or.class
+SHA1-Digest: azxPgpGEGFErM6g6y/MsSzrA9Qw=
+
+Name: icons/add.png
+SHA1-Digest: MwPD/I2mitAMlRn+hIY+o5XbNvw=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddGSIDialog$1.class
+SHA1-Digest: 3rl+oy3UF1EXbTAnVv5eoid1uA8=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$3.clas
+ s
+SHA1-Digest: 0R64eMrrK2As9e60Xn206pfvqx4=
+
+Name: com/amazonaws/eclipse/dynamodb/preferences/PreferenceInitializer
+ .class
+SHA1-Digest: tuXSrBMViSJgIafSmbUMiKH066A=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/ScanConditionRow$9.class
+SHA1-Digest: /JpkaIl2pHq1CQ2l+yvN//Mff3g=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$TextCe
+ llEditorListener$1.class
+SHA1-Digest: 9mFes/K/yfBrTNS7OPeCG7WSxYs=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/TablePropertiesDialog$In
+ dexTable$IndexTableLabelProvider.class
+SHA1-Digest: JoM2MCrkTtvfFCI4d6R8AcAy/sM=
+
+Name: icons/table.png
+SHA1-Digest: YO/BWAX4EMo+EWmXt55mybcnmiA=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$10$1.c
+ lass
+SHA1-Digest: 2oeGqT8/A390fY7TSzq2WoBmq7U=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolProcess$1.class
+SHA1-Digest: hkqy/+gFZ3aPSiWoQEhvye4gv/g=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$Conten
+ tProvider.class
+SHA1-Digest: +COHqxkwuCKpwdM2Yg/GXCK8WWY=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBExplorerActionPr
+ ovider$TablePropertiesAction$1.class
+SHA1-Digest: g8IBv1M+GEVnMjmD0Tbv9Dmk0rU=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$TextCe
+ llEditorListener$6.class
+SHA1-Digest: b3GoCVgxlzCqT0tXEr7wf0t0nQo=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/ScanConditionRow$4.class
+SHA1-Digest: DicQ2/JPiyVTnm5iTfaf8VxK4bI=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddGSIDialog$2.class
+SHA1-Digest: CnTNCVxoRy9O59bwON0oX0mDUIc=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableSecondPage$5.
+ class
+SHA1-Digest: 1AbuQXeOCrinBHQIMRmybv/f8Aw=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$7$NewA
+ ttributeDialog.class
+SHA1-Digest: LPM2vSaasXMYPp0ergoAX/NxNgg=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/DynamoDBTableEditor$4.clas
+ s
+SHA1-Digest: v6X4G+M6NqdhRiqGwy0yMoV0tZc=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/CreateTableSecondPage$In
+ dexTable.class
+SHA1-Digest: YcL/b4SQF8A+LSa12C7EW3Ee8Y8=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$Uni
+ nstallJob.class
+SHA1-Digest: jJSI1Qo3yvH+mH1bt2mgteRwBck=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/OpenTableEditorAction.clas
+ s
+SHA1-Digest: 2fWD59T4RKTVM+h+WWIM5nYnkhk=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/StartTestToolConfigurati
+ onWizardPage$1.class
+SHA1-Digest: NifuZs5+vJu5h0Nim/z886cfxK0=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/TablePropertiesDialog$2.
+ class
+SHA1-Digest: ieIG96k7miWtEUuHiJrThvOaV1E=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBExplorerActionPr
+ ovider$TablePropertiesAction.class
+SHA1-Digest: wj3KTQMbWfja8+YOsXuQK1rIaRo=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/DynamoDBExplorerActionPr
+ ovider$StartTestToolAction.class
+SHA1-Digest: yr0w1ST5ejx4wlBfham4mF3GTgs=
+
+Name: com/amazonaws/eclipse/explorer/dynamodb/AddLSIDialog$AddNewAttri
+ buteDialog.class
+SHA1-Digest: wVBQMhnjjn4rHd3xO2nA24UpRuw=
+
+Name: com/amazonaws/eclipse/dynamodb/testtool/TestToolVersionTable$1.c
+ lass
+SHA1-Digest: OE4rY9Zpi0VvQsno9mWvhtmYntQ=
+
+Name: com/amazonaws/eclipse/dynamodb/editor/AttributeValueInputDialog.
+ class
+SHA1-Digest: VSxQ6nJYRp2Y6TdE29ZEFSIZYvY=
+

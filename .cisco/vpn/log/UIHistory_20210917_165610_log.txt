@@ -1,0 +1,80 @@
+<acguiNotice module="com.cisco.anyconnect.presentation.nac" type="update" timestamp="17-09-2021 16:56:10" state="Neutral">
+	<traystate id="tray_state_string" value="Compliance Unknown"/>
+	<label id="simple_status" value="System scan not required on current Wi-Fi." tooltip="System scan not required on current Wi-Fi." color="black" hidden="false" disabled="false"/>
+	<log messagehistory="System scan not required on current Wi-Fi."/>
+	<label id="simple_second_status" value="" tooltip="" color="black" hidden="false" disabled="false"/>
+	<progressmeter id="simple_progress_meter" progressvalue="-1" progressupper="100" hidden="true"/>
+	<label id="simple_progress_percent" value="-1%" color="black" hidden="true" disabled="false"/>
+	<button id="detail_tile_label" label="Details" tooltip="Details" hidden="true" disabled="true"/>
+	<progressmeter id="rem_progress_bar" progressvalue="-1" progressupper="100" hidden="true"/>
+	<label id="rem_progress_percent" value="-1%" color="black" hidden="true" disabled="false"/>
+	<label id="rem_progress_label" value="System Scan Progress" color="black" hidden="true" disabled="false"/>
+	<label id="rem_time_remaining_warning" value=" " color="black" hidden="true" disabled="false"/>
+	<label id="rem_time_remaining_warning_img" value=" " color="black" hidden="true" disabled="false"/>
+	<button id="rem_cancel_btn" label="Cancel" tooltip="Cancel" hidden="false" disabled="true"/>
+	<button id="rem_skipall_btn" label="Skip All" tooltip="Skip All" hidden="true" disabled="false"/>
+	<button id="nac_try_again_btn" label="Scan Again" tooltip="Scan Again" hidden="true" disabled="false"/>
+	<button id="simple_action_btn" label="Cancel" tooltip="Cancel" hidden="true" disabled="false"/>
+	<button id="rem_done_btn" label="Close" tooltip="Close" hidden="true" disabled="false"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.nac" type="apilog" tag="apilog" timestamp="17-09-2021 16:56:19">
+	<statusnotification status="6" compliant="3" remStatus="0" phase="0" step="-1" progress="-1" attention="0" cancelable="0" restartable="0" description1="System scan not required on current Wi-Fi." description2=""/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.nac" type="popup">
+	<popup timestamp="17-09-2021 16:56:19" id="nac_remediaton_popup" type="remediation" show="false"/>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.nac" type="update" timestamp="17-09-2021 16:56:19">
+	<outlinelistbox id="stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_compliance_info">
+			<listrowcolumn label="Compliance Information"/>
+			<listrow id="stat_id_current_status">
+				<listrowcolumn label="Current Status:"/>
+				<listrowcolumn label="Compliance Unknown"/>
+			</listrow>
+			<listrow id="stat_id_outstanding_req">
+				<listrowcolumn label="Missing Requirements:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+			<listrow id="stat_id_outstanding_optionals">
+				<listrowcolumn label="Remaining Optional Updates:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.nac" type="update" timestamp="17-09-2021 16:56:19">
+	<outlinelistbox id="overview_stat_outlinelistbox" updaterows="true" num_columns="2">
+		<listgroup id="stat_group_nac">
+			<listrowcolumn label="System Scan (Compliance Unknown)"/>
+			<listrow id="stat_id_last_check">
+				<listrowcolumn label="Latest Scan Start Time:"/>
+				<listrowcolumn label="Not Available"/>
+			</listrow>
+		</listgroup>
+	</outlinelistbox>
+</acguiNotice>
+
+<acguiNotice module="com.cisco.anyconnect.presentation.nac" type="update" timestamp="17-09-2021 16:56:19" state="Neutral">
+	<traystate id="tray_state_string" value="Compliance Unknown"/>
+	<label id="simple_status" value="System scan not required on current Wi-Fi." tooltip="System scan not required on current Wi-Fi." color="black" hidden="false" disabled="false"/>
+	<log messagehistory="System scan not required on current Wi-Fi."/>
+	<label id="simple_second_status" value="" tooltip="" color="black" hidden="false" disabled="false"/>
+	<progressmeter id="simple_progress_meter" progressvalue="-1" progressupper="100" hidden="true"/>
+	<label id="simple_progress_percent" value="-1%" color="black" hidden="true" disabled="false"/>
+	<button id="detail_tile_label" label="Details" tooltip="Details" hidden="true" disabled="true"/>
+	<progressmeter id="rem_progress_bar" progressvalue="-1" progressupper="100" hidden="true"/>
+	<label id="rem_progress_percent" value="-1%" color="black" hidden="true" disabled="false"/>
+	<label id="rem_progress_label" value="System Scan Progress" color="black" hidden="true" disabled="false"/>
+	<label id="rem_time_remaining_warning" value=" " color="black" hidden="true" disabled="false"/>
+	<label id="rem_time_remaining_warning_img" value=" " color="black" hidden="true" disabled="false"/>
+	<button id="rem_cancel_btn" label="Cancel" tooltip="Cancel" hidden="false" disabled="true"/>
+	<button id="rem_skipall_btn" label="Skip All" tooltip="Skip All" hidden="true" disabled="false"/>
+	<button id="nac_try_again_btn" label="Scan Again" tooltip="Scan Again" hidden="true" disabled="false"/>
+	<button id="simple_action_btn" label="Cancel" tooltip="Cancel" hidden="true" disabled="false"/>
+	<button id="rem_done_btn" label="Close" tooltip="Close" hidden="true" disabled="false"/>
+</acguiNotice>
+

@@ -1,0 +1,259 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.amazonaws.eclipse.opsworks;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: root
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime;bundle-version
+ ="3.4.0",org.eclipse.core.resources;bundle-version="3.4.0",org.eclips
+ e.core.databinding;bundle-version="1.2.0",org.eclipse.core.databindin
+ g.beans;bundle-version="1.2.0",org.eclipse.core.databinding.observabl
+ e;bundle-version="1.2.0",org.eclipse.core.databinding.property;bundle
+ -version="1.2.0",org.eclipse.jface.databinding;bundle-version="1.3.0"
+ ,org.eclipse.jst.j2ee;bundle-version="1.1.0",org.eclipse.jst.j2ee.web
+ ;bundle-version="1.1.0",com.amazonaws.eclipse.core;bundle-version="2.
+ 2.0",org.eclipse.ui.navigator;bundle-version="3.2.0",org.eclipse.ui.c
+ onsole;bundle-version="2.0.0",org.eclipse.wst.common.frameworks;bundl
+ e-version="1.1.0",org.eclipse.wst.common.project.facet.core;bundle-ve
+ rsion="1.3.0",com.amazonaws.eclipse.javasdk;bundle-version="1.11.130"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Amazon Web Services
+Export-Package: com.amazonaws.eclipse.opsworks.deploy.util
+Bundle-Name: AWS OpsWorks Plugin
+Bundle-Version: 1.0.0.v201807201743
+Bundle-ClassPath: .,icons/
+Bundle-Activator: com.amazonaws.eclipse.opsworks.OpsWorksPlugin
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_171
+
+Name: com/amazonaws/eclipse/opsworks/explorer/node/OpsWorksRootNode.cl
+ ass
+SHA1-Digest: 1dBkLLZ5T96w+5wgCaCeZYvnxWQ=
+
+Name: plugin.xml
+SHA1-Digest: sym5yVyqrbC4W5gQDfK3SXTb2vg=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/TargetAppSelec
+ tionPage$3.class
+SHA1-Digest: /ffN//UdHyg/pit6rgTuZqo9H1s=
+
+Name: icons/stack.png
+SHA1-Digest: aCOCj7KD0NCgfBMBTvjAvg9j3Qo=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/NewAppConfigur
+ ationComposite$5.class
+SHA1-Digest: fuUuZcB4Tr7S4QmOsF5Q2pj2/Yc=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/AppConfigurati
+ onPage.class
+SHA1-Digest: Fs4py04s4cQsUs8SaLzsNn9WIlM=
+
+Name: com/amazonaws/eclipse/opsworks/explorer/OpsWorksContentProvider.
+ class
+SHA1-Digest: PJzK8BWGXdNKYtZm6ELQrs7mFbk=
+
+Name: icons/aws-box.gif
+SHA1-Digest: FncMVzZA7OR/pQhZYLN+86K95X4=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/DeployProjectToOpsw
+ orksWizard$1$1.class
+SHA1-Digest: B256G+2LWIZaK4b1qhx9fj3nJMI=
+
+Name: icons/layer.png
+SHA1-Digest: OyDsyJATQ44A99fRXF4SKZbkwlw=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/DeploymentActi
+ onConfigurationPage.class
+SHA1-Digest: vFBMGqx4zIyUr8mxMwgGO4TKvmE=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/TargetAppSelec
+ tionPage$LoadStacksThread$1.class
+SHA1-Digest: VtHrkNHDATnwy9flSvbhGwvzFXI=
+
+Name: icons/instance.png
+SHA1-Digest: 1B2VmigPMKvm5W66A/RS34Qm5ao=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/util/DeployUtils.class
+SHA1-Digest: 0LKY1YLWo5TncWjon82vAiRApzY=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/TargetAppSelec
+ tionPage$LoadJavaAppsThread.class
+SHA1-Digest: 5uPKdRs457gNIxJTMpGIqOzaauY=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/NewAppConfigur
+ ationComposite$1.class
+SHA1-Digest: rZy94SbRZpUg1CU9iMlGLxDzjJM=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.opswo
+ rks/pom.xml
+SHA1-Digest: 6m9isqFciMfJkzWhi0yT5EbkT4o=
+
+Name: com/amazonaws/eclipse/opsworks/explorer/OpsWorksContentProvider$
+ 3.class
+SHA1-Digest: GXqEfhWyS/5CS5YhlFtOg2YsRjg=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/util/ZipUtils.class
+SHA1-Digest: odTy+Iz18nVpNkVeZiuD4NDu2lw=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/AppConfigurati
+ onPage$1.class
+SHA1-Digest: xfwDWHwVudB6gKIsg6Lch8pSfuw=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/DeployProjectToOpsw
+ orksWizard$1$1$2.class
+SHA1-Digest: tfYM0j2bRinxy1+q98ndcjURWLs=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/DeployProjectToOpsw
+ orksWizard$1.class
+SHA1-Digest: eBxo4tZivlmLtmbPVOi8EFG5iWc=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/TargetAppSelec
+ tionPage$2.class
+SHA1-Digest: d45HCFcbYdIWxtZLCLrCaP5KaIk=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/NewAppConfigur
+ ationComposite.class
+SHA1-Digest: FMxZYh++nVZcUVAHsdyYKmWBMhA=
+
+Name: com/amazonaws/eclipse/opsworks/explorer/ExplorerSorter.class
+SHA1-Digest: aCNnutNIvil37JROGWxTRyTGFGs=
+
+Name: com/amazonaws/eclipse/opsworks/ServiceAPIUtils.class
+SHA1-Digest: 8AvFvMGeDtlWaU/iXegWrLM+8Y0=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/TargetAppSelec
+ tionPage$LoadJavaAppsThread$1.class
+SHA1-Digest: oP8NNC0riXS+ljhTDjW8foUDHdw=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/NewAppConfigur
+ ationComposite$2.class
+SHA1-Digest: yQrBrZImW9Evmpqdpjx2bPtrpbM=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/TargetAppSelec
+ tionPage$5.class
+SHA1-Digest: ZZlmQxj3z1LTLiUWSxlEjsCAEVM=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/model/DeployProject
+ ToOpsworksWizardDataModel.class
+SHA1-Digest: V+3JClpDW4WfoWjzFZF1GrcUETE=
+
+Name: icons/app.png
+SHA1-Digest: lxPLfKYFeTj88XDY8vhtjf6zN/w=
+
+Name: com/amazonaws/eclipse/opsworks/UrlConstants.class
+SHA1-Digest: cUAwnG/9ehWtSZaRoEj+OKbmXFM=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/TargetAppSelec
+ tionPage$LoadStacksThread.class
+SHA1-Digest: dlKYAJEJNE9OGVF3+UGmN8rKqB0=
+
+Name: com/amazonaws/eclipse/opsworks/explorer/node/AppsRootNode.class
+SHA1-Digest: a1ZQrZ34y5XrAS0HMRW1HJiwxKg=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/DeploymentActi
+ onConfigurationPage$1.class
+SHA1-Digest: Jv7ZL1PZJ22bgaqdkf53YWPz36g=
+
+Name: com/amazonaws/eclipse/opsworks/explorer/image/OpsWorksExplorerIm
+ ages.class
+SHA1-Digest: zAW3d3GAFgS2HYfmM70YsGCwG3I=
+
+Name: icons/add.png
+SHA1-Digest: yj2qLKvyLJaxmwZfHOgtgE32WHo=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/NewAppConfigur
+ ationComposite$3.class
+SHA1-Digest: JCC3XToDWmRX9v/1PKr591ETODI=
+
+Name: com/amazonaws/eclipse/opsworks/explorer/node/LayersRootNode.clas
+ s
+SHA1-Digest: SNTnOfFJgMuD/ENBMP00/p1I2bA=
+
+Name: com/amazonaws/eclipse/opsworks/explorer/ExplorerNodeDecorator.cl
+ ass
+SHA1-Digest: guSnyDOPUfdZ2MqFAi004QXKzMk=
+
+Name: com/amazonaws/eclipse/opsworks/explorer/OpsWorksContentProvider$
+ 1.class
+SHA1-Digest: 95XI609jeXkpzIWzTK6CsHRJA+Y=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/util/WTPWarUtils.class
+SHA1-Digest: v47dEAxN3qb1nhOnQom2q9zUqgY=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/TargetAppSelec
+ tionPage$1.class
+SHA1-Digest: 4ypg8KZKv3yopy3ZwqXva4NhJeM=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/WizardPageWith
+ OnEnterHook.class
+SHA1-Digest: L/bTAEqN0vCwTOv+k+7FWtYAHCs=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/model/DeployProject
+ ToOpsworksWizardDataModel$SslConfiguration.class
+SHA1-Digest: v4mTUR1V+Z8GNw77LIb8Y53n6Aw=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/model/DeployProject
+ ToOpsworksWizardDataModel$EnvironmentVariable.class
+SHA1-Digest: 1/9hO+h6DgYeFWyRwHBOc3ncEUg=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/DeployProjectToOpsw
+ orksWizard.class
+SHA1-Digest: 5pVLEBqRWbwXZPL+/sZ7fX+4swU=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/DeployProjectToOpsw
+ orksWizard$1$1$1.class
+SHA1-Digest: e4A34rgX0eX/r+Dno6N2uaIDltE=
+
+Name: com/amazonaws/eclipse/opsworks/explorer/node/LayerElementNode.cl
+ ass
+SHA1-Digest: QUSmG2tlnxGZ9fD1b9Dhk0dWpnA=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/NewAppConfigur
+ ationComposite$4.class
+SHA1-Digest: VffM6w3kCTbUamZg4/0ls2CzQJA=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.opswo
+ rks/pom.properties
+SHA1-Digest: RDd+uLinE58cpyhDSbBOU/Sp/jo=
+
+Name: com/amazonaws/eclipse/opsworks/OpsWorksPlugin.class
+SHA1-Digest: 2gWAlpsuwkHIQD7Ci3++IqcDYYU=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/TargetAppSelec
+ tionPage$4.class
+SHA1-Digest: 6oczPJ2npCSpjfvmZ1xUKf1AE0k=
+
+Name: com/amazonaws/eclipse/opsworks/explorer/OpsWorksLabelProvider.cl
+ ass
+SHA1-Digest: UMVNBWinuT5a5NHAqymRQ030ujc=
+
+Name: icons/opsworks-service.png
+SHA1-Digest: aAQX6Mc9nm3FZ5qq3ogH30t8Ruk=
+
+Name: com/amazonaws/eclipse/opsworks/explorer/OpsWorksActionProvider.c
+ lass
+SHA1-Digest: VZGXq+ci6d2akXgatBF9y+JNiHU=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/handler/DeployProjectToOps
+ worksHandler.class
+SHA1-Digest: 2LFds4dUEH/I0cWS0H7j8BfJr0A=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/ExistingAppCon
+ figurationReviewComposite.class
+SHA1-Digest: a1ysq4yvQabgk1CzFSLHOBekX34=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/page/TargetAppSelec
+ tionPage.class
+SHA1-Digest: CUHZFn9p5vurFgRydBeqNrzZaks=
+
+Name: com/amazonaws/eclipse/opsworks/deploy/wizard/model/S3Application
+ Source.class
+SHA1-Digest: tSpFnnCHg9hd+RefWRBi4sBR6nA=
+
+Name: icons/deployment.png
+SHA1-Digest: MRhCr+j0eFgALOa8Hva/vELyeT0=
+
+Name: com/amazonaws/eclipse/opsworks/explorer/OpsWorksContentProvider$
+ 2.class
+SHA1-Digest: TK+xUzvIgiTlCE4hIcBmpmZmYjw=
+

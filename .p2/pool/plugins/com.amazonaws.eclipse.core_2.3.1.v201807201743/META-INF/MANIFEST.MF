@@ -1,0 +1,2328 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.amazonaws.eclipse.core;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: root
+Require-Bundle: org.eclipse.swt,org.eclipse.jface,org.eclipse.ui,org.e
+ clipse.core.runtime,org.eclipse.core.net,org.eclipse.help,org.eclipse
+ .ui.forms,org.eclipse.ui.navigator,org.eclipse.core.resources,org.ecl
+ ipse.jdt.ui,org.eclipse.core.expressions,org.eclipse.core.databinding
+ ,org.eclipse.jface.databinding,org.eclipse.jdt.core,org.eclipse.core.
+ databinding.beans;bundle-version="1.2.100",org.eclipse.m2e.core;bundl
+ e-version="1.5.1",org.eclipse.m2e.core.ui;bundle-version="1.5.1",org.
+ eclipse.m2e.archetype.common;bundle-version="1.5.1",org.eclipse.m2e.m
+ aven.runtime;bundle-version="1.5.1",org.eclipse.ui.ide,org.eclipse.ui
+ .console,org.eclipse.egit;bundle-version="3.4.2",org.eclipse.egit.cor
+ e;bundle-version="3.4.2",org.eclipse.egit.doc;bundle-version="3.4.2",
+ org.eclipse.egit.ui;bundle-version="3.4.2",org.eclipse.jgit;bundle-ve
+ rsion="3.4.2",org.eclipse.core.variables;bundle-version="3.2.800",org
+ .eclipse.equinox.security;bundle-version="1.2.0",org.eclipse.core.dat
+ abinding.property,com.amazonaws.eclipse.javasdk;bundle-version="1.11.
+ 130",org.eclipse.m2e.launching
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Amazon Web Services
+Import-Package: org.eclipse.debug.core,org.eclipse.debug.core.model,or
+ g.eclipse.debug.ui,org.eclipse.jdt.annotation,org.eclipse.jdt.launchi
+ ng
+Export-Package: com.amazonaws.eclipse.core,com.amazonaws.eclipse.core.
+ accounts,com.amazonaws.eclipse.core.accounts.preferences,com.amazonaw
+ s.eclipse.core.accounts.profiles,com.amazonaws.eclipse.core.ansi,com.
+ amazonaws.eclipse.core.diagnostic.utils,com.amazonaws.eclipse.core.eg
+ it,com.amazonaws.eclipse.core.egit.jobs,com.amazonaws.eclipse.core.eg
+ it.ui,com.amazonaws.eclipse.core.exceptions,com.amazonaws.eclipse.cor
+ e.maven,com.amazonaws.eclipse.core.mobileanalytics,com.amazonaws.ecli
+ pse.core.model,com.amazonaws.eclipse.core.plugin,com.amazonaws.eclips
+ e.core.preferences,com.amazonaws.eclipse.core.regions,com.amazonaws.e
+ clipse.core.ui,com.amazonaws.eclipse.core.ui.dialogs,com.amazonaws.ec
+ lipse.core.ui.menu,com.amazonaws.eclipse.core.ui.overview,com.amazona
+ ws.eclipse.core.ui.preferences,com.amazonaws.eclipse.core.ui.preferen
+ ces.accounts,com.amazonaws.eclipse.core.ui.wizards,com.amazonaws.ecli
+ pse.core.util,com.amazonaws.eclipse.core.validator,com.amazonaws.ecli
+ pse.core.widget,com.amazonaws.eclipse.databinding,com.amazonaws.eclip
+ se.explorer,com.amazonaws.eclipse.explorer.sns,com.amazonaws.eclipse.
+ explorer.sqs
+Bundle-Name: AWS Toolkit Core Plugin
+Bundle-Version: 2.3.1.v201807201743
+Bundle-ClassPath: etc/,icons/,.,lib/aws-java-sdk-mobile-analytics-1.11
+ .21.jar,lib/jsoup-1.7.3.jar,lib/errorreport-1.0.0.jar,lib/aws-java-sd
+ k-opensdk-1.11.130.jar
+Bundle-Activator: com.amazonaws.eclipse.core.AwsToolkitCore
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_171
+
+Name: com/amazonaws/eclipse/explorer/sqs/AddMessageAction$AddMessageDi
+ alog.class
+SHA1-Digest: LwpktITggq3LvTfY3Pbv1MfbPSs=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/S3ObjectSummaryDropAction.
+ class
+SHA1-Digest: AnbMeBCH5rh/9vr1WUFwWJzWquA=
+
+Name: com/amazonaws/eclipse/core/widget/RadioButtonComplex$RadioButton
+ ComplexBuilder.class
+SHA1-Digest: BoZLF9ekDk1M9m43rnqOpWx+QLw=
+
+Name: com/amazonaws/eclipse/core/ansi/AnsiConsolePreferenceUtils.class
+SHA1-Digest: kr9wUJJmEnoxq+XrAPufJjHs7cI=
+
+Name: com/amazonaws/eclipse/explorer/s3/acls/EditPermissionsDialog$5.c
+ lass
+SHA1-Digest: 40sP+Dm+DSbfrj3P3G8YjBFkI58=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/KeySelectionDialog$1.class
+SHA1-Digest: siWfJ6VM4psfzFQfmn3TyUckRD8=
+
+Name: com/amazonaws/eclipse/core/accounts/preferences/PreferenceValueE
+ ncodingUtil.class
+SHA1-Digest: CONPJLd1qbEylaPVnS7SPnwkLA4=
+
+Name: com/amazonaws/eclipse/core/egit/ui/SourceBranchPage$4.class
+SHA1-Digest: jDDJQhOE2NQgw11U2qhmkM/1Hok=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ geTab$5.class
+SHA1-Digest: qi0EtsplLaVh3EHDIMvZP1KPs2Q=
+
+Name: com/amazonaws/eclipse/core/egit/jobs/ImportProjectJob.class
+SHA1-Digest: cGaOqG4VwP4POBXi7CtBZlTnCkA=
+
+Name: com/amazonaws/eclipse/explorer/sqs/SQSActionProvider$CreateQueue
+ Action.class
+SHA1-Digest: NGhRY5gUAvGJEo7/mijSEhaP3wg=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontLabelProvide
+ r.class
+SHA1-Digest: 2P/GIkDTPgGazvdulzEh+8Et5yc=
+
+Name: com/amazonaws/eclipse/core/validator/RegionalizedValidator.class
+SHA1-Digest: vf9HD2Yx1bMNuc6Gj/TdC5Vx8rg=
+
+Name: com/amazonaws/eclipse/core/accounts/profiles/SdkProfilesFactory.
+ class
+SHA1-Digest: LEiKytm5UKqxhAny0gvG1Q3Ylec=
+
+Name: lib/aws-java-sdk-mobile-analytics-1.11.21.jar
+SHA1-Digest: 9hpseNzwNim5CH7PLunsAhc+k4c=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/cognito/identity/Tool
+ kitCachedCognitoIdentityIdProvider.class
+SHA1-Digest: zpuNVn8wQ9U2WzuqYEQwBj+aekY=
+
+Name: com/amazonaws/eclipse/core/regions/RegionUtils.class
+SHA1-Digest: 8J1OIC8bLWHcAXbC7trHMivPJ24=
+
+Name: com/amazonaws/eclipse/core/ui/MultipleSelectionListComposite$1.c
+ lass
+SHA1-Digest: UthO2MjNPzFGLMoBExtOB1N4atA=
+
+Name: com/amazonaws/eclipse/databinding/RangeValidator.class
+SHA1-Digest: sgpJAftb2qqgUmdvzEWxZsyIPxA=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.core/
+ pom.properties
+SHA1-Digest: 1L/K9PzLx9Igvbs3Q+BMDrLVyUI=
+
+Name: com/amazonaws/eclipse/core/ui/setupwizard/ConfigureAccountWizard
+ Page.class
+SHA1-Digest: ftAyoAIzfHXPVefoaftwDZGKjRE=
+
+Name: com/amazonaws/eclipse/core/accounts/preferences/PluginPreference
+ StoreAccountOptionalConfiguration.class
+SHA1-Digest: mzN4OdX05CSxV7BTrOXDDwVh1Fc=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/RegionsPreferencePage.
+ class
+SHA1-Digest: aRgMNoARljR0/dB7iADWYeZ1Kpg=
+
+Name: com/amazonaws/eclipse/core/ui/AccountSelectionComposite$1.class
+SHA1-Digest: iV1sCAJl406w8FDHthkgP5tIg6Y=
+
+Name: com/amazonaws/eclipse/core/model/AwsResourceMetadata.class
+SHA1-Digest: HwPR4BBInS+hc3oL6jeAG0ooIns=
+
+Name: com/amazonaws/eclipse/explorer/sqs/SQSActionProvider$CreateQueue
+ Dialog$2.class
+SHA1-Digest: kj7UdrDJq3u0m71VOs94lhTG8t4=
+
+Name: com/amazonaws/eclipse/explorer/sqs/SQSActionProvider$CreateQueue
+ Dialog.class
+SHA1-Digest: EAaNlfeqMLls0ZVvRp1ceYDghhM=
+
+Name: com/amazonaws/eclipse/core/plugin/AbstractAwsProjectWizard$1$1.c
+ lass
+SHA1-Digest: XeV9l7xYohCKiSp2BxVmSPz3u9U=
+
+Name: icons/wizards/configure_database.png
+SHA1-Digest: NYUhGxX43o/jKvpNFEn5X09nM8U=
+
+Name: icons/gradient-box/right.png
+SHA1-Digest: jyJNHg7d6qRYYDrmbzGYVg5gevg=
+
+Name: com/amazonaws/eclipse/core/preferences/AbstractPreferencePropert
+ yMonitor.class
+SHA1-Digest: YRQbm1myNZhA4HJvSLpsWuerFNA=
+
+Name: com/amazonaws/eclipse/core/egit/RepositorySelection.class
+SHA1-Digest: t8QF4xSsfjTtlwAmQ4dP6fwmsxI=
+
+Name: com/amazonaws/eclipse/core/ui/overview/FormsOverviewComposite$Lo
+ adJavaDeveloperBlogJob.class
+SHA1-Digest: qpDIYqLfKVwjlAqjFar0lrV5/zw=
+
+Name: com/amazonaws/eclipse/explorer/sns/SNSActionProvider$DeleteTopic
+ Action.class
+SHA1-Digest: D3Aazu3vQ7a3zE8nNXW2izseGkM=
+
+Name: com/amazonaws/eclipse/explorer/sqs/SQSLabelProvider.class
+SHA1-Digest: dHYNysN8xhkLtr/nKn/y1bz9dCY=
+
+Name: com/amazonaws/eclipse/explorer/s3/acls/EditObjectPermissionsDial
+ og.class
+SHA1-Digest: kyfpgNsvtUdEFaKd9fzA2XYCqGI=
+
+Name: com/amazonaws/eclipse/core/regions/RegionImpl.class
+SHA1-Digest: OgGj4X/flu/XLhEE+oZx0yaFFWw=
+
+Name: com/amazonaws/eclipse/core/regions/Service.class
+SHA1-Digest: 8g+wVrVUzzZZZTCo2NXsedfpumk=
+
+Name: com/amazonaws/eclipse/core/accounts/AccountOptionalConfiguration
+ .class
+SHA1-Digest: vveOPTnZwLlkrpbg9AJzknHi9ak=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/accounts/AccountInfoPr
+ opertyEditorFactory$AccountInfoFilePropertyEditor.class
+SHA1-Digest: cBc0slCZ7Db8BhhLz1Z4dyH4Y7Y=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3RootElement.class
+SHA1-Digest: l7nztAYwlDI48t9vpJh+o3IC/os=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/GeneratePresignedUrlAc
+ tion.class
+SHA1-Digest: nLDpsFgIj3cvMbfb5zKDTClJJss=
+
+Name: com/amazonaws/eclipse/core/diagnostic/utils/AwsErrorReportUtils.
+ class
+SHA1-Digest: FDWcaxNzdnJtAaW8tSdg+rmjKbM=
+
+Name: com/amazonaws/eclipse/core/ui/SelectOrCreateComposite.class
+SHA1-Digest: at/URjpbYdt9rhS7bxlCSxYtoxQ=
+
+Name: com/amazonaws/eclipse/core/util/WorkbenchUtils$2.class
+SHA1-Digest: cFWs8bLEvhhKnDmq/+8LOdwX5UI=
+
+Name: com/amazonaws/eclipse/core/util/BundleUtils.class
+SHA1-Digest: iEGtDDs8Njo6td6pwdta8LV1aHM=
+
+Name: com/amazonaws/eclipse/core/egit/SourceBranchFailureDialog.class
+SHA1-Digest: lMCYLrYAOronTP/O3j1IxHJghCk=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/accounts/AccountInfoPr
+ opertyEditorFactory.class
+SHA1-Digest: 14lMnl90xQS4N+U6dykY9JQCnf4=
+
+Name: com/amazonaws/eclipse/core/preferences/regions/DefaultRegionMoni
+ tor.class
+SHA1-Digest: auVmz8aNzFR1Ebs5ioKH7ILJ7TU=
+
+Name: com/amazonaws/eclipse/core/ui/KeyValueSetEditingComposite$5.clas
+ s
+SHA1-Digest: wiu5oj4FNLFbrDFFipvFfcnLyWM=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/GeneratePresignedUrlAc
+ tion$DateSelectionDialog.class
+SHA1-Digest: 6ZQc3d5CXDUkCfoX/5UmX9xdL60=
+
+Name: com/amazonaws/eclipse/core/egit/ui/SourceBranchPage$9.class
+SHA1-Digest: aUbFcuRgeTkjLEd5z5a8Ru36qg8=
+
+Name: com/amazonaws/eclipse/core/util/CliUtil$CliProcessTracker.class
+SHA1-Digest: jD6Zo1/2aSTsfqtXxkBt2XIujrQ=
+
+Name: icons/gear.png
+SHA1-Digest: f4y4rJGO2IrxgqVhUjEPgqldeF0=
+
+Name: com/amazonaws/eclipse/core/plugin/AbstractAwsWizard.class
+SHA1-Digest: xAODlKKcVngmeOS8ADRVgSDJbig=
+
+Name: com/amazonaws/eclipse/core/ui/swt/VerticalAlignment.class
+SHA1-Digest: arxTxk+fxywx6qsKC/04dWn5LMI=
+
+Name: com/amazonaws/eclipse/core/AwsUrls.class
+SHA1-Digest: K0DiDzsoya6HUN2NyMs4jeGbKcc=
+
+Name: com/amazonaws/eclipse/core/egit/jobs/CloneGitRepositoryJob$1.cla
+ ss
+SHA1-Digest: lIwNIqf30DS09b8PbXgYl0P8UzA=
+
+Name: com/amazonaws/eclipse/core/ui/overview/HyperlinkHandler.class
+SHA1-Digest: rKCaSdaCI1//52xIemmk/z6Rg7o=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ ge$RegionSelectionDialog.class
+SHA1-Digest: nbuNPiwV2PnilNDqdEb7PJ6doZc=
+
+Name: com/amazonaws/eclipse/explorer/s3/BucketEditorInput.class
+SHA1-Digest: 9gvNw8ld9n9vfU2g6jEK64k7bV4=
+
+Name: icons/grey-circle.png
+SHA1-Digest: A6HS9/CCB2NkTg5Qyp9Wq1XJbEc=
+
+Name: com/amazonaws/eclipse/explorer/AccountNotConfiguredContentProvid
+ er$AccountNotConfiguredNode.class
+SHA1-Digest: I6WOArgNFV6lZUE1rEvwC+n9mzY=
+
+Name: com/amazonaws/eclipse/explorer/sns/OpenTopicEditorAction.class
+SHA1-Digest: tbaJI+M5wHeYrxX09cGhMwxGFSw=
+
+Name: com/amazonaws/eclipse/core/widget/ComboViewerComplex$ComboViewer
+ ComplexBuilderBase.class
+SHA1-Digest: oyIxDimIbtlf/FdFWFREcARDSCc=
+
+Name: com/amazonaws/eclipse/explorer/AbstractContentProvider$DataLoade
+ rThread.class
+SHA1-Digest: UENuVERIhXvom17Z2lcJhuCUzh0=
+
+Name: com/amazonaws/eclipse/core/ui/CancelableThread.class
+SHA1-Digest: zOBKdovzQNfCTU3QCg/GhrBzbNo=
+
+Name: com/amazonaws/eclipse/explorer/actions/ConfigurationActionProvid
+ er$RefreshAction.class
+SHA1-Digest: BglRbr8wLytljSUJWrvO/64q5Ww=
+
+Name: com/amazonaws/eclipse/core/ui/wizards/CompositeWizardPage.class
+SHA1-Digest: tustECZwyWrxFMd/sTaoMY3USRI=
+
+Name: com/amazonaws/eclipse/core/ui/wizards/WizardWidgetFactory.class
+SHA1-Digest: c2Nly0qKM9ty2qcmcd+Zg2OI+bU=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/context/ClientContext
+ Config.class
+SHA1-Digest: dRUvJrvaDN81Jy0Y8ORQbSWkwCY=
+
+Name: com/amazonaws/eclipse/explorer/sqs/QueueEditor$MessageContentPro
+ vider.class
+SHA1-Digest: DdSdIK3u5MBgA8CDYuJRoI3vj78=
+
+Name: com/amazonaws/eclipse/explorer/sns/TopicEditorInput.class
+SHA1-Digest: iLSqgXaQX2ckEwa568Zaqaj4drY=
+
+Name: com/amazonaws/eclipse/core/accounts/preferences/PluginPreference
+ StoreAccountInfoMonitor.class
+SHA1-Digest: tJ27FgtwYCmqOGQXrc/8FMaZAKc=
+
+Name: com/amazonaws/eclipse/core/diagnostic/ui/AwsToolkitErrorSupportP
+ rovider$1$1$1.class
+SHA1-Digest: RykbPTulmvn4N9L/Eyriu9cHRWQ=
+
+Name: com/amazonaws/eclipse/core/AwsToolkitHttpClient$AwsToolkitHttpCl
+ ientBuilder.class
+SHA1-Digest: x2uaN3ISSASp1uUK4K6N4dnCHg4=
+
+Name: icons/gradient-box/bottom.png
+SHA1-Digest: 94ZM5NesD3GcsET6tbXJjlVIOZU=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/internal/Constants.cl
+ ass
+SHA1-Digest: DU4T3+ecd/m8VcdJiQRUsIBawjA=
+
+Name: com/amazonaws/eclipse/core/maven/MavenRepositories.class
+SHA1-Digest: RZ5bcuN6d27VidpQSgTS9bNTmvc=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/DeleteBucketAction.cla
+ ss
+SHA1-Digest: AFSxKl4nN3Trf2/3W1dLP26iDv8=
+
+Name: com/amazonaws/eclipse/core/accounts/profiles/SdkCredentialsFileC
+ ontentMonitor$2.class
+SHA1-Digest: PB0GTzExPnlAT2G8/pSatkCWNkY=
+
+Name: com/amazonaws/eclipse/explorer/sns/PublishMessageAction$NewMessa
+ geDialog$1.class
+SHA1-Digest: p6OxBj2Yn/oQP7s+ltDEeRWgUfc=
+
+Name: com/amazonaws/eclipse/core/widget/AwsResourceComboViewerComplex$
+ AwsResourceComboViewerComplexBuilder.class
+SHA1-Digest: ZF0Q33JmVo0DljdRek4BR+nMCVc=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/StreamingDistributionE
+ ditor$LoadDistributionInfoThread$1.class
+SHA1-Digest: 2Quww5C256uiVrxwFxb4Jf6AgyM=
+
+Name: com/amazonaws/eclipse/core/widget/TextComplex$TextComplexBuilder
+ .class
+SHA1-Digest: kNTtIuoT1pzUUzIti93/V4Tc58k=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/ObfuscatingStringField
+ Editor.class
+SHA1-Digest: AKsub5GxmMKahTjwYgRsYma55i4=
+
+Name: com/amazonaws/eclipse/explorer/actions/ConfigurationActionProvid
+ er$RegionSelectionMenuAction$3.class
+SHA1-Digest: ziBfpQCffV1+jrYTjbfi/EjwTfw=
+
+Name: icons/overview/bullet.png
+SHA1-Digest: HVM9ptxqdfp8kBR5yhkAbKRTdr8=
+
+Name: com/amazonaws/eclipse/core/util/OsPlatformUtils.class
+SHA1-Digest: gltYRyzLqZfX4S3FnmedUD5x+Zc=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/DistributionEditorInpu
+ t.class
+SHA1-Digest: uHq5HuAlExNiys3JdBYZ9zww5nY=
+
+Name: icons/icon_offsite.gif
+SHA1-Digest: Xe3mPeE9g/tpBxR7xK8qDtz4DtY=
+
+Name: com/amazonaws/eclipse/explorer/sqs/AddMessageAction$AddMessageDi
+ alog$3.class
+SHA1-Digest: s7dBLhgyQRkEVstI+XuU263dnhQ=
+
+Name: com/amazonaws/eclipse/core/ansi/AnsiConsoleAttributes.class
+SHA1-Digest: 7thSxjbIdMNi2A9rvozb7+Xhr70=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/accounts/AccountInfoPr
+ opertyEditorFactory$SimpleFileFieldEditor.class
+SHA1-Digest: iIPoe6qIRAKCJDfxZH22L1nfubw=
+
+Name: com/amazonaws/eclipse/core/egit/LoginService.class
+SHA1-Digest: 0VrjPClMPiEWtHUblrLbIeTGPvM=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/accounts/LegacyPrefere
+ nceStoreAccountMerger$2.class
+SHA1-Digest: 4AdxD6h13YItl2CN5TNoNL55+i4=
+
+Name: com/amazonaws/eclipse/explorer/sns/NewSubscriptionAction$NewSubs
+ criptionDialog$1.class
+SHA1-Digest: SPWVm/kYLtX9KUvgbGZ4wTnhvSI=
+
+Name: com/amazonaws/eclipse/explorer/s3/BucketEditor$1$1$1$1.class
+SHA1-Digest: tNIfpi24jtJCrnwMQZt6TjXPoqc=
+
+Name: com/amazonaws/eclipse/explorer/AbstractAwsResourceEditorInput.cl
+ ass
+SHA1-Digest: 1X/jXLSEy6MTP3p+S/tHxOhlzIo=
+
+Name: icons/flags/asia_pacific.png
+SHA1-Digest: ItpRBuyX21yC7IO8ASPpE/7QEyw=
+
+Name: com/amazonaws/eclipse/core/ui/wizards/CompositeWizardPage$1.clas
+ s
+SHA1-Digest: 2qDFSMO6Tw5pITfIEFK8Swd/bBo=
+
+Name: com/amazonaws/eclipse/explorer/sns/TopicEditor.class
+SHA1-Digest: Aj0hfLMGAYMYuRuPqe7Ok5FdU/M=
+
+Name: com/amazonaws/eclipse/core/diagnostic/ui/AwsToolkitErrorSupportP
+ rovider$2.class
+SHA1-Digest: Igu8RDS8zfg+O9o1Q75m8MKbDsA=
+
+Name: com/amazonaws/eclipse/core/validator/ProjectNameValidator.class
+SHA1-Digest: 4p73LFBPNsTts8CcJeibY2pnMfo=
+
+Name: com/amazonaws/eclipse/core/ui/overview/Toolkit$2.class
+SHA1-Digest: nsTYue0jjk3zQP77LcgcIx6TR6w=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/StreamingDistributionE
+ ditorInput.class
+SHA1-Digest: tG8RH24HdRL0HcVwI4XBKPy0D4w=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/CreateBucketWizard.cla
+ ss
+SHA1-Digest: XOpCi35EihFDKr5+vPWyP5uxokU=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontContentProvi
+ der$CloudFrontRootElement.class
+SHA1-Digest: VOCJfPqKGTIOxXEtXO9DdZ33LHQ=
+
+Name: com/amazonaws/eclipse/core/util/S3BucketUtil$1.class
+SHA1-Digest: EM7Cf475M8DHH3wlFeoxpJHlI+o=
+
+Name: com/amazonaws/eclipse/core/util/JavaProjectUtils.class
+SHA1-Digest: 05BfswOSp+kBSDxMRDw2CTC+K1Q=
+
+Name: com/amazonaws/eclipse/core/ui/DeleteResourceConfirmationDialog.c
+ lass
+SHA1-Digest: pOLe4wdm1UQ2XjTG17s4CpM/hBo=
+
+Name: com/amazonaws/eclipse/explorer/DragAdapterAssistant.class
+SHA1-Digest: SXUhlLwSKKWoey7pTUlDoihxkLE=
+
+Name: com/amazonaws/eclipse/explorer/ExplorerNodeLabelProvider.class
+SHA1-Digest: KYafQXU/C01adadoXJhOLJckKxA=
+
+Name: com/amazonaws/eclipse/explorer/s3/acls/EditPermissionsDialog.cla
+ ss
+SHA1-Digest: 97RfB2ekcObNZmzEhO9a1CZICIk=
+
+Name: com/amazonaws/eclipse/core/egit/ui/FilteredCheckboxTree$1.class
+SHA1-Digest: QrwiaK/f+B80hSploBfKpRq5kY0=
+
+Name: icons/key.png
+SHA1-Digest: j36yovkp+Xa+gjptEtGDaMUQcF8=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/EditObjectPermissionsA
+ ction.class
+SHA1-Digest: BRGYQQBhiV+qB+zoG+Ks3UkquCE=
+
+Name: com/amazonaws/eclipse/core/ui/dialogs/AbstractInputDialog$1.clas
+ s
+SHA1-Digest: nUOXsDwyia1P6vH7+CIthBGf7Cw=
+
+Name: com/amazonaws/eclipse/core/util/RssFeed.class
+SHA1-Digest: 8GwZRw6wctHYVVyJ7aayrVo5/P4=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontActions.clas
+ s
+SHA1-Digest: bxIPXM4t5XY8QYb3ZgPIyH3ufgM=
+
+Name: com/amazonaws/eclipse/explorer/sns/PublishMessageAction.class
+SHA1-Digest: cG/YyCVO+VsHPGXTqzAcxAzyInw=
+
+Name: com/amazonaws/eclipse/explorer/s3/acls/EditPermissionsDialog$3.c
+ lass
+SHA1-Digest: QeKIU6W8JevpCsYfc/FS8RJKVbs=
+
+Name: com/amazonaws/eclipse/core/ui/swt/LabelBuilder.class
+SHA1-Digest: RZ2HGYnyOVu4XFmUkwM+lh/rUp4=
+
+Name: com/amazonaws/eclipse/core/egit/jobs/ImportProjectJob$2.class
+SHA1-Digest: yECDhg0ly1pYmoK77iyxIfU4vE8=
+
+Name: com/amazonaws/eclipse/core/egit/GitRepositoryInfo$PushInfo.class
+SHA1-Digest: AwapF7ytNVgT2CRdXgowql9whWM=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/ToolkitAnalyticsManag
+ er.class
+SHA1-Digest: 0nSrLtwsrthGL2e3Er5/Tvmxht8=
+
+Name: com/amazonaws/eclipse/core/model/ProjectNameDataModel.class
+SHA1-Digest: tFnnEOSOSHky9/RZ9Gelwxp3c3c=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontActions$Enab
+ leStreamingDistributionAction.class
+SHA1-Digest: NNa2Y8p3+KDHO6IJrsyMd+nVp0M=
+
+Name: com/amazonaws/eclipse/explorer/AWSResourcesRootElement.class
+SHA1-Digest: bEXaiPXWs/2rgH4O42fJLk6xaGs=
+
+Name: com/amazonaws/eclipse/core/validator/JavaPackageName.class
+SHA1-Digest: 3Emkx+btzOfWtOwrfQftWx6XFPE=
+
+Name: com/amazonaws/eclipse/core/ui/ImportFileComposite$2.class
+SHA1-Digest: zCXdVvx8hJYoy6V6CfbKVkCYoXI=
+
+Name: com/amazonaws/eclipse/explorer/AccountNotConfiguredContentProvid
+ er.class
+SHA1-Digest: 4E5h3cJifqJGm1+LZ2LCJMllNAA=
+
+Name: com/amazonaws/eclipse/core/ui/Startup$2.class
+SHA1-Digest: jODtbdZIIkKJRJlSHQJrZGCCc3Q=
+
+Name: com/amazonaws/eclipse/core/ui/swt/AbstractWidgetBuilder.class
+SHA1-Digest: 4TEFGwR5e+TLnDFogj2It+3qE9Q=
+
+Name: com/amazonaws/eclipse/core/egit/SecureStoreUtils.class
+SHA1-Digest: AZXucPdBqi5dN/iGDJK4s+qwg4w=
+
+Name: com/amazonaws/eclipse/explorer/sqs/QueueEditor$DeleteMessageActi
+ on.class
+SHA1-Digest: xlHF3nEafWEQwvaCvvm/qNhJTpk=
+
+Name: com/amazonaws/eclipse/core/model/AbstractAwsResourceScopeParam.c
+ lass
+SHA1-Digest: LILWwpRwic1Ma/19j2JuKni1W+c=
+
+Name: com/amazonaws/eclipse/explorer/ResourcesView$2.class
+SHA1-Digest: lBcPBlx04M66/rv+9PrE9Rxvabw=
+
+Name: com/amazonaws/eclipse/explorer/s3/OpenBucketEditorAction$1.class
+SHA1-Digest: 0mkVM8YcmTrNtHAHxOWUU21yzf0=
+
+Name: lib/ApacheLicense.txt
+SHA1-Digest: vc2gsjBPPmCQ0ExSdVk8ioNQJgs=
+
+Name: com/amazonaws/eclipse/explorer/sns/CreateTopicDialog.class
+SHA1-Digest: qNrNX9apfepnbCFvbnYEgkkLpN4=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ geTab$7.class
+SHA1-Digest: SSLOg4UPpN5Qiy1uu//p/FurmIs=
+
+Name: com/amazonaws/eclipse/core/model/SelectOrCreateDataModel.class
+SHA1-Digest: Nr2DC2HhaZpdo6lv+ubnqSw0xnY=
+
+Name: com/amazonaws/eclipse/databinding/ChainValidator.class
+SHA1-Digest: 4aPboJYaMWmYAR0nZfl8p9VFI3M=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ObjectSummaryTable$S3ObjectS
+ ummaryLabelProvider.class
+SHA1-Digest: P9zIYeRC0qp3d0BQWjlmLadDE5A=
+
+Name: com/amazonaws/eclipse/explorer/s3/acls/GranteeComparator.class
+SHA1-Digest: WGcjtHngVRA74GnmjsTXqacct1Q=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/cognito/identity/AWSC
+ ognitoIdentityIdProvider.class
+SHA1-Digest: 8O+QQiOI2A/BX11NGMjq3jCnTSI=
+
+Name: com/amazonaws/eclipse/explorer/sqs/SQSActionProvider$DeleteQueue
+ Action.class
+SHA1-Digest: TnvGB1hbnUPUDnaTbnbQeZfNAfw=
+
+Name: com/amazonaws/eclipse/core/ui/swt/PostBuildHook.class
+SHA1-Digest: cNZwPWJLPfiwxj5pHCtIIC9FYao=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/DistributionEditor$Loa
+ dDistributionInfoThread$1.class
+SHA1-Digest: FzTJNiKR7ZEH6wBbpRsFkTF4RY8=
+
+Name: com/amazonaws/eclipse/explorer/sqs/SQSContentProvider$QueueNode.
+ class
+SHA1-Digest: RG3+3MIVTBD7MSAA2tvelsJNvMg=
+
+Name: com/amazonaws/eclipse/core/util/MavenBuildLauncher.class
+SHA1-Digest: KO9py5ttHNiyjBcI5dc2mw4V3kg=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/internal/ToolkitSessi
+ on.class
+SHA1-Digest: UDxcjcXyKkZDk0RefmDmaMTp4P0=
+
+Name: com/amazonaws/eclipse/core/ui/overview/Toolkit$4.class
+SHA1-Digest: kJg6ZM+cBJtluV6Dr0Z3PaM7bTI=
+
+Name: com/amazonaws/eclipse/core/ui/menu/OpenWebConsoleHandler.class
+SHA1-Digest: +YlmTL1j3vS+vG++fscgQUTJOSI=
+
+Name: com/amazonaws/eclipse/explorer/s3/acls/EditPermissionsDialog$2.c
+ lass
+SHA1-Digest: EEe1+0z3prlx1wf6yMhIqf/Ru2E=
+
+Name: com/amazonaws/eclipse/core/ui/overview/FormsOverviewComposite.cl
+ ass
+SHA1-Digest: r94voyCFA1l6tw2jzRNz+3Uxgr4=
+
+Name: icons/flags/singapore.png
+SHA1-Digest: ItpRBuyX21yC7IO8ASPpE/7QEyw=
+
+Name: com/amazonaws/eclipse/core/widget/CheckboxComplex$CheckboxComple
+ xBuilder.class
+SHA1-Digest: gkRdIG+YNE+2SebtbFsXdQceC6Q=
+
+Name: com/amazonaws/eclipse/core/ui/SelectOrCreateComposite$1.class
+SHA1-Digest: nU6zCd7l4MNuus0gdKyZEPIVWJM=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/AbstractOpenAwsEditorA
+ ction$1.class
+SHA1-Digest: mNcLlhEKX/I6VQZTC8w6kfdSyzU=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/UploadFilesJob$KeyFilePair
+ .class
+SHA1-Digest: uhuI3/+IS28ra1ZuPBQmptbzUx8=
+
+Name: com/amazonaws/eclipse/core/util/FileUtils.class
+SHA1-Digest: RHMLuyfs4FF0CNWJ5zVBkyarxHA=
+
+Name: com/amazonaws/eclipse/core/ui/ImportFileComposite$3.class
+SHA1-Digest: rhjzhYRiScWqi+K5Wjoa/WqDxp8=
+
+Name: com/amazonaws/eclipse/core/ui/setupwizard/InitialSetupUtils$1.cl
+ ass
+SHA1-Digest: o03btGr6jG5wmk4LFMpsJuqdsxE=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ geTab$8.class
+SHA1-Digest: sg7qzMgezXyMSVA3k34/U4E1hDI=
+
+Name: icons/information.png
+SHA1-Digest: 2FCKnmYhvS1a6oE/h5r/vnTfdls=
+
+Name: com/amazonaws/eclipse/core/AwsToolkitHttpClient.class
+SHA1-Digest: LIl5IZg2H0934+gJyPdKg2jtrW8=
+
+Name: com/amazonaws/eclipse/core/egit/GitRepositoryInfo$RepositoryConf
+ igProperty.class
+SHA1-Digest: SVrbUFA26GZqo9+6AdAJ/4U+W0w=
+
+Name: com/amazonaws/eclipse/core/validator/KeyNotDuplicateValidator.cl
+ ass
+SHA1-Digest: yv2P3+4hBRF9+Gzv/tQ8vAv7T60=
+
+Name: icons/stack.png
+SHA1-Digest: rUkMRWityVYhQmRwZ2Pw9cEOT74=
+
+Name: icons/cloudfront-service.png
+SHA1-Digest: pgVo+FtM0wceWk7AuHqis4XbO0k=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3Constants.class
+SHA1-Digest: CHBV0mwiovy1ZpuEBcD5mBkBz4M=
+
+Name: com/amazonaws/eclipse/core/ui/wizards/WizardPageInput.class
+SHA1-Digest: fEJwQt4bmhOj2cK0OUUZoEVJzDY=
+
+Name: com/amazonaws/eclipse/core/ui/swt/WidgetUtils.class
+SHA1-Digest: D/FIUKvlsut4zAIecs7d57FhMf0=
+
+Name: com/amazonaws/eclipse/explorer/ResourcesView$1$1.class
+SHA1-Digest: oKjaY7yOerWw8qcaUzQjm0wow2c=
+
+Name: com/amazonaws/eclipse/core/widget/RadioButtonComplex$1.class
+SHA1-Digest: HEe8t6YIJfQiyT4PygPiZaH0kbs=
+
+Name: com/amazonaws/eclipse/explorer/RefreshRunnable.class
+SHA1-Digest: azG8aqI9zRjoBKU5jIGFjeqPyYk=
+
+Name: com/amazonaws/eclipse/core/ui/dialogs/AbstractInputDialog$2$1.cl
+ ass
+SHA1-Digest: zpcIBVywEyJG2ySbzm6Dn0lfvc8=
+
+Name: com/amazonaws/eclipse/core/ui/AccountSelectionComposite.class
+SHA1-Digest: KLYY2abBHhtTom9XoHYmY157MRc=
+
+Name: com/amazonaws/eclipse/explorer/sqs/QueueEditor$MessageLabelProvi
+ der.class
+SHA1-Digest: F+V4K0R2qnoYVlb2d59sW9sM/t4=
+
+Name: com/amazonaws/eclipse/explorer/sns/SNSActionProvider$CreateTopic
+ Action.class
+SHA1-Digest: LKwF+p27t3cTyJdzUz/g6puQnkU=
+
+Name: com/amazonaws/eclipse/core/ui/TagsEditingDialog.class
+SHA1-Digest: XYOIDb9n/FSuXj5KeWciDuQEzHA=
+
+Name: com/amazonaws/eclipse/core/ui/DisplayAwsOverviewEditorCmdHandler
+ .class
+SHA1-Digest: FhJ7KaZx9RBsCLZ28JdlcGVi7LI=
+
+Name: com/amazonaws/eclipse/core/preferences/AbstractPreferencePropert
+ yMonitor$NotifyListenersJob.class
+SHA1-Digest: CJSBzXdUdO322cnfZNjEWNppmVM=
+
+Name: icons/streaming-distribution.png
+SHA1-Digest: 9SdjndIKeMXasfvsbhRA6HCzyCI=
+
+Name: com/amazonaws/eclipse/core/plugin/AbstractAwsProjectWizard$1.cla
+ ss
+SHA1-Digest: QeedFEfFRMMfqFrykLKxZkh2jQQ=
+
+Name: com/amazonaws/eclipse/core/ui/RegionComposite.class
+SHA1-Digest: rNTrllV0w5vv2dEZQ1GHJ9llCC4=
+
+Name: com/amazonaws/eclipse/core/egit/ui/SourceBranchPage$1.class
+SHA1-Digest: 5avETWN41AKwkODQNxp6/gWAgmg=
+
+Name: com/amazonaws/eclipse/core/egit/jobs/ImportProjectJob$3.class
+SHA1-Digest: SzCAQ7dwCmPrJ/B/aGgXRI4gXmA=
+
+Name: com/amazonaws/eclipse/explorer/sns/SNSLabelProvider.class
+SHA1-Digest: uXOHDy8xayrhOfJ2zlq8MKkbuns=
+
+Name: icons/refresh.png
+SHA1-Digest: lfZvv4qTOjKgWMwt63J04olsKTQ=
+
+Name: com/amazonaws/eclipse/explorer/ResourcesView$ExplorerNodeOpenLis
+ tener.class
+SHA1-Digest: 40m5VsPjTHAbxSI9NHIlMvbtlqo=
+
+Name: com/amazonaws/eclipse/core/ui/KeyValueSetEditingComposite$7.clas
+ s
+SHA1-Digest: 9omc5cfngENSgX8IuEmZfrNtgYg=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/GeneratePresignedUrlAc
+ tion$DateSelectionDialog$2.class
+SHA1-Digest: zbPJ6KoucY4TRvlzVck4VfBi5mo=
+
+Name: com/amazonaws/eclipse/core/ui/swt/Colors.class
+SHA1-Digest: Qkf3d0eN32PB3yzgOuRzMAhavE8=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/context/ClientContext
+ JsonHelper.class
+SHA1-Digest: NmFFHxGr06EEJeRfqE1gZweYTmM=
+
+Name: com/amazonaws/eclipse/core/egit/ui/CachedCheckboxTreeViewer.clas
+ s
+SHA1-Digest: mekdAjxKX/LcP6ELUpgu90nOgRo=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/DeleteObjectAction$1$1
+ .class
+SHA1-Digest: 3MnvPeMdzrM2AGYZhrfOBrq+IDg=
+
+Name: com/amazonaws/eclipse/core/ui/MavenConfigurationComposite.class
+SHA1-Digest: awCZ2wIiTRU+CHkTCg2N3RKRtwc=
+
+Name: com/amazonaws/eclipse/explorer/actions/ConfigurationActionProvid
+ er$RegionSelectionMenuAction.class
+SHA1-Digest: 1N3YOGAVSy7dydT5LO/tNq2OxQ8=
+
+Name: com/amazonaws/eclipse/core/preferences/PreferenceConstants.class
+SHA1-Digest: PFWc5nw0nrOFYnUwQEtfxg4drks=
+
+Name: com/amazonaws/eclipse/core/util/PluginUtils.class
+SHA1-Digest: RWeMfWzt4G0EJkEHz2OdJH8CW/U=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/accounts/LegacyPrefere
+ nceStoreAccountMerger$MergeLegacyAccountsConfirmationDialog.class
+SHA1-Digest: HkNo2Kxez5lmJI+qgflQk3rf2mo=
+
+Name: icons/group.png
+SHA1-Digest: jmPC4A/v+U2XBcdLPe58SdnghEc=
+
+Name: icons/gradient-box/top.png
+SHA1-Digest: itJYzU73Ih5rv0AptPRjHceDpE8=
+
+Name: com/amazonaws/eclipse/core/ui/SelectOrCreateBucketComposite.clas
+ s
+SHA1-Digest: EEN5l0Y60BTv46zOCfx2c+KCM8M=
+
+Name: com/amazonaws/eclipse/core/egit/ui/CloneDestinationPage$1.class
+SHA1-Digest: 4iLcX7nq1YZ+xjgFUYbdNlzLae8=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/batchclient/MobileAna
+ lyticsBatchClient.class
+SHA1-Digest: P0BbSQdTfAkIii/kb/E4Xlw9XMg=
+
+Name: com/amazonaws/eclipse/core/ui/RegionComposite$RegionCompositeBui
+ lder.class
+SHA1-Digest: alO6a9HVbhDQOvHfxkW5NUnE/pw=
+
+Name: com/amazonaws/eclipse/core/egit/GitRepositoryInfo.class
+SHA1-Digest: Cv/BG9GDuABNryrUomDN79K0aGc=
+
+Name: icons/remove.gif
+SHA1-Digest: ijCqGpGenXj5rydbd01o4+cQa6g=
+
+Name: icons/overview/configure-button.png
+SHA1-Digest: te44GwjGVq32JUnQU6VRZpQ3b20=
+
+Name: com/amazonaws/eclipse/core/ui/overview/LayoutUtils.class
+SHA1-Digest: 8RRUmEq2G5b8adKofFotHoq2R6U=
+
+Name: com/amazonaws/eclipse/core/egit/ui/SourceBranchPage$7.class
+SHA1-Digest: hd9pC+4P/gDRPMlzPpQM7E/dsAI=
+
+Name: com/amazonaws/eclipse/core/ui/Startup.class
+SHA1-Digest: nEQBSZFhBEW6/fLNTbLSTE8b+zo=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontActions$Abst
+ ractDistributionStateChangingAction.class
+SHA1-Digest: z5bNPnsPFEjQ0CEk7rYXBis5HMA=
+
+Name: com/amazonaws/eclipse/core/plugin/AbstractAwsPlugin.class
+SHA1-Digest: wg1pYZACvk4mWTBBdypjEO0Wck4=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ObjectSummaryTable$5.class
+SHA1-Digest: g/nH5HtpyAU3eeHjW7AcGd2gbk8=
+
+Name: com/amazonaws/eclipse/core/ansi/AnsiConsoleStyleListener.class
+SHA1-Digest: BJzFIhEKfo+sgTFdnHsEAX8LcHY=
+
+Name: com/amazonaws/eclipse/core/egit/ui/SourceBranchPage$1$1.class
+SHA1-Digest: EZAh67BLr6ebk82L/ZGKBcUo5iI=
+
+Name: com/amazonaws/eclipse/core/model/SelectOrCreateKmsKeyDataModel$K
+ msKey.class
+SHA1-Digest: HYQHhUbaqBY2W7eAQo8E74n8a/I=
+
+Name: com/amazonaws/eclipse/core/ui/wizards/TwoPhaseValidator.class
+SHA1-Digest: 5katTz2xNTm8RCsdYKDgKomMEFs=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/AbstractDistributionEd
+ itor$RefreshAction.class
+SHA1-Digest: tsPGYGOJKRBZPCSy6gkluyl8duA=
+
+Name: com/amazonaws/eclipse/explorer/sns/CreateTopicWizard$TopicNameVa
+ lidator.class
+SHA1-Digest: WdHp8dOQjhsR1pCC1t+y+/qEtzk=
+
+Name: com/amazonaws/eclipse/core/ui/overview/FormsOverviewComposite$Lo
+ adJavaDeveloperBlogJob$1.class
+SHA1-Digest: ZMbQfbIEQIzuoc8VFJxxSPshfWg=
+
+Name: com/amazonaws/eclipse/core/plugin/package-info.class
+SHA1-Digest: RLMu/8GDiV06IgxcCrfhfbP8fys=
+
+Name: icons/rds-service.png
+SHA1-Digest: zkEtR2fyF7yokcQKKvY0aiKEquw=
+
+Name: com/amazonaws/eclipse/explorer/sns/TopicEditor$RefreshAction.cla
+ ss
+SHA1-Digest: MIABC02c07eEfdYrnpP1ofF17Sg=
+
+Name: com/amazonaws/eclipse/explorer/sns/TopicEditor$LoadSubscriptions
+ Thread$1.class
+SHA1-Digest: 06FFoK674mz+jbih+/aD84DFORw=
+
+Name: icons/gradient-box/upper-left.png
+SHA1-Digest: n5ba7HVV4Ie4yMpzbG/INe+Bq0U=
+
+Name: com/amazonaws/eclipse/explorer/AbstractContentProvider$NotSigned
+ UpNode$SignUpAction.class
+SHA1-Digest: xtim69FghFyq1GcdC2Y8dYaxCyE=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ ge$3.class
+SHA1-Digest: 7uYjKhVTxcKaeXktC4uemdoqnjc=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/DistributionEditor$Loa
+ dDistributionInfoThread.class
+SHA1-Digest: 0gWvysiCL+jFodbky8U19q3Ycd0=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/EditObjectTagsAction$1
+ .class
+SHA1-Digest: raMppzGmRarisYFFH8PpY8FWsZ4=
+
+Name: com/amazonaws/eclipse/explorer/sqs/SQSContentProvider$SQSRootEle
+ ment.class
+SHA1-Digest: AIEuM05P8n/1EIqSIWwzIPccrls=
+
+Name: com/amazonaws/eclipse/core/regions/RegionMetadataParser.class
+SHA1-Digest: Jv14DpeRFjouesRocQnMLteekfs=
+
+Name: com/amazonaws/eclipse/core/widget/ComboComplex.class
+SHA1-Digest: 256+wfFWMsAFFVatjPLF90qNfIU=
+
+Name: icons/database.png
+SHA1-Digest: lqZBg+VdtAW7uD9WieqPuJRcqWw=
+
+Name: com/amazonaws/eclipse/core/accounts/profiles/SdkCredentialsFileC
+ ontentMonitor$1.class
+SHA1-Digest: Eyx+6vvVXpWgOVTjILJT4D50e0k=
+
+Name: com/amazonaws/eclipse/core/ui/overview/Toolkit$1.class
+SHA1-Digest: KLp86ocw36uYomnYi9qi1VV563o=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/accounts/AccountInfoPr
+ opertyEditor.class
+SHA1-Digest: PLmbSPlS31cGsIuYV9uTiJxlZHs=
+
+Name: com/amazonaws/eclipse/core/maven/MavenRepositories$LocalMavenRep
+ ository.class
+SHA1-Digest: fTEye1THpqivyq8p+ol07xM9ztE=
+
+Name: com/amazonaws/eclipse/explorer/sqs/OpenQueueEditorAction.class
+SHA1-Digest: tdH6kZNlRL2VCozbBkWwfB9ad7E=
+
+Name: com/amazonaws/eclipse/explorer/ContentProviderRegistry.class
+SHA1-Digest: 8PIi7g+pG5Fb0aSwLsu4bYeLBO4=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ObjectSummaryTable$3$1.class
+SHA1-Digest: t7VqFulzhZr46mS7+4KCJy+x5Rs=
+
+Name: com/amazonaws/eclipse/core/egit/ui/SourceBranchPage$8.class
+SHA1-Digest: W9uAqShpFfvWP7RIELuV5v1CKec=
+
+Name: com/amazonaws/eclipse/explorer/sns/TopicEditor$LoadTopicAttribut
+ esThread.class
+SHA1-Digest: VRQ8JEYt6hufzG1dKR5D9X9XpNI=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/GeneratePresignedUrlAc
+ tion$DateSelectionDialog$3.class
+SHA1-Digest: b8g39aRDXH3p9qcQpKyFZS2GTIo=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ ge$2.class
+SHA1-Digest: miLUroVRPTwKUHsQCF+IuBU4t4w=
+
+Name: com/amazonaws/eclipse/explorer/ExplorerNode.class
+SHA1-Digest: lzW86obyNt8h3qFZ5g/QlKRlokw=
+
+Name: icons/aws-toolkit-title.png
+SHA1-Digest: qxJ4/XM5oGidjS7/uQl4csMfsfM=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/batchclient/internal/
+ MobileAnalyticsBatchClientImpl.class
+SHA1-Digest: yVfUJ0GWlwbgNdhtmvF0zAu5NMk=
+
+Name: icons/distribution.png
+SHA1-Digest: +Dt6ZM1XXrOHUx6KRbZwMJj78Ig=
+
+Name: com/amazonaws/eclipse/core/util/WorkbenchUtils.class
+SHA1-Digest: mi2H1c6TqUfQaTeynAL/CS3mj68=
+
+Name: com/amazonaws/eclipse/explorer/sns/OpenTopicEditorAction$1.class
+SHA1-Digest: ee8s3aKlpJwzhwvtGWwNk5SgY0o=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ ge$RegionSelectionDialog$1.class
+SHA1-Digest: udZKVApdzTG5Y+EOe3ho/5BO9HU=
+
+Name: com/amazonaws/eclipse/core/plugin/AbstractAwsJobWizard.class
+SHA1-Digest: DIiElAynvPxf84F13osPY082jOI=
+
+Name: icons/gradient-box/lower-left.png
+SHA1-Digest: 77k42rczSCNEf175wX9u2ojXsL0=
+
+Name: com/amazonaws/eclipse/core/ui/wizards/TextWizardPageInput$1.clas
+ s
+SHA1-Digest: j+j5WJZFDRx+XWKTETaTTjKKWxg=
+
+Name: com/amazonaws/eclipse/core/egit/ui/SourceBranchPage$2.class
+SHA1-Digest: YEY7O80lP0ONoMhy0yekisig3as=
+
+Name: com/amazonaws/eclipse/core/ui/setupwizard/ConfigureToolkitAnalyt
+ icsWizardPage.class
+SHA1-Digest: lakiFh20nknvTZBmmdrEtLgewRg=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/DownloadDropAssistant.clas
+ s
+SHA1-Digest: Xa70WHJlMM4YZH1/7DSQ05Dd4b0=
+
+Name: com/amazonaws/eclipse/core/widget/CheckboxComplex.class
+SHA1-Digest: 3ZH3PP2WHTT1H+MM+PCs+hsLPwk=
+
+Name: com/amazonaws/eclipse/core/preferences/PreferencePropertyChangeL
+ istener.class
+SHA1-Digest: +AuYYiVAA3FLEcn8Lb65Rkfx8fQ=
+
+Name: com/amazonaws/eclipse/core/ui/KeyValueSetEditingComposite$3.clas
+ s
+SHA1-Digest: NfmiFLRtA3UrOM6wG1wkZCr4u4Q=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ObjectSummaryTable$4.class
+SHA1-Digest: aMFvqLHhWH4r1px3MGmDi1zLKLE=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/EditObjectPermissionsA
+ ction$1.class
+SHA1-Digest: QEuaQdy35HZ0aW8kvH68PQ6jM5I=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ObjectSummaryTable.class
+SHA1-Digest: 9NkqjCJAXKFuujJP6fk+AbAMrW8=
+
+Name: com/amazonaws/eclipse/core/ui/dialogs/CreateS3BucketDialog.class
+SHA1-Digest: vqesxkFTk+mkS6CZ456pF1oEvHo=
+
+Name: com/amazonaws/eclipse/core/ui/ImportFileComposite$ImportFileComp
+ ositeBuilder.class
+SHA1-Digest: cZaFzVFpm8q/N8fFntGcKaa+6nI=
+
+Name: com/amazonaws/eclipse/core/ui/MultiValueEditorDialog$3$1.class
+SHA1-Digest: 9XzZwS21p+9r350/CiJ2k7i+XCU=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/DeleteObjectAction$1$2
+ .class
+SHA1-Digest: xeOpvyKWgPLoqLQ5tkwVGZav06I=
+
+Name: com/amazonaws/eclipse/explorer/actions/ConfigurationActionProvid
+ er$1.class
+SHA1-Digest: 2aYmvFKyhGMcBQe2ro52hg5uwKI=
+
+Name: com/amazonaws/eclipse/core/ansi/AnsiConsoleColorPalette.class
+SHA1-Digest: xB9V+UI9jFpFuyRs9/Q1lTIORUU=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ObjectSummaryTable$1.class
+SHA1-Digest: 8lECPuInCxluUQC5eoPAsiEvEXI=
+
+Name: com/amazonaws/eclipse/core/regions/LocalRegion.class
+SHA1-Digest: lgdgexNPgya57uQnClzb5Pz24v0=
+
+Name: com/amazonaws/eclipse/core/egit/ui/CloneDestinationPage$2.class
+SHA1-Digest: gGULhQ0Czw/9bAAjaENfHGGPO1M=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontContentProvi
+ der.class
+SHA1-Digest: JcsIEzD5DMO0Bh/XfHT2+/rZPus=
+
+Name: com/amazonaws/eclipse/core/egit/LoginDialog.class
+SHA1-Digest: XQmJvVTvw1nJfDjR1zWdOggl2qk=
+
+Name: com/amazonaws/eclipse/core/ui/dialogs/AbstractInputDialog.class
+SHA1-Digest: 1W6vzUO3VZuequVAw5r7RLyFfhU=
+
+Name: com/amazonaws/eclipse/core/ui/swt/CompositeBuilder.class
+SHA1-Digest: 3FTLlU2fPQACVDbZH1BZXOdj4u4=
+
+Name: com/amazonaws/eclipse/explorer/AbstractContentProvider.class
+SHA1-Digest: lvl12ZM+9AUEapO2rK38K+j/2no=
+
+Name: icons/green-circle.png
+SHA1-Digest: jVaJP3TkT9o4PuVFhRQa1om5wI8=
+
+Name: com/amazonaws/eclipse/core/ansi/AnsiConsolePageParticipant.class
+SHA1-Digest: pb7sjcvbkZBRJmlZobjZfTRKe88=
+
+Name: com/amazonaws/eclipse/core/util/RemoteDebugLauncher.class
+SHA1-Digest: 4/hrutv0QzbFVlR1K7sSQId8ezQ=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/UploadDropAssistant.class
+SHA1-Digest: K3/EmMB9PjM8qkwFRoT25Omgz84=
+
+Name: icons/flags/ireland.png
+SHA1-Digest: qgUUtrppvUsSX+KxKNcpntsVPao=
+
+Name: icons/flags/japan.png
+SHA1-Digest: yMKPelczbQDwLutL96lagoHIqaU=
+
+Name: com/amazonaws/eclipse/core/ui/overview/OverviewSection$V2.class
+SHA1-Digest: 5+BBVof4SoN1LNBhkk5vDc0lP30=
+
+Name: com/amazonaws/eclipse/explorer/sqs/QueueAttributes.class
+SHA1-Digest: fw41iLrfRXZumv29OSEEpneCKRU=
+
+Name: com/amazonaws/eclipse/core/egit/ui/CloneDestinationPage$5.class
+SHA1-Digest: lOaacpoPwhkHIFXRfmn0RltLcAM=
+
+Name: com/amazonaws/eclipse/core/egit/ui/SourceBranchPage$3.class
+SHA1-Digest: a8ZzsbO1EdHd+IDvOlcbLlXwTzE=
+
+Name: com/amazonaws/eclipse/explorer/actions/ConfigurationActionProvid
+ er$SwitchAccountAction.class
+SHA1-Digest: ifOL0nOXclHGCWsVrFvhXyJEpkE=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/AbstractDistributionEd
+ itor.class
+SHA1-Digest: srI1MwIgnStzmXkuGw+lDueN8XE=
+
+Name: com/amazonaws/eclipse/core/ui/setupwizard/ConfigureAccountWizard
+ Page$2.class
+SHA1-Digest: eZBu3TYHhce6CoV8C9OtBXnmydo=
+
+Name: com/amazonaws/eclipse/core/accounts/AccountInfoImpl.class
+SHA1-Digest: sJjlD0jcDbok+/uFHNU+N0KWpsk=
+
+Name: com/amazonaws/eclipse/core/plugin/AbstractAwsProjectWizard.class
+SHA1-Digest: c+AHrKuB4Dl41NFnSXb5st9pq6M=
+
+Name: com/amazonaws/eclipse/core/ui/MultipleSelectionListComposite$Lis
+ tSelectionNotEmptyValidator.class
+SHA1-Digest: +YRfqqH1wTkiXx0M+r60YkkW9IM=
+
+Name: com/amazonaws/eclipse/core/egit/jobs/CloneGitRepositoryJob$1$1.c
+ lass
+SHA1-Digest: mp30uZVl5alzLtn8wwGQZSKQi+I=
+
+Name: lib/errorreport-1.0.0.jar
+SHA1-Digest: 7x4HI+/+7UZO3vbAJLrz3DPNKds=
+
+Name: com/amazonaws/eclipse/core/ui/KeyValueSetEditingComposite.class
+SHA1-Digest: pPIX6QNghUz8Z2GVU9YGfhdCg00=
+
+Name: com/amazonaws/eclipse/explorer/AccountNotConfiguredContentProvid
+ er$OpenAccountPreferencesAction.class
+SHA1-Digest: 8k1qZRkJ3DUr245oqE6qPk3kc/w=
+
+Name: com/amazonaws/eclipse/core/validator/PackageNameValidator.class
+SHA1-Digest: 6ex+IvHBSdx+lDnpL+kQW2vmTVI=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/GeneratePresignedUrlAc
+ tion$DateSelectionDialog$1.class
+SHA1-Digest: yBfljRszuz5z+NVZZHnRyNpTq1I=
+
+Name: com/amazonaws/eclipse/core/ui/menu/OpenGeneralFeedbackEmailHandl
+ er.class
+SHA1-Digest: 8oTvU5QT5hcnmSS1boT2ehFIbaU=
+
+Name: com/amazonaws/eclipse/core/AWSClientFactory$CachedClients.class
+SHA1-Digest: RX5qrD5X/slGnWInfSxIPh3TXBI=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ geTab.class
+SHA1-Digest: 1F+5pMiCCHGASmJUdAy+GKE4PWg=
+
+Name: com/amazonaws/eclipse/core/egit/ui/FilteredCheckboxTree.class
+SHA1-Digest: 8STNxG2RZ9XhJ7bIgXD8F+ho6cE=
+
+Name: com/amazonaws/eclipse/explorer/sns/CreateTopicDialog$1.class
+SHA1-Digest: PbUywPHc/57WRQcMseE2GZLPoxw=
+
+Name: com/amazonaws/eclipse/explorer/sns/SNSActionProvider.class
+SHA1-Digest: RrJw3czczdky2XStv4CrQgaHieY=
+
+Name: icons/gradient-box/left.png
+SHA1-Digest: MBxxAs8zY6llqeprFdns9Wb1Pc0=
+
+Name: icons/simpledb-service.png
+SHA1-Digest: zcUBWIor9Gfv0yQnDqZggdIGwUU=
+
+Name: com/amazonaws/eclipse/core/ui/overview/FormsOverviewComposite$Ov
+ erviewContribution.class
+SHA1-Digest: /Z4larYkM8YtkUftbwmEK/fDjuA=
+
+Name: icons/gradient-box/lower-right.png
+SHA1-Digest: sZstCx3pLquPIDLbyLG3VJANpes=
+
+Name: com/amazonaws/eclipse/core/ui/RegionSelectionComposite.class
+SHA1-Digest: 6ZjhJBF94jYJ+L8GdY7x6fhdJB0=
+
+Name: com/amazonaws/eclipse/core/egit/ui/CloneDestinationPage$4.class
+SHA1-Digest: P1ZEt9jZv08kyoRwNCr9sF7HtPU=
+
+Name: com/amazonaws/eclipse/core/OpenLinkAction.class
+SHA1-Digest: eCnkVw1uefoVTtq/IwS04X7ua00=
+
+Name: icons/document_into.png
+SHA1-Digest: 4+QZwzLubNpBLKPUZJhr8eNuDN4=
+
+Name: com/amazonaws/eclipse/core/ui/overview/OverviewEditor.class
+SHA1-Digest: rpWULrCJVeOBtgwUhsKwuOAPGZA=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ObjectSummaryTable$2.class
+SHA1-Digest: OpcVbNXgEZtVwx2z36fB1ORSrUw=
+
+Name: com/amazonaws/eclipse/core/ui/KeyValueSetEditingComposite$1.clas
+ s
+SHA1-Digest: PfRZ7FgD+or9NqE+YWDc9nbPHNo=
+
+Name: com/amazonaws/eclipse/explorer/s3/BucketLinkHelper.class
+SHA1-Digest: bBjR/FXLpQXeDVAhmEOIWM2doPA=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/ToolkitAnalyticsUtils
+ .class
+SHA1-Digest: l5iRBUZzRZ+z4fd60raH8RsEqEA=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/accounts/AccountInfoPr
+ opertyEditorFactory$AccountInfoStringPropertyEditor.class
+SHA1-Digest: 3aNpsc2KbGp75vgKSkihbF5kzHA=
+
+Name: com/amazonaws/eclipse/explorer/AbstractContentProvider$UnableToC
+ onnectNode.class
+SHA1-Digest: EWtIZ3T//ubotG9d5ypXJtzhLNc=
+
+Name: com/amazonaws/eclipse/explorer/sns/CreateTopicWizard$DisplayName
+ Validator.class
+SHA1-Digest: HZFMCKI8YLeFW1F2gNxnfUupxF4=
+
+Name: com/amazonaws/eclipse/explorer/sqs/QueueEditor$RefreshAction.cla
+ ss
+SHA1-Digest: pnVdmiV/1FudTOGcKSsdLjiInNw=
+
+Name: com/amazonaws/eclipse/core/egit/ui/SourceBranchPage$6.class
+SHA1-Digest: mX/4aI/LVy0cq/vaAfTVg7L1qwM=
+
+Name: icons/add.png
+SHA1-Digest: yj2qLKvyLJaxmwZfHOgtgE32WHo=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/cognito/AWSCognitoCre
+ dentialsProvider.class
+SHA1-Digest: a+BYXJcYee4LBKO5e0NtZWfPSpw=
+
+Name: com/amazonaws/eclipse/databinding/IsFalseBooleanValidator.class
+SHA1-Digest: Ek+evubMYYczoPtkZqfsUhm0t1s=
+
+Name: com/amazonaws/eclipse/core/ui/dialogs/AbstractInputDialog$2$2.cl
+ ass
+SHA1-Digest: BtjDOSkb5gFdmXFAfuBjSh9vmZo=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3LabelProvider.class
+SHA1-Digest: vW7A/XGK9TPmB+bLpur0/TZFHtw=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ObjectSummaryTable$4$1.class
+SHA1-Digest: cnFadv3RBcQHrm0qe02pPHHHFLU=
+
+Name: com/amazonaws/eclipse/core/ui/KeyValueSetEditingComposite$2.clas
+ s
+SHA1-Digest: tNn1axGUg6qNuXMyAbidrBkgT3Q=
+
+Name: lib/MIT_LICENSE.txt
+SHA1-Digest: Yl+vGCwcF8LKMCBxOGh05Pxzs68=
+
+Name: com/amazonaws/eclipse/core/ui/overview/GradientBoxComposite.clas
+ s
+SHA1-Digest: WilZSJUpuYZM0nTlwxv2P7Me7u8=
+
+Name: com/amazonaws/eclipse/core/CoreAnalytics.class
+SHA1-Digest: 4UGHOkB4we67beEUkYJYvZCCH2I=
+
+Name: com/amazonaws/eclipse/core/ui/setupwizard/InitialSetupWizardData
+ Model.class
+SHA1-Digest: yY57uEkBxLS94XgsZGM8/t6v/Mg=
+
+Name: com/amazonaws/eclipse/explorer/s3/BucketEditor$1$1$1.class
+SHA1-Digest: o5cvwRhQ8/a/6IaHjfsg8aXBmyc=
+
+Name: icons/gears.png
+SHA1-Digest: dcL2go+IkiFXhCutAF/4SX1KvOs=
+
+Name: com/amazonaws/eclipse/core/ui/wizards/InputValidator.class
+SHA1-Digest: QnnRT1a7cBNfCNGiR2Iy3pt6/sM=
+
+Name: icons/wrench.png
+SHA1-Digest: RcRpLd4U6mcH/Bz9TwTZXifBgjY=
+
+Name: com/amazonaws/eclipse/core/egit/ui/SourceBranchPage$5.class
+SHA1-Digest: v69UanZFas4gRzW4stPhQYitnj8=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ObjectSummaryTable$3.class
+SHA1-Digest: jfOpNRpC9/O6RZURuKl3u1e35qM=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/batchclient/internal/
+ EventQueue.class
+SHA1-Digest: rO6xJmviROerVLsp4yqMnAwhqlQ=
+
+Name: com/amazonaws/eclipse/core/ui/wizards/TwoPhaseValidator$AsyncVal
+ idationJob$1.class
+SHA1-Digest: taA7FVOT1+0w5WNtunxQG7B9vbA=
+
+Name: com/amazonaws/eclipse/explorer/sns/TopicEditor$LoadTopicAttribut
+ esThread$1.class
+SHA1-Digest: isJoddkLlOmbZxwfW+i/z4qgs3M=
+
+Name: com/amazonaws/eclipse/explorer/s3/acls/EditPermissionsDialog$Per
+ missionOption.class
+SHA1-Digest: M/iR6NKQtWQwMYRis2WAyByovFg=
+
+Name: com/amazonaws/eclipse/core/util/KmsClientUtils.class
+SHA1-Digest: MxedWodi/3u5gffmuSkRaPRURDk=
+
+Name: com/amazonaws/eclipse/core/accounts/AwsPluginAccountManager.clas
+ s
+SHA1-Digest: cSvquMGZMT0x4CU3x8csFFyOh9I=
+
+Name: com/amazonaws/eclipse/core/util/CliUtil.class
+SHA1-Digest: XR9UzRQAUwS7LlZkc0jRajg3rU4=
+
+Name: com/amazonaws/eclipse/explorer/sns/SNSContentProvider$1.class
+SHA1-Digest: E7fXVSEtcYbDH6xWXv+LfwzKb64=
+
+Name: com/amazonaws/eclipse/core/egit/ui/CloneDestinationPage$3.class
+SHA1-Digest: 2ilNtKhxSW8GcWh3n11HKvFBeiE=
+
+Name: com/amazonaws/eclipse/core/util/RssFeed$Channel.class
+SHA1-Digest: ofTxDUdn+wCwmSu0AllXLis3A00=
+
+Name: com/amazonaws/eclipse/core/model/SelectOrCreateKmsKeyDataModel.c
+ lass
+SHA1-Digest: anLPOj+2SJ6osvQv34yfvrdJVjQ=
+
+Name: com/amazonaws/eclipse/core/diagnostic/ui/AwsToolkitErrorSupportP
+ rovider$1.class
+SHA1-Digest: 89ipR9hbP7dt32EUC4dDRrkZV4w=
+
+Name: icons/sqs-service.png
+SHA1-Digest: vqjW8toC9vaVAVE/oCrdsrVU9LA=
+
+Name: plugin.xml
+SHA1-Digest: bw68NQWJfluD9MauwbO5ZWezQu8=
+
+Name: icons/iam-service.png
+SHA1-Digest: CeyTuzjChf448cMcAeCSOSd8gtE=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/ResourceEditorDataLoad
+ erThread.class
+SHA1-Digest: /1h9W9p+KGeBlY07LShKi+JKpZE=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontContentProvi
+ der$DistributionNode.class
+SHA1-Digest: 1GSjVZPgw2lM154rCsljCRdJ/ns=
+
+Name: com/amazonaws/eclipse/core/accounts/profiles/SdkCredentialsFileC
+ ontentMonitor$3.class
+SHA1-Digest: Rc6S+4US2bzL8b6c1d2bScFryA8=
+
+Name: com/amazonaws/eclipse/explorer/sqs/QueueEditor$LoadQueueAttribut
+ esThread$1.class
+SHA1-Digest: jvZStQPsZnvDL/Dyw+7VAItmryk=
+
+Name: com/amazonaws/eclipse/core/plugin/AbstractAwsJobWizard$1.class
+SHA1-Digest: NB7CDsBjneLzaomnDTFK1MIb24c=
+
+Name: com/amazonaws/eclipse/core/accounts/profiles/SdkProfilesCredenti
+ alsConfiguration.class
+SHA1-Digest: hn1xfCIFfkpR16ImesJKwcbekAQ=
+
+Name: com/amazonaws/eclipse/core/ui/overview/Toolkit$3.class
+SHA1-Digest: ijW3HahbedXeG4hUDGGur7ag3FE=
+
+Name: com/amazonaws/eclipse/explorer/sns/TopicEditor$1.class
+SHA1-Digest: gSuhL1f7ZL9ZeaB/oAolgZP1mI0=
+
+Name: com/amazonaws/eclipse/core/util/WorkbenchUtils$3.class
+SHA1-Digest: QhAYYgq6SGLOsXnvwUJGtFQ8HYk=
+
+Name: com/amazonaws/eclipse/core/diagnostic/utils/EmailMessageLauncher
+ .class
+SHA1-Digest: 5YH6qMeDmRpA1NYdp5OdJf+dKLg=
+
+Name: com/amazonaws/eclipse/core/egit/UIText.class
+SHA1-Digest: tRpui4m2a7/ceOw1gQ83Pp94bec=
+
+Name: com/amazonaws/eclipse/explorer/sns/NewSubscriptionAction.class
+SHA1-Digest: 2Xckvs53IDcIMZ9aiYjYtKR0Y4Q=
+
+Name: com/amazonaws/eclipse/explorer/sqs/OpenQueueEditorAction$1.class
+SHA1-Digest: QVH+imxwgYOjGRtSUHsMsYbFwzI=
+
+Name: com/amazonaws/eclipse/core/validator/IntegerRangeValidator.class
+SHA1-Digest: ijoOHxZk+goh7nEE98Mv/utRG0U=
+
+Name: com/amazonaws/eclipse/explorer/s3/BucketEditor.class
+SHA1-Digest: 6ymMs+YvBjMUJVvUrgRhOyvA9ds=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/MetricsDataModel.clas
+ s
+SHA1-Digest: cohWsMfFeOEB7TpCBgHc8GQe+Lo=
+
+Name: com/amazonaws/eclipse/databinding/JsonStringValidator.class
+SHA1-Digest: 53Lg+KmfgTT/MO8Z/qUcuuPzRio=
+
+Name: com/amazonaws/eclipse/core/exceptions/AwsActionException.class
+SHA1-Digest: XmcJObwdRFOwogSXHWOfTBHbp8E=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/OpenStreamingDistribut
+ ionEditorAction.class
+SHA1-Digest: RgD0hkoK9gFDFG44RAsMj0Y8TJY=
+
+Name: com/amazonaws/eclipse/explorer/s3/util/ObjectUtils.class
+SHA1-Digest: Lge68sRJ3kR8x9RA1poGl9uVXbQ=
+
+Name: icons/flags/south_korea.png
+SHA1-Digest: pJhebDt9wcHc3+HfN8e80secq4E=
+
+Name: com/amazonaws/eclipse/core/model/MavenConfigurationDataModel.cla
+ ss
+SHA1-Digest: rw4TGckOKMy7LEoT9Bt5NcjQEhU=
+
+Name: icons/document_text.png
+SHA1-Digest: dLViVNItqDrrxd3X/r/a9XBZfdo=
+
+Name: com/amazonaws/eclipse/core/util/RssFeed$Item.class
+SHA1-Digest: epresAlP4oejpL1RUIsnnlreEgw=
+
+Name: com/amazonaws/eclipse/explorer/Loading.class
+SHA1-Digest: TD5w0l8Oxd0GS/++sKAymzbFrXA=
+
+Name: com/amazonaws/eclipse/explorer/sqs/QueueEditor$LoadQueueAttribut
+ esThread.class
+SHA1-Digest: 3l8shhrlDD/B2TZafIAnvrJngWs=
+
+Name: com/amazonaws/eclipse/core/ui/swt/TextBuilder.class
+SHA1-Digest: 9wEutb3wyQDgjb1IxSBJj/0f5N4=
+
+Name: com/amazonaws/eclipse/explorer/sqs/QueueEditor$LoadMessagesThrea
+ d$1.class
+SHA1-Digest: o8G3zf6/6Wea21p1tT5d0neaNWk=
+
+Name: com/amazonaws/eclipse/core/ui/wizards/ErrorDecorator.class
+SHA1-Digest: 25p+5kSdyFpoLAMoctzAH0RDGLA=
+
+Name: icons/red-circle.png
+SHA1-Digest: 50l93OpnrQWsqDZQW1pzB+b6ubg=
+
+Name: com/amazonaws/eclipse/core/accounts/AccountCredentialsConfigurat
+ ion.class
+SHA1-Digest: eTsvSVzKOuxrWRznKCtrMcU7Mhc=
+
+Name: com/amazonaws/eclipse/explorer/sqs/SQSContentProvider.class
+SHA1-Digest: 02tTgvWR8OMuUpBbqM5FfDlDaNI=
+
+Name: com/amazonaws/eclipse/core/egit/ui/CachedCheckboxTreeViewer$1.cl
+ ass
+SHA1-Digest: KK7XhaBIeQK2WZHy1x3iEuYUxPs=
+
+Name: com/amazonaws/eclipse/explorer/s3/BucketEditor$1.class
+SHA1-Digest: ThCFOYqDw4mcBZRSWKYe6Oz+LTA=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/ToolkitEvent$ToolkitE
+ ventBuilder.class
+SHA1-Digest: J8LcstKcSd4+iM2c1iOuTfPOsR4=
+
+Name: com/amazonaws/eclipse/core/ui/RegionComposite$1.class
+SHA1-Digest: TGtAxouDePxCZRnCPPjA3Oh0wT4=
+
+Name: com/amazonaws/eclipse/core/validator/StringLengthValidator.class
+SHA1-Digest: yZEy55t/MdJrEq5D7G9xN0aSrmQ=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsToolkitPreferencePa
+ ge.class
+SHA1-Digest: zdcEuwE1xJzc0tAMV1Zm90tvVBE=
+
+Name: com/amazonaws/eclipse/core/ui/setupwizard/ConfigureAccountWizard
+ Page$1.class
+SHA1-Digest: +ghXTZU9YmJ7HUMpmyuybcnsPgc=
+
+Name: com/amazonaws/eclipse/core/ui/ManagementPerspectiveFactory.class
+SHA1-Digest: njofMygZqsSamQ063d4RxdmeM8k=
+
+Name: com/amazonaws/eclipse/core/accounts/profiles/SdkCredentialsFileM
+ onitor.class
+SHA1-Digest: +8G4f79bIKIPjPpZ5leqi0qfHTw=
+
+Name: icons/user.png
+SHA1-Digest: OwS0le9lVZtPpNYBInhnnIWAzt4=
+
+Name: com/amazonaws/eclipse/core/maven/MavenRepositories$RemoteMavenRe
+ pository$Versioning.class
+SHA1-Digest: UAT6iuWRH5RVlbLd6i0ilLnbIiU=
+
+Name: icons/iam.png
+SHA1-Digest: /Yao4IhIToxEsLZRPC5k9IE/vKU=
+
+Name: com/amazonaws/eclipse/core/model/ComboBoxItemData.class
+SHA1-Digest: UDBn716yw22za8EdPd4sZWfiNWc=
+
+Name: com/amazonaws/eclipse/core/diagnostic/ui/AwsToolkitErrorSupportP
+ rovider$1$1$2.class
+SHA1-Digest: 0ejfj4OQsO7gl36hjQPZpTbHGv8=
+
+Name: com/amazonaws/eclipse/core/diagnostic/utils/ServiceExceptionPars
+ er.class
+SHA1-Digest: t9uQOSATvWMjlzzDwS3Ife4gC0Q=
+
+Name: com/amazonaws/eclipse/core/BrowserUtils.class
+SHA1-Digest: jV6n1gAB56IKaxuoyRfv2Y/3I24=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ geTab$4.class
+SHA1-Digest: QzkdN2zGuxpnJkY7jxZj/fFEgmY=
+
+Name: icons/flags/china.png
+SHA1-Digest: iDJbB6Dg5Qkb7IM+8aOQJcsoBwo=
+
+Name: com/amazonaws/eclipse/explorer/sns/PublishMessageAction$NewMessa
+ geDialog$2.class
+SHA1-Digest: dF3KSBSrm3TDx2tW8vLFiHREcPo=
+
+Name: com/amazonaws/eclipse/databinding/NotInListValidator.class
+SHA1-Digest: KCcjEuD8Go7Bww5nNb52xiCWnIo=
+
+Name: com/amazonaws/eclipse/core/widget/ComboViewerComplex.class
+SHA1-Digest: 2SS+VD6VAJpcNeB9jlJ7z9OiAuU=
+
+Name: com/amazonaws/eclipse/core/ui/ProjectNameComposite.class
+SHA1-Digest: 9tqiFNafbhSjf4ekh5U84dISV68=
+
+Name: icons/download.png
+SHA1-Digest: q6Wn2aKAXnwbX3kuOyIl+hueEks=
+
+Name: com/amazonaws/eclipse/core/maven/MavenArtifactVersionComparator.
+ class
+SHA1-Digest: AIxUus2zXthZouPnsU7ifHBHAcg=
+
+Name: com/amazonaws/eclipse/explorer/s3/acls/EditPermissionsDialog$4.c
+ lass
+SHA1-Digest: ksZ/aXWEZhDmdKpIDCo++XDYBFE=
+
+Name: com/amazonaws/eclipse/core/egit/jobs/CloneGitRepositoryJob.class
+SHA1-Digest: LNryA2xoUUfBOQn0kW8KUcOIqvk=
+
+Name: com/amazonaws/eclipse/core/ui/DeleteResourceConfirmationDialog$1
+ .class
+SHA1-Digest: yTChVJ4Y91o8KbJpXmLDfcw3BLQ=
+
+Name: com/amazonaws/eclipse/core/ui/KeyValueSetEditingComposite$4.clas
+ s
+SHA1-Digest: +p2fCxITtSnDZQCxhqK5TgnS4eA=
+
+Name: icons/flags/germany.png
+SHA1-Digest: /KAnn49nkRDuQL+84FTUrmpnuqc=
+
+Name: icons/table.gif
+SHA1-Digest: isFD4fljeccPdl3UO8sVIOQLero=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontContentProvi
+ der$StreamingDistributionNode.class
+SHA1-Digest: labCXYoau7DZ29ismSjo1MTTDPo=
+
+Name: com/amazonaws/eclipse/core/model/GitCredentialsDataModel.class
+SHA1-Digest: z1YTE56Ec9l9gJDvEQ2HQFEeLL0=
+
+Name: com/amazonaws/eclipse/core/ui/RegionSelectionComposite$1.class
+SHA1-Digest: a3sKhE0lOK5EjbHyf9lIPzBRERw=
+
+Name: com/amazonaws/eclipse/core/model/RegionDataModel.class
+SHA1-Digest: 9+S7ovdsHDjxYSAKWAbkLNzaPgY=
+
+Name: com/amazonaws/eclipse/databinding/BooleanValidator.class
+SHA1-Digest: 7J9y/ihthS+5jnTGm2k+PtOQYm8=
+
+Name: com/amazonaws/eclipse/core/ui/PreferenceLinkListener.class
+SHA1-Digest: dRA6tNWffBLs9n1456WVkr+2TJE=
+
+Name: com/amazonaws/eclipse/core/ansi/AnsiCommands.class
+SHA1-Digest: aTSBD7GJIqdjAeO1BstScnCH38Q=
+
+Name: icons/edit.png
+SHA1-Digest: tZXH1/qjeHMxqUUDPi3kp8B8E/Q=
+
+Name: com/amazonaws/eclipse/core/widget/AwsResourceComboViewerComplex$
+ AwsResourceUiRefreshable.class
+SHA1-Digest: CSMThN35xGkTL5zjUJLdYP8BKnk=
+
+Name: com/amazonaws/eclipse/core/ui/overview/HeaderComposite.class
+SHA1-Digest: iND2SgzCSZhRtSZyHk+KbKzYDE0=
+
+Name: com/amazonaws/eclipse/core/ui/menu/OpenPreferencesHandler.class
+SHA1-Digest: w2aoTnb0+uwDxyEZUc64xs5RtMg=
+
+Name: com/amazonaws/eclipse/core/model/AbstractAwsResourceScopeParam$A
+ wsResourceScopeParamBase.class
+SHA1-Digest: EmkE99Cc4owBtX0W5kcW4QaN2Y4=
+
+Name: com/amazonaws/eclipse/explorer/AbstractContentProvider$Backgroun
+ dContentUpdateJobFactory.class
+SHA1-Digest: 6wOVtwHM1lP40O03zIdHAq+PloE=
+
+Name: icons/role.png
+SHA1-Digest: dGGGA/k0Kg/nz65DvYbizTarL34=
+
+Name: com/amazonaws/eclipse/core/ui/KeyValueSetEditingComposite$KeyVal
+ ueEditingDialog$1.class
+SHA1-Digest: vq8lT1Ry2RWnzuH14+Nxsu75in4=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/DeleteBucketAction$1$1
+ .class
+SHA1-Digest: vqubScG6PpEFBZxQj88ulcelTS8=
+
+Name: com/amazonaws/eclipse/explorer/AbstractContentProvider$1.class
+SHA1-Digest: zhO0k0qdaumHTaYa7jlIv5pZs38=
+
+Name: com/amazonaws/eclipse/core/maven/MavenUtils.class
+SHA1-Digest: Hu5Jpobjny9iFXXPtekPEHAeNXA=
+
+Name: com/amazonaws/eclipse/explorer/AwsAction.class
+SHA1-Digest: +DpEs7xRhrpzWyanR2pbzKkTHTY=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/CreateBucketWizard$IsB
+ ucketNameUnique.class
+SHA1-Digest: 4Km5z/EkM5GVNRYsxI9bWHso+eM=
+
+Name: com/amazonaws/eclipse/core/ui/SelectOrCreateKmsKeyComposite.clas
+ s
+SHA1-Digest: XnkO/aDN6UEcju25KqMlgWeXSDo=
+
+Name: com/amazonaws/eclipse/core/HttpClientFactory.class
+SHA1-Digest: /pWapQGqZAPSe3tHQJITKGozg0g=
+
+Name: com/amazonaws/eclipse/core/egit/ui/FilteredCheckboxTree$1$1.clas
+ s
+SHA1-Digest: c4WCroYBlUSn1jqVAJ4Js9lU42U=
+
+Name: com/amazonaws/eclipse/core/egit/EGitCredentialsProvider$1.class
+SHA1-Digest: wzmbctEl8039SUjgcYP7YZeCyPk=
+
+Name: com/amazonaws/eclipse/core/ui/ImportFileComposite$4.class
+SHA1-Digest: ZydlHtsOMSS6z/Mof/owHI1DTYo=
+
+Name: com/amazonaws/eclipse/explorer/s3/acls/EditPermissionsDialog$1.c
+ lass
+SHA1-Digest: fsIa63hC6wwch05CNymi3pIIqHY=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ geTab$9.class
+SHA1-Digest: kiCWWvhXZMgL0W1tNYbrVzcKGC8=
+
+Name: com/amazonaws/eclipse/databinding/NotEmptyValidator.class
+SHA1-Digest: YxmS2SY9NeSXiDHU0IqnmCQ9ak4=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/UploadFilesJob.class
+SHA1-Digest: 7sXOYzOX+k7HfKxntrYIh5okhkQ=
+
+Name: com/amazonaws/eclipse/core/util/RssFeedParser.class
+SHA1-Digest: ADYm/0ttsyDpTBOVmeEia3StpOU=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/ToolkitEvent.class
+SHA1-Digest: pmz+eoMSQxRIoReEC4jj+4N3MxE=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/UploadFilesJob$1.class
+SHA1-Digest: qBQuXdzC4rmqm2/lvCJVd3YTPQ8=
+
+Name: icons/s3-service.png
+SHA1-Digest: Xr2BkNpnPclK2WppHfKuo3xq8ZI=
+
+Name: icons/logo_aws.png
+SHA1-Digest: PWdwiyPQF3KIcXy1TRD1NeXiarA=
+
+Name: com/amazonaws/eclipse/core/ui/ImportFileComposite$1.class
+SHA1-Digest: bQECiE30Z++aQyCeHbSAtLG87bI=
+
+Name: com/amazonaws/eclipse/core/maven/MavenFactory.class
+SHA1-Digest: FkMB5+SUI9fcnWssvSJOyOl9uow=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ geTab$6.class
+SHA1-Digest: ixJdxBf2GpMQCTv2J3h27agDXm4=
+
+Name: com/amazonaws/eclipse/core/util/WorkbenchUtils$1.class
+SHA1-Digest: OOADr5ILYFGy41XPummeSRl9IlI=
+
+Name: com/amazonaws/eclipse/core/egit/ui/SourceBranchPage$1$1$1.class
+SHA1-Digest: j9HeoKmXc12O/bmFjaRfoajlfqo=
+
+Name: com/amazonaws/eclipse/core/ui/MultiValueEditorDialog.class
+SHA1-Digest: LAAi6vqazC0Q+YQ41szbBbAV4ig=
+
+Name: com/amazonaws/eclipse/core/model/SelectOrCreateBucketDataModel.c
+ lass
+SHA1-Digest: mV8GUZCZO/T1Qjqh7gSfrqYrScI=
+
+Name: com/amazonaws/eclipse/core/ui/SelectOrCreateComposite$2.class
+SHA1-Digest: 3F/UeWiqJY56I9fcTaX7sFZwuF8=
+
+Name: com/amazonaws/eclipse/core/ui/setupwizard/InitialSetupWizard.cla
+ ss
+SHA1-Digest: 4NWFCzEQlhExC7Nuygn3fRYXC98=
+
+Name: com/amazonaws/eclipse/explorer/ResourcesView.class
+SHA1-Digest: 7206CM4phV8jshLCVcej+hS1HYA=
+
+Name: icons/index.png
+SHA1-Digest: KtonM4BSV/NYuKyTekYNM3nxfDI=
+
+Name: com/amazonaws/eclipse/core/ui/KeyValueSetEditingComposite$6.clas
+ s
+SHA1-Digest: W9HdVEQ59TSASAiAo5xE0wv4GMs=
+
+Name: com/amazonaws/eclipse/core/model/KeyValueSetDataModel$Pair.class
+SHA1-Digest: Tnw2081hWndUSaUq0EAjccGG9Z8=
+
+Name: com/amazonaws/eclipse/core/ui/overview/Toolkit$5.class
+SHA1-Digest: WvwkkcHA52K6f8m3yW8u1dkbJVU=
+
+Name: com/amazonaws/eclipse/core/validator/WorkspacePathValidator.clas
+ s
+SHA1-Digest: mKkwA6FpD/h6WiQIGq7QMNhCZNg=
+
+Name: com/amazonaws/eclipse/core/AccountInfo.class
+SHA1-Digest: YerXKF4FEjH0+7MegVh9YxDhp48=
+
+Name: com/amazonaws/eclipse/core/widget/TextComplex.class
+SHA1-Digest: vn5m5BoGHPmNLS6wr2pik/IvzFk=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ ge$1.class
+SHA1-Digest: rNKz7y8+F6VoqXQkPGmKXa0BHD8=
+
+Name: com/amazonaws/eclipse/core/model/ImportFileDataModel.class
+SHA1-Digest: GVpN8clAxNGSdNHKD7aJrLjaop8=
+
+Name: com/amazonaws/eclipse/core/ui/overview/Toolkit.class
+SHA1-Digest: C0rNiEtZwhpeYYC/8g6WO3BNZK8=
+
+Name: com/amazonaws/eclipse/core/ui/AbstractTableLabelProvider.class
+SHA1-Digest: Opb4gLutwLRc+GpTxlpRurewrJ8=
+
+Name: com/amazonaws/eclipse/core/egit/ui/CloneDestinationPage.class
+SHA1-Digest: 2E2Ex6ysns47tX4MqvTOmD/ThF0=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/accounts/LegacyPrefere
+ nceStoreAccountMerger$1.class
+SHA1-Digest: a32BJK3OeGLXHHht3toPukGcYsw=
+
+Name: com/amazonaws/eclipse/explorer/sns/SNSContentProvider.class
+SHA1-Digest: XHPYpat3+509MNf+U/RbfawMEl8=
+
+Name: com/amazonaws/eclipse/explorer/sqs/SQSActionProvider$CreateQueue
+ Dialog$1.class
+SHA1-Digest: Yri+Y9WWnEz8+QWAxfT/XqOwo/4=
+
+Name: com/amazonaws/eclipse/explorer/sqs/AddMessageAction$AddMessageDi
+ alog$2.class
+SHA1-Digest: 2wnkex+2MFxfjuOwe7KeFoWuD3U=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/DeleteObjectAction$1.c
+ lass
+SHA1-Digest: nCWBlf17sroLsNIOlJD2W7fwt6M=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/S3ObjectSummaryDropAction$
+ DownloadObjectJob.class
+SHA1-Digest: OmwHn55ybW3X8FtJ6j/xHosiIe0=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/S3ObjectSummaryDropAction$
+ DownloadObjectJob$1.class
+SHA1-Digest: GeAFatYZWJY1WhopYyDagaik4JY=
+
+Name: com/amazonaws/eclipse/databinding/DecorationChangeListener.class
+SHA1-Digest: rT6XWPEgJbI9BHD41Z94IL3AJp0=
+
+Name: com/amazonaws/eclipse/core/egit/CustomPromptDialog.class
+SHA1-Digest: 5iujoAM/4H6ZYWn0zzRe0zoJmmc=
+
+Name: com/amazonaws/eclipse/core/ui/KeyValueSetEditingComposite$KeyVal
+ ueSetEditingCompositeBuilder.class
+SHA1-Digest: phXyL6eTQFT65DqWyv4YrHCR1mg=
+
+Name: com/amazonaws/eclipse/explorer/sns/NewSubscriptionAction$NewSubs
+ criptionDialog$2.class
+SHA1-Digest: WYIdyLRBzpnqw+fj0V2qoYz8GWI=
+
+Name: com/amazonaws/eclipse/core/validator/package-info.class
+SHA1-Digest: lXESxtyacxnzDW6M7sBOJU1L1OI=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/UploadDropAssistant$1.clas
+ s
+SHA1-Digest: QjPwQ7EgImRCPlzeEHe1S+s1/GU=
+
+Name: com/amazonaws/eclipse/core/accounts/AccountInfoChangeListener.cl
+ ass
+SHA1-Digest: 3yoypZINtUX2M8vTOZkudxwnB24=
+
+Name: com/amazonaws/eclipse/core/ui/TagsEditingDialog$TagsEditingDialo
+ gBuilder.class
+SHA1-Digest: 4yHOpIja4vIpo9IyAEX6AuimsyA=
+
+Name: com/amazonaws/eclipse/core/accounts/profiles/SdkCredentialsFileC
+ ontentMonitor.class
+SHA1-Digest: i6vsVkrbBT0yQdk8o+JLrOMLTbw=
+
+Name: com/amazonaws/eclipse/core/egit/jobs/ImportProjectJob$1.class
+SHA1-Digest: GZUFqHNVhzx1ps8vANlrNuguIEg=
+
+Name: com/amazonaws/eclipse/core/ui/dialogs/AbstractInputDialog$2.clas
+ s
+SHA1-Digest: aY3G+lG9IG3EBYKwpzkjHQhnGLg=
+
+Name: com/amazonaws/eclipse/core/ui/Startup$1.class
+SHA1-Digest: EgXu9ndwdYWFYdtRNd2bphaIoxo=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontActions$Disa
+ bleDistributionAction.class
+SHA1-Digest: WHmeiaYrAoeXfn7pSDNLqujb08Y=
+
+Name: com/amazonaws/eclipse/core/AccountAndRegionChangeListener.class
+SHA1-Digest: od/8UIPIC0w8D71ft1F1ahtQ1M4=
+
+Name: com/amazonaws/eclipse/core/ui/AccountSelectionComposite$2.class
+SHA1-Digest: a+YG7lMSS4hK1eG0hlV/rApazcs=
+
+Name: com/amazonaws/eclipse/explorer/sqs/SQSContentProvider$1.class
+SHA1-Digest: /roA3RzBXQrmiPUVWhSt8oJwe6g=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ObjectSummaryTable$S3ObjectS
+ ummaryContentProvider.class
+SHA1-Digest: muOd2Kj74ktqeaivQKsHlAohSe8=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontActions$Disa
+ bleStreamingDistributionAction.class
+SHA1-Digest: K1T2KemNJ8rR7KriUefuYkSJUgE=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/CreateBucketAction.cla
+ ss
+SHA1-Digest: 27n2ZMX4mdEshPXueY0nNrnYiY8=
+
+Name: com/amazonaws/eclipse/explorer/sns/TopicEditor$SubscriptionLabel
+ Provider.class
+SHA1-Digest: GW6Ybe/o+VSORTlra9i9HcM/jx8=
+
+Name: com/amazonaws/eclipse/core/util/AbstractApplicationLauncher.clas
+ s
+SHA1-Digest: ZtdyVXTX0SPy5e4IvL5DEyTnu0o=
+
+Name: com/amazonaws/eclipse/explorer/ResourcesView$1.class
+SHA1-Digest: FzpyiNLeETQrlb0/cSMzhL8naQI=
+
+Name: com/amazonaws/eclipse/explorer/sqs/AddMessageAction$AddMessageDi
+ alog$1.class
+SHA1-Digest: 7PBo9DyJW/+igMAZrQ2gdHXVDBg=
+
+Name: com/amazonaws/eclipse/core/ui/swt/WidgetBuilder.class
+SHA1-Digest: YZMAGLUqsZ5YvCKmX7zK/8sak0I=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ geTab$11.class
+SHA1-Digest: n612UIe2FzYCLM/ZwuzQb0hKteY=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/ui/ToolkitAnalyticsPr
+ eferencePage.class
+SHA1-Digest: eN9hAR5EnvLl9Bzyf1zNtmE/cBQ=
+
+Name: com/amazonaws/eclipse/core/ui/MultipleSelectionListComposite.cla
+ ss
+SHA1-Digest: 2jXUez8Ch+2/ULXKqD3035ZMEqQ=
+
+Name: com/amazonaws/eclipse/explorer/sns/TopicEditor$LoadSubscriptions
+ Thread.class
+SHA1-Digest: dWzLWXWCIaVgI5Z024XmqlX4UFI=
+
+Name: com/amazonaws/eclipse/core/ui/KeyValueSetEditingComposite$KeyVal
+ ueEditingDialog.class
+SHA1-Digest: kiHT6h2imYijWA/+cNPM/fUvlA4=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/AbstractOpenAwsEditorA
+ ction.class
+SHA1-Digest: tkmbJdwhFOtPmJp/b4BVwP/fDfM=
+
+Name: com/amazonaws/eclipse/core/ui/MultiValueEditorDialog$2.class
+SHA1-Digest: /upLVW7olNKjA//C1zL5YIqjdNY=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ geTab$2.class
+SHA1-Digest: /GpQGlMWrz/kIZGSc1LmdmCS7Hs=
+
+Name: com/amazonaws/eclipse/core/ui/KeyValueSetEditingComposite$KeyVal
+ ueEditingUiText.class
+SHA1-Digest: BoPiixx1MTcQH0dCVKUbEodNR8U=
+
+Name: lib/aws-java-sdk-opensdk-1.11.130.jar
+SHA1-Digest: yVretkAJb0k7TPHxp4jZBZtace0=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontContentProvi
+ der$1.class
+SHA1-Digest: +pOs7RK5kErMNLHfcq3nMNMbu6o=
+
+Name: com/amazonaws/eclipse/core/ui/EmailLinkListener.class
+SHA1-Digest: hQIfuSVmnPZhFxE2APTZtr0qr8s=
+
+Name: com/amazonaws/eclipse/core/model/package-info.class
+SHA1-Digest: HSWoHQI6wM1LNWv30p0XHheMxBs=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ ge.class
+SHA1-Digest: D7hLHwB/yQ/T4RIQyz2GekPQHn8=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/CreateBucketWizard$IsB
+ ucketNameValid.class
+SHA1-Digest: jy8EF1k/2a5Gqw7xyuTmjD8gs+c=
+
+Name: com/amazonaws/eclipse/explorer/sqs/QueueEditor$1.class
+SHA1-Digest: 8HD91/oWmb+9baxRWLWBD56L76Q=
+
+Name: com/amazonaws/eclipse/core/ui/overview/OverviewSection.class
+SHA1-Digest: B/bAZBtmW0ThZVO/6kPerTZrOVE=
+
+Name: com/amazonaws/eclipse/explorer/sns/PublishMessageAction$NewMessa
+ geDialog.class
+SHA1-Digest: KgOiwf4qZogGOdx52lblp+fXrfQ=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/accounts/AccountInfoPr
+ opertyEditorFactory$PropertyType.class
+SHA1-Digest: WtIfYHeIMdLw8GRZ0DUpNkPjoXE=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/internal/ToolkitAnaly
+ ticsManagerImpl.class
+SHA1-Digest: sdgF016avgdpP9Dq7Bs3lFdZVgc=
+
+Name: com/amazonaws/eclipse/core/egit/EGitCredentialsProvider$2.class
+SHA1-Digest: jxwYJdZXktpa9fRbIcLL1RYTIps=
+
+Name: com/amazonaws/eclipse/core/egit/ui/SourceBranchPage.class
+SHA1-Digest: K64ZuTuJ+xWJ5lpvAto6eARt1rs=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/DownloadDropAssistant$Down
+ loadObjectJob.class
+SHA1-Digest: IMWLAAVMEYFaiCKzA0rGccFHdd0=
+
+Name: com/amazonaws/eclipse/explorer/actions/ConfigurationActionProvid
+ er$RegionSelectionMenuAction$2.class
+SHA1-Digest: cA7kNT/tfJrDGW/eOmdCt8HvzQo=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/S3ObjectSummaryDropAction$
+ BucketAndKey.class
+SHA1-Digest: ZM+/zS5pvfkJfFwgqGcmpzxKxic=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontActions$Enab
+ leDistributionAction.class
+SHA1-Digest: P0mZYCKd7PAf3XFLGuAz+SRiLu4=
+
+Name: com/amazonaws/eclipse/core/regions/Region.class
+SHA1-Digest: 1Y65jXE8m16ONCOb4NgK2uTPxEs=
+
+Name: com/amazonaws/eclipse/core/ui/overview/GettingStartedSection.cla
+ ss
+SHA1-Digest: xaZXxGHWZTTM0lkVN0gRzeOF98A=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/KeySelectionDialog.class
+SHA1-Digest: dU1XTmuUgQfLaWyy6F2Zhil6LQw=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/internal/NoOpToolkitA
+ nalyticsManager.class
+SHA1-Digest: lmNGqJnMrCH1xKA7IcVaL8w/xDk=
+
+Name: com/amazonaws/eclipse/core/ui/ImportFileComposite.class
+SHA1-Digest: L++dfH+aDJQdfioe5IDbGjF5H1s=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/batchclient/internal/
+ MobileAnalyticsBatchClientImpl$1.class
+SHA1-Digest: inwN0ePh8xutTBD5XiHJyZW3qcQ=
+
+Name: com/amazonaws/eclipse/core/model/AbstractAwsToolkitDataModel.cla
+ ss
+SHA1-Digest: gUYv6lnOb2J09viKg/nqBr6+o5s=
+
+Name: com/amazonaws/eclipse/core/ui/setupwizard/InitialSetupUtils.clas
+ s
+SHA1-Digest: bGXiUW1fw6hGwJTzj1O2oE1vk7A=
+
+Name: com/amazonaws/eclipse/explorer/sns/CreateTopicWizard.class
+SHA1-Digest: h7rx+DFwmuN/ez0fvwUQwoY9y1E=
+
+Name: icons/flags/uk.png
+SHA1-Digest: Z4eHbtb1/yCWdzIlKE3Ez9aIhbE=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.core/
+ pom.xml
+SHA1-Digest: 62gm2g4f4G1NKNGOm1nfnzHWA4w=
+
+Name: com/amazonaws/eclipse/core/widget/RadioButtonComplex.class
+SHA1-Digest: t4J3aKexl+FKYxHZX9BnwwM/698=
+
+Name: icons/overview/logo-header-gradient.png
+SHA1-Digest: 1W98plnRRbwQEVgyADDP3tGZ9M4=
+
+Name: com/amazonaws/eclipse/core/AwsToolkitCore$2.class
+SHA1-Digest: byJVxfAiHCcjifmJrmLQpm9PWqk=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ContentProvider$2.class
+SHA1-Digest: WSu4EsEfpEdRedmmOqQZyX9UGmc=
+
+Name: icons/scroll.png
+SHA1-Digest: 2knJ9TUDgN3fTruT+RdAaa1vfm0=
+
+Name: icons/flags/australia.png
+SHA1-Digest: s6KWwMRWjulkvgGSve2u/xAFGFo=
+
+Name: icons/bucket.png
+SHA1-Digest: oOhtQE0n2rDJSjXmn9+2T0gkiTk=
+
+Name: icons/sns-service.png
+SHA1-Digest: et08ftQJo8DbHUVnkG9t+Qh1TGg=
+
+Name: com/amazonaws/eclipse/core/maven/MavenRepositories$RemoteMavenRe
+ pository$ArtifactMetadata.class
+SHA1-Digest: iuLs99oOcQyESks1138ewe4bN+g=
+
+Name: com/amazonaws/eclipse/core/ui/IRefreshable.class
+SHA1-Digest: T8Er9ZB55WVVNqYDFANRslIivtY=
+
+Name: com/amazonaws/eclipse/explorer/s3/dnd/DownloadDropAssistant$Down
+ loadObjectJob$1.class
+SHA1-Digest: /foU31H/83VeVwNPnyKQeQkBjik=
+
+Name: icons/cloudformation-service.png
+SHA1-Digest: caGRjakWXSWCM3cnsKMOR+gcdOY=
+
+Name: icons/gradient-box/upper-right.png
+SHA1-Digest: IjhRwD6fk6PkK5vWn/8hVMug5Fs=
+
+Name: icons/flags/canada.png
+SHA1-Digest: rqYieQ1m+lZwZcUuQ55pjp2/1EM=
+
+Name: com/amazonaws/eclipse/core/widget/package-info.class
+SHA1-Digest: MCVIl0cq5ooxXNQTxZAkYGJmPk8=
+
+Name: com/amazonaws/eclipse/explorer/sns/NewSubscriptionAction$NewSubs
+ criptionDialog.class
+SHA1-Digest: +KjnX1RRWuvQ1hbRwsaEMgKVnBE=
+
+Name: com/amazonaws/eclipse/core/accounts/profiles/SdkCredentialsFileC
+ ontentMonitor$1$1.class
+SHA1-Digest: lDIOO0CzWNgzPt5wIL/YIpzh6IA=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ContentProvider$1.class
+SHA1-Digest: PE6SJmZjKVY9D75tmr3nd/S1wus=
+
+Name: com/amazonaws/eclipse/explorer/actions/ConfigurationActionProvid
+ er.class
+SHA1-Digest: h4oGspcyhlfpnQTNDFdtW42lZoo=
+
+Name: icons/flags/flag_india.png
+SHA1-Digest: 7cJEHm4h4ssMh1DvXS/MD2aCnDY=
+
+Name: com/amazonaws/eclipse/core/AwsToolkitCore$1.class
+SHA1-Digest: 9XDkIZ9v4qI7KuUO84ji+dowUQI=
+
+Name: icons/save.png
+SHA1-Digest: Su3tazsOYMb7Avql2pZ5BvbqPEU=
+
+Name: com/amazonaws/eclipse/explorer/sns/SNSContentProvider$TopicNode.
+ class
+SHA1-Digest: VHC5CvBDgoWJii+fmMpyp2yUqgs=
+
+Name: com/amazonaws/eclipse/core/ui/dialogs/CreateKmsKeyDialog.class
+SHA1-Digest: aStZaIOqil5cRy4pX/c1dNMBHVo=
+
+Name: com/amazonaws/eclipse/core/AwsClientUtils.class
+SHA1-Digest: 0FU2nqetBxgiH4dPNOT5JH0RRYM=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontActions$Abst
+ ractDistributionStateChangingAction$1.class
+SHA1-Digest: LgcFhMW9sf3ceuXea2PpJIr1OxA=
+
+Name: com/amazonaws/eclipse/core/AwsToolkitCore.class
+SHA1-Digest: Rbd7fS6NhA5WPTr2q3EvgwIvlgU=
+
+Name: com/amazonaws/eclipse/explorer/actions/ConfigurationActionProvid
+ er$RegionSelectionMenuAction$1.class
+SHA1-Digest: IVc7GGcg1cKlZPCbayVqsgI/J14=
+
+Name: com/amazonaws/eclipse/explorer/sns/TopicEditor$UnsubscribeAction
+ .class
+SHA1-Digest: 73/4NMUW+V4UA8mcRt3sEnehuGs=
+
+Name: com/amazonaws/eclipse/core/maven/MavenRepository.class
+SHA1-Digest: yd1bv5a1QMvlE+QzTqigFCV3W4s=
+
+Name: icons/sns_topic.png
+SHA1-Digest: vNXUgpOAt0gEXpzIHcXL3YzyA8s=
+
+Name: com/amazonaws/eclipse/explorer/actions/ConfigurationActionProvid
+ er$AccountPreferencesAction.class
+SHA1-Digest: cSYNO19uOVspTkdRE242ztMnRfY=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/DistributionDecorator.
+ class
+SHA1-Digest: OVIAYBWu+YJtJrycurEwvifw3Eg=
+
+Name: com/amazonaws/eclipse/explorer/sqs/SQSActionProvider.class
+SHA1-Digest: JULf3GD5zNGA8JI0xVsVY10E6fE=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/StreamingDistributionE
+ ditor$LoadDistributionInfoThread.class
+SHA1-Digest: bzRHK373IyS/v/Ycc5F8DmNK3n4=
+
+Name: com/amazonaws/eclipse/core/widget/ComboComplex$ComboComplexBuild
+ er.class
+SHA1-Digest: v954ntU4SLrps/sAE3+pS4fQVS8=
+
+Name: com/amazonaws/eclipse/core/accounts/DefaultAccountMonitor.class
+SHA1-Digest: dLlJNLlsTk2xSaF1S/N+nPBOqcw=
+
+Name: icons/aws-box.gif
+SHA1-Digest: FncMVzZA7OR/pQhZYLN+86K95X4=
+
+Name: com/amazonaws/eclipse/explorer/sqs/QueueEditorInput.class
+SHA1-Digest: ZhWcPdkRtx/rvG0++BzpdE0G2gE=
+
+Name: com/amazonaws/eclipse/explorer/s3/acls/EditPermissionsDialog$Tab
+ leItemData.class
+SHA1-Digest: YBXQ2Uh27AJn1tOndgRQeJbA/+U=
+
+Name: com/amazonaws/eclipse/core/ui/wizards/TextWizardPageInput.class
+SHA1-Digest: 7PpgWTVuWqql3eep4fHfGE0+Jxg=
+
+Name: com/amazonaws/eclipse/core/mobileanalytics/AwsToolkitMetricType.
+ class
+SHA1-Digest: FObD5rNH0yY8kEC5o8pScN0JfAI=
+
+Name: com/amazonaws/eclipse/core/model/SelectOrInputDataModel.class
+SHA1-Digest: X6DbdAcGfagyL24DRQD6WPFEjqg=
+
+Name: com/amazonaws/eclipse/core/ui/swt/HorizontalAlignment.class
+SHA1-Digest: eW66AwkjAHh4gwxACvp9IecfUew=
+
+Name: com/amazonaws/eclipse/explorer/sqs/AddMessageAction.class
+SHA1-Digest: OJNTy2QRXZKqEeQkYdtUpg2VvDY=
+
+Name: com/amazonaws/eclipse/explorer/s3/BucketEditor$1$1.class
+SHA1-Digest: OY+s68cgQ/82npZTI9cpT4CVS0U=
+
+Name: com/amazonaws/eclipse/explorer/s3/acls/EditBucketPermissionsDial
+ og.class
+SHA1-Digest: HHg7FGS/y0OzMIaXGZyDRWJGeAY=
+
+Name: com/amazonaws/eclipse/core/ui/WebLinkListener.class
+SHA1-Digest: vAB5nkqqRfChKeAtPEpticBAV+s=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/DeleteBucketAction$1.c
+ lass
+SHA1-Digest: E1m0KWbhQx4Ea7AZKpAJz+psYMY=
+
+Name: com/amazonaws/eclipse/core/model/MultipleSelectionListDataModel.
+ class
+SHA1-Digest: XwOxFspvNZXgQNOW7gDsc+NX08o=
+
+Name: com/amazonaws/eclipse/core/widget/ComboViewerComplex$ComboViewer
+ ComplexBuilder.class
+SHA1-Digest: 0yH3zKUgAXO8rUAewCVB/nYXUL0=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/accounts/AccountInfoPr
+ opertyEditorFactory$SimpleStringFieldEditor.class
+SHA1-Digest: bVF57j+bng30cRklv51luwCRH2g=
+
+Name: com/amazonaws/eclipse/core/validator/FilePathValidator.class
+SHA1-Digest: 3bg2nH8q4fGc+6FQbXJ1bNdT5/Y=
+
+Name: com/amazonaws/eclipse/core/accounts/preferences/PluginPreference
+ StoreAccountCredentialsConfiguration.class
+SHA1-Digest: 1wG0ZTYMAB0vjxFgYqq5o6S5NfY=
+
+Name: com/amazonaws/eclipse/explorer/AbstractContentProvider$NotSigned
+ UpNode.class
+SHA1-Digest: yFjNlnSnKwBHh+OvPFTQKkLg9Hk=
+
+Name: com/amazonaws/eclipse/core/util/ValidationUtils.class
+SHA1-Digest: CfOVHRB9l+cHvzPbiTQA3tTqiZ4=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/DeleteObjectAction.cla
+ ss
+SHA1-Digest: Fomh9++qa5IIIlCPjJYG1b3l+7Q=
+
+Name: com/amazonaws/eclipse/core/maven/MavenRepositories$RemoteMavenRe
+ pository.class
+SHA1-Digest: EFA27MhbVcXjRY60OIBZtkPpQKQ=
+
+Name: com/amazonaws/eclipse/core/diagnostic/ui/AwsToolkitErrorSupportP
+ rovider.class
+SHA1-Digest: 6hCcj+GHXzFlk9J01Mm2NJQT08A=
+
+Name: com/amazonaws/eclipse/core/ui/SelectOrInputComposite$NewResource
+ DoesNotExistValidator.class
+SHA1-Digest: XVTHyFQWtCHspm2pAWLBd0t2sZ8=
+
+Name: etc/regions.xml
+SHA1-Digest: bZ+GyVw+n8QazcCa3fu3YVxShA0=
+
+Name: icons/flags/brazil.png
+SHA1-Digest: lAEgJRlym28n6w7+X395GiHTA8Q=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ geTab$3.class
+SHA1-Digest: qeKCsGxLPvtFgEJRjutyyza/dnA=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/DistributionEditor.cla
+ ss
+SHA1-Digest: /FF1T4gSKSXMce0j2h18h3rL6+8=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontActions$Dist
+ ributionStateChangingAction.class
+SHA1-Digest: uT3DfLXizs8fKBkS1Ymq7f3kZpY=
+
+Name: com/amazonaws/eclipse/core/regions/ServiceAbbreviations.class
+SHA1-Digest: WvzPumKz9+tKR9PiPkpnMao5S3E=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/StreamingDistributionE
+ ditor.class
+SHA1-Digest: mmZV6iAqzmOAZIlj0bGfX/muyqA=
+
+Name: com/amazonaws/eclipse/core/ui/MultiValueEditorDialog$1.class
+SHA1-Digest: A5rXO1Gv2uS+ZbWJX+Y9aeTVTtI=
+
+Name: com/amazonaws/eclipse/explorer/s3/BucketEditor$RefreshAction.cla
+ ss
+SHA1-Digest: zLDOLM9bCidJTG0NOEzIyxq8dvQ=
+
+Name: com/amazonaws/eclipse/core/ui/SelectOrInputComposite$1.class
+SHA1-Digest: t1mC786haXWHZzMObn9ek9tgut8=
+
+Name: com/amazonaws/eclipse/core/regions/Region$RegionPartition.class
+SHA1-Digest: ZVo6Jich/tUP4vooq/jb62dhT+4=
+
+Name: com/amazonaws/eclipse/core/ui/SelectOrInputComposite.class
+SHA1-Digest: S+CA/kUirVDKyddp6TtpEFIGoAg=
+
+Name: icons/flags/usa.png
+SHA1-Digest: PN1wWnvEcKBDoTEnnhMxzMxfuUQ=
+
+Name: com/amazonaws/eclipse/core/util/CliUtil$PipeThread.class
+SHA1-Digest: OzRzsoobUkyhKoxcb2YRXP5NPRo=
+
+Name: com/amazonaws/eclipse/core/diagnostic/ui/AwsToolkitErrorSupportP
+ rovider$ErrorReportFailureMessageDialog.class
+SHA1-Digest: 3xwo82mVBdsra/x7ElpyA0kwQ3Y=
+
+Name: com/amazonaws/eclipse/core/widget/AwsResourceComboViewerComplex.
+ class
+SHA1-Digest: +R31cEY/y0s08ua28AUpYaWJzZU=
+
+Name: com/amazonaws/eclipse/core/preferences/PreferenceInitializer.cla
+ ss
+SHA1-Digest: s4TNGOnQASz/uHwCEWRrRlIYWmI=
+
+Name: com/amazonaws/eclipse/core/ui/MultiValueEditorDialog$4.class
+SHA1-Digest: lfY1ao+jG5isGDpWW2uSguSPBjM=
+
+Name: icons/export.gif
+SHA1-Digest: LQPT2QoQELD7YcZiJV2Viw4nKYo=
+
+Name: com/amazonaws/eclipse/core/AWSClientFactory.class
+SHA1-Digest: HwZHrUQmwrPezFT34tpUtnW4nKk=
+
+Name: icons/start.png
+SHA1-Digest: oA/hQ5q9+4As3YV2gK+kvZpCw9k=
+
+Name: com/amazonaws/eclipse/explorer/s3/OpenBucketEditorAction.class
+SHA1-Digest: W2QBlY2aNuK7TjyQ+1AbVSPbOag=
+
+Name: com/amazonaws/eclipse/core/diagnostic/utils/PlatformEnvironmentD
+ ataCollector.class
+SHA1-Digest: I/CJeLWVppsQO5iznN6pUO1Y4Nc=
+
+Name: lib/jsoup-1.7.3.jar
+SHA1-Digest: klaNcWfOG/nrH9gVsCLVosETVHo=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/OpenDistributionEditor
+ Action.class
+SHA1-Digest: B4hoQX8nj4POdzK2/Pemy/VMKdg=
+
+Name: icons/overview/header-gradient.png
+SHA1-Digest: mohEmiebQDFLJoKKEh4+ur7P3e8=
+
+Name: com/amazonaws/eclipse/core/validator/NoopValidator.class
+SHA1-Digest: ZkWikcYoj7vj7hS9IriKD1K+MgM=
+
+Name: com/amazonaws/eclipse/explorer/sqs/QueueEditor$LoadMessagesThrea
+ d.class
+SHA1-Digest: lRy+nqGdUBqX9PKsL/D6PeW4Aao=
+
+Name: com/amazonaws/eclipse/core/validator/ResourcesLoadingValidator.c
+ lass
+SHA1-Digest: DLhhtG/tv9rtlNBbRrW4PJQIQQQ=
+
+Name: com/amazonaws/eclipse/core/ui/SelectOrInputComposite$2.class
+SHA1-Digest: QtAJyAGF+ZPZQlmXbScZ37zYCsA=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ geTab$10.class
+SHA1-Digest: r3pDzzRJpEnDugzLPZSV2LL56b8=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/EditObjectTagsAction.c
+ lass
+SHA1-Digest: nLsWPgQ6RK+tluNOrvCyxbyA31w=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ContentProvider.class
+SHA1-Digest: 5NTvxfOAP8rg2DcwwhrCPnzq7Pg=
+
+Name: com/amazonaws/eclipse/explorer/cloudfront/CloudFrontActions$Stre
+ amingDistributionStateChangingAction.class
+SHA1-Digest: NOYyJnetY+Pt8NQihaSiArTjQD0=
+
+Name: com/amazonaws/eclipse/explorer/s3/S3ObjectSummaryTable$1$1.class
+SHA1-Digest: VG7LCRK4LI2CoN/BZFDRhmF/PZk=
+
+Name: com/amazonaws/eclipse/explorer/s3/actions/S3ActionProvider.class
+SHA1-Digest: 4sjYJXEPy1NxIJmQEEY0iR08saQ=
+
+Name: com/amazonaws/eclipse/core/util/S3BucketUtil.class
+SHA1-Digest: brvFkPh/duMtnV6fWB7bpnDVAoc=
+
+Name: com/amazonaws/eclipse/core/model/KeyValueSetDataModel.class
+SHA1-Digest: HQJNQijWrApdHTRxN2EWuDUxQnQ=
+
+Name: com/amazonaws/eclipse/explorer/sns/SNSContentProvider$SNSRootEle
+ ment.class
+SHA1-Digest: wRKJYurdREmHVKK3Kkag2RER/eM=
+
+Name: com/amazonaws/eclipse/core/ui/AbstractTableContentProvider.class
+SHA1-Digest: D8NcI1gtCxmS6Oavlt+psSWCupU=
+
+Name: com/amazonaws/eclipse/core/egit/EGitCredentialsProvider.class
+SHA1-Digest: YE2wOxrV1i+yzzIfEAauPIrssDQ=
+
+Name: com/amazonaws/eclipse/core/ui/overview/OverviewResources.class
+SHA1-Digest: 7+frWCFPxS/wOSdQfV052NZHOvk=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/AwsAccountPreferencePa
+ geTab$1.class
+SHA1-Digest: XJ3TtUAcSbAmRGpaHPR/62zM6Ys=
+
+Name: com/amazonaws/eclipse/explorer/sqs/QueueEditor.class
+SHA1-Digest: uBJL7mt0C95vfSmUgsOYnaJA/KE=
+
+Name: com/amazonaws/eclipse/core/ui/SelectOrInputComposite$3.class
+SHA1-Digest: /64UQTmhSuOm039+ECx69kWju3w=
+
+Name: com/amazonaws/eclipse/core/diagnostic/ui/AwsToolkitErrorSupportP
+ rovider$1$1.class
+SHA1-Digest: aXDVh6nJgyRRRncUpa/TU/W4cJM=
+
+Name: com/amazonaws/eclipse/core/ui/wizards/TwoPhaseValidator$AsyncVal
+ idationJob.class
+SHA1-Digest: skxyUqqeH043b5lKSPKznTpGrUc=
+
+Name: com/amazonaws/eclipse/core/ui/MultiValueEditorDialog$3.class
+SHA1-Digest: Ed8HdKFmTlZUv7YE2TWFFMKo294=
+
+Name: com/amazonaws/eclipse/core/ui/preferences/accounts/LegacyPrefere
+ nceStoreAccountMerger.class
+SHA1-Digest: LJk31gkTUMDYXZGUy1TEJf5VwjA=
+
+Name: com/amazonaws/eclipse/explorer/AbstractContentProvider$Backgroun
+ dContentUpdateJobFactory$1.class
+SHA1-Digest: UlChQa+Et9O64wg6I7eSUzvdKz8=
+
+Name: com/amazonaws/eclipse/explorer/sns/TopicEditor$SubscriptionConte
+ ntProvider.class
+SHA1-Digest: soLl69ZMuXcCaxGWnEOj4TL0M7M=
+
+Name: com/amazonaws/eclipse/core/accounts/AccountInfoProvider.class
+SHA1-Digest: /3umw96cp2kTSrKjQYE5m9I1rn4=
+

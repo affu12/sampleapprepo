@@ -1,0 +1,158 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.amazonaws.eclipse.rds;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: root
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.da
+ tatools.connectivity;bundle-version="1.1.2",org.eclipse.datatools.con
+ nectivity.db.generic;bundle-version="1.0.1",org.eclipse.datatools.con
+ nectivity.db.generic.ui;bundle-version="1.0.1",org.eclipse.datatools.
+ enablement.mysql;bundle-version="1.0.2",org.eclipse.datatools.enablem
+ ent.mysql.dbdefinition;bundle-version="1.0.4",org.eclipse.datatools.c
+ onnectivity.ui,org.eclipse.ui.ide,org.eclipse.core.resources,com.amaz
+ onaws.eclipse.core;bundle-version="2.0.0",org.eclipse.core.databindin
+ g;bundle-version="1.2.0",org.eclipse.core.databinding.beans;bundle-ve
+ rsion="1.2.0",org.eclipse.core.databinding.observable;bundle-version=
+ "1.2.0",org.eclipse.jface.databinding;bundle-version="1.3.0",org.ecli
+ pse.core.databinding.property;bundle-version="1.2.0",org.eclipse.ui.n
+ avigator;bundle-version="3.2.0",org.eclipse.datatools.connectivity.ui
+ .dse;bundle-version="1.1.0",com.amazonaws.eclipse.javasdk;bundle-vers
+ ion="1.11.130"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Amazon Web Services
+Import-Package: org.eclipse.core.net.proxy
+Bundle-Name: Amazon Relational Database Service (RDS) Plugin
+Bundle-Version: 1.0.0.v201807201743
+Bundle-ClassPath: .,lib/mysql-connector-java-5.1.33-bin.jar
+Bundle-Activator: com.amazonaws.eclipse.rds.RDSPlugin
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_171
+
+Name: plugin.xml
+SHA1-Digest: aLAyPvLzkIYjbrbLe/OBjTrBl5M=
+
+Name: com/amazonaws/eclipse/rds/ConfigureImportOptionsPage$2.class
+SHA1-Digest: ENxi6wiSXL3X8WkAxHaOcjHFz8o=
+
+Name: com/amazonaws/eclipse/rds/ConfigureRDSDBConnectionRunnable.class
+SHA1-Digest: zCulIE/omgoDhxcR3S8v8KcGUS0=
+
+Name: com/amazonaws/eclipse/rds/connectionfactories/DatabaseConnection
+ Factory.class
+SHA1-Digest: WNriS0C+OxfJ4lKrbTISSHenRac=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSContentProvider$1.class
+SHA1-Digest: Lo2C1PdRDZ1OGGCZRV0Bx5DM8Ws=
+
+Name: com/amazonaws/eclipse/rds/SelectExistingDatabasePage$LoadExistin
+ gDatabasesRunnable.class
+SHA1-Digest: Ll+CoOkgk7TMCenV7kOH/qakItg=
+
+Name: icons/aws-box.gif
+SHA1-Digest: FncMVzZA7OR/pQhZYLN+86K95X4=
+
+Name: com/amazonaws/eclipse/rds/connectionfactories/PostgreSqlConnecti
+ onFactory.class
+SHA1-Digest: a6teFVhFIbO1Mj+SAaOe9vtg5Rs=
+
+Name: com/amazonaws/eclipse/rds/RDSPlugin.class
+SHA1-Digest: A2hHwoBieukaa0nw5TnEDnKQgi0=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSExplorerNodes.class
+SHA1-Digest: v3uELkQjUVqA6cXqlyYruw+m/OU=
+
+Name: com/amazonaws/eclipse/rds/connectionfactories/AuroraConnectionFa
+ ctory.class
+SHA1-Digest: rSs9mewoWFTwerbJe9RWN8JL/6M=
+
+Name: com/amazonaws/eclipse/rds/ConfigureImportOptionsPage.class
+SHA1-Digest: 6pzwAq9iqvjGdnnRuyKQtwhuZN4=
+
+Name: com/amazonaws/eclipse/rds/RDSDriverDefinitionConstants.class
+SHA1-Digest: ri5s7hHNwcaNS3g/gOgBpSeKtSk=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSLabelProvider.class
+SHA1-Digest: vwTHicW40bATSUAUCVl6k1vpYrs=
+
+Name: com/amazonaws/eclipse/rds/connectionfactories/SqlServerConnectio
+ nFactory.class
+SHA1-Digest: F6hEzTgzHvhoWgxlorBgsH/OTu8=
+
+Name: com/amazonaws/eclipse/rds/util/CheckIpUtil.class
+SHA1-Digest: 5nHqFTJ5miRPJni8kc1uXGN0Ky8=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSExplorerNodes$DatabaseNode
+ .class
+SHA1-Digest: b2HkrEmISGzbydisaa2Y0Z+akY8=
+
+Name: com/amazonaws/eclipse/rds/ImportWizard.class
+SHA1-Digest: jj9IOP5PvahFx8M8Hgydo/k62Lk=
+
+Name: com/amazonaws/eclipse/rds/ControlDataObservableValue.class
+SHA1-Digest: xeBH2J/aizKY2vssQi/3GF1DSgg=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.rds/p
+ om.xml
+SHA1-Digest: fOwuX3VBP5t61BsroIv50cw0pIs=
+
+Name: com/amazonaws/eclipse/rds/ConfigureImportOptionsPage$CheckOutgoi
+ ngIpRange$1.class
+SHA1-Digest: xE56Wtv5suAizNjHvtC7J/QjghE=
+
+Name: com/amazonaws/eclipse/rds/ConfigureImportOptionsPage$1.class
+SHA1-Digest: uf7J75ffI4BdCKVFcEnyGQbbJrM=
+
+Name: com/amazonaws/eclipse/rds/SelectExistingDatabasePage.class
+SHA1-Digest: eylUWm+l1jCdK9//eb93DbjPbw8=
+
+Name: com/amazonaws/eclipse/rds/ConfigureImportOptionsPage$CheckOutgoi
+ ngIpRange.class
+SHA1-Digest: g/nqFbVTGG0OF5X6T4cBJ/ecVRg=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSContentProvider.class
+SHA1-Digest: +pU8QygANdUKjgewbt6DGteciNw=
+
+Name: lib/mysql-connector-java-5.1.33-bin.jar
+SHA1-Digest: 1ZJL+OXBQTlAlYNxpggliH68jC4=
+
+Name: com/amazonaws/eclipse/rds/ImportDBInstanceDataModel.class
+SHA1-Digest: CEfwaQUM0lT4ld7ghzBB5YrH2vg=
+
+Name: com/amazonaws/eclipse/rds/RDSPlugin$1.class
+SHA1-Digest: OP3vszv8r0PxZo53rT/SNFLsWAk=
+
+Name: icons/sample.gif
+SHA1-Digest: AFju2Q2+1Vh+Fu1wE08m60Jwc0g=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSExplorerActionProvider$Ope
+ nRdsConsoleAction.class
+SHA1-Digest: /l6WFz1D7WJ3TmT43WreWGGsvPg=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSExplorerNodes$RdsRootEleme
+ nt.class
+SHA1-Digest: gYo2RfQ+bZ3+Xbp8+usOR7du/F4=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSExplorerActionProvider$Con
+ figureConnectionProfileAction.class
+SHA1-Digest: Vc1MouolluQToO/BVrOvECkuoNA=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.rds/p
+ om.properties
+SHA1-Digest: 3OT4uLcqSjX6sIcQRDoYjy3gPZM=
+
+Name: com/amazonaws/eclipse/rds/connectionfactories/OracleConnectionFa
+ ctory.class
+SHA1-Digest: uTTC5aytYdPoe4If1oqbPQoqB2o=
+
+Name: com/amazonaws/eclipse/rds/connectionfactories/MySqlConnectionFac
+ tory.class
+SHA1-Digest: guJDFpxH2jTHxPCcvEI4ccxTLvg=
+
+Name: com/amazonaws/eclipse/explorer/rds/DatabaseDecorator.class
+SHA1-Digest: Zc0UqK8nWsrCW/XyoNBAONKKfjo=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSExplorerActionProvider.cla
+ ss
+SHA1-Digest: Y2w5JFVPJjnMA1xYUAAw1kPwyBQ=
+

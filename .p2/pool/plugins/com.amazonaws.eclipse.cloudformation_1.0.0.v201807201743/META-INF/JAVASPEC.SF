@@ -1,0 +1,638 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: 7318lv6o34kVC5iDiu3PwjcKB6Q=
+SHA1-Digest-Manifest: 9Mcdl+qGuowj4eS/IA/YqzJSQ4c=
+Created-By: 1.8.0_172 (Oracle Corporation)
+
+Name: com/amazonaws/eclipse/cloudformation/actions/FormatTemplateActio
+ n.class
+SHA1-Digest: dqn4RsA1RA5e+me6Q+J0pzVKU64=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ Wizard$1.class
+SHA1-Digest: 06DtqpM5ItWdbeKk1fmhCSihxJw=
+
+Name: plugin.xml
+SHA1-Digest: JAuCsJlaXVk4WGaiB9lqMtTX45A=
+
+Name: icons/stack.png
+SHA1-Digest: YQgUwRcGnGzt88DeC84trYmE4bw=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardSecondPage$1.class
+SHA1-Digest: R8F3Os0KXlR6DzYj3B7TiH5Ppek=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$ValidateTemplateThread$1.class
+SHA1-Digest: uOWGCmizkvrzEahWdLgtuQVNvJc=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/DocumentUt
+ ils.class
+SHA1-Digest: vnyZHOSXvFc1Y5To02whcFAFBlY=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.cloud
+ formation/pom.xml
+SHA1-Digest: iaLIz35GyaR/LgAiO8AnspLjubE=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/Section.cl
+ ass
+SHA1-Digest: mmG5Hy2Y4qcVYYmga0dNn80AuNM=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateAu
+ toEditStrategy$PairType.class
+SHA1-Digest: 5dv4L1Z3BNvHGqR0ZXtF9InLaio=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationExpl
+ orerActionProvider$SaveStackTemplateAction.class
+SHA1-Digest: /YYulb2FOy0vyPFgCkyU0rLk9NY=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$3.class
+SHA1-Digest: eINiMV5PhigLi4dED5F6N45qieQ=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackEventsTable.c
+ lass
+SHA1-Digest: /v1V4fDAxmvWdy7tfgrbVAj0iAI=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateSo
+ urceViewerConfiguration$3.class
+SHA1-Digest: X5UYNEUP0H/RmFmPVPkvKCT2o6c=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/TemplateIndexNode
+ .class
+SHA1-Digest: tya/cmtYnlCH9bmqvMbvBVaZBQA=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/Schema.cla
+ ss
+SHA1-Digest: /nHfR2ayvFyRcz74+YeOyKs2P4k=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$6.class
+SHA1-Digest: gGa4divkWSJl7tYKdAdR5uSz5wk=
+
+Name: com/amazonaws/eclipse/cloudformation/model/ParametersDataModel.c
+ lass
+SHA1-Digest: Nyg5odS2VGSeZZwJs6H9xL+ojt4=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$11.class
+SHA1-Digest: HGzy8SYM9ISWumnJHiXuUFubxe8=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackEditorInput.c
+ lass
+SHA1-Digest: SZXnNqRoi4W3cQyrOG1yH41ZTF8=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackEditor$LoadSt
+ ackSummaryThread$1.class
+SHA1-Digest: AuEH3JX9J0/XWGc39s1GURZQjwc=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationCont
+ entProvider$CloudFormationRootElement.class
+SHA1-Digest: AEK/zkdZDzHzgU0kVAXl35POo9k=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/TemplateNodePath$
+ PathNode.class
+SHA1-Digest: xEkfaba7vMVS1P8Yx3e975pwA8A=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationExpl
+ orerActionProvider$UpdateStackAction.class
+SHA1-Digest: 1881aiScW4RpodFrKLj44BJzi9s=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$9.class
+SHA1-Digest: bi0o4zM/nTZgOjLGbTYSxAAZX/w=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/SyntaxColoringP
+ referencePage$SourcePreviewerUpdater$1.class
+SHA1-Digest: tkoM1s5/p2zt/u04ua3Vrg+GyKg=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackEditor.class
+SHA1-Digest: wmwcvHxILxA3RJp1uCZqpOuY7AE=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateRe
+ concilingStrategy.class
+SHA1-Digest: Pp5mu+sh12FJ1w1eOAK68/9NTB0=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.cloud
+ formation/pom.properties
+SHA1-Digest: ofwRyyTpTtRDlqRsV2tFpiWyzio=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/IntrinsicF
+ unction.class
+SHA1-Digest: U6J/X6P9tVoMJy9OchY6lbZx970=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationCont
+ entProvider$1.class
+SHA1-Digest: AwpPmj2SmZS6H5t11D2Wzmr5oYo=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackResourcesTabl
+ e$StackResourcesContentProvider.class
+SHA1-Digest: 82vCSzBbyURF9fcH60bvECxXgRk=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/PreferenceIniti
+ alizer.class
+SHA1-Digest: 0+/tSUkWW5aF71EugBL3OPZvLkw=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateCo
+ ntentOutlinePage$1.class
+SHA1-Digest: NYOYzXmPrv/tdKILmG21SurJCOo=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateSo
+ urceViewerConfiguration.class
+SHA1-Digest: O2xMiMYqoew6Exb6GjRQJk+HE+A=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateAu
+ toEditStrategy$IndentType.class
+SHA1-Digest: z6urRXDzJFwtYKSgvhCGVOUc8S8=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationExpl
+ orerActionProvider$DeleteStackAction$1.class
+SHA1-Digest: uA09DYhyHk2FA6jb/AoqNbnSaQ0=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$8.class
+SHA1-Digest: RrKELMtV4dlqqmxRA3Rq+7h98jc=
+
+Name: com/amazonaws/eclipse/cloudformation/validators/TemplateParamete
+ rValidators$5.class
+SHA1-Digest: 0co/lm6AAxbyn9/5dz9tgkeZwT4=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackParametersTab
+ le.class
+SHA1-Digest: 0dTzeuUT8TclT0E6GSdSld0tNqI=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackResourcesTabl
+ e$StackResourcesLabelProvider.class
+SHA1-Digest: IaGHBeW4/Pt7FstvF50rYGEjDWg=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/preview-documen
+ t-content.json
+SHA1-Digest: HG3G75hVSnPRim/mmKAQewKypck=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/SyntaxColoringP
+ referencePage$4.class
+SHA1-Digest: P1TJmy4gK8mPKFVMa2e3C9Ywfw8=
+
+Name: com/amazonaws/eclipse/cloudformation/CloudFormationConstants.cla
+ ss
+SHA1-Digest: FwYT1q/mv+ceoguEbf4bnlw2qZU=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardDataModel.class
+SHA1-Digest: kiKzjcJFHg4prT0U+OqK5jSfv5Y=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/OpenStackEditorAct
+ ion$1.class
+SHA1-Digest: dGZERXiO0UIZ2BZED0SU/5yGOpM=
+
+Name: com/amazonaws/eclipse/cloudformation/CloudFormationPlugin.class
+SHA1-Digest: nl1TJIC0YJNHdryc10729ulmpVU=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateSc
+ anner$TemplateWordRule.class
+SHA1-Digest: hqtBIUVRX9Sqp8H7YKfX8UIqAuo=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/PreferencePage.
+ class
+SHA1-Digest: 3+EWBn1AcX2k5WyPDsCA/a61CJQ=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/v2/Deseria
+ lizerFactory$AllowedValuesDeserializer.class
+SHA1-Digest: EqkvPTW/J/GcvEnw2Vt1cljQwWs=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackResourcesTabl
+ e.class
+SHA1-Digest: vbKoGQiUSo6TNmYDK3UQQRLPy00=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/v2/PseudoP
+ arameter.class
+SHA1-Digest: iaMbVihRXRpfaBJz2+Urv+ry7ps=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateAu
+ toEditStrategy$IndentContext.class
+SHA1-Digest: kghgez0LRZ8xUOWIvrwLPhIVvXs=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackEventsTable$L
+ oadStackEventsThread$1.class
+SHA1-Digest: SJY+M0aBvwj8Cwv0zE5uQE249Xc=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateSc
+ anner$TemplateWordDetector.class
+SHA1-Digest: IsEzD4zxWhFjKkQV3q9ZM9nHvMo=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$1.class
+SHA1-Digest: 8CnOCyTfMvLHPZJ2xxE2GuGevAQ=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$ValidateTemplateThread$2.class
+SHA1-Digest: Q6gfoZrGLU5wjTaPZTWO3O0s1E4=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateDo
+ cument.class
+SHA1-Digest: aMu2k7TSZHcDlvBlohoS+Kv9UU4=
+
+Name: com/amazonaws/eclipse/cloudformation/actions/CreateStackAction.c
+ lass
+SHA1-Digest: DS0JxvJoBHgZA8skOOHvicgLb1Q=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackEventsTable$L
+ oadStackEventsThread.class
+SHA1-Digest: T3pMUgMurt43RCptNOtzTdVORMg=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationCont
+ entProvider$1$1.class
+SHA1-Digest: I3Rh8LWppQFdRSt1lL6skTTGdZI=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$LoadStackNamesThread$2.class
+SHA1-Digest: yrR5ctAgQMXrO1PCinMn30Q/kSc=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/SyntaxColoringP
+ referencePage$3.class
+SHA1-Digest: bFPtQ1+NHhL7v0LGwc/FWJEuQDA=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateSc
+ anner.class
+SHA1-Digest: MfVFB55oyiZqcOUEG7+U1PWNv9o=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationCont
+ entProvider$StackNode.class
+SHA1-Digest: 62sZWtyNipgd/bkoHRkj5YeRKlk=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/TemplateNode.clas
+ s
+SHA1-Digest: FuaGfcLfFVat8yljxkBjvNYHKDc=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$7.class
+SHA1-Digest: 456O2d0xx6B2OrjlLOeVOBqmRl4=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationExpl
+ orerActionProvider$CreateStackAction.class
+SHA1-Digest: X2lWeEDUqLWG1DwWKjnJRX8M/LQ=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardThirdPage.class
+SHA1-Digest: Av5wRf14mYHrIiUE6Vc4NJn3LDU=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/TemplateTokenPr
+ eferenceNames.class
+SHA1-Digest: WQJOA7tSKcxL5Zyvjt2QoqPy24c=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackParametersTab
+ le$StackParametersLabelProvider.class
+SHA1-Digest: vIh5a7K+oyWlAI9uEdJQIPQiYHw=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$10.class
+SHA1-Digest: sbccXCXP9V9AcQSVMIaytA9Oytc=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/TemplateArrayNode
+ .class
+SHA1-Digest: LH3ItjAGUdFS8OzeL4fjJSyMeFU=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$ValidateTemplateThread.class
+SHA1-Digest: 3aFhT80Yjh05a1jWDlV+06vnKbw=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationLabe
+ lProvider.class
+SHA1-Digest: qy1mgQCUjHLYN/QPv/4qgK8JycY=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/PseudoPara
+ meter.class
+SHA1-Digest: B+Mf7T0jsrRKNdF0ubZHXMmyOcA=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/TemplateNodeParse
+ r.class
+SHA1-Digest: 9Qegfu0f/vyONVUNS81n+k6iLWU=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateAu
+ toEditStrategy.class
+SHA1-Digest: uuLPwfgqpBZZJqCvXBgs9pWI3oQ=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/SchemaProp
+ erty.class
+SHA1-Digest: ffhPXbEir08m/ITAIR6WjrfFxxk=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/TemplateFieldNode
+ .class
+SHA1-Digest: moCGCAIhqz1tV75LVf69N1WWKL8=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/SyntaxColoringP
+ referencePage$2.class
+SHA1-Digest: wvVM+9UYT6Mi5EOuRjbqYajwR5s=
+
+Name: com/amazonaws/eclipse/cloudformation/validators/TemplateParamete
+ rValidators.class
+SHA1-Digest: VWEicDxf9zw6baHbtq1dCrxpPo0=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationCont
+ entProvider.class
+SHA1-Digest: 8gMyR2HENiubI4f2lFNN3j9b1mQ=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$13$1.class
+SHA1-Digest: acuyWgpHwi/T3oLVYOiLJk0CMm4=
+
+Name: icons/aws-box.gif
+SHA1-Digest: 4RkhgsidxPPASdwJqBdk4RUJdJY=
+
+Name: com/amazonaws/eclipse/cloudformation/CloudFormationUtils$1.class
+SHA1-Digest: Jro6I5nTdsdFJ0H51/LarJVod2U=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$LoadStackNamesThread$1.class
+SHA1-Digest: q96JRxI9wWP+E00ugAsyxBm0QgI=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/SyntaxColoringP
+ referencePage.class
+SHA1-Digest: JnsaIY0jbAzUDo+k5tX8Ya1AzN4=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/SyntaxColoringP
+ referencePage$SourcePreviewerUpdater$2.class
+SHA1-Digest: lC22wddVUWqdh3+nbsryPpC89FI=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/v2/Templat
+ eElement.class
+SHA1-Digest: /O19EHE6AvGdB7IG2ebHkutJ1aE=
+
+Name: com/amazonaws/eclipse/cloudformation/validators/TemplateParamete
+ rValidators$4.class
+SHA1-Digest: XqYcYFTkeJOEYdxcqCJ1fVEZ+mU=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateSc
+ anner$TemplateWhitespaceDetector.class
+SHA1-Digest: 4sgR4huvqLKkpiFwE9rXImm+hPQ=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackEventsTable$S
+ tackEventsLabelProvider.class
+SHA1-Digest: 4+eK7RvG8O5DkAxF8zwiRh2jz4g=
+
+Name: com/amazonaws/eclipse/cloudformation/CloudFormationUtils$StackSu
+ mmaryConverter.class
+SHA1-Digest: DkwktSMx6r+YHfo57wDu76wHmyQ=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$12.class
+SHA1-Digest: sVAtfSyem4XSGrBBpjwPgN4Fl7I=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateCo
+ ntentOutlinePage$TemplateOutlineLabelProvider.class
+SHA1-Digest: RDSvTtv1ffyqPPZM44RV0smyarQ=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackOutputsTable.
+ class
+SHA1-Digest: hl5IQMxVHPA4eGITASieEHtZfKY=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationExpl
+ orerActionProvider$CancelStackUpdateAction.class
+SHA1-Digest: DJJlC3O7j6AfWq2I0kox2AWq69A=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/v2/Deseria
+ lizerFactory.class
+SHA1-Digest: xfRNRSVEA17Arj1bIMmBajA+YRY=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$2.class
+SHA1-Digest: bI25cQSREUj88BEQlr5dX+u+I1M=
+
+Name: com/amazonaws/eclipse/cloudformation/validators/TemplateParamete
+ rValidators$1.class
+SHA1-Digest: OKzga3L902CkMAW/F3NrQS03kGw=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/JsonFormatter.clas
+ s
+SHA1-Digest: oMUa0LVPRdy59aPy1rtch9CLNwE=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationExpl
+ orerActionProvider$SaveStackTemplateAction$1.class
+SHA1-Digest: 5y/FwCtkND6tjVSZBWBwhDzw7ak=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateDo
+ cument$1.class
+SHA1-Digest: zApD3LImi1OxvQNdKBcVcRqbSYI=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateSo
+ urceViewerConfiguration$2.class
+SHA1-Digest: PYHSfB0+Tm2JtK1N9h/UABtlnjE=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/v2/Element
+ Type.class
+SHA1-Digest: gAkdbOJjUTeb2PBIDyJyuJjxRZo=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackEventsTable$S
+ tackEventsContentProvider.class
+SHA1-Digest: dDEzQX0NUtNmvkaFzUSv+bMNXZ0=
+
+Name: com/amazonaws/eclipse/cloudformation/actions/TemplateEditorBaseA
+ ction.class
+SHA1-Digest: YXFSgORIGowKpBHjexesjF/zIV8=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/v2/Templat
+ eSchemaParser.class
+SHA1-Digest: Eor9u4a+F9gST2fDejrroKeNxLM=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/v2/ReturnV
+ alue.class
+SHA1-Digest: WhpkgvQhYsNijEFD71JneQEW0cA=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/OpenStackEditorAct
+ ion.class
+SHA1-Digest: 7mOBwWxvpcsFQJ0DP4LhgtrXBiY=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/EditorPreferenc
+ es.class
+SHA1-Digest: JnSU1QzTdJzesnHU2f1WZEudANE=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackResourcesTabl
+ e$LoadStackResourcesThread$1.class
+SHA1-Digest: NOCae9rQn55hME1vDWCSRhx+LOw=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationExpl
+ orerActionProvider$CancelStackUpdateAction$1.class
+SHA1-Digest: hNLlwzOAqhABZdtzqJnC+34dc5M=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackOutputsTable$
+ StackOutputsContentProvider.class
+SHA1-Digest: mCh0VYTQegweGM1w/xOEizqX71g=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$5.class
+SHA1-Digest: yiZuu5m8oniKRYAy1x5+zwgkGgQ=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationExpl
+ orerActionProvider.class
+SHA1-Digest: Bqp57m0MOp8vZIhbULRI1J9LOD0=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateCo
+ ntentOutlinePage.class
+SHA1-Digest: i9GPdWdMgFW5O/TbKd2bWLKvTJI=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/EditorPreferenc
+ esLoader.class
+SHA1-Digest: isWUtgeD/uhwxURicNyPyMgcGhw=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage.class
+SHA1-Digest: HeCIEFBIzlhwc8wGdTwhYLDfWXk=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackEditor$1.clas
+ s
+SHA1-Digest: BB9zF1Kfo9r7QECLoNuDE7DH/3c=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateCo
+ ntentOutlinePage$TemplateOutlineNode.class
+SHA1-Digest: scyAEUs2LlMyEYsWQVdMQTUy+/s=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/v2/Intrins
+ icFunction.class
+SHA1-Digest: o2eLTWG2B/UnR7I2hb46fhu8BMU=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateCo
+ ntentAssistProcessor.class
+SHA1-Digest: JR4G6uivSLfeUeMBxcM6J+o/2io=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateCo
+ ntentOutlinePage$TemplateOutlineContentProvider.class
+SHA1-Digest: 0KXIPLebZR3VL2yEmDFtmJMu2d8=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateSo
+ urceViewerConfiguration$1.class
+SHA1-Digest: e2s+y11Y138Qftjg6kNDZUXbIlE=
+
+Name: com/amazonaws/eclipse/cloudformation/actions/UpdateStackAction.c
+ lass
+SHA1-Digest: WNFet2cd6VmiiwccfFy3SkEtDoo=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/TemplateValueNode
+ .class
+SHA1-Digest: LhbhzcniRcS9N6naV1E44LrI6qU=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$13.class
+SHA1-Digest: /di4wW08iQQKtyCRh8+Nm7ioCkU=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ Wizard.class
+SHA1-Digest: +BHnf9Z9er2t+Aom9j8H7GGWHh0=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/template-defaul
+ t-preferences.json
+SHA1-Digest: Cu+1Ket+tHOJez4JsEqN5U3Nbb4=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateDo
+ cument$TemplateDocumentListener.class
+SHA1-Digest: F5hFGZn9jY5ZWgvYKOAKg9XADsA=
+
+Name: com/amazonaws/eclipse/cloudformation/validators/TemplateParamete
+ rValidators$2.class
+SHA1-Digest: S6Q/6pPInAUTFOaYd9J9g/VulWU=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateEd
+ itor.class
+SHA1-Digest: ATTwe++6HXLjjyqyQokvJbfhB6s=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackEditor$LoadSt
+ ackSummaryThread.class
+SHA1-Digest: HoPrSrBOFqZli3L6dUtLs0F3prg=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$4.class
+SHA1-Digest: v9E04XLWo6Od8dWIOUYWkSyQ1OU=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/SyntaxColoringP
+ referencePage$SourcePreviewerUpdater.class
+SHA1-Digest: M34vYTrRHcUm9YT8c8XObWgtII8=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/CloudFormationExpl
+ orerActionProvider$DeleteStackAction.class
+SHA1-Digest: oq6VfXaSuDsUP7leKb0lJCevYvk=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/EditorPreferenc
+ es$Color.class
+SHA1-Digest: Ro7BXk2qSmfjhLFSKCuOL8gl8o4=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/SyntaxColoringP
+ referencePage$1.class
+SHA1-Digest: 0mK2aMqgqm+pnZHelHMvrrXbn4Y=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/EditorPreferenc
+ es$TokenPreference.class
+SHA1-Digest: In2p/vG+h5AfHt3F/T9xVv9TS6k=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardSecondPage.class
+SHA1-Digest: bPnSnfT0ePdGV23lgVDHENjJlsM=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardDataModel$Mode.class
+SHA1-Digest: IACvb7tRLFdh+zmHtTztzpczsuQ=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardSecondPage$2.class
+SHA1-Digest: EAdDDrHUBh99UB42gTP3Ysg84kg=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/v2/Templat
+ eSchema.class
+SHA1-Digest: jCmba2x+0ubJLSJQEof1IzGe5UE=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackOutputsTable$
+ StackOutputsLabelProvider.class
+SHA1-Digest: TDN1IUXf7CNbSuCRZ5jrW/kaTOw=
+
+Name: com/amazonaws/eclipse/cloudformation/CloudFormationUtils.class
+SHA1-Digest: HUWGFaZCMp12J0+kEUwban/gPfw=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/editor/TemplateEd
+ itor$TemplateDocumentProvider.class
+SHA1-Digest: xdzcLtcRhrA+CjvvVFSqdV0hmqQ=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/TemplateSc
+ hemaRules.class
+SHA1-Digest: Y3wYe0hqeA1+C+QYV+yWlfdlpWc=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackResourcesTabl
+ e$LoadStackResourcesThread.class
+SHA1-Digest: MmhTwozrIEtjeo70S0CYyom60x0=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/TemplateNodePath.
+ class
+SHA1-Digest: Yb4h7+tD8BDrTLPD2oR3KUzhnzE=
+
+Name: com/amazonaws/eclipse/cloudformation/actions/EstimateTemplateCos
+ tAction.class
+SHA1-Digest: 2rsFrVgkACZXvjyf9Kqebi4DYbU=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/wizard/CreateStack
+ WizardFirstPage$LoadStackNamesThread.class
+SHA1-Digest: aNXZ4RLJbs4qCWajjks7e2HfP+M=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/schema/v2/Allowed
+ Value.class
+SHA1-Digest: w4jcwXC+vUrjmGC1OwXmErCr4xs=
+
+Name: com/amazonaws/eclipse/cloudformation/templates/TemplateObjectNod
+ e.class
+SHA1-Digest: xMcJR1WYqEGdqy/ML4+bAO9Vxlc=
+
+Name: com/amazonaws/eclipse/cloudformation/ui/ParametersComposite.clas
+ s
+SHA1-Digest: rKd1VPdf0m8BBAPZ9LqG4e64XPc=
+
+Name: com/amazonaws/eclipse/cloudformation/preferences/SyntaxColoringP
+ referencePage$SourcePreviewerUpdater$3.class
+SHA1-Digest: e4aqnRGSohC9urnX8pxD+lDvgoc=
+
+Name: com/amazonaws/eclipse/cloudformation/validators/TemplateParamete
+ rValidators$3.class
+SHA1-Digest: EEgq/D6rpLhTbMRykQKYkrS2iYE=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackEditor$Refres
+ hAction.class
+SHA1-Digest: Plh5CO7dCFhOEyKJhtzSkQMO4jY=
+
+Name: com/amazonaws/eclipse/explorer/cloudformation/StackParametersTab
+ le$StackParametersContentProvider.class
+SHA1-Digest: e4fqf1yOlb6cAKXWBL7i+bGIhTw=
+

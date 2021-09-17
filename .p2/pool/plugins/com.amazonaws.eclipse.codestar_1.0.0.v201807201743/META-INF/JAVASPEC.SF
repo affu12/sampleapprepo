@@ -1,0 +1,89 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: 71aCaj36c3csr3oEbOgaIzKc2Gk=
+SHA1-Digest-Manifest: PDP8siUoM8FvoJmMpOWFDBwNUgQ=
+Created-By: 1.8.0_172 (Oracle Corporation)
+
+Name: plugin.xml
+SHA1-Digest: OYkWzEa544ad5xP3llu4WXDa56Y=
+
+Name: com/amazonaws/eclipse/codestar/CodeStarUtils.class
+SHA1-Digest: /Ll2UkOPXycQC5PJ+HH8UIJsqS4=
+
+Name: com/amazonaws/eclipse/codestar/UIConstants.class
+SHA1-Digest: qCWjLmttNLvvWNEnvHLgr5QnmLQ=
+
+Name: icons/aws-box.gif
+SHA1-Digest: 4RkhgsidxPPASdwJqBdk4RUJdJY=
+
+Name: com/amazonaws/eclipse/codestar/page/CodeStarProjectCheckoutPage$
+ 5.class
+SHA1-Digest: cPw4ffYzK7y69Uzj2z6WIedr/Kc=
+
+Name: com/amazonaws/eclipse/codestar/wizard/CodeStarProjectCheckoutWiz
+ ard.class
+SHA1-Digest: giHZy7hXqQ9X5U3aN58r3pePUlY=
+
+Name: com/amazonaws/eclipse/codestar/CodeStarAnalytics.class
+SHA1-Digest: hxozZraaFFb4nXo5TvWYeBPtpqA=
+
+Name: com/amazonaws/eclipse/codestar/wizard/CodeStarProjectCheckoutWiz
+ ard$1.class
+SHA1-Digest: n/xVnyacF8RnvzsHoRBJtu81yvo=
+
+Name: com/amazonaws/eclipse/codestar/handler/CodeStarProjectCheckoutHa
+ ndler.class
+SHA1-Digest: BF3jBab0M9p3bp/gT8wEMubpIX8=
+
+Name: com/amazonaws/eclipse/codestar/page/CodeStarProjectCheckoutPage.
+ class
+SHA1-Digest: bJdmhwwzHLj6Z7mxTYs9Gr1/uXA=
+
+Name: com/amazonaws/eclipse/codestar/CodeStarAnalytics$EventResult.cla
+ ss
+SHA1-Digest: N78B5lw1QhSUoiDOyqJrJ0JI1Ek=
+
+Name: com/amazonaws/eclipse/codestar/page/CodeStarProjectCheckoutPage$
+ 4.class
+SHA1-Digest: ZYwfKC9FhroQzBdL7KAalNc5hkI=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.codes
+ tar/pom.properties
+SHA1-Digest: ZI6shmK2KJj9UkjyQfMKQchnhYc=
+
+Name: com/amazonaws/eclipse/codestar/arn/ARNSyntaxException.class
+SHA1-Digest: nmat43yH/esF9rgjkIi+9D+9P3k=
+
+Name: com/amazonaws/eclipse/codestar/page/CodeStarProjectCheckoutPage$
+ 3.class
+SHA1-Digest: 1ZCUa/DbLU/jZ90JE0a6/dseTlA=
+
+Name: com/amazonaws/eclipse/codestar/wizard/CodeStarProjectCheckoutWiz
+ ard$3.class
+SHA1-Digest: QDx+1Ibe4vDlteVclAxNcQCetMI=
+
+Name: com/amazonaws/eclipse/codestar/model/CodeStarProjectCheckoutWiza
+ rdDataModel.class
+SHA1-Digest: I8k93NMOFwabFvngEI4XW0ePH1A=
+
+Name: com/amazonaws/eclipse/codestar/wizard/CodeStarProjectCheckoutWiz
+ ard$2.class
+SHA1-Digest: h+gyQ6ph5o6o8lNPgob21/G6nVU=
+
+Name: com/amazonaws/eclipse/codestar/CodeStarPlugin.class
+SHA1-Digest: ZYmTuOqn6ir/X4CVZyeZ5SyqEDc=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.codes
+ tar/pom.xml
+SHA1-Digest: F12dlR2kU+e8Mz7voMVPoJTbCrc=
+
+Name: com/amazonaws/eclipse/codestar/arn/ARN.class
+SHA1-Digest: tonBQBleOXUl4Fh/lbZ25XBD6sk=
+
+Name: com/amazonaws/eclipse/codestar/page/CodeStarProjectCheckoutPage$
+ 1.class
+SHA1-Digest: HGNjEQ8U3wS1BL82j9qOGQYZ9J4=
+
+Name: com/amazonaws/eclipse/codestar/page/CodeStarProjectCheckoutPage$
+ 2.class
+SHA1-Digest: aP1pFFDkpohJ1+TuvgMu64PserY=
+

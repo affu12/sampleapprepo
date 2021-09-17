@@ -1,0 +1,477 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.amazonaws.eclipse.codedeploy;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: root
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime;bundle-version
+ ="3.4.0",org.eclipse.core.resources;bundle-version="3.4.0",org.eclips
+ e.core.databinding;bundle-version="1.2.0",org.eclipse.core.databindin
+ g.beans;bundle-version="1.2.0",org.eclipse.core.databinding.observabl
+ e;bundle-version="1.2.0",org.eclipse.core.databinding.property;bundle
+ -version="1.2.0",org.eclipse.jface.databinding;bundle-version="1.3.0"
+ ,org.eclipse.jst.j2ee;bundle-version="1.1.0",org.eclipse.jst.j2ee.web
+ ;bundle-version="1.1.0",com.amazonaws.eclipse.core;bundle-version="2.
+ 2.0",org.eclipse.ui.navigator;bundle-version="3.2.0",org.eclipse.ui.f
+ orms;bundle-version="3.3.0",org.eclipse.wst.common.frameworks;bundle-
+ version="1.1.0",org.eclipse.wst.common.project.facet.core;bundle-vers
+ ion="1.3.0",com.amazonaws.eclipse.javasdk;bundle-version="1.11.130"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Amazon Web Services
+Bundle-Name: AWS CodeDeploy Plugin
+Bundle-Version: 1.0.0.v201807201743
+Bundle-ClassPath: .
+Bundle-Activator: com.amazonaws.eclipse.codedeploy.CodeDeployPlugin
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_171
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentGr
+ oupSelectionPage$LoadDeploymentGroupsThread$1.class
+SHA1-Digest: Sj5BPjmwqQ6bJF7cbuANMZaUcr8=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/validator/Ge
+ nericTemplateParameterValidator.class
+SHA1-Digest: Ypk2dDWwvgsmvz3OjEFqCxvcvSw=
+
+Name: plugin.xml
+SHA1-Digest: 6oqBAI/3OplaSvq++k/rGuvV9uk=
+
+Name: icons/application.png
+SHA1-Digest: Cm5ZYx/tyyTdtI74pbH511NX2Jg=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/util/DeployUtils.class
+SHA1-Digest: L8PjkiiLGqmSjZvGqPuouugCDgU=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/InstanceSummary
+ DetailDialog$LifecycleEventUIGroup$1.class
+SHA1-Digest: FEBvAd6HVeLiKCXbj/zXoJGVrIU=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/DeploymentProgr
+ essTrackerDialog$8.class
+SHA1-Digest: GBEPIwzh1ktGbb/b57FZzYm9O2Q=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/AppspecTempl
+ ateSelectionPage$3.class
+SHA1-Digest: Gwm+UMZiklR3p5Icxu39ddMNo0U=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentGr
+ oupSelectionPage.class
+SHA1-Digest: LXfDCQUE+29RPZWcThmRFkDajxM=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/Deploymen
+ tsTableView$2$1.class
+SHA1-Digest: bnUkUxpw34PydZyBbbMkhGrn9n8=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/DeploymentProgr
+ essTrackerDialog$5.class
+SHA1-Digest: fKDfufs4aiGfpSxGsPQlHizbZ0E=
+
+Name: icons/12px-check-icon.png
+SHA1-Digest: 9tvBDG9BXa/FQSECE8H4vo+byrk=
+
+Name: templates/tomcat7/linux/scripts/start_application
+SHA1-Digest: Pfpz6dxGf+mUWLnEGKBLBE8RFf8=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/DeploymentProgr
+ essTrackerDialog.class
+SHA1-Digest: mAKyJMFv1v1NeVF0e0g8PHRK8sc=
+
+Name: com/amazonaws/eclipse/codedeploy/appspec/model/AppspecTemplateMe
+ tadataModel.class
+SHA1-Digest: t4p1xWZpId8Q4DO74YaDe4HRE4I=
+
+Name: template-metadata/Tomcat7-Linux
+SHA1-Digest: uvnD+19M3VuVnccxA7YZIn3DHKE=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/Deploymen
+ tsTableView$3.class
+SHA1-Digest: 6if1+dbj1uCg+Xky03iwVzbSYxc=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/DeploymentGroup
+ Editor$1$1.class
+SHA1-Digest: Q6CbJHXf7LiMpnQ+g36zYWrihK8=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/AppspecTempl
+ ateConfigComposite$1.class
+SHA1-Digest: SD27GNRC/+IlqQnxPn2ghF+3aC4=
+
+Name: com/amazonaws/eclipse/codedeploy/UrlConstants.class
+SHA1-Digest: CVfiwzE37FyoQrjtj5RUEPbLIn0=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/Deploymen
+ tsTableView$1.class
+SHA1-Digest: IyZHPi6aB7D6Wk6hjXo254e2Ic4=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentGr
+ oupSelectionPage$LoadApplicationsThread.class
+SHA1-Digest: xu+WG3dDN9GQeHMA/EQgHIX/bos=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/AppspecTempl
+ ateConfigComposite$4.class
+SHA1-Digest: fLWXAtv2MNWzgqiBKb9U3mw4ufs=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.coded
+ eploy/pom.xml
+SHA1-Digest: UP3xRMJn8hLgJP9xyYqmc4Evf7w=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentGr
+ oupSelectionPage$LoadDeploymentGroupsThread.class
+SHA1-Digest: ngdvhflx/uLvJWgo+Jfix4wy3eE=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/DeploymentGroup
+ Editor.class
+SHA1-Digest: /JB8x+gXWpAmLd163nRGiVGt538=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentGr
+ oupSelectionPage$2.class
+SHA1-Digest: OJLYlm3VlYh8/DLMa7YJGhaLmMc=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/util/WTPWarUtils.class
+SHA1-Digest: s0N0JlWOUiToScNPS6f41puuvD4=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/AppspecTempl
+ ateSelectionPage.class
+SHA1-Digest: dXy4cMtbIC5mgkcKsHW7PKMUZD0=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/AppspecTempl
+ ateSelectionPage$1.class
+SHA1-Digest: NWUQk+pQ089M4QoazApaC9h1lOE=
+
+Name: templates/tomcat7/linux/scripts/stop_application
+SHA1-Digest: 4gai70KOouXGIGclybpIAAiHfXk=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/Deploymen
+ tsTableView$4.class
+SHA1-Digest: YUhWVJvZML3au5LLm2703w6NajY=
+
+Name: com/amazonaws/eclipse/codedeploy/appspec/util/JacksonUtils.class
+SHA1-Digest: pegxvM0o6fRNFxIcoH2jS3mBwns=
+
+Name: com/amazonaws/eclipse/codedeploy/appspec/model/AppspecTemplatePa
+ rameter$ParameterType.class
+SHA1-Digest: GXubP3UtLSInzPrgaUZ25bvugio=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/CodeDeployContentProvi
+ der$1.class
+SHA1-Digest: F4x5Cq+vQJzJfD+ENdNSFd5LMV8=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/ImportAppspe
+ cTemplateMetadataDialog$1$1$2.class
+SHA1-Digest: rINiWbFyfFcNIFJb8jh15W5eBHk=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/util/DeployUtils$1.class
+SHA1-Digest: t7d2Q016yUDt2rqZylUWEYZ/9K8=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/TreePathC
+ ontentProvider.class
+SHA1-Digest: OjZvsVGlFDcUiUGo2nFxq20KogM=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/CodeDeployRootElement.
+ class
+SHA1-Digest: sLUbOF5zeFZMrxHMadiZKJo0ONw=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/Deploymen
+ tsTableViewContentProvider.class
+SHA1-Digest: +/wRT67ju9DZbhc4L8gJOIY/hkw=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentCo
+ nfigurationPage$1.class
+SHA1-Digest: Vo/Ei94WTQ70jNS5dstx0DlPGag=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/util/DeployUtils$FileTra
+ nsformationHandler.class
+SHA1-Digest: 8yDOIL/2vS7zni8XRTXMaEBbf30=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/DeploymentGroup
+ EditorInput.class
+SHA1-Digest: u1SdTL267FZguVBPcbLb6t/VvSo=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentGr
+ oupSelectionPage$LoadApplicationsThread$1.class
+SHA1-Digest: v8BZr4xGYsAa5enevMyzOOVqYGM=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/AppspecTempl
+ ateConfigComposite$3.class
+SHA1-Digest: 5rXLHw7tncnI6h/iLje9qw4s6D4=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/DeployProjectToCo
+ deDeployWizard$1$1.class
+SHA1-Digest: nXb68E4AiFon89xovrEq2pCbedE=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/InstanceSummary
+ DetailDialog.class
+SHA1-Digest: JUUvS/bkhO6bJpPAjIPNePD7Hig=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/DeploymentGroupNode.cl
+ ass
+SHA1-Digest: yhvHwNWoqH+g6pgNh8S4FPCo7gk=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/image/CodeDeployExplor
+ erImages.class
+SHA1-Digest: YfkOt3gEoqNye5LeSxMTaJC4IPQ=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/validator/Co
+ ntextPathValidator.class
+SHA1-Digest: 87o7lU6qgtdTMDgBXfQvuZdTsG8=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/AppspecTempl
+ ateSelectionPage$2.class
+SHA1-Digest: j4YYcOA6rGyue4VVttMcnsh9MIA=
+
+Name: icons/deployment-group.png
+SHA1-Digest: GGHR5IhNWs49Tz8nfoHNGS2BYsc=
+
+Name: com/amazonaws/eclipse/codedeploy/appspec/model/AppspecTemplatePa
+ rameter.class
+SHA1-Digest: KTOEs2MhfWig3aYnKXmETcVZ2uk=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/Deploymen
+ tsTableView$1$2.class
+SHA1-Digest: ZEfiK+E0Z5gE5ajRZMRYlegLbqs=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/CodeDeployContentProvi
+ der$2.class
+SHA1-Digest: Ab1KckmuyFJjLw+d7qw1cxf2n40=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/action/OpenDeploymentG
+ roupEditorAction.class
+SHA1-Digest: jE6uTC/yLT/U9y1mHokNChC9Mpk=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/Deploymen
+ tsTableViewTreePathContentCache$1.class
+SHA1-Digest: RJ/xKZaqu71wGELEmZzRK1b10rU=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/DeploymentGroup
+ Editor$1.class
+SHA1-Digest: FN0T+EN7gHvkkmCxJbh6t/wpl4E=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/handler/DeployProjectToC
+ odeDeployHandler.class
+SHA1-Digest: 1fVTsfM1YIQ3HhyhB2iV/2CRzQE=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/LoadingCo
+ ntentProvider.class
+SHA1-Digest: cogjqmlzyF620bUvqRstXliqnCM=
+
+Name: templates/tomcat7/linux/scripts/configure_http_port.xsl
+SHA1-Digest: JgMr4If7IzFtG6E9TP5wpsumFqg=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/ImportAppspe
+ cTemplateMetadataDialog$1$1$3.class
+SHA1-Digest: 1Jl0qMU7UL36z7gUyZyvElQTIcY=
+
+Name: com/amazonaws/eclipse/codedeploy/ServiceAPIUtils.class
+SHA1-Digest: cWQtw6OWWNnQh4wAaFClNhhwCes=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/AppspecTempl
+ ateConfigComposite.class
+SHA1-Digest: X3M3kWN7lYmJn0zZU5njxXvIda0=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/AppspecTempl
+ ateConfigComposite$ParameterInputGroup.class
+SHA1-Digest: EYnqnr72u38ePBilqFl1SAtIgEk=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/CodeDeployContentProvi
+ der.class
+SHA1-Digest: BnDTqUqLAfsN2kDIkzC9+0sW6N8=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/DeploymentProgr
+ essTrackerDialog$6.class
+SHA1-Digest: xKE269MTGUmy3jxK06qLWYb8afE=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentCo
+ nfigurationPage$2.class
+SHA1-Digest: kpSV8usWhVFQRyfU4B6QJr1bmC0=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/DeploymentProgr
+ essTrackerDialog$1.class
+SHA1-Digest: l3hAT63koinWtTqoAsgK7U+eJlw=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentGr
+ oupSelectionPage$1.class
+SHA1-Digest: SnZnZVCVBVqGQUXwm7CguSQ0fTw=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/CodeDeployContentProvi
+ der$3.class
+SHA1-Digest: KB3IO/jPyGwPfdl8N+aHu/6WXXM=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/AppspecTempl
+ ateConfigComposite$2.class
+SHA1-Digest: jTChxY3fhiDnl1K5b0b17WLOM9c=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/Deploymen
+ tsTableView$2.class
+SHA1-Digest: 1MDom7sWwYR7F8guhRs1WrL49DU=
+
+Name: icons/aws-box.gif
+SHA1-Digest: FncMVzZA7OR/pQhZYLN+86K95X4=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/DeploymentProgr
+ essTrackerDialog$5$1.class
+SHA1-Digest: 9MWseCUvk2DY7/iP85IzspcvQg0=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/DeploymentProgr
+ essTrackerDialog$4.class
+SHA1-Digest: c/y6IL8fe3JRWUdMUUBbRHTk/Jk=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/DeployProjectToCo
+ deDeployWizard$1.class
+SHA1-Digest: NL2i6HfvNLnQcELyoGi7I2PhltE=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/ImportAppspe
+ cTemplateMetadataDialog$1$1$1.class
+SHA1-Digest: ufu3eRgXFUZUuqPHsdtQywcXoM0=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentCo
+ nfigurationPage$3.class
+SHA1-Digest: Qah/iUWwktk9pH3EB9lfS+vg3HQ=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/DeploymentProgr
+ essTrackerDialog$7.class
+SHA1-Digest: muxRf86knyOkHU8vGrLP9L2oWRE=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/CodeDeployActionProvid
+ er.class
+SHA1-Digest: Dk7lKW01HCHlq53eQegTVwNSqco=
+
+Name: com/amazonaws/eclipse/codedeploy/ServiceAPIUtils$1.class
+SHA1-Digest: /Io74k+SX6dwJPU2GKebEYntkaA=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/CodeDeployLabelProvide
+ r.class
+SHA1-Digest: M6dIIG523aPSobcREnt4si5nT6M=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/InstanceSummary
+ DetailDialog$LifecycleEventUIGroup.class
+SHA1-Digest: WG0AIVjQYyRRwEyxJiPXnJWeuvM=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/Deploymen
+ tsTableViewTreePathContentCache.class
+SHA1-Digest: RDYWC0miplk3+UQUgdm2wzst+fo=
+
+Name: com/amazonaws/eclipse/codedeploy/CodeDeployPlugin.class
+SHA1-Digest: 4pA3q8wN2DVMQflfc7yw0B9sLkc=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/Deploymen
+ tsTableView$1$1.class
+SHA1-Digest: bCcOD6zpZATQNnU1SGDszx+f2XU=
+
+Name: templates/tomcat7/linux/appspec.yml
+SHA1-Digest: PWkSqoyObaQ5wEIkzZD2YenEAyI=
+
+Name: icons/codedeploy-service.png
+SHA1-Digest: MHurZew32P3GMck+k48VVBOg/gI=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/ImportAppspe
+ cTemplateMetadataDialog$1$1.class
+SHA1-Digest: STiN3nhxSyBZmGiDkiJgdi++05k=
+
+Name: icons/small-check-icon.png
+SHA1-Digest: QYxAMCPnBDYlHeTOMcNGrxkfugQ=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/DeploymentGroupNodeDec
+ orator.class
+SHA1-Digest: Lec0RayY7JkFqtwbkDLz7Sr1GFQ=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentCo
+ nfigurationPage$4.class
+SHA1-Digest: znhYSWuq9LQeDlVVHN4PjqL9qrI=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/ImportAppspe
+ cTemplateMetadataDialog$2.class
+SHA1-Digest: fqQzyGoai9nNVF5iXOV+mxDdiHE=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/model/DeployProje
+ ctToCodeDeployWizardDataModel.class
+SHA1-Digest: TGTKEdbUUrn/Bj8KyWW+TfllE68=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/Deploymen
+ tsTableViewLabelProvider.class
+SHA1-Digest: pehOu0g7t07w/T+bEgmFs0DhNSc=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentGr
+ oupSelectionPage$3.class
+SHA1-Digest: Gl0q4yIht702n3YpYkAwVX6n3+Y=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/LifecycleEventD
+ iagnosticsDialog.class
+SHA1-Digest: WFLgVqPmbKPZIHpPcc/uzVmYspg=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/AppspecTempl
+ ateSelectionPage$4.class
+SHA1-Digest: uRB1WmuGqCNPtT5vE3/Jm/v+Xaw=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentCo
+ nfigurationPage.class
+SHA1-Digest: bEKG/FVKBNoMvfE0E3pEH5ybNTM=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/DeployProjectToCo
+ deDeployWizard.class
+SHA1-Digest: 8h6lqAWXqtwSRjRQUR6KCcjS5Dc=
+
+Name: com/amazonaws/eclipse/codedeploy/appspec/model/AppspecTemplatePa
+ rameter$ParameterConstraints.class
+SHA1-Digest: SpD3YWotqVm/RpePQeVvw3gaiT4=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/DeploymentProgr
+ essTrackerDialog$2.class
+SHA1-Digest: g0uzIQMIVpFTwRmtTffMVbczxPo=
+
+Name: com/amazonaws/eclipse/codedeploy/appspec/AppspecTemplateRegistry
+ .class
+SHA1-Digest: RlZ1UZfcm7Jdvi28Yw3YzJYVhEg=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/WizardPageWi
+ thOnEnterHook.class
+SHA1-Digest: krZsGRK11PtOyVe4pT84Dr2LOrk=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/ImportAppspe
+ cTemplateMetadataDialog.class
+SHA1-Digest: Ci5rfa3l9LxSwzBgF9Q7sF1jH2k=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/DeploymentGroup
+ Editor$RefreshAction.class
+SHA1-Digest: MWGbltkdOdZt6MYCxF1jR+RNI28=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/editor/table/Deploymen
+ tsTableView.class
+SHA1-Digest: b/m4MGiyBt7jpQMz4AXDea0ynHE=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/validator/Se
+ rverHttpPortValidator.class
+SHA1-Digest: FMr2H+arTr4h7Z+Wuni/rqk3meo=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/DeploymentProgr
+ essTrackerDialog$9.class
+SHA1-Digest: 7JrUiJDCgrSKnPRD6GGwBjIlmHU=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/util/ZipUtils.class
+SHA1-Digest: 1J3xVMyzW9HkDZzJ/YEAMf8emMo=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.coded
+ eploy/pom.properties
+SHA1-Digest: 9mYV1uAKbJzUqUmRhrrtImgnQgI=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/DeploymentCo
+ nfigurationPage$5.class
+SHA1-Digest: L2yMtnv1lB6N8rpkhMwHVUZ/J5E=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/progress/DeploymentProgr
+ essTrackerDialog$3.class
+SHA1-Digest: Nb3edV++kck3gKU7PIgWYI1e8xc=
+
+Name: com/amazonaws/eclipse/codedeploy/appspec/PreferenceStoreConstant
+ s.class
+SHA1-Digest: GUNW+3GzuxXsDJknA0/x2Di2884=
+
+Name: templates/tomcat7/linux/scripts/install_dependencies
+SHA1-Digest: //4Se9dGXhegJ+0plUlnhCx6cn4=
+
+Name: com/amazonaws/eclipse/codedeploy/deploy/wizard/page/ImportAppspe
+ cTemplateMetadataDialog$1.class
+SHA1-Digest: lfMUQBZWJ43qq/btAp2iLVZ0J0Q=
+
+Name: com/amazonaws/eclipse/codedeploy/explorer/action/OpenDeploymentG
+ roupEditorAction$1.class
+SHA1-Digest: slY1vIZYtZ+NgdgjI/eBOgqzoQk=
+

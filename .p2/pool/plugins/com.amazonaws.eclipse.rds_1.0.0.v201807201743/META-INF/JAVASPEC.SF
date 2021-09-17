@@ -1,0 +1,132 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: qpDOHtEcsF5tvlIwLdp3Sby9v1k=
+SHA1-Digest-Manifest: AUA+A3MQArCsc0bYOs45bzqyWfw=
+Created-By: 1.8.0_172 (Oracle Corporation)
+
+Name: plugin.xml
+SHA1-Digest: P8xMpCRSiW+T/LiyWyMSVAeTse8=
+
+Name: com/amazonaws/eclipse/rds/ConfigureImportOptionsPage$2.class
+SHA1-Digest: XLAtsItdFNMvHdEF6R/f/VzXDhk=
+
+Name: com/amazonaws/eclipse/rds/ConfigureRDSDBConnectionRunnable.class
+SHA1-Digest: ZznSV07l2on0yyc0gw21V7Qacsk=
+
+Name: com/amazonaws/eclipse/rds/connectionfactories/DatabaseConnection
+ Factory.class
+SHA1-Digest: jp3eYPi09RVgGs+DgpUz5CrJCHU=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSContentProvider$1.class
+SHA1-Digest: 8YqBSI3pNPatDC1v3UVNYyjbbuI=
+
+Name: com/amazonaws/eclipse/rds/SelectExistingDatabasePage$LoadExistin
+ gDatabasesRunnable.class
+SHA1-Digest: Jdu/zQVxdJ8vHRhyLrshl+dPZ9Q=
+
+Name: icons/aws-box.gif
+SHA1-Digest: 4RkhgsidxPPASdwJqBdk4RUJdJY=
+
+Name: com/amazonaws/eclipse/rds/connectionfactories/PostgreSqlConnecti
+ onFactory.class
+SHA1-Digest: kP2I+El28hDntAGGem1D340wRrY=
+
+Name: com/amazonaws/eclipse/rds/RDSPlugin.class
+SHA1-Digest: +Ro5OibnvqfZWaSDQkkQ3KEVF6w=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSExplorerNodes.class
+SHA1-Digest: yXWY6nzOvCuZBR/om+kkbosD6fU=
+
+Name: com/amazonaws/eclipse/rds/connectionfactories/AuroraConnectionFa
+ ctory.class
+SHA1-Digest: /8rDZNraSjbWMPJsSMTOlXxTT40=
+
+Name: com/amazonaws/eclipse/rds/ConfigureImportOptionsPage.class
+SHA1-Digest: /QzpC1n5crDdCRq1dSWN61IESKs=
+
+Name: com/amazonaws/eclipse/rds/RDSDriverDefinitionConstants.class
+SHA1-Digest: G3F8MkaUHjLCEqAa9hP0Ok33xY8=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSLabelProvider.class
+SHA1-Digest: uYnUa6nsHxV05ekhvsV9WONC+1U=
+
+Name: com/amazonaws/eclipse/rds/connectionfactories/SqlServerConnectio
+ nFactory.class
+SHA1-Digest: Pz/t+25Wl95CH/EdHXlSaYSp/Ms=
+
+Name: com/amazonaws/eclipse/rds/util/CheckIpUtil.class
+SHA1-Digest: l1X+4W64cwFXhy7fxPCkcGu2Psg=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSExplorerNodes$DatabaseNode
+ .class
+SHA1-Digest: 6JgaeR5104LydOglmLIYcveWHNk=
+
+Name: com/amazonaws/eclipse/rds/ImportWizard.class
+SHA1-Digest: R5+O2N0E6YSZ3ZZoq+z/Ga8KLTw=
+
+Name: com/amazonaws/eclipse/rds/ControlDataObservableValue.class
+SHA1-Digest: LAQ5eWjRyB1/qgJPXjQqUyswHMI=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.rds/p
+ om.xml
+SHA1-Digest: 3P1ZnEMUDi8pdxNIY0+T+GV4Lfc=
+
+Name: com/amazonaws/eclipse/rds/ConfigureImportOptionsPage$CheckOutgoi
+ ngIpRange$1.class
+SHA1-Digest: qL/H4DES3yteh5xVABPkAePei50=
+
+Name: com/amazonaws/eclipse/rds/ConfigureImportOptionsPage$1.class
+SHA1-Digest: COV1jQDg/5YjRFEp8DGn3QIBsyA=
+
+Name: com/amazonaws/eclipse/rds/SelectExistingDatabasePage.class
+SHA1-Digest: W1SgIGw7VQJ7XsTZC3CDpS9vXI4=
+
+Name: com/amazonaws/eclipse/rds/ConfigureImportOptionsPage$CheckOutgoi
+ ngIpRange.class
+SHA1-Digest: 7gEJg++AzlVRkIrycAO3mPw+HGI=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSContentProvider.class
+SHA1-Digest: AKL34xn4Ex6SAROaNXyBgxwD8Gc=
+
+Name: lib/mysql-connector-java-5.1.33-bin.jar
+SHA1-Digest: dNU3UWRNaz2Jp2F6ep5HobEDeIA=
+
+Name: com/amazonaws/eclipse/rds/ImportDBInstanceDataModel.class
+SHA1-Digest: IbIsHU32h+pJyO5OkYQF9MjWNCk=
+
+Name: com/amazonaws/eclipse/rds/RDSPlugin$1.class
+SHA1-Digest: Ee8GDmHV4deeQlmqPgDxBjV4QWQ=
+
+Name: icons/sample.gif
+SHA1-Digest: mURGpp/gEzPu434WkU1WXZbyKOY=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSExplorerActionProvider$Ope
+ nRdsConsoleAction.class
+SHA1-Digest: DK9DX6X/eKoca7C8+etdFQoLFNs=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSExplorerNodes$RdsRootEleme
+ nt.class
+SHA1-Digest: jj72bBKeUVMi8HbIEcVAXLAQEp0=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSExplorerActionProvider$Con
+ figureConnectionProfileAction.class
+SHA1-Digest: uOxJweky3EJDYzeoOwYuNlX7dDo=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.rds/p
+ om.properties
+SHA1-Digest: jsKrepUNDuuOE51qMhAxxc3HLuM=
+
+Name: com/amazonaws/eclipse/rds/connectionfactories/OracleConnectionFa
+ ctory.class
+SHA1-Digest: Wkdd/LW6RcYCEZk7kSIy0gpJZss=
+
+Name: com/amazonaws/eclipse/rds/connectionfactories/MySqlConnectionFac
+ tory.class
+SHA1-Digest: GkFsNcBygLxbLd4uX7HppDsXeFk=
+
+Name: com/amazonaws/eclipse/explorer/rds/DatabaseDecorator.class
+SHA1-Digest: pyRBY76fyzkZi7rt79bpN6uO2Oo=
+
+Name: com/amazonaws/eclipse/explorer/rds/RDSExplorerActionProvider.cla
+ ss
+SHA1-Digest: pd/2Jy1D8dZ5IT6VxaFYu0LZyj4=
+

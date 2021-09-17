@@ -1,0 +1,243 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.amazonaws.eclipse.codecommit;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: root
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,com.amazonaws.
+ eclipse.core;bundle-version="2.3.1",org.eclipse.ui.navigator;bundle-v
+ ersion="3.5.401",org.eclipse.egit;bundle-version="3.4.2",org.eclipse.
+ egit.core;bundle-version="3.4.2",org.eclipse.egit.doc;bundle-version=
+ "3.4.2",org.eclipse.egit.ui;bundle-version="3.4.2",org.eclipse.jgit;b
+ undle-version="3.4.2",org.eclipse.core.databinding;bundle-version="1.
+ 4.2",org.eclipse.ui.ide;bundle-version="3.10.2",com.amazonaws.eclipse
+ .javasdk;bundle-version="1.11.130"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Amazon Web Services
+Import-Package: org.eclipse.core.databinding.beans,org.eclipse.core.re
+ sources,org.eclipse.jface.databinding.swt,org.eclipse.ui.forms,org.ec
+ lipse.ui.forms.widgets,org.eclipse.ui.navigator
+Export-Package: com.amazonaws.eclipse.codecommit.credentials,com.amazo
+ naws.eclipse.codecommit.widgets
+Bundle-Name: AWS CodeCommit Plugin
+Bundle-Version: 1.0.0.v201807201743
+Bundle-ClassPath: .
+Bundle-Activator: com.amazonaws.eclipse.codecommit.CodeCommitPlugin
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_171
+
+Name: com/amazonaws/eclipse/codecommit/CodeCommitPlugin.class
+SHA1-Digest: tW8Upj2VC9dHqcM/8KOmMj9C6WE=
+
+Name: plugin.xml
+SHA1-Digest: mRPEbX/Zn4rJ3ESTeLMbnYmjNgQ=
+
+Name: com/amazonaws/eclipse/codecommit/wizard/CloneRepositoryWizard$2.
+ class
+SHA1-Digest: 3/w601M9yhMowoWp3VUIEe0eTXk=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditor$1.cla
+ ss
+SHA1-Digest: SQM818Ga15MG6awOhz/Dzy0o0Bs=
+
+Name: com/amazonaws/eclipse/codecommit/pages/GitCredentialsConfigurati
+ onPage.class
+SHA1-Digest: 9hcCp8ePFwCnoeb1XKx0YDflWpM=
+
+Name: com/amazonaws/eclipse/codecommit/pages/GitCredentialsConfigurati
+ onPage$1.class
+SHA1-Digest: zjwCof2YkzueDfrdUBQ85lVuJ+8=
+
+Name: com/amazonaws/eclipse/codecommit/CodeCommitConstants.class
+SHA1-Digest: wGwwCwq0kB8mU7EQoFqKFZq8b+4=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditor$Refre
+ shAction.class
+SHA1-Digest: RLynL0KK4mVw1ZSnhzT0DWK31kc=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitActionProvid
+ er$OpenRepositoryEditorAction.class
+SHA1-Digest: gCGjzm+5pENrXgJUkhyu2Q7ODiM=
+
+Name: com/amazonaws/eclipse/codecommit/credentials/GitCredentialsManag
+ er$AccountInfoChangeListenerForGitCredentials.class
+SHA1-Digest: UijRZpLln7oDfyZVhIst+8J8Mpw=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitActionProvid
+ er$CloneRepositoryAction.class
+SHA1-Digest: W8sUPkhunhocd2XgQtVkQipbo6U=
+
+Name: com/amazonaws/eclipse/codecommit/widgets/GitCredentialsComposite
+ .class
+SHA1-Digest: dVIf2TVLdGssvQkRztyRTCm2C4s=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitActionProvid
+ er$CreateRepositoryAction.class
+SHA1-Digest: KCA9/wLTim2UyH1VABsxxBRph3Q=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitLabelProvide
+ r.class
+SHA1-Digest: 2vTFhedMR9WY1kYo9AZi7Im9qVI=
+
+Name: com/amazonaws/eclipse/codecommit/widgets/GitCredentialsComposite
+ $1.class
+SHA1-Digest: oRxE1eozpv5WBWsW7yExtEWXcnI=
+
+Name: com/amazonaws/eclipse/codecommit/preferences/CodeCommitPreferenc
+ ePage$1.class
+SHA1-Digest: ujrG4J3xWr60m/ZPdYk26aCiV9w=
+
+Name: com/amazonaws/eclipse/codecommit/preferences/PreferenceInitializ
+ er.class
+SHA1-Digest: EVpfu/GmV95sizaOpbjn2fkBNh8=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.codec
+ ommit/pom.properties
+SHA1-Digest: K4AW6vxLBGug5mjcMktugCgDAnw=
+
+Name: com/amazonaws/eclipse/codecommit/CodeCommitAnalytics.class
+SHA1-Digest: lRNx1nVAbFjbzIsBdMBJg0Vm9ng=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditor$Commi
+ tContentProvider.class
+SHA1-Digest: N5HnEBdHFSmQ7zh63v0xOPLt9Aw=
+
+Name: icons/codecommit-service.png
+SHA1-Digest: oPDVF6dJ2NRkNvMSI9tEJ3WpQC4=
+
+Name: com/amazonaws/eclipse/codecommit/CodeCommitAnalytics$EventResult
+ .class
+SHA1-Digest: /NJvt66PF5DJTDPniK1jMLGM4X4=
+
+Name: com/amazonaws/eclipse/codecommit/CodeCommitUtil.class
+SHA1-Digest: v5BQbkB5arDRgkmvha+s0m/CjMY=
+
+Name: com/amazonaws/eclipse/codecommit/preferences/PreferenceConstants
+ .class
+SHA1-Digest: FNqTp/ZKsu+eG0bprBVoCZPjm/E=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitActionProvid
+ er$DeleteRepositoryAction$1.class
+SHA1-Digest: KO54p8e9oj1L2YEfftXiXeuWf3U=
+
+Name: com/amazonaws/eclipse/codecommit/wizard/CloneRepositoryWizard$3.
+ class
+SHA1-Digest: 0nfB9pprSReD26N2CspQ1gprTLA=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitActionProvid
+ er.class
+SHA1-Digest: krbq+6NYzsa3vvriOss69lCDtWc=
+
+Name: com/amazonaws/eclipse/codecommit/credentials/GitCredentialsManag
+ er.class
+SHA1-Digest: /1Gk1P7KLVOcENvhLRo0G1g0VTo=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitContentProvi
+ der$1.class
+SHA1-Digest: /7DWuarAgKla5SfQERdPnGNCwwc=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditor$LoadB
+ ranchesThread.class
+SHA1-Digest: diD1/JeESXpTxrpz2S28Ojb9Nw8=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditorInput.
+ class
+SHA1-Digest: XFYN272bTY1UWD3wj4C/SULMG+g=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitActionProvid
+ er$DeleteRepositoryAction.class
+SHA1-Digest: 9G6yBoe6ljJlz/PYpvrv88YYGV8=
+
+Name: com/amazonaws/eclipse/codecommit/wizard/CloneRepositoryWizard.cl
+ ass
+SHA1-Digest: KoEDELSCaUQ6gewXEaMCkQScFgc=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditor$LoadC
+ ommitHistoryThread.class
+SHA1-Digest: yXYodVs+VOjUxjhIjeH4zUkP98s=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditor.class
+SHA1-Digest: N1XvNDXhljJbsvX3gZ7MrF0lK6k=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitContentProvi
+ der.class
+SHA1-Digest: sqCPWBOV8FOCUjidH3EjbxhTW0M=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitActionProvid
+ er$OpenRepositoryEditorAction$1.class
+SHA1-Digest: NJ4hs10KDHQAthgzLHBDYTnjqpU=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitActionProvid
+ er$CreateRepositoryAction$NewRepositoryDialog$1.class
+SHA1-Digest: Fjgp6BZSxz3Vgwm+BtetDGY/b/4=
+
+Name: icons/codecommit-repo.png
+SHA1-Digest: wndH2jjQzonDrmAAXCi/8xM2T44=
+
+Name: com/amazonaws/eclipse/codecommit/widgets/GitCredentialsComposite
+ $3.class
+SHA1-Digest: 7ZV80Tf3aWnNW2YvoLsFyDqNjIc=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditor$LoadB
+ ranchesThread$1.class
+SHA1-Digest: tYmeciqjJBoNK8Zq7RSTsOWn39E=
+
+Name: com/amazonaws/eclipse/codecommit/model/CodeCommitPreferencePageD
+ ataModel.class
+SHA1-Digest: uHNDqQvZYUvx5ZZ66qC4XJPzmso=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditor$Commi
+ tLabelProvider.class
+SHA1-Digest: IupYMZwXjMxqyNRq8ny3nCw5kvQ=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitRootElement.
+ class
+SHA1-Digest: v0y3SmQA9UW+Jigqng9Otf/1ICo=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitActionProvid
+ er$CreateRepositoryAction$NewRepositoryDialog.class
+SHA1-Digest: M4ac1EtUxf8Jskr8pBFnKeXp2y4=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditor$2.cla
+ ss
+SHA1-Digest: pRzd0MyORlJmf+//Mh724PU/H7E=
+
+Name: com/amazonaws/eclipse/codecommit/preferences/CodeCommitPreferenc
+ ePage.class
+SHA1-Digest: 5J4iIVRLaIJnGGtVwFJEveALwEo=
+
+Name: com/amazonaws/eclipse/codecommit/wizard/CloneRepositoryWizard$1.
+ class
+SHA1-Digest: OjqPqSGqRpZV1nQ4APyT997K5dw=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.codec
+ ommit/pom.xml
+SHA1-Digest: ficn7NOGhRdwflH/3JggZyc7aSc=
+
+Name: com/amazonaws/eclipse/codecommit/credentials/GitCredential.class
+SHA1-Digest: aPpXYv2l0G6UrFeq0u6SfG1Ym7I=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/CodeCommitContentProvi
+ der$2.class
+SHA1-Digest: xoDRAkt2uj+ixxr91T/5CBQC9f0=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditor$Commi
+ tRow.class
+SHA1-Digest: LtcadgTwGqH5/3czbe2qnam0lZE=
+
+Name: com/amazonaws/eclipse/codecommit/widgets/GitCredentialsComposite
+ $2.class
+SHA1-Digest: CLwyQwQtdG5Sa17acZfU50yrhOo=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditor$LoadS
+ ummaryDataThread.class
+SHA1-Digest: iMZ1Qi/vGeO+2fCk9NNw2WRJHBU=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditor$LoadS
+ ummaryDataThread$1.class
+SHA1-Digest: Zoz7hkDxPCCPq2Jgk8PKklFLZZo=
+
+Name: com/amazonaws/eclipse/codecommit/explorer/RepositoryEditor$LoadC
+ ommitHistoryThread$1.class
+SHA1-Digest: bkRxIHtX5H0itjwAKJf0ILDT/vY=
+

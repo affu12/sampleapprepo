@@ -1,0 +1,1083 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.amazonaws.eclipse.elasticbeanstalk;singleton:
+ =true
+Archiver-Version: Plexus Archiver
+Built-By: root
+Require-Bundle: org.eclipse.ui,org.eclipse.core.filesystem;bundle-vers
+ ion="1.2.0",org.eclipse.core.runtime;bundle-version="3.4.0",org.eclip
+ se.core.resources;bundle-version="3.4.0",org.eclipse.jst.j2ee;bundle-
+ version="1.1.0",org.eclipse.jst.j2ee.web;bundle-version="1.1.0",org.e
+ clipse.jst.server.core;bundle-version="1.2.0",org.eclipse.wst.common.
+ core;bundle-version="1.1.0",org.eclipse.wst.common.frameworks;bundle-
+ version="1.1.0",org.eclipse.wst.server.core;bundle-version="1.1.0",co
+ m.amazonaws.eclipse.core;bundle-version="2.3.1",com.amazonaws.eclipse
+ .ec2;bundle-version="1.1.0",com.amazonaws.eclipse.sdk.ui;bundle-versi
+ on="2.1.0",org.eclipse.core.databinding;bundle-version="1.2.0",org.ec
+ lipse.core.databinding.beans;bundle-version="1.2.0",org.eclipse.jface
+ .databinding;bundle-version="1.3.0",org.eclipse.jface.text;bundle-ver
+ sion="3.4.0",org.eclipse.wst.common.project.facet.core;bundle-version
+ ="1.3.0",org.eclipse.debug.ui;bundle-version="3.4.0",org.eclipse.wst.
+ server.ui;bundle-version="1.1.0",org.eclipse.core.net;bundle-version=
+ "1.2.0",org.eclipse.ui.forms;bundle-version="3.3.0",org.eclipse.ui.na
+ vigator;bundle-version="3.2.0",com.jcraft.jsch;bundle-version="0.1.41
+ ",org.eclipse.ui.ide,com.amazonaws.eclipse.javasdk;bundle-version="1.
+ 11.130"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Amazon Web Services
+Import-Package: org.eclipse.jdt.core,org.eclipse.jdt.launching
+Export-Package: com.amazonaws.eclipse.elasticbeanstalk.deploy,com.amaz
+ onaws.eclipse.elasticbeanstalk.server.ui
+Bundle-Name: AWS Elastic Beanstalk Plugin
+Bundle-Version: 1.0.0.v201807201743
+Bundle-ClassPath: lib/jgit/jgit-1.3.0-aws-git-push.jar,.
+Bundle-Activator: com.amazonaws.eclipse.elasticbeanstalk.ElasticBeanst
+ alkPlugin
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_171
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/explorer/ElasticBeanstalk
+ LabelProvider.class
+SHA1-Digest: FArwFFoHbkPGi33WMoaoI749qtA=
+
+Name: plugin.xml
+SHA1-Digest: OWiGyP0Rno3tN9AQDAqc8KGdkVw=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/SyncEnvironmentsJob.
+ class
+SHA1-Digest: vlK2KuClJtUFh6BLSDFigcKBf7A=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentOverviewEditorSection$1.class
+SHA1-Digest: x45ZEkerBHkScj07/YI8Edzr5SA=
+
+Name: icons/application.png
+SHA1-Digest: zsVn/jxZ6Lh/+Ir/gfMYkc/rz6o=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/TerminateEnvironment
+ Job$DialogHolder.class
+SHA1-Digest: fvINESxhQ44mVRd9UzP+GUAWn+w=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/ContainerConfigEditorSection$5.class
+SHA1-Digest: 1vRryefuGPVfo3so41wMy/gG5vM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/util/ElasticBeanstalkClie
+ ntExtensions.class
+SHA1-Digest: UQ7tCkQbsbt7YtJyVOpbpW8EVmk=
+
+Name: templates/basic/WebContent/styles/styles.css
+SHA1-Digest: OXAMKWllEmHGlfUQUDfk+H8Llts=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentOverviewEditorSection$LoadHealthStatusJob$2.class
+SHA1-Digest: 4ehbHNrHsJfSxo8xuB14LlYmtvU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigDataModel$RefreshThread.class
+SHA1-Digest: 8X9FzeqrvaNJikUi7QGINi28i8A=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Lo
+ gTailEditorSection.class
+SHA1-Digest: JikMETmwiQqkXKSKPQLjyJgWrmU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/DeploymentInformationDial
+ og$1.class
+SHA1-Digest: pqeAHfEqkKiPNnuA4sZ+WTdhrd8=
+
+Name: templates/worker/src/WorkRequest.java
+SHA1-Digest: KPfGEYEYzCMk3dFrmzGKo9kO+2o=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/util/BeanstalkConstants.c
+ lass
+SHA1-Digest: D7inDzAZ4b5dxOMtuW03GF9PlAg=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigEditorSection$DirtyMarker.class
+SHA1-Digest: J0FyoWGU5LPS5V5n+52cb2OCgJM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Lo
+ gTailEditorSection$LoadEnvironmentLogJob.class
+SHA1-Digest: o7+iBA3FduH1nB6jmEscZf6DdLg=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/resources/BeanstalkResour
+ ceProvider$BeanstalkResource.class
+SHA1-Digest: GdY75HWulCK/3HgTJwYov2UQZGQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/ServerConfigEditorSection$2.class
+SHA1-Digest: qcxKEw5iPG3aPt1o/yI+lnVv1S0=
+
+Name: lib/jgit/jgit-1.3.0-aws-git-push.jar
+SHA1-Digest: 6SEGIic2OSYuxLkvkXpwMWYu2Ec=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/BasicEnvironmentConfigEditorPart$1.class
+SHA1-Digest: Q4s8QYk50gQCnOjvtx5GpNDpk+k=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ElasticBeanstalkHttpLaunc
+ hable.class
+SHA1-Digest: LSICL6vbzW2oHx+Edy6P3pYAkfM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/git/AWSGitPushCommand.cla
+ ss
+SHA1-Digest: HGB/Eo1tP9JvnUy61XyFjYf2Hnc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/ContainerConfigEditorSection.class
+SHA1-Digest: slqWg/LRUPcMMIl71PYgkAqHxrE=
+
+Name: icons/beanstalk-service.png
+SHA1-Digest: 2kF6qNBbSIlhHFRgx/+P2Cnlbqs=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/databinding/Con
+ figurationSettingValidator.class
+SHA1-Digest: PnKBzJX+jQTyBXij6WWKS/6RnMs=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/ImportEnvironme
+ ntsWizard$ImportPage.class
+SHA1-Digest: jnqg+ohkjI7mxjqF0cyL7cYcf1Y=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/webproject/CreateNewAwsJa
+ vaWebProjectRunnable$1.class
+SHA1-Digest: seRAJzDRy9BCFN09wdoWYGQqH+I=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/NotificationsConfigEditorSection.class
+SHA1-Digest: TWw9U/1007hR5p/8CIskFOxEmvI=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardVpc
+ ConfigurationPage$LoadVpcsCallback.class
+SHA1-Digest: FSm7NoyvTjGUzJQ6z9z6x6RcEh8=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/databinding/App
+ licationNameValidator.class
+SHA1-Digest: LXNg8kEux0S8GoFWukWqXCJNY08=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardVpc
+ ConfigurationPage$VpcWidgetBuilder.class
+SHA1-Digest: fgzrt2NUIFil4Cfpm5BYcS2Chd8=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardVpc
+ ConfigurationPage.class
+SHA1-Digest: ubepWLyLvR2242JEitFAjss+IHI=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ev
+ entLogEditorSection.class
+SHA1-Digest: TPapBrYc+6C6YaKiOmf3CGdKP04=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentResourcesEditorPart.class
+SHA1-Digest: M9t7V7oNtCSLKoT2Ng0ZzniJ0Ss=
+
+Name: templates/basic/pom.xml
+SHA1-Digest: 6nOBsu6DoT8vJcDZwSF+VS1YmPk=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Im
+ portTemplateDialog.class
+SHA1-Digest: 16RBo69WeDxL+lQOf0Kok6PbKwQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ev
+ entLogEditorPart.class
+SHA1-Digest: INYwxj0W0eAZE+QW/SnBGRxcklU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentResourcesEditorPart$EnvironmentAutoScalingEditorSection.clas
+ s
+SHA1-Digest: yqJwv/ga3wTai1jfY6cpxVfx2XU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/git/AWSGitPushAuth.class
+SHA1-Digest: bH+8f/qeHM7xSYMsmjr+HsClDoo=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/explorer/ElasticBeanstalk
+ ActionProvider$DeleteApplicationAction.class
+SHA1-Digest: bc0FjlYVQAaekI5YmhRZwvQ712I=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/explorer/ElasticBeanstalk
+ ContentProvider$2.class
+SHA1-Digest: d16CKwEpNgjkceR5EP1LtjPIjlQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ElasticBeanstalkLaunchCon
+ figurationDelegate.class
+SHA1-Digest: SebZxHVVjMrr1E6HsazUs2WiS8g=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentOverviewEditorSection$LoadHealthStatusJob$1.class
+SHA1-Digest: mCGo0jvw1iG9ovoAASmqlSJCbxc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/webproject/CreateNewAwsJa
+ vaWebProjectRunnable.class
+SHA1-Digest: vJKCGBRWIG70DARsrUySEwbVKg4=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardEnv
+ ironmentConfigPage$2.class
+SHA1-Digest: d6Up/0m1oC05X07pB0yUp5rTmUg=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigEditorPart$1.class
+SHA1-Digest: qUCQm7aeGpfXiGk0cF7Pe2LURIQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/RestartEnvironmentJo
+ b.class
+SHA1-Digest: Q2V/QzcyPsnILS64f6ox7nBFKSs=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/Environment.class
+SHA1-Digest: 9CXTaxTBNQC8ZrtQ1j6XxYL6DAQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/webproject/JavaWebProject
+ WizardPage$5.class
+SHA1-Digest: dEu1j+lFgPo+gbkhVcQt8+6/NFc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardEnv
+ ironmentConfigPage.class
+SHA1-Digest: HTf6riCiIHmXxADkXKolLsjq6ZM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigDataModel$IgnoredOptions.class
+SHA1-Digest: xGSg4puy9VqomqafMlZJ8bPRD+Q=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/resources/service-role-pe
+ rmissions-policy.json
+SHA1-Digest: SEtNaGtO1XDrELqWRgF7EDIOoD4=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/EnvironmentTypeConfigEditorSection.class
+SHA1-Digest: VMU+BVxPnGqzd/ca3Um3D3mMSQg=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigDataModel$1.class
+SHA1-Digest: NbwrC4iuYSZwFG5rr2LrU51DX+8=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/BasicEnvironmentConfigEditorPart$NamespaceGroup.class
+SHA1-Digest: W5PLISVGSo6pFj6Pr9dLmKvPWX0=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardApp
+ licationSelectionPage.class
+SHA1-Digest: 3OWvT0HQQwhevCXQKbCMconf+dk=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigEditorSection.class
+SHA1-Digest: 7XmoKqlCkKOSAxR1xCZ2hXwkuP4=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/webproject/JavaWebProject
+ Template.class
+SHA1-Digest: yvWX0L+6HCSms5vOOFyZt9/Pp5w=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/explorer/OpenEnvironmentE
+ ditorAction$1.class
+SHA1-Digest: IQjHnyMcCGBOw3TFCmsw0g/o3Ho=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardEnv
+ ironmentConfigPage$1.class
+SHA1-Digest: gCslzltFiWAnsKV2XhR6A9wMpOA=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/explorer/ElasticBeanstalk
+ ContentProvider$3.class
+SHA1-Digest: i8RNqrWUhzyvN1gIIl+RA6BZKsQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentOverviewEditorSection.class
+SHA1-Digest: 6a62ugCbMPaM1gP3M2FgOmSkF2k=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardVpc
+ ConfigurationPage$VpcWidgetBuilder$3.class
+SHA1-Digest: Ng4EN/sbT8QtsxvyoLyQ39hFBAc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/git/util/BinaryUtils.clas
+ s
+SHA1-Digest: GzLH8Tm2y3va7IaHjVNOtz/DiGI=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/HumanReadableConfigEditorSection.class
+SHA1-Digest: njdKYXSxvhHdPOO2Ev7tiEdFsAQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/ServerConfigEditorSection$1.class
+SHA1-Digest: H9JEVBMdDbqS58aesJmtEX1DTsY=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ElasticBeanstalkPlugin.cl
+ ass
+SHA1-Digest: IPrRwi+Tk0/eOoEuhhMKEHvk9rE=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigEditorSection$2.class
+SHA1-Digest: ggitWgXLsOiTV6D/lO3LpqZ3zZg=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Lo
+ gTailEditorPart.class
+SHA1-Digest: b2BmuNpoVYbbdT/Rp6rEHA5kyOo=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/DeploymentInformationDial
+ og.class
+SHA1-Digest: Q7tpfGUBwBAYa0RxrkbCtGsnA8Y=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ex
+ portTemplateDialog.class
+SHA1-Digest: ZE1868XN+/q8rugBPFprFyDFih8=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/webproject/JavaWebProject
+ WizardPage$4.class
+SHA1-Digest: 2GdMkRGs0aayrP0GQ61qBHJlsbQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/util/PollForEvent$Interva
+ l.class
+SHA1-Digest: CybniVOE8jGzEyGQMOq6y7/5qHg=
+
+Name: templates/dynamodb-session-manager/.ebextensions/context.xml
+SHA1-Digest: XUdNxKcM6WiFMD24Q9OWEXJouVc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/EnvironmentTypeConfigEditorSection$UpdateEnvironmentAndRefreshLay
+ outJob.class
+SHA1-Digest: puewRcCqEcWMh7D2LUI6Td1d/q8=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Nu
+ llOperation.class
+SHA1-Digest: zTlS07mOxKKp18KFENpTjLWesxg=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ElasticBeanstalkOverviewS
+ ection$1.class
+SHA1-Digest: EQv/eJvlcpiuViwS2u+DVYAACec=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/explorer/ElasticBeanstalk
+ ActionProvider$DeleteApplicationAction$1.class
+SHA1-Digest: moXrCrtSVMafmyaXAcrpEm5GFyA=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/BasicRuntime.class
+SHA1-Digest: iaHwyolDqIcTvCp7LloX5xQR3SY=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/OpenEnvironmentUrlAction.
+ class
+SHA1-Digest: SDWoC97kp6JGDk+bS/EZAAzqfFg=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentResourcesEditorPart$EnvironmentElasticLoadBalancingEditorSec
+ tion.class
+SHA1-Digest: /5JXDlyFEmIKvB0Bwih+k5xTS0M=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/git/AWSElasticBeanstalkGi
+ tPushRequest.class
+SHA1-Digest: S3bp10tp3ToNLtItbUYOQgAQHXA=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardApp
+ licationSelectionPage$LoadEnvironmentsThread$1.class
+SHA1-Digest: e/ecmQRIjBlKsfaIRRd2tAb7tBc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ui/menu/DeployToElasticBe
+ anstalkHandler.class
+SHA1-Digest: tW0ckOWLTugZm27NYgRiNGWJnNs=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Lo
+ gTailEditorPart$1.class
+SHA1-Digest: LG4aLd2iXpp/upw9zY2cN6wI3ag=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/util/OnUiThreadProxyFacto
+ ry.class
+SHA1-Digest: 9qg2SlZjDIOIkn/D91mXqaOT+mw=
+
+Name: templates/basic/WebContent/images/server.png
+SHA1-Digest: wTfe6ns4tFr4Pv7+akRgc76AFeM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardRol
+ eSelectionPage$RoleWidgetBuilder$1.class
+SHA1-Digest: Uh0Q4ECqdA3GQUScswU6J9UEDDc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/EnvironmentBehavior.class
+SHA1-Digest: l4HPfvpqDoxDST/yf+S3o3/xGoU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/TerminateEnvironment
+ Job$1.class
+SHA1-Digest: X1tCYl4WBQjP3weIyT8bb74tDFk=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/EnvironmentPropertiesConfigEditorSection.class
+SHA1-Digest: C6zm4yYm0mweA4+pJA7ZhLyDkgA=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ev
+ entLogEditorPart$1.class
+SHA1-Digest: mILD28jOC4J/zV39Qk0GBHSnCE0=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/deploy/WTPWarUtils.class
+SHA1-Digest: CBgHOUKwrMAyZWdV2ItWuMjQOqk=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/TerminateEnvironment
+ Job.class
+SHA1-Digest: b3VX53w2FffoxobCgPkHxkxvi0Q=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigEditorPart.class
+SHA1-Digest: CUv3adyZkR/LDwD2KdynXCraMww=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigEditorPart$5.class
+SHA1-Digest: cVjPa+t+nVYzlTfR/EJ4U5yN9PA=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/LaunchConfigura
+ tionTabGroup.class
+SHA1-Digest: 2wXHG/j/mQ5up7mWnzUJAyx0tXs=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/ServerConfigEditorSection.class
+SHA1-Digest: kM45a+1+fIiEUo2HbANUiPz9BS4=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/ContainerConfigEditorSection$1.class
+SHA1-Digest: go2pcQcs/u/Lp4+FGqh+73uTvsE=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/resources/service-role-tr
+ ust-policy.json
+SHA1-Digest: fL7nf1YQfKdz0dClXBFDX0gqBiY=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/ImportEnvironme
+ ntsWizard$ImportPage$1.class
+SHA1-Digest: 7meGuB1O36kx5rlfLBJ1K012WRM=
+
+Name: templates/basic/WebContent/images/database.png
+SHA1-Digest: yL52k9GmnmAG42yLF3YIOT94iKQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigEditorPart$2.class
+SHA1-Digest: XwJX3jPZG/SqFIiaryxf6GQbODA=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/De
+ ploymentConfigEditorSection.class
+SHA1-Digest: M5sH5gG6BnE58wMYmxqy0EXb6Jo=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/resources/instance-profil
+ e-permissions-policy.json
+SHA1-Digest: qNNG4OuM70nBRzLpwvufmMcSda0=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/ImportEnvironme
+ ntsWizard$EnvironmentSelectionTreeProvider.class
+SHA1-Digest: ytp5eQU73G3aL4P267c0pZ2c6dg=
+
+Name: lib/jgit/LICENSE
+SHA1-Digest: 5eOjWgLATlNHJNalgfP0MvUxboo=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/ServerConfigEditorSection$3.class
+SHA1-Digest: LEetSHNScVsm2LvQVQutDodDjsI=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigDataModel$OptionKey.class
+SHA1-Digest: sgBPRgxa0oFfcs0S8drgMh3Pj84=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/util/OnUiThreadProxyFacto
+ ry$OnUiThreadProxyHandler$1.class
+SHA1-Digest: Tr57dyW+l/FPMGf7j3B5Ycg6n6Y=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ElasticBeanstalkPublishin
+ gUtils.class
+SHA1-Digest: vfJ2nhDTsdHB8D8NkBqpToceJs0=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ev
+ entLogEditorSection$LoadEnvironmentEventsJob.class
+SHA1-Digest: dspHgIOzqRohuNxlOi2ZUIbnBaw=
+
+Name: icons/environment.png
+SHA1-Digest: Hli2c845rAQIoSHAIgfnDVn1Hks=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/CantConnectDialog$1.class
+SHA1-Digest: EPuh7UljZkFgDW8qf9EE24lovD0=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ui/menu/NewAwsJavaWebProj
+ ectHandler.class
+SHA1-Digest: PBcsrHv70cpmZQ03L3M9Q2NiB7I=
+
+Name: templates/worker/src/WorkerServlet.java
+SHA1-Digest: 0bvt2i9RImRF/rx1JTvLQp4sngY=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ev
+ entLogEditorSection$2.class
+SHA1-Digest: k8QKKirrYGmX3SszTIjnCZNqA/I=
+
+Name: templates/worker/WebContent/WEB-INF/web.xml
+SHA1-Digest: 358vfSCtqu4Mlardh3OzbWQTF+0=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/webproject/JavaWebProject
+ WizardPage.class
+SHA1-Digest: LzltLcvznXKxVVuaTPPJf9rXd6k=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/LoadIamRolesJob.clas
+ s
+SHA1-Digest: vVn6gJaqVukh6flLq8M9UZ9YQCw=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/AbstractDeployW
+ izardPage.class
+SHA1-Digest: Hvms0gxuxPV5eey3btZt/P+uOl4=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentResourcesEditorPart$EnvironmentInstancesEditorSection.class
+SHA1-Digest: lftVXwYMXi+SvycBhCfH9ibGwy0=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Lo
+ gTailEditorSection$LoadEnvironmentLogJob$1.class
+SHA1-Digest: rW5a806GITN4zLPdsgLrfO0CUhg=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/ServerDefaultsU
+ tils.class
+SHA1-Digest: gmB7z5V+MFKU/ZF1H+MdjmaoWr4=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardApp
+ licationSelectionPage$NewApplicationOptionsComposite.class
+SHA1-Digest: Yl3lCnGHuQwN7ewGIWdU7zpPBQ8=
+
+Name: templates/basic/WebContent/index.jsp
+SHA1-Digest: Um7yGxo7kvoeq+5+ib4tMMLrWVM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/SessionConfigEditorSection.class
+SHA1-Digest: vHjoqR+RmjxPMRMpNjV+xB/m4+Y=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/LoadVpcsJob.class
+SHA1-Digest: yjqft93q5KDydb0hxh2EUvQBivA=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/explorer/ElasticBeanstalk
+ ContentProvider.class
+SHA1-Digest: gRrjgyeNtjKQkRl6eWyY1573Hz8=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ev
+ entLogEditorSection$LoadEnvironmentEventsJob$1.class
+SHA1-Digest: CauAqjzA4/q87IEFN8l5imJ8cnE=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ev
+ entLogEditorSection$EventLogMenuListener$1.class
+SHA1-Digest: M1f4fIPS1XOiJbc+19yDvvDtY8M=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/LoadResourcesJob.cla
+ ss
+SHA1-Digest: g57VGX4/d1l8+de9vrkdEsCgm4o=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/BasicEnvironmentConfigEditorPart$Position.class
+SHA1-Digest: kBlQ5qGEjoaZKIBK+cB0CIct7J0=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.elast
+ icbeanstalk/pom.xml
+SHA1-Digest: tF5JWUepcaTJjsDt8Y2TAgAzrbs=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/webproject/NewAwsJavaWebP
+ rojectDataModel.class
+SHA1-Digest: ay52BoZXqtPXHGnOREQ39e1YI6A=
+
+Name: templates/worker/pom.xml
+SHA1-Digest: 6nOBsu6DoT8vJcDZwSF+VS1YmPk=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigEditorPart$4.class
+SHA1-Digest: zGhPIO+ckPP4pQzKMttn1y+b8GU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ElasticBeanstalkLaunchabl
+ eAdapter.class
+SHA1-Digest: QlDFzFR3qvLlO6bE17I8N2uRfqc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/OpenElasticBeanstalkConso
+ leAction.class
+SHA1-Digest: TAtvVDWHg3qUqJZ1eHveG8xY+Ls=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/ImportEnvironme
+ ntsWizard$RegionEnvironmentDescription.class
+SHA1-Digest: upS46p9B7YGcfhlPQDCd+d3wY6k=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/AdvancedEnvironmentTypeConfigEditorSection.class
+SHA1-Digest: Kf227LAPy5FCU7ODMTW598lZnoc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/webproject/NewAwsJavaWebP
+ rojectWizard.class
+SHA1-Digest: 15a1fTsjwtxUF9H1He1C0ozSRGo=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/explorer/ElasticBeanstalk
+ RootElement.class
+SHA1-Digest: PgcKSUXnKzKpsvNC48tS30GzkF0=
+
+Name: icons/application_new.png
+SHA1-Digest: Q2t59/EWejVx8QePtPsURCNbsLA=
+
+Name: templates/dynamodb-session-manager/.ebextensions/server-update.c
+ onfig
+SHA1-Digest: pwd04X2xQetlrs6a+5ZrJ1wv23c=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/databinding/NoI
+ nvalidNameCharactersValidator.class
+SHA1-Digest: ldZ62AC+jwgXao2BMzjCF6RF4CI=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigEditorPart$3.class
+SHA1-Digest: FyaeMuOdx4mCljzq/DqOhRJyuoA=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ElasticBeanstalkOverviewS
+ ection.class
+SHA1-Digest: IAI5xg+AVcFBmnsgixKzQip/yfw=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ConfigurationOptionConsta
+ nts.class
+SHA1-Digest: V4PlYC1CZ/s1jHbw1gybrI+k59E=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardApp
+ licationSelectionPage$2.class
+SHA1-Digest: BDLsbX9Vi6WuMC0pQXFUj5h8aTs=
+
+Name: templates/basic/WebContent/index.html
+SHA1-Digest: awHaosDZxKgOXI+t059NQLcKUts=
+
+Name: icons/server.png
+SHA1-Digest: ESZvdWF3YG8MQwvQSuGUoEzlwtA=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardApp
+ licationSelectionPage$LoadApplicationsThread$1.class
+SHA1-Digest: wIDZ/tQKhY2MLX2UvKgZHmRKdLU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/git/util/CertificateUtils
+ .class
+SHA1-Digest: UpMuL/QrktpLkle9UB7IQdvTSzg=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/git/util/DateUtils.class
+SHA1-Digest: mvS/WMLqI7qmrTW+rNxiGsZXWMU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/UpdateEnvironmentJob
+ $2.class
+SHA1-Digest: Z+lCloFkZDTRYee4inYTzSlyFQY=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ex
+ portTemplateDialog$1.class
+SHA1-Digest: za0HMkWi5jct9qvcizg8Z+rsir0=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ElasticBeanstalkOverviewS
+ ection$2.class
+SHA1-Digest: ZV8VvxGBheqlbXwTGDms5BAYjMg=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/EnvironmentBehavior$2.cla
+ ss
+SHA1-Digest: pa4JHIirKwvCCcA0g1DNiaC88Sw=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizard.cl
+ ass
+SHA1-Digest: r8/7ytaApduu20T5UIurps3/WPY=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ev
+ entLogEditorSection$1.class
+SHA1-Digest: IimDlu8vWZcyTNyO9SbwS3n/GGw=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/AbstractDeployW
+ izardPage$1.class
+SHA1-Digest: KRCx0eZB/t/EoNlnyX50VwZ1q/8=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/explorer/ElasticBeanstalk
+ ActionProvider.class
+SHA1-Digest: tV4XAlk0cMenQ8oooIY5KMqXB0E=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Re
+ freshListener.class
+SHA1-Digest: seqx9X04wIDBc3hoB4lD+lmHdDU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentResourcesEditorPart$RefreshThread.class
+SHA1-Digest: JfPy/zQPe376AH5kYjUTc0XM9vU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Im
+ portTemplateDialog$1.class
+SHA1-Digest: QVCygJ30aTFZ7jnqbA43BeQT62A=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/git/util/BinaryUtils$1.cl
+ ass
+SHA1-Digest: QOqH4SCmcMYsTIb8qJvcp5q170w=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigDataModel$RefreshThread$1.class
+SHA1-Digest: pt6N7bbd+F1qWxAnFiuRub+n1qo=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/UpdateEnvironmentJob
+ $1.class
+SHA1-Digest: RUfe1zTAUn5AqvsbiIOFY1cxa9Q=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigDataModel.class
+SHA1-Digest: 0GF+mLzKkKERtFZaVW9NAWup2kk=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/DeploymentInformationDial
+ og$3.class
+SHA1-Digest: nto5BJvmGyUfR8t7M4aj5MRzAQY=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/De
+ ploymentConfigEditorSection$1.class
+SHA1-Digest: 3jWjxWgPFntUx8maK3SGJkOUhI0=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/ExportConfigurationJ
+ ob.class
+SHA1-Digest: SQXwpQcwnVfyoQ3q4sB8rqjmPtM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/WtpConstantsUtils.class
+SHA1-Digest: 4PBkgp4tqwpcCFAyd527ZeUjROU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/NoCredentialsCo
+ nfiguredWizardFragment.class
+SHA1-Digest: NhSbjvf/2ZlU5EqiVZTa9iJtbHI=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/explorer/ElasticBeanstalk
+ ActionProvider$TerminateEnvironmentsAction.class
+SHA1-Digest: a1RFTXGiuevQzEgVOx+sGeFbACQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/ContainerConfigEditorSection$3.class
+SHA1-Digest: 9G395uqlmA8vwEWFU2zKV24VDy0=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/git/AWSGitPushRequest.cla
+ ss
+SHA1-Digest: 3clyhHX4ehwCTGlaCDZxlMRIrDE=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ElasticBeanstalkPlugin$Ne
+ wServerListener.class
+SHA1-Digest: 0s9gCk38VXHxJqc5+AHFBLwLn0M=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/resources/instance-profil
+ e-trust-policy.json
+SHA1-Digest: R2laRDA+iLwSvihabjxIg3O0Qf8=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/util/PollForEvent.class
+SHA1-Digest: ae1Urop5q5KcCOL7xmbJDR6+6QU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentResourcesEditorPart$EnvironmentQueueEditorSection.class
+SHA1-Digest: KKIa7vzaBT78DH+SkJLfL5E17PQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/resources/BeanstalkResour
+ ceProvider.class
+SHA1-Digest: eYpo/DUv1NQmk++O1KGmzmePu9M=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardRol
+ eSelectionPage$LoadIamRolesCallback.class
+SHA1-Digest: IEy8oDePYbYFL8sqQD15YCrHCtE=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/deploy/NotEmptyValidator.
+ class
+SHA1-Digest: jwq6xhwF/Fn5+jQI0QgH7uNlPp8=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Be
+ anstalkHealthColorConverter.class
+SHA1-Digest: 4vGBXJxKXFiaMTgnBmHZ7s+kY/c=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/UpdateEnvironmentJob
+ .class
+SHA1-Digest: MrBIFbUzAq/G4JpjVv/RsZh3nog=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentOverviewEditorSection$LoadHealthStatusJob.class
+SHA1-Digest: Lbo77fhpQowc7N1h4pnHfkrOjlA=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentResourcesEditorPart$EnvironmentElasticLoadBalancingEditorSec
+ tion$1.class
+SHA1-Digest: X0K8bwxjEXn9xO29NclCDuWK214=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentResourcesEditorPart$AbstractEnvironmentResourcesEditorSectio
+ n.class
+SHA1-Digest: oeG2g7PoCAEMIJNmyqMmTqxUhvs=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ab
+ stractEnvironmentConfigEditorPart$1.class
+SHA1-Digest: ujodzyxOOVY7MokL1BbtuyACnaE=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ex
+ portTemplateDialog$2.class
+SHA1-Digest: 01ymouPJTvzemNwIm5sF8LwkU34=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/ImportEnvironme
+ ntsWizard$1.class
+SHA1-Digest: EbDxNBMn3l9kTLRVx2FXFIzfjxQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/EnvironmentTypeConfigEditorSection$1.class
+SHA1-Digest: L+c3Adegi7D7Zj555gdhOaeF4oc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/ContainerConfigEditorSection$2.class
+SHA1-Digest: A+N8rkno1IdJ07iaInKNG+J7tEI=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/deploy/DeployWizardDataMo
+ del.class
+SHA1-Digest: 0SjcNbI7OocalO8tDLIFTqc8UVI=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.elast
+ icbeanstalk/pom.properties
+SHA1-Digest: JZCJJwZk7PpjPRrhpFQuw8xytho=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/BasicEnvironmentConfigEditorPart$3.class
+SHA1-Digest: g6ERyLuteL01SFPF7oNgk0oAXAY=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/resources/minimum-iam-per
+ missions-policy.json
+SHA1-Digest: Thno3zoCDVa06vrs497GqTXwe0I=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardApp
+ licationSelectionPage$LoadEnvironmentsThread.class
+SHA1-Digest: UYVhcFujzY8ht/8CYCIZAPPtiuM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/EnvironmentBehavior$1.cla
+ ss
+SHA1-Digest: EaOVE6QiCg7csYzCf2KrXYND+ig=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/solutionstacks/Tomcat8Sol
+ utionStacks.class
+SHA1-Digest: brR50vfilWBclY7hHCWfTA3hsF8=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/databinding/Min
+ MaxLengthValidator.class
+SHA1-Digest: KbPyJMdEpd3oRuBMPBL3IhtoIHI=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/BasicEnvironmentConfigEditorPart$2.class
+SHA1-Digest: 42v6uv628Fg5wwDJbMeYMmlbd7Q=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardVpc
+ ConfigurationPage$VpcWidgetBuilder$2.class
+SHA1-Digest: UqkTT/NYtCuuYTSxtj20GRmfx4Y=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/RollingDeploymentsConfigEditorSection.class
+SHA1-Digest: s2x/KWIJDgeavCdADf1QsGczQaQ=
+
+Name: icons/aws-box.gif
+SHA1-Digest: FncMVzZA7OR/pQhZYLN+86K95X4=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/ImportEnvironme
+ ntsWizard.class
+SHA1-Digest: pt/S2ZnHHR70N33xhrSJf27OCqk=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/git/AWSGitPushCommand$1.c
+ lass
+SHA1-Digest: 4RWbereohA9xswm9OiaHAjZDLH0=
+
+Name: icons/clipboard.gif
+SHA1-Digest: /HxBmQJ34a2fx1W0xKIvNoZXTQo=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/CantConnectDialog.class
+SHA1-Digest: nOhDi54f1uf4B2act4T5Cs8Nvig=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/UpdateEnvironmentJob
+ $IsCnameAvailable.class
+SHA1-Digest: nOhjwXH03rDkZENZI8Cna0j1gf8=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardApp
+ licationSelectionPage$LoadApplicationsThread.class
+SHA1-Digest: ueANOwtfh12LRygEiW+bUjqPXTE=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentConfigEditorSection$1.class
+SHA1-Digest: gNhP+VFhXk+R0/+cLaAdggRnrvs=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/solutionstacks/Tomcat7Sol
+ utionStacks.class
+SHA1-Digest: 15WMr5oKXUnpqN+RrQb7mn0RK/U=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/solutionstacks/SolutionSt
+ acks.class
+SHA1-Digest: crF9z5bscuFjgOmO6n04NyXnVV4=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardApp
+ licationSelectionPage$NewEnvironmentOptionsComposite.class
+SHA1-Digest: 8uWi+JhHIWu5HnXowaVzPWLGOV0=
+
+Name: icons/import.gif
+SHA1-Digest: KBgRjdXon6FcAufJ9wYEAVQ3SNw=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/webproject/JavaWebProject
+ WizardPage$3.class
+SHA1-Digest: K4XHUjeojZxHsIehUXmmzCYtrO8=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentResourcesEditorPart$EnvironmentQueueEditorSection$1.class
+SHA1-Digest: AHmzJEEiXGvFk8TbJzJkaaG3Ymw=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ev
+ entLogRefreshManager.class
+SHA1-Digest: 37r301EzdR5Xt7F1nD2j3RxaLs0=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/AbstractDeployW
+ izardPage$2.class
+SHA1-Digest: rSEwnFdUXfc4itOhBS3TDKzA9TI=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/explorer/ElasticBeanstalk
+ ContentProvider$1.class
+SHA1-Digest: JbhNChO4dnTR2Xn1m/0cRqZmUVo=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/explorer/OpenEnvironmentE
+ ditorAction.class
+SHA1-Digest: ZFW9kSPky5jg+ziTBAc/3ee/UOg=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/De
+ ploymentConfigEditorSection$1$1.class
+SHA1-Digest: SHs2fFcGtSXbcZ7+1iZdbeslEzc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardApp
+ licationSelectionPage$1.class
+SHA1-Digest: z3BM+GnzwYrUYvATmnedwdn0ARM=
+
+Name: templates/basic/WebContent/images/README
+SHA1-Digest: VRT6/n9d2fbWBZ7iYb/XRbwv9uM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/HealthCheckConfigEditorSection.class
+SHA1-Digest: L77kGiNOoTScX17bWg87aU2OnVE=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/UpdateEnvironmentJob
+ $DebugPortDialog.class
+SHA1-Digest: FCnxxEe5K/D5mkRrjl14vuHeles=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentResourcesEditorPart$EnvironmentAutoScalingEditorSection$1.cl
+ ass
+SHA1-Digest: wagp4lKRIuA6mdzpz5LLIVMH4DI=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ab
+ stractEnvironmentConfigEditorPart.class
+SHA1-Digest: 1fkj4dNj/JJd8aHsjO42CADwVC4=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ui/menu/NewEnvironmentHan
+ dler.class
+SHA1-Digest: Za/Of3nhPFT1N04uqtEZYFiUTgo=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ev
+ entLogEditorSection$AutoRefreshListener.class
+SHA1-Digest: ixytrsB+tiloNuDJGef8OMAORas=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/LoadResourcesCallbac
+ k.class
+SHA1-Digest: ZKWceynOPAtePj+E9jeIEEPTTQM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardVpc
+ ConfigurationPage$CheckboxType.class
+SHA1-Digest: apikFlV8NYLsXWXcfA6PHAZsKkc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/DeploymentInformationDial
+ og$2.class
+SHA1-Digest: h+CY5f9yDsFg9Btocgy4w67GEGU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/AutoScalingConfigEditorSection.class
+SHA1-Digest: LKSuz80LyROPJcNgabGTW+V1GkM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/databinding/Reg
+ exValidator.class
+SHA1-Digest: oMkKCiqN8T5/V64LSGFpzYP7C7Y=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardApp
+ licationSelectionPage$NewEnvironmentOptionsComposite$1.class
+SHA1-Digest: gHaWQmg0JjpTu995UGQHgf89+LI=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/ContainerConfigEditorSection$4.class
+SHA1-Digest: ap1wW7AKEuaIsXkNyotyIP96aFM=
+
+Name: templates/dynamodb-session-manager/.ebextensions/AmazonDynamoDBS
+ essionManagerForTomcat-1.0.1.jar
+SHA1-Digest: 672d9tobECiSY9zeUJ9M9//7/BI=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentResourcesEditorPart$RefreshAction.class
+SHA1-Digest: roiW/8MuVG8uOXk7VfTa6Qi3KTg=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/util/OnUiThreadProxyFacto
+ ry$OnUiThreadProxyHandler.class
+SHA1-Digest: Xf+fiJnjqe57u1aJr1/3moPVUdc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/CheckAccountRun
+ nable.class
+SHA1-Digest: CVhXOx0bzUNVrrVeSi9DgGmciDk=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/util/PollForEvent$Event.c
+ lass
+SHA1-Digest: PBeDF7S6wGnc0nchXOhRWZZj//8=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/explorer/ElasticBeanstalk
+ ActionProvider$TerminateEnvironmentsAction$1.class
+SHA1-Digest: gGDOjAzJ3kQbLuU1pw5pcij4ZnA=
+
+Name: templates/basic/WebContent/images/drive.png
+SHA1-Digest: g2Xl9kvglfojMZoYJq3TMBNH500=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/webproject/JavaWebProject
+ WizardPage$2.class
+SHA1-Digest: Bi/hju7xray3Us4tP/nyu8TdYBQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/BasicEnvironmentConfigEditorPart.class
+SHA1-Digest: AOq/1NysPhA+plu53wO2iNcqbGc=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/En
+ vironmentResourcesEditorPart$EnvironmentQueueEditorSection$2.class
+SHA1-Digest: Cq/0cw93Wl1Vlgjhv8XU3z9KsO8=
+
+Name: icons/export.gif
+SHA1-Digest: LQPT2QoQELD7YcZiJV2Viw4nKYo=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/NoCredentialsDialog.class
+SHA1-Digest: O2VYR+e7kDjvxM/shIQdxuRc1hA=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardRol
+ eSelectionPage$RoleWidgetBuilder.class
+SHA1-Digest: Y5G2cZCpO7Qgz2wv2NeqRKFs7Rs=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/solutionstacks/TomcatVers
+ ion.class
+SHA1-Digest: Ob0s6IwVmLiuwZWZaDa/MAz2zcY=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/jobs/UpdateEnvironmentCon
+ figurationJob.class
+SHA1-Digest: GPyW3fIZDaaCha0VmIMjLWW7UJM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardRol
+ eSelectionPage.class
+SHA1-Digest: kLguGSi41F87bLD2Khn7RNnVyxI=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/DeployWizardVpc
+ ConfigurationPage$VpcWidgetBuilder$1.class
+SHA1-Digest: zSMTwWiTA+L5UHPT9HgESkCo0Co=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/git/util/CertificateUtils
+ $1.class
+SHA1-Digest: xIR412I7oxLhCnX9jpCrhn7PI+Q=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ev
+ entLogRefreshManager$EventLogRefresher.class
+SHA1-Digest: GWbb1BeywqORx+vm5rfMMLZmyAE=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/LoadBalancingConfigEditorSection.class
+SHA1-Digest: odlEW3tPS12atu+Ac8GiUcVoWFU=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/databinding/Env
+ ironmentNameValidator.class
+SHA1-Digest: ugNTlQ6W/BQltxSEPcd5+viJkD0=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/webproject/JavaWebProject
+ WizardPage$1.class
+SHA1-Digest: 3y14Vyl1gur+5hESud/zDxucg0M=
+
+Name: runtime-lib/j2ee.jar
+SHA1-Digest: ovcQSctezIiyzaEfykSS4K+MXSQ=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/Ev
+ entLogEditorSection$EventLogMenuListener.class
+SHA1-Digest: tqcXivZc7h2iuKZT9KMiab14BGM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/ErrorComposite.
+ class
+SHA1-Digest: 8CthLmFcrl1q5asmFQg4X1oDlEA=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/IAMOperationNot
+ AllowedErrorDialog.class
+SHA1-Digest: 1V0AX0oxjdCOjGOzdDlISozCpSE=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/server/ui/configEditor/ba
+ sic/ScalingTriggerConfigEditorSection.class
+SHA1-Digest: 0XAbsKq2aE9GADfVcSgmldSoalM=
+
+Name: com/amazonaws/eclipse/elasticbeanstalk/ElasticBeanstalkAnalytics
+ .class
+SHA1-Digest: gTIp2ZyyrVdBiutrw9Ma4T0R5QI=
+

@@ -1,0 +1,980 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.amazonaws.eclipse.lambda;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: root
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime;bundle-version
+ ="3.4.0",org.eclipse.core.resources;bundle-version="3.4.0",org.eclips
+ e.core.databinding;bundle-version="1.3.0",org.eclipse.core.databindin
+ g.beans;bundle-version="1.2.100",org.eclipse.core.databinding.observa
+ ble;bundle-version="1.2.0",org.eclipse.core.databinding.property;bund
+ le-version="1.2.0",org.eclipse.jface.databinding;bundle-version="1.3.
+ 0",org.eclipse.jdt.ui,org.eclipse.jdt.core,com.amazonaws.eclipse.core
+ ;bundle-version="2.3.0",com.amazonaws.eclipse.sdk.ui;bundle-version="
+ 2.1.0",org.eclipse.core.filesystem;bundle-version="1.2.0",org.eclipse
+ .ui.forms,org.eclipse.ui.console,org.eclipse.jface.text;bundle-versio
+ n="3.6.0",org.eclipse.ui.workbench.texteditor;bundle-version="3.6.0",
+ org.eclipse.ui.editors;bundle-version="3.6.0",org.eclipse.ui.ide;bund
+ le-version="3.6.0",org.eclipse.debug.core;bundle-version="3.4.0",org.
+ eclipse.jdt.launching;bundle-version="3.4.0",com.amazonaws.eclipse.cl
+ oudformation;bundle-version="1.0.0",org.eclipse.m2e.core;bundle-versi
+ on="1.5.1",org.eclipse.m2e.core.ui;bundle-version="1.5.1",org.eclipse
+ .m2e.maven.runtime;bundle-version="1.5.1",org.eclipse.m2e.archetype.c
+ ommon;bundle-version="1.5.1",com.amazonaws.eclipse.javasdk;bundle-ver
+ sion="1.11.130",org.eclipse.jdt.debug.ui,org.eclipse.jdt.annotation
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Amazon Web Services
+Import-Package: org.eclipse.core.variables,org.eclipse.debug.internal.
+ ui,org.eclipse.debug.ui,org.eclipse.debug.ui.console,org.eclipse.m2e.
+ actions,org.eclipse.ui.navigator
+Export-Package: com.amazonaws.eclipse.lambda.blueprint,com.amazonaws.e
+ clipse.lambda.launching,com.amazonaws.eclipse.lambda.project.template
+ ,com.amazonaws.eclipse.lambda.project.template.data,com.amazonaws.ecl
+ ipse.lambda.project.wizard.model,com.amazonaws.eclipse.lambda.serverl
+ ess,com.amazonaws.eclipse.lambda.serverless.model,com.amazonaws.eclip
+ se.lambda.serverless.model.transform,com.amazonaws.eclipse.lambda.ser
+ verless.template,freemarker.template
+Bundle-Name: AWS Lambda Plugin
+Bundle-Version: 1.0.0.v201807201743
+Bundle-ClassPath: lib/freemarker.jar,.,icons/
+Bundle-Activator: com.amazonaws.eclipse.lambda.LambdaPlugin
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_171
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/page/NewLambdaJavaFu
+ nctionProjectWizardPageOne.class
+SHA1-Digest: CK5nY7zRCKBw3lQjIMDDb7+IvKM=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/handler/NewServerles
+ sProjectHandler.class
+SHA1-Digest: H6wp2JZo5RhItBanplfqAqSmjgg=
+
+Name: plugin.xml
+SHA1-Digest: 5yMm7SO7hbzn4jSvz2lp6pOUwpM=
+
+Name: code-template/test-class/test-utils.ftl
+SHA1-Digest: oZDZdosGYRhqNeKjLbi0BoODDl8=
+
+Name: code-template/serverless/article/pom.xml.ftl
+SHA1-Digest: ZQtEv3jQbdKDnHNFeiNT/PRQfGY=
+
+Name: com/amazonaws/eclipse/lambda/model/LambdaFunctionAliasesScopePar
+ am.class
+SHA1-Digest: ewWuImMZSinpNofX3txbIsYvs40=
+
+Name: code-template/serverless/README.html
+SHA1-Digest: YI4/qoH46yRIj9SkXTUh/zZ6SME=
+
+Name: code-template/test-resource/dynamodb-update-event.json
+SHA1-Digest: p3EnkHnwRFi85B4zM3X4B7xEryY=
+
+Name: com/amazonaws/eclipse/explorer/lambda/LambdaActionProvider$Delet
+ eFunctionAction.class
+SHA1-Digest: L66Gy03mh2KZOKpvJbHQMEOkQ9o=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/page/TargetFunctionSe
+ lectionPage.class
+SHA1-Digest: wXAvpTy5SukDa2ccPYmj4EA5nYg=
+
+Name: code-template/lambda/kinesis-process-record/pom.xml.ftl
+SHA1-Digest: xIvwEgca361QnhTYt4daDuWJ1Ag=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/page/FunctionConfigur
+ ationPage$2.class
+SHA1-Digest: EQngSQZlAkmvaUjw1y7P0qQm21c=
+
+Name: com/amazonaws/eclipse/lambda/serverless/wizard/editoraction/SamL
+ ocalAction$DebugSamLocalAction.class
+SHA1-Digest: y3aqENQ41daKEd0i8ABMWXYImMc=
+
+Name: com/amazonaws/eclipse/explorer/lambda/LambdaContentProvider$Lamb
+ daRootElement.class
+SHA1-Digest: 7JK3fk/UN2CQjEs8ZJDOEYAioBU=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalTab$6.class
+SHA1-Digest: HLOH+/aHJXqgaBhjmQv9eso4gzE=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalTab.class
+SHA1-Digest: Z7EYGorILM/pWAKWQUsO/7HQrW8=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalExecution$LaunchM
+ ode.class
+SHA1-Digest: WuiPY5zokl4nl0q0UIdx3I28Hjw=
+
+Name: code-template/lambda/kinesis-process-record/handler.java.ftl
+SHA1-Digest: j8iyYTiAfRaOGGMDofA9GMCQ+zw=
+
+Name: com/amazonaws/eclipse/lambda/project/listener/LambdaProjectChang
+ eTracker$LambdaProjectElementChangeListener$1.class
+SHA1-Digest: JIsGuBgDYzKXlR+QgoWyL1kwuBE=
+
+Name: com/amazonaws/eclipse/lambda/invoke/ui/InvokeFunctionInputDialog
+ $3.class
+SHA1-Digest: 8gL6P5k44Vt6k92OQynVrUJmHmg=
+
+Name: com/amazonaws/eclipse/lambda/serverless/wizard/DeployServerlessP
+ rojectWizard.class
+SHA1-Digest: t/5QG68Bh7KdNhYeDQ1eTf2qDuY=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/page/NewServerlessPr
+ ojectWizardPageOne$1.class
+SHA1-Digest: vd6BHJsry29nIVDD32tSMPkV9dk=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/transform/KeySchem
+ a.class
+SHA1-Digest: hds7TZ9nhaRExqVRywisYANxwgo=
+
+Name: code-template/serverless/hello-world/hello-world.ftl
+SHA1-Digest: dFZUrlOMl7rn5jzeyk8oHXCh5fA=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/page/FunctionConfigur
+ ationPage.class
+SHA1-Digest: CZ11zT3JXtn4MCVZqr4pDMOepmI=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionLogsTable$2.class
+SHA1-Digest: Sr1HcKX70tDugldo1Ub6VzZ769I=
+
+Name: code-template/serverless/serverless-output.ftl
+SHA1-Digest: YYNYAOwZi9bwShfVgEYQz7HGy6A=
+
+Name: com/amazonaws/eclipse/lambda/LambdaUtils.class
+SHA1-Digest: 57hOdallzwLesFtViMw8GgbBoj4=
+
+Name: com/amazonaws/eclipse/lambda/LambdaUtils$FunctionConfigurationCo
+ nverter.class
+SHA1-Digest: DSCOPBQTywikJxNx6fzjB4zCWto=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/util/LambdaFunctionJa
+ rBuilder.class
+SHA1-Digest: s3trQpT/fkKPJ1yBq1JhUDC9ecU=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalConstants.class
+SHA1-Digest: CU8p0hqgFDe7/fEIQywtvnpkwMc=
+
+Name: com/amazonaws/eclipse/lambda/project/metadata/LambdaFunctionProj
+ ectMetadata$LambdaFunctionDeploymentMetadata.class
+SHA1-Digest: U0DE8e84vht1WpaOrM5o+gDjjS0=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/dialog/CreateBasicLam
+ bdaRoleDialog$1.class
+SHA1-Digest: Od5jCA8yxciYtbVFZljLq+1TEXc=
+
+Name: code-template/lambda/README.ftl
+SHA1-Digest: wiL7BhSXNfVC2yVgA2Su/yQTyG4=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/page/NewServerlessPr
+ ojectWizardPageOne$2.class
+SHA1-Digest: MMz+hHDA5kwGytSpg8ZfSTzg1PI=
+
+Name: com/amazonaws/eclipse/lambda/invoke/ui/InvokeFunctionInputDialog
+ .class
+SHA1-Digest: nk4a5OMRjhziSl4JPcHIlp7OjMQ=
+
+Name: com/amazonaws/eclipse/lambda/invoke/ui/InvokeFunctionInputDialog
+ $2.class
+SHA1-Digest: 3S1RV8Mt7osMJTctlwL3H5Qqoek=
+
+Name: code-template/lambda/blueprints.json
+SHA1-Digest: J+qSQHZMspdDA+yo1XGen0hAmxw=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalTab$1.class
+SHA1-Digest: 80dSf8wIN4kKC40Z4iL5eQfZKQE=
+
+Name: lib/freemarker.jar
+SHA1-Digest: R8qrtbEoN6HGVEk+4/RBeGNsJZs=
+
+Name: com/amazonaws/eclipse/explorer/lambda/OpenFunctionEditorAction.c
+ lass
+SHA1-Digest: GgGNSq/8t2H5eeM+4NuPdH9IUyk=
+
+Name: code-template/lambda/cognito-sync-trigger/pom.xml.ftl
+SHA1-Digest: xIvwEgca361QnhTYt4daDuWJ1Ag=
+
+Name: code-template/serverless/rekognition/tag-image.ftl
+SHA1-Digest: TWjEL8bGBTmwhgYcPg04+y8KlGk=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalDelegate.class
+SHA1-Digest: DfYnWE23nwu1w8St0Dhki87/TbE=
+
+Name: com/amazonaws/eclipse/lambda/blueprint/LambdaBlueprint.class
+SHA1-Digest: LTvWK9JrIK1gq4ZisQMc9DsBgII=
+
+Name: com/amazonaws/eclipse/lambda/project/template/data/SamFileTempla
+ teData.class
+SHA1-Digest: BhpNMXfKh4QcUrDMuIaC5Axobhc=
+
+Name: code-template/lambda/dynamodb-process-stream/handler-test.java.f
+ tl
+SHA1-Digest: mae5pY+ePULES+D9U8BpzAnPY7o=
+
+Name: com/amazonaws/eclipse/explorer/lambda/LambdaActionProvider.class
+SHA1-Digest: E+JyBHOw6OPkDL10BIKt7dyJlxA=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionLogsTable$1.class
+SHA1-Digest: b7HI/STo+t7ydIqkziloRVRpXO8=
+
+Name: code-template/test-resource/kinesis-event.json
+SHA1-Digest: qflc3TgnJrFJY8axLVFNt+CbeVY=
+
+Name: com/amazonaws/eclipse/lambda/ServiceApiUtils.class
+SHA1-Digest: 2m4phGkNB7yfuPgzN1j3PxhjVg8=
+
+Name: com/amazonaws/eclipse/explorer/lambda/LambdaContentProvider$1.cl
+ ass
+SHA1-Digest: IPNDIkot/cJnOekzaa7qikTJiMk=
+
+Name: com/amazonaws/eclipse/lambda/model/package-info.class
+SHA1-Digest: dTOSsvMwhV9VXMShrcTaC0UXu+I=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/page/NewLambdaFuncti
+ onWizardPage$1.class
+SHA1-Digest: +j64ykuy1vALrFGrS6i/gz4HwG0=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/model/FunctionConfigP
+ ageDataModel.class
+SHA1-Digest: +lLwtMM1GlrZfdryVjHntByTzR8=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/editoraction/RunOnLam
+ bdaAction.class
+SHA1-Digest: KQpDJdZL8BJfuu7/Xhz7w+ZnINI=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionEditor.class
+SHA1-Digest: +Tbh///tDQhe1pnKeHmtJYr9KYA=
+
+Name: com/amazonaws/eclipse/lambda/project/LambdaFunctionProjectDecora
+ tor.class
+SHA1-Digest: nPm8Fs3NQmdMUh+Ju8BtWJV4lKM=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionEditor$LoadFunctio
+ nConfigurationThread$1.class
+SHA1-Digest: jBT8exfhTz3YQQRxRLvKvGRfOHg=
+
+Name: code-template/lambda/dynamodb-process-stream/handler.java.ftl
+SHA1-Digest: /94+X+UzdPuONy1Peqy5uqN0xg8=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/NewLambdaFunctionWiz
+ ard$1.class
+SHA1-Digest: sXpth/8WzMYX69ygkIxvRiBg2zg=
+
+Name: com/amazonaws/eclipse/lambda/serverless/ui/DeployServerlessProje
+ ctPage$5.class
+SHA1-Digest: gatrUcZNZbQzU46pj+BMdj9hQGU=
+
+Name: com/amazonaws/eclipse/lambda/ui/LambdaJavaProjectUtil.class
+SHA1-Digest: f7kRW4TFQXoimKjv7zz8+d9o64s=
+
+Name: com/amazonaws/eclipse/lambda/invoke/ui/InvokeFunctionInputDialog
+ $4.class
+SHA1-Digest: rarSOuWd2AufsZgTOk/0cYBKlRw=
+
+Name: com/amazonaws/eclipse/lambda/serverless/handler/DeployServerless
+ ProjectHandler.class
+SHA1-Digest: 8D0XOwWBCaqIFG75dtvTpyAuRu8=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/transform/Serverle
+ ssModel.class
+SHA1-Digest: XHJ/W9MLnd1x0ohMSYSHM5bhYjU=
+
+Name: com/amazonaws/eclipse/lambda/preferences/SamLocalPreferencePage.
+ class
+SHA1-Digest: rTc9eozd/Nxz88u2DcVsbqniGvY=
+
+Name: com/amazonaws/eclipse/lambda/blueprint/BlueprintsProvider.class
+SHA1-Digest: Ncv3snPU4KeQZ64VpA7+v5Fc8nE=
+
+Name: com/amazonaws/eclipse/lambda/serverless/validator/ServerlessTemp
+ lateFilePathValidator.class
+SHA1-Digest: Vb8aOJfCmulnXUY3dVH3AXrOv0Q=
+
+Name: com/amazonaws/eclipse/lambda/serverless/NameUtils.class
+SHA1-Digest: D6xYAjCd+iGgrd9AbkdBLWT6zYc=
+
+Name: com/amazonaws/eclipse/lambda/project/listener/JavaElementDeltaAc
+ ceptor.class
+SHA1-Digest: sLIIYZigMXTa9v+982A5g5X6WEM=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalConsoleColorProvi
+ der.class
+SHA1-Digest: jcAzfvYk8pIlnSlisStpqQ7A60Q=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/util/FunctionJarExpor
+ tHelper.class
+SHA1-Digest: Am00oGiAQi1q3VQ/ejUwedtlcSE=
+
+Name: com/amazonaws/eclipse/lambda/project/metadata/ServerlessProjectM
+ etadata$RegionConfig.class
+SHA1-Digest: 1ShqK0xD9mempJ3ffNHTEOvKy+A=
+
+Name: com/amazonaws/eclipse/lambda/blueprint/ServerlessBlueprint.class
+SHA1-Digest: gV1DKUY0wGaGK8kxBZzJYrGJDKg=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/transform/Serverle
+ ssSimpleTable.class
+SHA1-Digest: xmE8a6F3Cpx7rrXwMEEqggsn2sw=
+
+Name: com/amazonaws/eclipse/lambda/project/template/CodeTemplateManage
+ r.class
+SHA1-Digest: LIf4DYpWk8L/pDGnRHjn06yxkb4=
+
+Name: code-template/lambda/hello-world/handler.java.ftl
+SHA1-Digest: oX2iLeubi1yEpfVMPjABGprheig=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/page/validator/Stack
+ NameValidator.class
+SHA1-Digest: Q7otk1jbpocVPc5kpDvzy4gZSWs=
+
+Name: code-template/serverless/hello-world/pom.xml.ftl
+SHA1-Digest: xIvwEgca361QnhTYt4daDuWJ1Ag=
+
+Name: com/amazonaws/eclipse/lambda/ui/SelectOrInputFunctionComposite.c
+ lass
+SHA1-Digest: zylT3jB7aqo44MWnDFMzvKZWrvE=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalConsoleLineTracke
+ r$1.class
+SHA1-Digest: j4AK+e8i68VUgkpis7cTGnP0N70=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/page/FunctionConfigur
+ ationPage$3.class
+SHA1-Digest: grinvpsTflKlo7WA/Z+UJ66Zg0c=
+
+Name: code-template/lambda/s3-get-object/handler.java.ftl
+SHA1-Digest: WN9y72ir20T63beA3feFu5lneRg=
+
+Name: com/amazonaws/eclipse/lambda/dialog/SamLocalGenerateEventDialog$
+ SamLocalEventParameter.class
+SHA1-Digest: 629DtBF6tC6o/fPWqAUGviHHWnE=
+
+Name: code-template/lambda/hello-world/pom.xml.ftl
+SHA1-Digest: xIvwEgca361QnhTYt4daDuWJ1Ag=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/Resource.class
+SHA1-Digest: uuQrKPBt+olqpUEYu8UqgcE8D2Y=
+
+Name: code-template/serverless/rekognition/pom.xml.ftl
+SHA1-Digest: yaQpWNIoOx5fYxkUTVGwme2L8jQ=
+
+Name: com/amazonaws/eclipse/lambda/serverless/wizard/editoraction/SamL
+ ocalAction$RunSamLocalAction.class
+SHA1-Digest: AQfY4wXeRma5h4yp2wjoeEYu1nM=
+
+Name: com/amazonaws/eclipse/lambda/preferences/PreferenceInitializer.c
+ lass
+SHA1-Digest: jApPegHqVOXn2Sztmp5GuuOcWNg=
+
+Name: com/amazonaws/eclipse/explorer/lambda/EnvVarNameValidator.class
+SHA1-Digest: tuAlFFoBVz7ULvW4oz0GdjsJQSY=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionLogsTable$LoadFunc
+ tionLogsThread$1.class
+SHA1-Digest: 3Dkd/UE6QD78YSVZS57u2+W+Bcg=
+
+Name: com/amazonaws/eclipse/explorer/lambda/LambdaActionProvider$Creat
+ eLambdaProjectAction.class
+SHA1-Digest: rX+9r5eJHeT1zmnO277A3nWjyWQ=
+
+Name: com/amazonaws/eclipse/lambda/preferences/SamLocalPreferencePage$
+ SamLocalPreferencesDataModel.class
+SHA1-Digest: PUXI9uaPM4jwR3NH8SG6Jtpo/S8=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/model/RunSamLocalDat
+ aModel.class
+SHA1-Digest: Dt/swgrwdSkFHh4m8fYI0Qs1sxY=
+
+Name: code-template/lambda/stream-request-handler/pom.xml.ftl
+SHA1-Digest: xIvwEgca361QnhTYt4daDuWJ1Ag=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/page/FunctionConfigur
+ ationPage$1.class
+SHA1-Digest: k+9BTQjZnSju9iSDZUkPhqHdghY=
+
+Name: code-template/serverless/hello-world/serverless.template.ftl
+SHA1-Digest: ECTZelbLct+mLtlqTwhN0SkF3pY=
+
+Name: code-template/test-resource/sns-event.json
+SHA1-Digest: LPTkcqWNAMRtKZG+4CsDLdDlrOM=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/handler/UploadFunctio
+ nToLambdaCommandHandler.class
+SHA1-Digest: iHNFmVRaysIQgHSefHm+yqnOU7Q=
+
+Name: com/amazonaws/eclipse/lambda/serverless/Serverless.class
+SHA1-Digest: TnwtBl255lMwI4RcWpD+XcvwwbI=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/model/LambdaFunction
+ WizardDataModel.class
+SHA1-Digest: uY7X1BEu+4L6/AvYZBnsa39pb3w=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/page/WizardPageWithOn
+ EnterHook.class
+SHA1-Digest: SNwJDwcrWzTzBSJkGHOiS986nM4=
+
+Name: com/amazonaws/eclipse/lambda/project/template/data/PomFileTempla
+ teData.class
+SHA1-Digest: yRo3hMKlh4OHq+bTpWx1ypE0DVQ=
+
+Name: com/amazonaws/eclipse/lambda/invoke/ui/InvokeFunctionInputDialog
+ $5.class
+SHA1-Digest: dUXBCB3u38sOiqC1sF+qysAJoHU=
+
+Name: code-template/lambda/stream-request-handler/handler-test.java.ft
+ l
+SHA1-Digest: /B7al6PTlvh0nUM5YHnRsfsjUBI=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/page/NewLambdaFuncti
+ onWizardPage.class
+SHA1-Digest: WN+6QkijbNsZCqh2Ku+yre5acRc=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/util/BrowserUtil.cla
+ ss
+SHA1-Digest: c5F4Tsiq6CaogbXtvedxTJSmytI=
+
+Name: com/amazonaws/eclipse/lambda/project/listener/JavaElementDeltaAc
+ ceptor$Visitor.class
+SHA1-Digest: ja+Ydq6lfEczfBvVqUABdF9ieKI=
+
+Name: icons/sam-local.png
+SHA1-Digest: HwqdyMNPNwEsXwVdKtKq4hQYSWc=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/util/LambdaFunctionC
+ omposite$1.class
+SHA1-Digest: nb8DG7Udze2N+lP7reFqyFoZNPI=
+
+Name: com/amazonaws/eclipse/lambda/project/metadata/LambdaFunctionProj
+ ectMetadata.class
+SHA1-Digest: qTi3PiI9Wtu+LrXWRxYFqMbZxqM=
+
+Name: code-template/serverless/rekognition/serverless.template.ftl
+SHA1-Digest: ALqvIwGtFvg1ROt5xuZ89RoARA4=
+
+Name: com/amazonaws/eclipse/lambda/model/LambdaFunctionDataModel.class
+SHA1-Digest: isJeTNh/ZIHT5NcfWJJ0Dh4NyyY=
+
+Name: com/amazonaws/eclipse/lambda/blueprint/LambdaBlueprintsConfig.cl
+ ass
+SHA1-Digest: 2s80kpzAnw6XT/AgwAppEF4XFgw=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionEditor$LoadFunctio
+ nConfigurationThread.class
+SHA1-Digest: bqICCWidcP8WGhcg5vWj9pcBLfg=
+
+Name: com/amazonaws/eclipse/explorer/lambda/LambdaActionProvider$Creat
+ eServerlessProjectAction.class
+SHA1-Digest: iVRu88ZAT3Axloup2Ct+7m6hNQM=
+
+Name: code-template/lambda/dynamodb-process-stream/pom.xml.ftl
+SHA1-Digest: xIvwEgca361QnhTYt4daDuWJ1Ag=
+
+Name: com/amazonaws/eclipse/lambda/serverless/wizard/editoraction/SamL
+ ocalAction.class
+SHA1-Digest: sXDk4RaWMkPLR7aBa9QvU22iSMo=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalPathFinder.class
+SHA1-Digest: zvBYSeRZzGMEdTdrOpn55A/aUyg=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/editoraction/Abstract
+ LambdaEditorAction.class
+SHA1-Digest: Zar0jnuRRs3uB5Unf76srb64ZYM=
+
+Name: com/amazonaws/eclipse/lambda/serverless/handler/SamLocalHandler.
+ class
+SHA1-Digest: lOICpAD8WajB4Nh45P95igRZzVc=
+
+Name: com/amazonaws/eclipse/lambda/serverless/ui/DeployServerlessProje
+ ctPageTwo$2.class
+SHA1-Digest: 1qOiMZ1tEepfSsy9WxDE1SRdbkM=
+
+Name: com/amazonaws/eclipse/lambda/model/SelectOrCreateBasicLambdaRole
+ DataModel.class
+SHA1-Digest: FiePOQu4gbCLfX1oeT0IC09VQAg=
+
+Name: code-template/lambda/kinesis-process-record/handler-test.java.ft
+ l
+SHA1-Digest: 7zcNUoD/mShZx015dh1nRPqlpS4=
+
+Name: com/amazonaws/eclipse/lambda/project/listener/LambdaProjectChang
+ eTracker$LambdaProjectElementChangeListener.class
+SHA1-Digest: lm6Db2JQ6xCGPi1LvCskcJ9wqHw=
+
+Name: com/amazonaws/eclipse/lambda/dialog/SamLocalGenerateEventDialog.
+ class
+SHA1-Digest: VFKsnK3ewe8M16eqhvdi/kLSr/A=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/util/FunctionProject
+ Util.class
+SHA1-Digest: lFuY0Er39RHEfMHvh4VrCrRgi3M=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/ServerlessTemplate
+ .class
+SHA1-Digest: 0NiApIlfUoSomUxurCZy0tyBxTY=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/page/NewLambdaJavaFu
+ nctionProjectWizardPageOne$2.class
+SHA1-Digest: Bhbdn6rVdXUT98bekP4H7lSkH/Y=
+
+Name: com/amazonaws/eclipse/lambda/LambdaConstants.class
+SHA1-Digest: +ATcWI+85pTpA/2vZyznaXKCtzo=
+
+Name: code-template/lambda/sns-message/pom.xml.ftl
+SHA1-Digest: xIvwEgca361QnhTYt4daDuWJ1Ag=
+
+Name: com/amazonaws/eclipse/lambda/ui/SelectOrCreateBasicLambdaRoleCom
+ posite.class
+SHA1-Digest: Egvmgje8NhPouNPlPHl+6rOWShY=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/dialog/CreateBasicLam
+ bdaRoleDialog.class
+SHA1-Digest: DMTJROWmwiuZy5PyAlA3WQqi3Nk=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/transform/PrimaryK
+ ey.class
+SHA1-Digest: qNc4QSwzkvHcvlPBqmtXffLW/DI=
+
+Name: com/amazonaws/eclipse/lambda/invoke/logs/CloudWatchLogsUtils.cla
+ ss
+SHA1-Digest: NHbncW7GUFsW8Dve8CXC6ZFbom0=
+
+Name: com/amazonaws/eclipse/explorer/lambda/LambdaContentProvider$1$1.
+ class
+SHA1-Digest: p7Qvfp2l7OVQReYSn9a9cGTpq/I=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalTab$3.class
+SHA1-Digest: qOFVOPu8kpuecmU1mNwxBm/oXqc=
+
+Name: code-template/serverless/article/get-article.ftl
+SHA1-Digest: Y2EHlv6vHqyuf1Rmd9dB9BDyCAI=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/NewLambdaJavaFunctio
+ nProjectWizard.class
+SHA1-Digest: XYYvVbZya0ppSfW+PfPHzT98KRw=
+
+Name: com/amazonaws/eclipse/lambda/serverless/ui/FormBrowser$1.class
+SHA1-Digest: Jibi24UvavV9nNeFjDuzukJRauw=
+
+Name: com/amazonaws/eclipse/lambda/dialog/SamLocalGenerateEventDialog$
+ SamLocalLambdaEventDataModel.class
+SHA1-Digest: bP+yMWVRLnEhy229TCIrweoG6UQ=
+
+Name: com/amazonaws/eclipse/lambda/serverless/handler/SamLocalHandler$
+ RunSamLocalHandler.class
+SHA1-Digest: dcqUyDhLBcO/R6zbYU+DYb9VMoU=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionTagsTable.class
+SHA1-Digest: HRAMUyx6XIP0sXYqPizxUy69RzY=
+
+Name: com/amazonaws/eclipse/lambda/model/SelectOrInputFunctionDataMode
+ l.class
+SHA1-Digest: Roet48iSO9ZZO6OJm77CStO2jso=
+
+Name: com/amazonaws/eclipse/explorer/lambda/LambdaTagNameValidator.cla
+ ss
+SHA1-Digest: +d6CZSgQIjsvvV2Qe9lyGkC+oj0=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/model/RunSamLocalDat
+ aModel$SamLocalStartApiDataModel.class
+SHA1-Digest: 66h7KJCJaYaaQCJxjpP+dEeWjMI=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/transform/S3Bucket
+ .class
+SHA1-Digest: 2lHxaMKxcnoqDIKXgsBSFZGJdc0=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/model/UploadFunctionW
+ izardDataModel.class
+SHA1-Digest: x1cUqULw6XCMCvdpCjFz4lZ0iB8=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/page/NewServerlessPr
+ ojectWizardPageOne$4.class
+SHA1-Digest: HGfcWaFOWXwAJY98aRyQKyvAvdo=
+
+Name: com/amazonaws/eclipse/explorer/lambda/LambdaContentProvider.clas
+ s
+SHA1-Digest: hca3Vb2p969vwFBWLkTzuDCjKFY=
+
+Name: com/amazonaws/eclipse/lambda/model/SelectOrInputFunctionAliasDat
+ aModel.class
+SHA1-Digest: EaSgEo+3HpCZEtlyr0Bm/R3cv/k=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionLogsTable$ShowLogE
+ ventsAction.class
+SHA1-Digest: 8rPtzrt0gAVa20c1pZsPHVRpDoU=
+
+Name: com/amazonaws/eclipse/lambda/invoke/ui/InvokeFunctionInputDialog
+ $6.class
+SHA1-Digest: LEiCH9hfAhnDUjRQrTs/y4o7xRw=
+
+Name: com/amazonaws/eclipse/lambda/project/metadata/ProjectMetadataMan
+ ager.class
+SHA1-Digest: AeZVsKyicsPn2BLsrG5UqWpIt7U=
+
+Name: code-template/serverless/article/put-article.ftl
+SHA1-Digest: APti2P0ga/CNzuO/KLpNsvjoJCU=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/handler/NewLambdaFun
+ ctionHandler.class
+SHA1-Digest: X2DX1Q8Bf9bawPrfkQN0kvx2xM0=
+
+Name: com/amazonaws/eclipse/lambda/ui/LambdaPluginColors.class
+SHA1-Digest: dX35rehSOtf9H/XPs3OWOxeDYN4=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/page/NewServerlessPr
+ ojectWizardPageOne.class
+SHA1-Digest: mWdtni7hXu+CQcZt1mCypxY35gw=
+
+Name: com/amazonaws/eclipse/explorer/lambda/LambdaContentProvider$Func
+ tionNode.class
+SHA1-Digest: u4r8VlSudfKqHk7wjaodoPhi4Qk=
+
+Name: code-template/test-class/test-context.ftl
+SHA1-Digest: qXDUk0WJV3eY+/PKFyJdPfkdniI=
+
+Name: com/amazonaws/eclipse/lambda/project/metadata/LambdaFunctionProj
+ ectMetadata$LambdaFunctionMetadata.class
+SHA1-Digest: meCfc/WUrOJ2j21IQwJlpxnF8fI=
+
+Name: com/amazonaws/eclipse/explorer/lambda/OpenFunctionEditorAction$1
+ .class
+SHA1-Digest: XgLbW2Ni96RfSCPUykf5oOLURLM=
+
+Name: com/amazonaws/eclipse/lambda/serverless/ui/DeployServerlessProje
+ ctPage$3.class
+SHA1-Digest: Q4hoAuXOuh1h2h/W6XU4vtKbcmU=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/model/RunSamLocalDat
+ aModel$SamLocalInvokeFunctionDataModel.class
+SHA1-Digest: KAdmc7PXCXBwH2fKUzTYQjb3zm4=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/page/FunctionConfigur
+ ationPage$4.class
+SHA1-Digest: wRdGw9uyEzlPKqjMbLNRCTJI7VQ=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/transform/Response
+ .class
+SHA1-Digest: xAsPMqD+EhGOdGFAiWzrfdFPEXM=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalExecution.class
+SHA1-Digest: r9Jyxv0inGMZ7P5Rkf9EBCjKlr0=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/page/NewServerlessPr
+ ojectWizardPageOne$3.class
+SHA1-Digest: u8sAHv7OqpbHXbj2vvBDC4V8eqY=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionEditor$RefreshActi
+ on.class
+SHA1-Digest: 5yb3vaqTLB13Yt1jV9rSe2zdErw=
+
+Name: com/amazonaws/eclipse/lambda/serverless/ui/DeployServerlessProje
+ ctPageTwo.class
+SHA1-Digest: p23FYYl18KY11ZjeuPxsauoQkQs=
+
+Name: code-template/lambda/sns-message/handler-test.java.ftl
+SHA1-Digest: jVoOLHEMeK7QaRa63mUBBBupDfM=
+
+Name: com/amazonaws/eclipse/lambda/serverless/template/ServerlessHandl
+ erTemplateData.class
+SHA1-Digest: MJyIN4rolf7zSEkidRS6bkrH+LE=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/page/FunctionConfigur
+ ationPage$5.class
+SHA1-Digest: AkJGbZX2lGzdNCFOKHEAVrtaXoY=
+
+Name: com/amazonaws/eclipse/lambda/dialog/SamLocalGenerateEventDialog$
+ SamLocalLambdaEvent.class
+SHA1-Digest: dnboC13Wo0u6WHGAcQDJ/Sl18QM=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/handler/NewLambdaJav
+ aFunctionProjectHandler.class
+SHA1-Digest: Cv/sYyfO4aExvgH/CrUzi6ZVzoA=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/util/UploadFunctionUt
+ il.class
+SHA1-Digest: P/nlQYdkA0la6A9sDFKGeJ/DV60=
+
+Name: com/amazonaws/eclipse/lambda/serverless/ui/DeployServerlessProje
+ ctPage$4.class
+SHA1-Digest: vtNs9vC0pZkW7taVsFZbiy/KeF4=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/transform/Provisio
+ nedThroughput.class
+SHA1-Digest: WuDM7uDJQaQlsKKoS9iM6NbEgVs=
+
+Name: com/amazonaws/eclipse/lambda/project/listener/LambdaProjectChang
+ eTracker.class
+SHA1-Digest: s+YFGs0ZHe7YUoIVPaVrpPzSXJ0=
+
+Name: com/amazonaws/eclipse/lambda/blueprint/ServerlessBlueprintsConfi
+ g.class
+SHA1-Digest: D2O1/ykDTtayClpFWkhV9WNY8hI=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/page/TargetFunctionSe
+ lectionPage$2.class
+SHA1-Digest: 3m0zKhbDhZl9+I0oDfZQw/T9ljA=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalTab$2.class
+SHA1-Digest: dtEA8Hc0TH+9BROWuJt0HsDNJd4=
+
+Name: com/amazonaws/eclipse/lambda/serverless/handler/SamLocalHandler$
+ DebugSamLocalHandler.class
+SHA1-Digest: /+WaogaYFXCBeXKYhfzw3cPaQUo=
+
+Name: icons/lambda-service.png
+SHA1-Digest: qYbK5LBmaEYQ19XWM6AP3r1svhU=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/model/NewServerlessP
+ rojectDataModel.class
+SHA1-Digest: i/Fnv1ABO/ONEmCOBoc2q56mgXM=
+
+Name: com/amazonaws/eclipse/lambda/invoke/ui/InvokeFunctionInputDialog
+ $1.class
+SHA1-Digest: opoAGKbXgg0o+ITUCSnVzzP8B6Y=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/AdditionalProperti
+ es.class
+SHA1-Digest: oMiFreXCRaK2Y9JR7Lq9OJ/CVTs=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/ResourceType.class
+SHA1-Digest: kEiojb/0Okyx1J9gaVwGZ0Pyt94=
+
+Name: code-template/lambda/cognito-sync-trigger/handler.java.ftl
+SHA1-Digest: ZiNFCK1U4AlmeC6HeLV5LzPIMgA=
+
+Name: code-template/test-resource/cognito-sync-event.json
+SHA1-Digest: eGPbfgCMCbSwUhP/YKIU4lgTKWo=
+
+Name: com/amazonaws/eclipse/lambda/project/template/data/LambdaBluepri
+ ntTemplateData.class
+SHA1-Digest: j4f3cCsp9VbpdUHO6bnmRoMgzD8=
+
+Name: code-template/serverless/article/serverless.template.ftl
+SHA1-Digest: /LgXoF8xjkCHrj1QkNUsnxJXxJc=
+
+Name: com/amazonaws/eclipse/lambda/serverless/ui/FormBrowser.class
+SHA1-Digest: vUznNAjVqjb2r5AwD8SWVpx41xk=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/transform/Serverle
+ ssFunction.class
+SHA1-Digest: yqtRY+xJ0D8XqU8AQnG82RsrriM=
+
+Name: code-template/serverless/serverless-input.ftl
+SHA1-Digest: cuS2BJtEx8fRTBPiqxNPYA7mPS4=
+
+Name: com/amazonaws/eclipse/lambda/project/metadata/ServerlessProjectM
+ etadata.class
+SHA1-Digest: FD9bjZ+y+vKfQJ6rZYfKD8v/kRo=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/transform/CustomIn
+ tegration.class
+SHA1-Digest: pHbCmFG3fC2x3jOjGan/BHGus2Y=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/model/RunSamLocalDat
+ aModel$AttributeMapConvertible.class
+SHA1-Digest: HTjQ1/9W6EfIUNXOVeUrMtZHOE8=
+
+Name: com/amazonaws/eclipse/lambda/invoke/handler/InvokeFunctionHandle
+ r.class
+SHA1-Digest: o0mDi3e7JOPaD81/XohzSU7th48=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalConsoleLineTracke
+ r.class
+SHA1-Digest: YVZfLfWNlTeneFtR//92Yz4h9f8=
+
+Name: com/amazonaws/eclipse/lambda/LambdaAnalytics.class
+SHA1-Digest: QhwUdy5VO5KBhdQTxF6i13TI1WY=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionLogsTable$Function
+ LogsContentProvider.class
+SHA1-Digest: kyQyCygJEW4Il3KeJJ7Z9akyWBo=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/NewServerlessProject
+ Wizard.class
+SHA1-Digest: ttpmwcZ1DbEVL6CyjB1orcZdWao=
+
+Name: com/amazonaws/eclipse/lambda/serverless/ui/DeployServerlessProje
+ ctPageTwo$1.class
+SHA1-Digest: Lo37uE2SdwDy0phnNABqaRyx40s=
+
+Name: com/amazonaws/eclipse/explorer/lambda/LambdaLabelProvider.class
+SHA1-Digest: SJUSwPWC/Gj7DMyWh31v+XQVCeE=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionTagsTable$1.class
+SHA1-Digest: zdArYGeq2wpmjeR8aFnr2NKpa4A=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/page/TargetFunctionSe
+ lectionPage$1.class
+SHA1-Digest: Tf0P2lu5M8XFeFj1bOCBpBKwEVM=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/transform/DynamoDB
+ Table.class
+SHA1-Digest: sB5S2Xyr4GmVTFOWgW/+PVrHdUc=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/transform/Attribut
+ eDefinition.class
+SHA1-Digest: TyC82vAFKi9oCvww7x1uqhSyYo4=
+
+Name: code-template/test-resource/s3-event.put.json
+SHA1-Digest: hOTWa5RG8aASqJqRbPmZ8LXbhrQ=
+
+Name: com/amazonaws/eclipse/lambda/ui/SelectOrInputFunctionAliasCompos
+ ite.class
+SHA1-Digest: W1B1uRCGUHumT58l7vMrcRba7s8=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/UploadFunctionWizard.
+ class
+SHA1-Digest: PNkV0b5gmQfSs+TqbMIMsrskcRs=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/transform/S3EventS
+ ource.class
+SHA1-Digest: leWhWa2lw9KAa2A3i/RJXMv1q/E=
+
+Name: com/amazonaws/eclipse/lambda/model/SelectOrInputStackDataModel.c
+ lass
+SHA1-Digest: gH6feb/JTHAXUnUnOEtyOb72DVs=
+
+Name: code-template/lambda/sns-message/handler.java.ftl
+SHA1-Digest: j1dcC1YZ2uKZBvm/dfG9AgMcBBE=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.lambd
+ a/pom.xml
+SHA1-Digest: XA5S3hN7T+D5ZopGO65pWxd3ubE=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/transform/Serverle
+ ssApi.class
+SHA1-Digest: yz4P0U+XCNfV4UnZfK7WBwo+5pg=
+
+Name: com/amazonaws/eclipse/lambda/serverless/ui/DeployServerlessProje
+ ctPage$2.class
+SHA1-Digest: a7DtfwubaWHGZG3BJF/ndHmA/UY=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/page/NewLambdaJavaFu
+ nctionProjectWizardPageOne$1.class
+SHA1-Digest: GQtF9lQkMntEBqNX3PuvjRc7B84=
+
+Name: code-template/lambda/s3-get-object/handler-test.java.ftl
+SHA1-Digest: f/oYRoYUgTPrTtq0qCSADF2T/fA=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionLogsTable$Function
+ LogsLabelProvider.class
+SHA1-Digest: 2pJg8xRXx9QmMEcOETv5gsnQD3A=
+
+Name: com/amazonaws/eclipse/lambda/dialog/SamLocalGenerateEventDialog$
+ 1.class
+SHA1-Digest: Ym6CWKz7Pbt+eIHm0tqxgGggugs=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalTab$4.class
+SHA1-Digest: +ZD8kw8XquNlLoIQYB3+4h3vNeE=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/util/LambdaFunctionC
+ omposite.class
+SHA1-Digest: CjAKtUXDXNkmOkDAwNS4tctx+mM=
+
+Name: com/amazonaws/eclipse/explorer/lambda/LambdaActionProvider$Delet
+ eFunctionAction$1.class
+SHA1-Digest: x6HOZCOtvwC3xlIMhmW4tmKo7/M=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/TypePropertyable.c
+ lass
+SHA1-Digest: lhA69hzc+9Rdz19O+doaslNj9Sg=
+
+Name: com/amazonaws/eclipse/lambda/serverless/model/TypeProperties.cla
+ ss
+SHA1-Digest: SB3/2vhQ043fr/pC4i5Y58Q0uno=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionLogsTable$LoadFunc
+ tionLogsThread.class
+SHA1-Digest: gTYL3WY/k/9+ElxqJ03LPk8cg7s=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/model/DeployServerle
+ ssProjectDataModel.class
+SHA1-Digest: JGaKt/uRp49eybgjwu7TTCZbuvI=
+
+Name: code-template/lambda/stream-request-handler/handler.java.ftl
+SHA1-Digest: xJWPo90SZtgz1TAs75+1kT66Brk=
+
+Name: com/amazonaws/eclipse/lambda/serverless/ui/DeployServerlessProje
+ ctPage.class
+SHA1-Digest: 5cWzsDyUQ65FeRQp7OoNfdHxWAk=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionLogsTable.class
+SHA1-Digest: mnL0QtBwJD5JCAt0tdPGf45Jp7g=
+
+Name: com/amazonaws/eclipse/lambda/serverless/template/ServerlessDataM
+ odelTemplateData.class
+SHA1-Digest: Xf1ardxiqKCN77tvOaTuX0/Cbmc=
+
+Name: com/amazonaws/eclipse/lambda/ui/SelectOrInputStackComposite.clas
+ s
+SHA1-Digest: tfzijruVlFhsdy4GdijxHf7IZYQ=
+
+Name: com/amazonaws/eclipse/lambda/serverless/ui/DeployServerlessProje
+ ctPage$1.class
+SHA1-Digest: za5g01J2eRabQKVLI9PeLrB05tY=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/NewLambdaFunctionWiz
+ ard.class
+SHA1-Digest: XgUgUMQmHJwk2guHOkjUh+sWZeM=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionEnvVarsTable.class
+SHA1-Digest: E9Ffxv4mhze7Seksia51457x8+s=
+
+Name: code-template/serverless/blueprints.json
+SHA1-Digest: P/Ep4jcra0HFrjM0S0iZomblR9E=
+
+Name: com/amazonaws/eclipse/lambda/serverless/ui/DeployServerlessProje
+ ctPage$ValidateTemplateThread.class
+SHA1-Digest: x7Z3AL5ZWPR/qgpJhYbTQ0kJxT0=
+
+Name: code-template/lambda/hello-world/handler-test.java.ftl
+SHA1-Digest: OVgnAptg2VdRTUmNvpotLVuGh8U=
+
+Name: code-template/serverless/serverless-handler.ftl
+SHA1-Digest: Uh4oRyQ0+6FcOhetlYEIADzIn6Q=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionEnvVarsTable$1.cla
+ ss
+SHA1-Digest: 2Xe5trn8mC2Boa8uMp2hhbN57jQ=
+
+Name: code-template/lambda/s3-get-object/pom.xml.ftl
+SHA1-Digest: zpg+DVsihGNZ2+7pTucg/I9JW5c=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalTabGroup.class
+SHA1-Digest: RMiqDeQcloDACgfwGOlZ+FZty7I=
+
+Name: com/amazonaws/eclipse/lambda/upload/wizard/editoraction/UploadTo
+ LambdaAction.class
+SHA1-Digest: oiMQaXnmtbQNMrxdEUEkKxfyN0I=
+
+Name: com/amazonaws/eclipse/lambda/serverless/wizard/editoraction/Depl
+ oyServerlessAction.class
+SHA1-Digest: rl6L7IKD1ys1LGlytXE/OnY09+g=
+
+Name: com/amazonaws/eclipse/lambda/launching/SamLocalTab$5.class
+SHA1-Digest: DhuddzMpTrmfbNWad+H0i4N8U9U=
+
+Name: com/amazonaws/eclipse/lambda/LambdaPlugin.class
+SHA1-Digest: RD6kW65joLfbhYUndKznVbxfZ88=
+
+Name: com/amazonaws/eclipse/lambda/project/metadata/LambdaFunctionProj
+ ectMetadata$LambdaFunctionInvokeMetadata.class
+SHA1-Digest: +MsWR6UE5DcPGMhxzuByvFWJp+Y=
+
+Name: com/amazonaws/eclipse/lambda/invoke/handler/InvokeFunctionHandle
+ r$1.class
+SHA1-Digest: saJs+Qn1az/kmS648qy5tMtu4I8=
+
+Name: com/amazonaws/eclipse/explorer/lambda/FunctionEditorInput.class
+SHA1-Digest: X/YLt+cM1gyjsrMrgeuV3GlFEvc=
+
+Name: icons/function.png
+SHA1-Digest: HL/bf4UzjNeOL+8oUM/FRgPk+UA=
+
+Name: com/amazonaws/eclipse/lambda/project/wizard/model/RunSamLocalDat
+ aModel$SamAction.class
+SHA1-Digest: hSbhUVhkEzM/7Yj8vsqI7flnmx8=
+
+Name: code-template/lambda/cognito-sync-trigger/handler-test.java.ftl
+SHA1-Digest: OykHZTsC3USh4+tON70bYxd5LuE=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.lambd
+ a/pom.properties
+SHA1-Digest: R6QZfGjZ1F4KBGZ10Vh4SZHPJHc=
+

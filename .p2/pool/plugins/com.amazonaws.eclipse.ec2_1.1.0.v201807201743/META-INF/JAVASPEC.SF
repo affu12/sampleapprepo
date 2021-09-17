@@ -1,0 +1,960 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: qMQM97dqoiM3j+Kqbt1NHTc7nBE=
+SHA1-Digest-Manifest: wprzhaaZPGs4xJDxf+Mh9PZmn7w=
+Created-By: 1.8.0_172 (Oracle Corporation)
+
+Name: plugin.xml
+SHA1-Digest: O35XpN7Iptg6GpEds0ALTUmXnd0=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.ec2/p
+ om.properties
+SHA1-Digest: mZqOvA0YxIN4LeY7RvoKxWKi57I=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/BundleJob.class
+SHA1-Digest: ZazVjWopLps7RzMdga5HxT2NSto=
+
+Name: icons/blue-circle.png
+SHA1-Digest: 2xdPtRlhV/bVlY9PJ5MvChIsiWI=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$5.class
+SHA1-Digest: xmKVo/c0LRyadVtjUgeuQIIK4co=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/SnapshotSelectionTable$DeleteSn
+ apshotThread.class
+SHA1-Digest: sBwUecS2WQIW/oXTS2FrVuGXIJA=
+
+Name: com/amazonaws/ec2/cluster/Ec2WebProxy$HaproxyConfigurationListen
+ Section.class
+SHA1-Digest: 5zlKwqGE0zmlbaMWlxlqKVu6z1E=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/AmiSelectionTable$DeleteAmiThr
+ ead.class
+SHA1-Digest: 4xaryPf0Yt88LqXtl0j+mD4Py+w=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/EditSecurityGroupPer
+ missionEntryDialog$UserGroupPermissionComposite.class
+SHA1-Digest: MX9NYUo2b3HRA/8iPEA4wu0jTp4=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/BundleDialog$1.clas
+ s
+SHA1-Digest: 2bi2qqHXM9MLZT83mqfKt/ocok8=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/SecurityGroupSelecti
+ onComposite.class
+SHA1-Digest: 8PsWzF/aIitPuM1TN1YCwdkk+TQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/AmiSelectionTable.class
+SHA1-Digest: Ic8eUz5q5vW7Tk/eEyt5LCjQdhs=
+
+Name: com/amazonaws/eclipse/ec2/InstanceTypes.class
+SHA1-Digest: QL1d0/w9VZq1rIVnFcz/IVB05qI=
+
+Name: icons/package.png
+SHA1-Digest: pcJy60pXQhhiOtZx/7y0/Va8ilI=
+
+Name: icons/media_stop_red.png
+SHA1-Digest: KKWT2b7rbVg0SjKENfqJcvXOpIs=
+
+Name: com/amazonaws/eclipse/ec2/ui/elasticip/ElasticIpComposite$2.clas
+ s
+SHA1-Digest: 2gJmwSnuTqE5wyes0emDxoKEgvc=
+
+Name: com/amazonaws/eclipse/ec2/ui/launchwizard/AmiSelectionWizardPage
+ .class
+SHA1-Digest: vNyxTnE5R+NXTfGUQ25l23/mkRQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairSelectionTable.class
+SHA1-Digest: Ar7LZOujI32fbn1LRw+RU9nMsvg=
+
+Name: com/amazonaws/eclipse/ec2/ui/SwappableComposite.class
+SHA1-Digest: ryIOBq8/vI03H/HLMOffwmDpl2k=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/InstanceSelectionTa
+ ble$3.class
+SHA1-Digest: FlSG2uIN0by3HNbqlDBGUv92b0w=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/PermissionsComposite
+ $RefreshPermissionsThread.class
+SHA1-Digest: CvLJQ7YYGaHjOZkiNqlAB0e3Wvw=
+
+Name: com/amazonaws/eclipse/ec2/PlatformUtils.class
+SHA1-Digest: AWzjHhlSTRK8g4/riXYTCdzzeOM=
+
+Name: icons/shield_yellow.png
+SHA1-Digest: 6wNksDIB07wIvYEmRi92z/tXqJA=
+
+Name: icons/filter.gif
+SHA1-Digest: Jlg6avfk3IbQ6aJjx/CLaNRBKeM=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairSelectionTable$3.cla
+ ss
+SHA1-Digest: M+jcRlrKTF10Ma8nlVDnkZL0Uu4=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/ViewContentAndLabel
+ Provider.class
+SHA1-Digest: wSwquorJWs2zpRbFh5x+c5pVfZ8=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/ElasticBlockStorageView$1.class
+SHA1-Digest: CrosYjxmJ6o5+43f7ZI3gVuGDvs=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/CreateSecurityGroupD
+ ialog.class
+SHA1-Digest: tYSpGPRLeJHSISQ8QArKfGz7kDk=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/SnapshotSelectionTable$3.class
+SHA1-Digest: cIqQfNgjvsLAtaZ2XZ9r6UnON94=
+
+Name: icons/error.png
+SHA1-Digest: aUhWzufyEvL8ExsCOGXuO/RikeA=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/SecurityGroupSelecti
+ onComposite$DeleteSecurityGroupThread.class
+SHA1-Digest: 1IWScS/XGX7HKObGsO43gdXg5PI=
+
+Name: com/amazonaws/eclipse/ec2/preferences/ExternalToolsPreferencePag
+ e.class
+SHA1-Digest: 0jRjn4vpFWH2yuGCwiLw42g5iKI=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$RefreshVol
+ umesThread.class
+SHA1-Digest: my6tEYHMaK6lDN3Spb1NGfzgb4o=
+
+Name: icons/red-circle.png
+SHA1-Digest: R2jNe0EwzS7qwRq0DTm+XTiv69E=
+
+Name: com/amazonaws/eclipse/ec2/ui/Ec2OverviewSection.class
+SHA1-Digest: H1S22ewqbXO5djv4w4emSEaUsrM=
+
+Name: icons/gear_add.png
+SHA1-Digest: HEoS9wltPp6s3bs+uAZXAfjSMVI=
+
+Name: com/amazonaws/ec2/cluster/Ec2WebProxy.class
+SHA1-Digest: Swxg3yr0uP7ifL/+Yj5mQmG2OCk=
+
+Name: com/amazonaws/eclipse/ec2/utils/MenuAction.class
+SHA1-Digest: xAe4lMXouoKd/IhE9Q5jtRaQ6Ys=
+
+Name: com/amazonaws/eclipse/explorer/ec2/EC2LabelProvider.class
+SHA1-Digest: reCdCTVuLlH5ueOvRs4NKL4WmlQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/launchwizard/LaunchWizardPage.class
+SHA1-Digest: dVOkrC8rAZRJi+EAfJ/q/JM7SaU=
+
+Name: com/amazonaws/eclipse/ec2/InstanceTypesParser.class
+SHA1-Digest: GJfNZBAERgBqFD5N6vG63rdAsu0=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/SecurityGroupView$1.
+ class
+SHA1-Digest: 6pXdxEt9ZCXJtAwwXWOwqNVMZ8A=
+
+Name: icons/clients.png
+SHA1-Digest: 72055IBndj2PnKqJyf/+4WZIsqU=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/InstanceComparator.
+ class
+SHA1-Digest: MmNLaHSYYcskauHvz7nnWJ4/3g4=
+
+Name: com/amazonaws/eclipse/ec2/preferences/PreferenceInitializer.clas
+ s
+SHA1-Digest: gJHx2QUbPoRSmX4gpPtgDYgLcVk=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/ElasticBlockStorageView$2.class
+SHA1-Digest: FK+RTaovBwANNkasFP82H/oPWp0=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairRefreshListener.clas
+ s
+SHA1-Digest: MBymKubi391y0tXmzvE85/jdGuw=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$4.class
+SHA1-Digest: pIo2SkFP4Hb9Bm7HZgloN/ScGms=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/EditSecurityGroupPer
+ missionEntryDialog$PortRangePermissionComposite.class
+SHA1-Digest: +7Jhu+w5OSLMUom6Mzy/lkCztIM=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/AttachVolumeAction.
+ class
+SHA1-Digest: n/UwbRjVGJwITdtQJ9hZ4kTy/vY=
+
+Name: com/amazonaws/eclipse/ec2/ui/StatusBar$1.class
+SHA1-Digest: RKvvG3DwgSqc5Khx1x/KwK24RE0=
+
+Name: icons/blue-circle.gif
+SHA1-Digest: UtGVT+veefpub3TkaAy473JzXIw=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/ElasticBlockStorageView.class
+SHA1-Digest: FHiTP26LXMsqPEyV+E84+3673CE=
+
+Name: com/amazonaws/eclipse/ec2/ui/launchwizard/LaunchWizardPage$1.cla
+ ss
+SHA1-Digest: KZiXuqxXHDtQ5ZeKjoFuXsQYj1A=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/SecurityGroupView.cl
+ ass
+SHA1-Digest: 5c1N8It+d2o2a9dFlDdMhedsgvc=
+
+Name: com/amazonaws/eclipse/ec2/ui/elasticip/ElasticIpComposite.class
+SHA1-Digest: 1/VyWIS3J5nI3FPuldB3oW6IGAw=
+
+Name: com/amazonaws/eclipse/ec2/ui/ShellCommandErrorDialog.class
+SHA1-Digest: u0fGDQZpjda9jmEQrwGZWhtFCio=
+
+Name: icons/launch.gif
+SHA1-Digest: VZOSm4SE32bOKSKlgMoTQXLmfjA=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/SecurityGroupSelecti
+ onComposite$RefreshSecurityGroupsThread.class
+SHA1-Digest: KucXrYaWTSzE80tpD9t+biJynyo=
+
+Name: icons/harddisk.png
+SHA1-Digest: dlQTzcHl4M4BE8HUbndGAAsNLus=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairSelectionTable$5.cla
+ ss
+SHA1-Digest: xhTJIHfdKYtWDQzRYFR6M8ZjSFI=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/CreateSecurityGroupD
+ ialog$1.class
+SHA1-Digest: v8lMf8hPiz9TLyEVdseJ8dtVDdw=
+
+Name: com/amazonaws/eclipse/explorer/ec2/EC2RootElement.class
+SHA1-Digest: 4S7UKvrz7frGPHyyeGEDQFvPFcQ=
+
+Name: icons/refresh.gif
+SHA1-Digest: HBAIKuJ4usFXbqVj3dszDQ0y0gM=
+
+Name: icons/media_play_green.png
+SHA1-Digest: /J+ID2YawemsRQi7OlZzAVtMXyQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/InstanceSelectionTa
+ ble$4.class
+SHA1-Digest: 9wmsfGyC4TXA+2i89+0Ay+BtASQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/FilteredAmiSelectionTable.clas
+ s
+SHA1-Digest: 5Pe1Xt82LhruNkctTpS8zbxNtPw=
+
+Name: com/amazonaws/eclipse/ec2/ui/menu/OpenLaunchWizardHandler.class
+SHA1-Digest: vAB1ZVLx1FjOHEHhlL+6fAfHAfQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/elasticip/ElasticIpView.class
+SHA1-Digest: SRkbPfpjI7HCNIh7hmSjWB+hP6M=
+
+Name: icons/replace2.png
+SHA1-Digest: El4ILNoYshdOlrk1jdov//DQNYA=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/EditSecurityGroupPer
+ missionEntryDialog.class
+SHA1-Digest: qwHxGj2Og1Vwe3EiRz5nAyHy5as=
+
+Name: com/amazonaws/eclipse/ec2/ui/SetupExternalToolsAction.class
+SHA1-Digest: d+p6Cvx08jacitHMxIwt29Jf62Y=
+
+Name: icons/bundle.gif
+SHA1-Digest: DCtp2cJi1uuK/nzpoxFm4NpTf/k=
+
+Name: icons/certificate_ok.png
+SHA1-Digest: sfvjumRm1ZQCN1sKEenK59Dmziw=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairSelectionTable$2.cla
+ ss
+SHA1-Digest: ZHPIowHMjON0ouW7YWnnnCAaFws=
+
+Name: icons/stop_all.gif
+SHA1-Digest: VMxGS+kPM6mzrlm384IQTkLyos0=
+
+Name: LICENSE
+SHA1-Digest: GXnFJL0+luwM/MFf4ZNhkawcy6A=
+
+Name: icons/reboot.gif
+SHA1-Digest: K73ZZpcROo/lHR4HZTxM8H3hMgg=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/InstanceSelectionTa
+ ble$RefreshInstancesThread.class
+SHA1-Digest: iz4Ggwkg+GMErnFJUk9Qa3AS2Qw=
+
+Name: icons/ec2-service.png
+SHA1-Digest: 32y0Vxkg2gyQT9bRELanwQ6wqrU=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/PermissionsComposite
+ $PermissionsTableProvider.class
+SHA1-Digest: 09/OuJSuvw2yNOCEf06y4c3zxqY=
+
+Name: helpContexts.xml
+SHA1-Digest: CHU1b1aU5IGzNc+DeffzU2dMIB8=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/CreateNewVolumeDialog$2.class
+SHA1-Digest: sKFUEK6kJmqINVsNxXc+Wha+XLE=
+
+Name: com/amazonaws/eclipse/ec2/RemoteFileCopyResults.class
+SHA1-Digest: +cf/0ZFhcny/saNuZUFrsYIxNCM=
+
+Name: com/amazonaws/eclipse/ec2/TestAccountInfo.class
+SHA1-Digest: 1fNyzyE2NNlExKkUqdSs58SOWEg=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/TerminateInstancesA
+ ction.class
+SHA1-Digest: 2wdxb/WWJex4jFXxyOupDUx1Ijw=
+
+Name: icons/server.gif
+SHA1-Digest: RdRPSs2qDTBzuvjja3q2nDPZKMw=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/AmiSelectionTable$4.class
+SHA1-Digest: uvQY1k9BdrFUlBuBzjYykZU464k=
+
+Name: com/amazonaws/eclipse/ec2/InstanceUtils.class
+SHA1-Digest: ceuM71pwPSqM6ziRhoJLBlnbM2E=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/PermissionsComposite
+ $3.class
+SHA1-Digest: 6NHQ5NXxa9GrQ/+id3kqznSliCM=
+
+Name: com/amazonaws/eclipse/ec2/preferences/PreferenceConstants.class
+SHA1-Digest: aPJc/nkwno7wephs0w0cdaRO32M=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/OpenShellDialog.cla
+ ss
+SHA1-Digest: eTQW5a7YezZQj9c0ehC0JqVuQ7c=
+
+Name: icons/progress_spinner.gif
+SHA1-Digest: y26+bbRW10JRUcFylzO0RLpTx5g=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$3.class
+SHA1-Digest: akXGIuctLsKi2Qp3a1wv2nIA7mg=
+
+Name: icons/cluster.gif
+SHA1-Digest: ViaYfv6DrqHUvyZe9W9Jt7viqA8=
+
+Name: com/amazonaws/eclipse/ec2/preferences/KeyPairsPreferencePage.cla
+ ss
+SHA1-Digest: 2uPSsxD5Z1f5jUxdFp2UA6rNI+E=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/AmiSelectionTable$ViewLabelPro
+ vider.class
+SHA1-Digest: ezBc+R1X9uJayw6KSE1PMVQnxhQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/SelectionTableComparator.class
+SHA1-Digest: sqHZmbWlNenFbgHBjJ8N0psQHV0=
+
+Name: com/amazonaws/eclipse/ec2/AmiToolsVersion.class
+SHA1-Digest: z8Oprl7DzT9fdnuE5obRa4WXhX8=
+
+Name: com/amazonaws/eclipse/ec2/ui/SelectionTable$SelectionTableListen
+ er.class
+SHA1-Digest: HF8VxZS6/u4SysQYeariZvnlXIQ=
+
+Name: com/amazonaws/eclipse/ec2/Ec2Plugin$2.class
+SHA1-Digest: LokhTX2KX+MTITDGsbsvtEZ3dhY=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/PermissionsComposite
+ $4.class
+SHA1-Digest: kGpmwi8Glpo1fkN/iWLqL+CCJKI=
+
+Name: icons/yellow-circle.png
+SHA1-Digest: LUA7ppLzhbbaOV2pUGvDXEd6EOo=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/SnapshotSelectionTable$Snapshot
+ TableProvider.class
+SHA1-Digest: lGJ7nZ5HNBuMi9c0QFpqvtVaBM8=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairSelectionTable$KeyPa
+ irTableProvider.class
+SHA1-Digest: T1MchP5aVvsncka1ajwKkP3AhhE=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable.class
+SHA1-Digest: a4kxYS6t6ofsdvF8ySqD/VwyzPA=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/BundleDialog.class
+SHA1-Digest: KevqCQE+iXbYxYkawQPFtahJI9U=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/InstanceView.class
+SHA1-Digest: llnbumBHadrD+eRaMNIhMmoeVUI=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/StartInstancesActio
+ n$1.class
+SHA1-Digest: HZf45TSRohTv586yN/N0qtH5kJQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/OpenShellDialog$1.c
+ lass
+SHA1-Digest: 5iQPyogI0Ot7IrltO9+QUgtRNwk=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/InstanceSelectionTa
+ ble$2.class
+SHA1-Digest: 7OmJfPsWhe2qzXj1bcO+Nc7Oz3g=
+
+Name: icons/client_network.png
+SHA1-Digest: 8nIMnKfvxove4tdoPi/a4A55LWY=
+
+Name: icons/info.gif
+SHA1-Digest: QAAF0p9u5vtyI+KoQ30i+aMrmN0=
+
+Name: com/amazonaws/eclipse/ec2/TagFormatter.class
+SHA1-Digest: 5jE9LOk/UgdSUnyt+mFeZMnDH60=
+
+Name: com/amazonaws/eclipse/ec2/Ec2Plugin$1.class
+SHA1-Digest: Jmf5sfVMdTPABquXSH17kaqZ2ow=
+
+Name: lib/jsch-0.1.40/jsch-0.1.40.jar
+SHA1-Digest: 1kcwKEch41HryljNtepaUd5br8w=
+
+Name: com/amazonaws/eclipse/ec2/TagFormatter$1.class
+SHA1-Digest: HrjLE/j3OEvJ4DgSwpmFVfEFOCw=
+
+Name: lib/PemToPPKConverter.exe
+SHA1-Digest: 1Yimm0y82XdzWgcOjhjdMxDF5Yo=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/OpenShellDialogActi
+ on.class
+SHA1-Digest: OFB+vM5Buazku1c9UiQW2JXPfaM=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairSelectionTable$4.cla
+ ss
+SHA1-Digest: IDwmZ9vxfQmC6hgZy8tGHZmuwqg=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$1.class
+SHA1-Digest: 7ice670cBr4HvQeN5DwLLdfP7Nw=
+
+Name: icons/box.png
+SHA1-Digest: f845LRTQwmowhdQHLF067P2MzQQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/elasticip/ElasticIpComposite$Reques
+ tElasticIpThread.class
+SHA1-Digest: ctcXejBuMyFdSYXlpE1tXtDhqtc=
+
+Name: com/amazonaws/eclipse/ec2/ui/SelectionTable.class
+SHA1-Digest: U/RufK6xQU5dIq66kw7EnBHBhQE=
+
+Name: icons/sample.gif
+SHA1-Digest: mURGpp/gEzPu434WkU1WXZbyKOY=
+
+Name: com/amazonaws/eclipse/ec2/ShellCommandResults.class
+SHA1-Digest: 8mR0pAZx6ARuVGlQGRuI5W5fxEI=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairSelectionTable$Refre
+ shKeyPairsThread$1.class
+SHA1-Digest: qBvQsvDs5g3zaUtJB4k8IGOLK0c=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/SecurityGroupSelecti
+ onComposite$SecurityGroupComparator.class
+SHA1-Digest: 9gp3ONIKZ6ms2/N0LMeMorO+AVk=
+
+Name: com/amazonaws/eclipse/ec2/InstanceType.class
+SHA1-Digest: rn1vftkFSwTnyl8gaE4iolG6vXA=
+
+Name: com/amazonaws/ec2/cluster/ClusterConfiguration.class
+SHA1-Digest: +9mqhhD4UqaQbeEk+cs9C6mN1P8=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/InstanceSelectionTa
+ ble$1.class
+SHA1-Digest: Ptwc/zCSKE/dUYtEUuU9jm5N3uY=
+
+Name: com/amazonaws/eclipse/ec2/RemoteFileCopyException.class
+SHA1-Digest: S9kwgTE/0ZLtoJP8wc3T4JAsNno=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/PermissionsComposite
+ .class
+SHA1-Digest: D2zF0koKjWlb/GVWIOoLDwAWI94=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/PermissionsComposite
+ $RevokePermissionsThread.class
+SHA1-Digest: b1atUHl/keWaHdwjEIdO8orGDCk=
+
+Name: com/amazonaws/eclipse/ec2/ShellCommandException.class
+SHA1-Digest: IMbMysttDGNVdWj+ck5RDr99lI4=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/PermissionsComposite
+ $2.class
+SHA1-Digest: SoDGmBq47HM77dTaR29p/P+RnkI=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/AttachNewVolumeThre
+ ad.class
+SHA1-Digest: DNvISeDFsodjUfPer9NKMOo6uis=
+
+Name: com/amazonaws/eclipse/explorer/ec2/ExplorerSorter.class
+SHA1-Digest: 2ssf7RFiwd/X8I4CzEFgX0voF6c=
+
+Name: com/amazonaws/eclipse/ec2/RemoteCommandUtils.class
+SHA1-Digest: 2mQUkn5qsq/fXlrbRHsG2FZXb7M=
+
+Name: com/amazonaws/eclipse/ec2/ui/ShellCommandErrorDialog$1.class
+SHA1-Digest: n5YxDqaK4XvbaSV7HJY56v4/tlA=
+
+Name: icons/console.png
+SHA1-Digest: Kd8v5WO3BsUnsCqKDN/Xty1V4Mo=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/PopulateEbsMenuThre
+ ad.class
+SHA1-Digest: a+Ks+ouEtCEF2WvFoLRJVtwjjgY=
+
+Name: icons/check2.png
+SHA1-Digest: bJwe4gkE1tDLKbi7X2jXzbi8Dqg=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/EditSecurityGroupPer
+ missionEntryDialog$1.class
+SHA1-Digest: FhD/SZ9HqxpplUq2ac7OWPplYIE=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/DetachVolumeAction.
+ class
+SHA1-Digest: Ttn6H8saRgPacNATsbRrBbPaexw=
+
+Name: com/amazonaws/eclipse/ec2/ui/SelectionTable$AcountValidatingMenu
+ Listener.class
+SHA1-Digest: pOrWNl0CBYaIRKXnrBdvLqHN0LE=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$2.class
+SHA1-Digest: s0BMFq5rzpx16DrYTh2FoP99UAo=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/InstancesViewInput.
+ class
+SHA1-Digest: 5TGS9CmVl3Mxsq/sQ4edguya48E=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/BundleJob$2.class
+SHA1-Digest: obmsaq0B4o3CNJZUkKXhqxWB1/s=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/SecurityGroupSelecti
+ onComposite$3.class
+SHA1-Digest: xARd60/yAQAn2xlMHc7ggWGpZsQ=
+
+Name: icons/camera.png
+SHA1-Digest: zza0ua/ViGLxDFymhqCaGXC0zB4=
+
+Name: icons/server.png
+SHA1-Digest: 6OnkLNxrz+jx03ZhjUioK1sQ1xk=
+
+Name: icons/refresh.png
+SHA1-Digest: ilZOkYnpy98xu8dutwLXI0iWWag=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/CreateNewVolumeDialog$1.class
+SHA1-Digest: QZ/BeCaiSBEXv3bHHF2WaKXyQNQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/RefreshTimer.class
+SHA1-Digest: gQ5d7+LkEHp7gZ87nzGHR4HYotA=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/FilteredAmiSelectionTable$3.cl
+ ass
+SHA1-Digest: LZr4YbD0LzAAZTqNp7U9wZWMO+U=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairSelectionTable$6.cla
+ ss
+SHA1-Digest: tVcNoIvXCYhoeCjAqRN7hvA4L7k=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/AmiBrowserView.class
+SHA1-Digest: 04zFMaha6Eq+ZwbmhsloV/64zJY=
+
+Name: icons/server_into.png
+SHA1-Digest: BArhWMarGVevtm4Rak3E7FfbNM0=
+
+Name: com/amazonaws/eclipse/ec2/utils/MenuAction$1.class
+SHA1-Digest: 5b9xOpdu8Q8I436FC+Ca88S8p6o=
+
+Name: com/amazonaws/eclipse/ec2/utils/MenuHandler.class
+SHA1-Digest: OAYWkPmNkY1FCrvyydQ0qhgD/iI=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/SnapshotSelectionTable.class
+SHA1-Digest: Src6M2deAXJ2w50a95AX0L1k4ok=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/AmiSelectionTable$LoadImageDes
+ criptionsThread$1.class
+SHA1-Digest: eUK3DbVGb876v41ORfLgVxCgTL8=
+
+Name: com/amazonaws/eclipse/ec2/ui/launchwizard/LaunchWizardPage$3.cla
+ ss
+SHA1-Digest: 7nuf7o1FnJHT3UaFZYth6EVVY84=
+
+Name: icons/remove.gif
+SHA1-Digest: hw/LvSzfpkLVG5S+MPNcrCmt5Eo=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/SecurityGroupTablePr
+ ovider.class
+SHA1-Digest: F8jbl/3nybHeWINtsBaP3hsCFyc=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairSelectionTable$KeyPa
+ irComparator.class
+SHA1-Digest: D5pxtEer38YMMRRs8NQYEUT36Q0=
+
+Name: icons/clipboard.png
+SHA1-Digest: LRIAIh/CmmqF7zvMGGVZg8ZEvQc=
+
+Name: com/amazonaws/eclipse/explorer/ec2/EC2ContentProvider.class
+SHA1-Digest: USrtf2HGtzHmvg6kA2LD91XE4Bk=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/CreateNewVolumeDialog.class
+SHA1-Digest: wu3dwRgQC5bF6w5+UIO38OcbkPk=
+
+Name: NOTICE
+SHA1-Digest: 6nLrku1RbBhvobK59nd95ad/yaQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/AmiSelectionTable$3.class
+SHA1-Digest: 5wyB8r4rUV136h0FLm66pLkJslI=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/CreateKeyPairDialog.class
+SHA1-Digest: Ol9yAN5zp10U0exGdqfo5oDtmAc=
+
+Name: com/amazonaws/eclipse/ec2/ui/elasticip/ElasticIpComposite$ViewCo
+ ntentProvider.class
+SHA1-Digest: uKdOE0oasBsgP/+HbgCVN4uszP8=
+
+Name: icons/diskdrive.png
+SHA1-Digest: 7oobKpnQfxzWkNVRouH/f/juLEE=
+
+Name: com/amazonaws/eclipse/ec2/Ec2InstanceLauncher.class
+SHA1-Digest: WU8Gmdq72ZDB7YbQ7wX0iaAHgEI=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$RefreshVol
+ umesThread$1.class
+SHA1-Digest: 5e1IlCDq/U/JhCtJkmKi3zpSE6Q=
+
+Name: com/amazonaws/eclipse/ec2/databinding/ValidKeyPairValidator.clas
+ s
+SHA1-Digest: YHyO9Q3K0qiyqb9rpwTP59572Jw=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$DetachVolu
+ meThread.class
+SHA1-Digest: kHplmtlv5SoCqqi+N5IQk7Mu5Lk=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairSelectionTable$Creat
+ eKeyPairThread.class
+SHA1-Digest: DhrnNyDXzmtuO6QuaDuKbCmPiiM=
+
+Name: META-INF/maven/com.amazonaws.eclipse/com.amazonaws.eclipse.ec2/p
+ om.xml
+SHA1-Digest: RQexXMycvN97MDr6jVHZ8teK+Ok=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/SnapshotSelectionTable$Snapshot
+ Comparator.class
+SHA1-Digest: dA82Pj7gzW1vnH5xtjsZtMUJXwM=
+
+Name: com/amazonaws/eclipse/ec2/RemoteCommandUtils$NullHostKeyReposito
+ ry.class
+SHA1-Digest: GwrlAkofunubQRqOdrPd40ITKIk=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/EditSecurityGroupPer
+ missionEntryDialog$2.class
+SHA1-Digest: jBDoQDtT8P6KbYL/Z1YlFyN45rk=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/PermissionsComposite
+ $1.class
+SHA1-Digest: A/ATmDWgVNifNmZdBaV+hkhKTrQ=
+
+Name: icons/check.png
+SHA1-Digest: FmY+IXLzuAbpD6hs5rSC68zwI8k=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/AmiSelectionTable$2.class
+SHA1-Digest: ANkAgxOucxjCl0IDGsOvRhMLEs4=
+
+Name: com/amazonaws/eclipse/explorer/ec2/EC2ExplorerNodes.class
+SHA1-Digest: Vlie90eolB/Zq8A2w+0RGBURUDo=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairSelectionTable$1.cla
+ ss
+SHA1-Digest: cOCUOwHVoQMqO40gYWi2++8FB44=
+
+Name: com/amazonaws/eclipse/ec2/ui/elasticip/ElasticIpComposite$ViewLa
+ belProvider.class
+SHA1-Digest: D2K5TPURJbBS9v3FcFWDbYppOwA=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairView.class
+SHA1-Digest: Z9BX658mMc+b20bEmMnRVJvwtSs=
+
+Name: icons/yellow-circle.gif
+SHA1-Digest: hn4jIaVkBjb/AI9BPK7YnjZNV7g=
+
+Name: icons/delete.png
+SHA1-Digest: rA7aPE0Mw7UlY17KaGlVO1K7YOM=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/DeviceDialog.class
+SHA1-Digest: u5Hp2kdq7ggeiCSmAOw96LQHk24=
+
+Name: com/amazonaws/eclipse/ec2/ui/ChargeWarningComposite.class
+SHA1-Digest: IzdUBPEjRRHZXsirgSofZBjjLns=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$ReleaseVol
+ umesThread.class
+SHA1-Digest: hwSfeDHstH5qkYpXbb5KnjS2f8A=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/SecurityGroupView$2.
+ class
+SHA1-Digest: GRb0wWVX+7l0Gs335BraKc6/NmI=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$VolumeComp
+ arator.class
+SHA1-Digest: slfHCE5hs9ZbaaysETYIMRWrDdE=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/RebootInstancesThre
+ ad.class
+SHA1-Digest: 651OSi7X4+12GrA+tqwjdRAvRHM=
+
+Name: com/amazonaws/eclipse/ec2/ui/SetupAwsAccountAction.class
+SHA1-Digest: J3cWJnrkMhW/tmDX6Ya8SQvD1eM=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$VolumeCont
+ entProvider.class
+SHA1-Digest: qL60tycBFkE+rFojeEeeqy7stns=
+
+Name: etc/InstanceTypes.xml
+SHA1-Digest: jq+wrLsZZRHzFzDBg/+QJ3zrz5c=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/FilteredAmiSelectionTable$2.cl
+ ass
+SHA1-Digest: jEcGGzyRTI2Aj2Wv+ASVB/dC/+Y=
+
+Name: com/amazonaws/eclipse/ec2/ui/launchwizard/LaunchWizard.class
+SHA1-Digest: EsrLR1+gL24pIS+0DoEJwVa9wiQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/elasticip/ElasticIpComposite$Releas
+ eElasticIpThread.class
+SHA1-Digest: I4/b0CZ9dsYNPR9jtqz0GLBrfno=
+
+Name: com/amazonaws/eclipse/ec2/ui/elasticip/ElasticIpComposite$Refres
+ hAddressListThread$1.class
+SHA1-Digest: BgNd7QZz171uH6mPEwQlrb1V+0o=
+
+Name: icons/aws-box.gif
+SHA1-Digest: 4RkhgsidxPPASdwJqBdk4RUJdJY=
+
+Name: com/amazonaws/eclipse/ec2/utils/IMenu.class
+SHA1-Digest: pPL5WkHoqsFB2bk5nh9Eiybau8g=
+
+Name: com/amazonaws/ec2/cluster/Cluster.class
+SHA1-Digest: j/JEY852OhDr37uV37Uw7YxRSlY=
+
+Name: icons/stop.gif
+SHA1-Digest: ge04QcyqdvZpSrwBTUl9mr73P6g=
+
+Name: com/amazonaws/eclipse/ec2/ui/SelectionTableColumnClickListener.c
+ lass
+SHA1-Digest: 0REeAEZAG/ns9/NlIC4GajcAv+A=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/TerminateInstancesT
+ hread.class
+SHA1-Digest: wiO2QR1URr/Ydc3xx/eKoKAcZSs=
+
+Name: icons/clipboard.gif
+SHA1-Digest: RT2Ad5SjS0h2ccOJL2qu4RJAazo=
+
+Name: com/amazonaws/ec2/cluster/Ec2Server.class
+SHA1-Digest: AcOp6KBd6kTUP4ufbVFdMMSPFJw=
+
+Name: com/amazonaws/eclipse/ec2/ui/launchwizard/LaunchWizardPage$2.cla
+ ss
+SHA1-Digest: iKID485+bcu5ZFUW6Guf2mrRez0=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/AmiSelectionTable$LoadImageDes
+ criptionsThread.class
+SHA1-Digest: yXXL5XI7aZF+5352Eebn1kyx3s4=
+
+Name: com/amazonaws/eclipse/ec2/ui/Ec2OverviewSection$1.class
+SHA1-Digest: r5cLaY4pDSeIf3xIo5NE2UGSTVI=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/PermissionsComposite
+ $IpPermissionComparator.class
+SHA1-Digest: dA8sGbMIMAZ5d/s7hUtbqs/6zz0=
+
+Name: icons/green-circle.png
+SHA1-Digest: lVtuuhaYODk7hU8MekyvnC0qU/o=
+
+Name: icons/media_pause.png
+SHA1-Digest: RJgTN1egMVF6czrDgLL4czy862g=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/StopInstancesAction
+ .class
+SHA1-Digest: bUiwyG3pSw7+Z3Vgi5pt5RmKe+k=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/AmiSelectionTable$1.class
+SHA1-Digest: UDbkUgrLfkyCtA8UV6oym0AE0Zw=
+
+Name: com/amazonaws/eclipse/ec2/ui/StatusBar.class
+SHA1-Digest: SzL7jK4IZqW9GYY45nX31ApJ4QA=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/StartInstancesActio
+ n.class
+SHA1-Digest: xkMp9RA3zL9SwlVdNCRaiixhrxc=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/OpenShellAction.cla
+ ss
+SHA1-Digest: TWUBwEaJoa5vmsSTFNhh844xkVo=
+
+Name: com/amazonaws/eclipse/ec2/utils/DynamicMenuAction.class
+SHA1-Digest: WgnzVQw/VGiCsrjjKuVjpcbbcQM=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/PermissionsComposite
+ $AuthorizePermissionsThread.class
+SHA1-Digest: 6gzJo2YFk2M3gks21Rei/L7P3RM=
+
+Name: com/amazonaws/eclipse/ec2/ui/HelpLinkListener.class
+SHA1-Digest: R+fPHaMioqzGyIUgBvnRORRxSpQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/SecurityGroupSelecti
+ onComposite$CreateSecurityGroupThread.class
+SHA1-Digest: j8XUXJrMZUJzbYpbtHzsKLupTtI=
+
+Name: icons/osprct_obj.gif
+SHA1-Digest: CMF1jKCBGNbuK7+oOwS7HPDUuDY=
+
+Name: icons/shield1.png
+SHA1-Digest: wSODJE/rfarSa1GC/GaS9rD4q7M=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/SnapshotSelectionTable$RefreshS
+ napshotsThread.class
+SHA1-Digest: dry2LkXGThzMM5EvdHk+FA2jYxM=
+
+Name: icons/delete2.png
+SHA1-Digest: dMJaDkK0nUH3TrJ8TgtnEztM7BU=
+
+Name: lib/jsch-0.1.40/LICENSE
+SHA1-Digest: 9j1M4HmCtBfbFGC8us6NDV4xJ5c=
+
+Name: icons/ami_icon.png
+SHA1-Digest: VvKo4J8bqEOJMCMWyIP8855qJcI=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/EditSecurityGroupPer
+ missionEntryDialog$3.class
+SHA1-Digest: e9ZY2vuUVQ/jaQrrKQvdgOLLl/M=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$VolumeLabe
+ lProvider.class
+SHA1-Digest: xlUx16fgsDjIdkQS91/O0JU+1aA=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/SecurityGroupSelecti
+ onComposite$4.class
+SHA1-Digest: ef82S9SB5eoTV1ck1Q4YYqxrpt0=
+
+Name: icons/add.gif
+SHA1-Digest: cJaPJDOlfiNYSqHFzNxaa5DWto4=
+
+Name: com/amazonaws/ec2/cluster/SimpleCluster.class
+SHA1-Digest: +kxg6vVpPWR4A0fPSw/CV9eFPRY=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/BundleJob$1.class
+SHA1-Digest: +9MKsTAo7h92DPUqjF/4d1K4ies=
+
+Name: com/amazonaws/eclipse/ec2/ui/elasticip/ElasticIpComposite$1.clas
+ s
+SHA1-Digest: zlI48b2Fj0502vcbeHPV/WhJNak=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$CreateSnap
+ shotThread.class
+SHA1-Digest: H6o54AIuV4AFWa5Fhv9atLuVkDk=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/VolumeSelectionTable$CreateVolu
+ meThread.class
+SHA1-Digest: 1pLZLXlwGfErxRQW/d+2tq7CEXo=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/SecurityGroupSelecti
+ onComposite$1.class
+SHA1-Digest: 7imk+2ySgk4mDHNemUKu3ws+ZEQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/SnapshotSelectionTable$2.class
+SHA1-Digest: I+0uaVClsDOtMBwSxvmEVmLPRwM=
+
+Name: com/amazonaws/ec2/cluster/Ec2WebProxy$HaproxyConfigurationSectio
+ n.class
+SHA1-Digest: oB2qbvHYt//0QrysLohlMX1s0GI=
+
+Name: com/amazonaws/eclipse/ec2/ui/elasticip/ElasticIpComposite$Refres
+ hAddressListThread.class
+SHA1-Digest: IOlvDGHgj6A+mjxG5GnjMng+MKU=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairSelectionTable$Refre
+ shKeyPairsThread.class
+SHA1-Digest: v7yyopHaYH1zB5YvaYzJFeu/L3k=
+
+Name: icons/add.png
+SHA1-Digest: /j1in2KF8Kj8w3KtCYCnpR7kDE0=
+
+Name: icons/thread_obj.gif
+SHA1-Digest: yYqRCKl4o/pKVqsQmoXCxda1UU8=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairSelectionTable$Delet
+ eKeyPairThread.class
+SHA1-Digest: 7FwsBjOS0/+m311sT7pwoqjZU1Y=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/InstanceSelectionTa
+ ble.class
+SHA1-Digest: 7sIYOHO6iKsNfUFGipjPnb0TunQ=
+
+Name: com/amazonaws/eclipse/ec2/keypairs/KeyPairManager.class
+SHA1-Digest: QmVxBFfWesS4V10s5e9r3KYl1rc=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/InstanceView$1.clas
+ s
+SHA1-Digest: O/duYQUL6TcvyXUpOJh7pgLlyoA=
+
+Name: com/amazonaws/eclipse/ec2/ui/launchwizard/LaunchWizardPage$4.cla
+ ss
+SHA1-Digest: KZ3SUmB5ejiHVwibDq0Wc8iRZWo=
+
+Name: com/amazonaws/eclipse/explorer/ec2/OpenViewAction.class
+SHA1-Digest: hzYBd/UOX39gd2CggfqiyOVtqgA=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/CreateKeyPairDialog$1.class
+SHA1-Digest: HGafaHsu1oFNsK1TOqFECHEx5Rw=
+
+Name: com/amazonaws/eclipse/ec2/Ec2PluginConstants.class
+SHA1-Digest: AizJEgFUthOpYdjc8V/gawGpoW4=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/CreateAmiAction.cla
+ ss
+SHA1-Digest: pYRRLEGlbh5reb9oRQNsjzMk+tQ=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/KeyPairComposite.class
+SHA1-Digest: s0qjvwiUS4r5ZEGb4Gbn2P+DmYU=
+
+Name: com/amazonaws/eclipse/ec2/ui/ebs/SnapshotSelectionTable$1.class
+SHA1-Digest: 6P0EHMPq2uT/VwaPTYQ3Fl1JxeY=
+
+Name: com/amazonaws/eclipse/ec2/ui/securitygroups/SecurityGroupSelecti
+ onComposite$2.class
+SHA1-Digest: JMt7pjOfVtA6XXRb4MYKB842w1A=
+
+Name: icons/gears.png
+SHA1-Digest: /kGUTDHJNuDOu7lZ5Xd5zRtrY4Y=
+
+Name: com/amazonaws/eclipse/ec2/ui/keypair/CreateKeyPairDialog$2.class
+SHA1-Digest: UFq4sc/3zMIh9LyEyTLkQzsB1sw=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/StopInstancesAction
+ $1.class
+SHA1-Digest: lcTw4m7W19itJiD/GB7n7f7fdz4=
+
+Name: com/amazonaws/eclipse/ec2/ui/launchwizard/AmiSelectionWizardPage
+ $1.class
+SHA1-Digest: gxVuACL2mw3AVDQt6SY4BFUYf/8=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/FilteredAmiSelectionTable$1.cl
+ ass
+SHA1-Digest: r4J4hSOMkPJpuVng3dKbyMdzb8k=
+
+Name: com/amazonaws/eclipse/ec2/utils/IMenu$MenuItem.class
+SHA1-Digest: jJwJyBeD3EAuwt+FhnUYmH8l7z8=
+
+Name: com/amazonaws/eclipse/ec2/ui/amis/AmiSelectionTable$ViewContentP
+ rovider.class
+SHA1-Digest: J0mCjE/L/4T5SJFSfL7t5tf+5rc=
+
+Name: com/amazonaws/eclipse/ec2/Ec2Plugin.class
+SHA1-Digest: ym5/akNcY66vheTvl8HBftU75mY=
+
+Name: icons/red-circle.gif
+SHA1-Digest: 3gXb8bnHU0JTZ2ZGUhRBQ6kP7sk=
+
+Name: scripts/openMacTerminalShell.scpt
+SHA1-Digest: pfj1sv6ZLNBRTTXpgi7JUUtAfwY=
+
+Name: icons/green-circle.gif
+SHA1-Digest: 08/XZwsOPERFDi5ibshKcsHwzVE=
+
+Name: com/amazonaws/eclipse/ec2/ui/elasticip/ElasticIpComposite$3.clas
+ s
+SHA1-Digest: YpDP5yGb3Prp2Njwm2hDtUnAYME=
+
+Name: icons/shield.png
+SHA1-Digest: Rz00C6HVCEB5m0S8Xsrc998yV6U=
+
+Name: icons/add2.png
+SHA1-Digest: gbocVDs0dz2Ek+HTsh1Z+J+IwzA=
+
+Name: com/amazonaws/eclipse/ec2/ui/views/instances/RebootInstancesActi
+ on.class
+SHA1-Digest: j6K5n5t+jUlV5W5N+xzYCF8HdaA=
+
